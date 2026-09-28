@@ -1,0 +1,172 @@
+{
+  "version": 1,
+  "projects": [
+    {
+      "id": "dashboard",
+      "title": "Responsive Admin Dashboard",
+      "level": "Intermediate",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "features": [
+        "Responsive navigation",
+        "Metric cards",
+        "Data table",
+        "Filters",
+        "Mobile layout"
+      ]
+    },
+    {
+      "id": "todo",
+      "title": "Focus To-Do App",
+      "level": "Beginner",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "features": [
+        "Add tasks",
+        "Complete tasks",
+        "Filters",
+        "Local persistence",
+        "Empty states"
+      ]
+    },
+    {
+      "id": "weather",
+      "title": "Weather Explorer",
+      "level": "Intermediate",
+      "technologies": [
+        "JavaScript",
+        "Fetch",
+        "APIs"
+      ],
+      "features": [
+        "Search",
+        "Loading state",
+        "Error state",
+        "Weather cards",
+        "Recent searches"
+      ]
+    },
+    {
+      "id": "portfolio",
+      "title": "Developer Portfolio",
+      "level": "Beginner",
+      "technologies": [
+        "HTML",
+        "CSS"
+      ],
+      "features": [
+        "Hero",
+        "Projects",
+        "About",
+        "Contact",
+        "Responsive design"
+      ]
+    },
+    {
+      "id": "quiz",
+      "title": "JavaScript Quiz App",
+      "level": "Intermediate",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "features": [
+        "Question bank",
+        "Score",
+        "Progress",
+        "Retry",
+        "Feedback"
+      ]
+    },
+    {
+      "id": "expense",
+      "title": "Expense Tracker",
+      "level": "Intermediate",
+      "technologies": [
+        "JavaScript",
+        "LocalStorage"
+      ],
+      "features": [
+        "Transactions",
+        "Totals",
+        "Categories",
+        "Persistence",
+        "Validation"
+      ]
+    },
+    {
+      "id": "react-tasks",
+      "title": "React Task Board",
+      "level": "Intermediate",
+      "technologies": [
+        "React",
+        "TypeScript"
+      ],
+      "features": [
+        "Components",
+        "Props",
+        "State",
+        "Filters",
+        "Reusable UI"
+      ]
+    },
+    {
+      "id": "node-api",
+      "title": "Node REST API",
+      "level": "Intermediate",
+      "technologies": [
+        "Node.js",
+        "Express"
+      ],
+      "features": [
+        "Routes",
+        "Middleware",
+        "Validation",
+        "Errors",
+        "JSON responses"
+      ]
+    },
+    {
+      "id": "auth-app",
+      "title": "Full Stack Auth App",
+      "level": "Advanced",
+      "technologies": [
+        "React",
+        "Node.js",
+        "Database"
+      ],
+      "features": [
+        "Signup",
+        "Login",
+        "Sessions",
+        "Protected routes",
+        "Profile"
+      ]
+    },
+    {
+      "id": "capstone",
+      "title": "Coding Vibes Capstone",
+      "level": "Advanced",
+      "technologies": [
+        "React",
+        "Node.js",
+        "Database",
+        "Deployment"
+      ],
+      "features": [
+        "Dashboard",
+        "CMS",
+        "Learning content",
+        "Projects",
+        "Production deployment"
+      ]
+    }
+  ]
+}
