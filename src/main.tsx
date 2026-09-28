@@ -1,0 +1,9 @@
+import React from 'react';
+import { createRoot } from 'react-dom/client';
+import './styles.css';
+
+function App() {
+  return <main><nav><strong>Coding<span>Vibes</span></strong><div><a href="#paths">Paths</a><a href="#roadmaps">Roadmaps</a><a href="#projects">Projects</a><a href="#resources">Resources</a></div><button>Start learning</button></nav><section className="hero"><div><small>CODING EDUCATION FOR BUILDERS</small><h1>Learn code.<br/><em>Build what matters.</em></h1><p>Structured learning paths, real projects and an interactive roadmap designed to take you from your first line of code to full-stack confidence.</p><div className="actions"><button>Start a learning path →</button><button className="ghost">Explore the roadmap</button></div></div><div className="hero-card"><div className="core">&lt;/&gt;</div><div className="orbit o1">HTML</div><div className="orbit o2">CSS</div><div className="orbit o3">JS</div></div></section><section id="paths" className="section"><small>YOUR CODING JOURNEY</small><h2>A clear path forward.</h2><div className="grid"><article>01<br/><b>Foundations</b><span>HTML · CSS</span></article><article>02<br/><b>Interactivity</b><span>JavaScript</span></article><article>03<br/><b>Components</b><span>React</span></article><article>04<br/><b>Backend</b><span>Node · APIs</span></article></div></section><section id="projects" className="section"><small>WHY CODINGVIBES?</small><h2>Less guessing.<br/><em>More building.</em></h2></section><footer>Coding Vibes — Learn visually. Build confidently.</footer></main>;
+}
+
+createRoot(document.getElementById('root')!).render(<React.StrictMode><App /></React.StrictMode>);
