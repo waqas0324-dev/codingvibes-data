@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://codingvibes-data-g4cc.vercel.app/sitemap.xml
