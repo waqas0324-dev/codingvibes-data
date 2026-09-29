@@ -1,0 +1,265 @@
+{
+  "version": 1,
+  "platform": "Coding Vibes",
+  "workflow": [
+    "Explore",
+    "Inspect files",
+    "Read explanation",
+    "Edit",
+    "Run preview",
+    "Download ZIP",
+    "Build your own version"
+  ],
+  "projects": [
+    {
+      "id": "dashboard",
+      "slug": "responsive-admin-dashboard",
+      "title": "Responsive Admin Dashboard",
+      "seoTitle": "Responsive Admin Dashboard HTML CSS JavaScript Project",
+      "difficulty": "Intermediate",
+      "learning": [
+        "Responsive layouts",
+        "Dashboard cards",
+        "Tables and filters",
+        "DOM interactions"
+      ],
+      "files": [
+        "index.html",
+        "style.css",
+        "app.js"
+      ],
+      "features": [
+        "Responsive navigation",
+        "Metric cards",
+        "Data table",
+        "Filters",
+        "Mobile layout"
+      ]
+    },
+    {
+      "id": "todo",
+      "slug": "javascript-todo-list-app",
+      "title": "Focus To-Do App",
+      "seoTitle": "To Do List App HTML CSS JavaScript Project",
+      "difficulty": "Beginner",
+      "learning": [
+        "DOM selection",
+        "Events",
+        "Arrays",
+        "Local persistence"
+      ],
+      "files": [
+        "index.html",
+        "style.css",
+        "app.js"
+      ],
+      "features": [
+        "Add tasks",
+        "Complete tasks",
+        "Filters",
+        "Local persistence",
+        "Empty states"
+      ]
+    },
+    {
+      "id": "weather",
+      "slug": "javascript-weather-app",
+      "title": "Weather Explorer",
+      "seoTitle": "Weather App JavaScript API Project",
+      "difficulty": "Intermediate",
+      "learning": [
+        "Fetch API",
+        "Async JavaScript",
+        "Loading states",
+        "Error handling"
+      ],
+      "files": [
+        "index.html",
+        "style.css",
+        "app.js"
+      ],
+      "features": [
+        "Search",
+        "Loading state",
+        "Error state",
+        "Weather cards",
+        "Recent searches"
+      ]
+    },
+    {
+      "id": "portfolio",
+      "slug": "responsive-developer-portfolio",
+      "title": "Developer Portfolio",
+      "seoTitle": "Responsive Developer Portfolio HTML CSS Project",
+      "difficulty": "Beginner",
+      "learning": [
+        "Semantic HTML",
+        "Responsive CSS",
+        "Sections",
+        "Basic JavaScript"
+      ],
+      "files": [
+        "index.html",
+        "style.css",
+        "script.js"
+      ],
+      "features": [
+        "Hero",
+        "Projects",
+        "About",
+        "Contact",
+        "Responsive design"
+      ]
+    },
+    {
+      "id": "quiz",
+      "slug": "javascript-quiz-app",
+      "title": "JavaScript Quiz App",
+      "seoTitle": "JavaScript Quiz App HTML CSS JS Project",
+      "difficulty": "Intermediate",
+      "learning": [
+        "Arrays and objects",
+        "Events",
+        "State",
+        "Conditional rendering"
+      ],
+      "files": [
+        "index.html",
+        "style.css",
+        "app.js"
+      ],
+      "features": [
+        "Question bank",
+        "Score",
+        "Progress",
+        "Retry",
+        "Feedback"
+      ]
+    },
+    {
+      "id": "expense",
+      "slug": "javascript-expense-tracker",
+      "title": "Expense Tracker",
+      "seoTitle": "Expense Tracker JavaScript LocalStorage Project",
+      "difficulty": "Intermediate",
+      "learning": [
+        "Forms",
+        "Validation",
+        "LocalStorage",
+        "Totals"
+      ],
+      "files": [
+        "index.html",
+        "style.css",
+        "app.js"
+      ],
+      "features": [
+        "Transactions",
+        "Totals",
+        "Categories",
+        "Persistence",
+        "Validation"
+      ]
+    },
+    {
+      "id": "react-tasks",
+      "slug": "react-task-board",
+      "title": "React Task Board",
+      "seoTitle": "React Task Management Board TypeScript Project",
+      "difficulty": "Intermediate",
+      "learning": [
+        "Components",
+        "Props",
+        "State",
+        "Reusable UI"
+      ],
+      "files": [
+        "src/App.tsx",
+        "src/components/TaskCard.tsx",
+        "src/main.tsx"
+      ],
+      "features": [
+        "Components",
+        "Props",
+        "State",
+        "Filters",
+        "Reusable UI"
+      ]
+    },
+    {
+      "id": "node-api",
+      "slug": "node-express-rest-api",
+      "title": "Node REST API",
+      "seoTitle": "Node.js Express REST API Project for Beginners",
+      "difficulty": "Intermediate",
+      "learning": [
+        "Express",
+        "Routes",
+        "Middleware",
+        "Validation"
+      ],
+      "files": [
+        "src/server.js",
+        "src/routes/projects.js",
+        "README.md"
+      ],
+      "features": [
+        "Routes",
+        "Middleware",
+        "Validation",
+        "Errors",
+        "JSON responses"
+      ]
+    },
+    {
+      "id": "auth-app",
+      "slug": "full-stack-authentication-app",
+      "title": "Full Stack Auth App",
+      "seoTitle": "Full Stack Authentication React Node.js Project",
+      "difficulty": "Advanced",
+      "learning": [
+        "Authentication",
+        "Sessions",
+        "Protected routes",
+        "Authorization"
+      ],
+      "files": [
+        "src/auth-flow.ts",
+        "src/routes/auth.ts",
+        "README.md"
+      ],
+      "features": [
+        "Signup",
+        "Login",
+        "Sessions",
+        "Protected routes",
+        "Profile"
+      ]
+    },
+    {
+      "id": "capstone",
+      "slug": "full-stack-learning-platform-capstone",
+      "title": "Coding Vibes Capstone",
+      "seoTitle": "Full Stack Learning Platform Capstone Project",
+      "difficulty": "Advanced",
+      "learning": [
+        "Architecture",
+        "CMS workflows",
+        "API integration",
+        "Deployment"
+      ],
+      "files": [
+        "README.md",
+        "src/app.ts",
+        "src/routes.ts"
+      ],
+      "features": [
+        "Dashboard",
+        "CMS",
+        "Learning content",
+        "Projects",
+        "Production deployment"
+      ]
+    }
+  ]
+}
