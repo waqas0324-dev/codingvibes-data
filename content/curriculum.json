@@ -84,24 +84,25 @@
       "path": "html",
       "order": 2,
       "title": "Elements & attributes",
-      "objective": "Understand elements & attributes and apply it in a small, working HTML example.",
-      "explanation": "This lesson teaches elements & attributes as part of the ordered HTML curriculum. Learn the purpose first, inspect a worked example, change the example yourself, and verify the result. The goal is practical understanding rather than memorising isolated syntax.",
-      "example": "// HTML — Elements & attributes\n// Start with a small example, then modify it and test the result.",
-      "practice": "Create a small exercise using elements & attributes. Change at least one part of the example and explain what changed.",
+      "objective": "HTML element aur attribute ko samjho, har line ka role identify karo, browser output dekho, aur khud markup modify karo.",
+      "explanation": "HTML mein element page ke content ka structure batata hai. Misal ke taur par <a> link banata hai aur <img> image show karta hai. Attribute element ko extra information deta hai. Is lesson mein hum ek link aur image ko line by line samjhenge. Pehle browser ko batayenge ke link ka text kya hai, phir href se destination denge. Image ke liye src file ka path batata hai aur alt image ka meaningful text deta hai. Har code change ke baad Live Output mein result dekho, phir code ko khud change karke verify karo.",
+      "example": "<a href=\"https://example.com\">Visit Example</a>\n<img src=\"profile.jpg\" alt=\"Student coding at a desk\">",
+      "practice": "Live Output mein link par click karke destination check karo. Phir href ko apni website ke URL se replace karo. Image ke src ko apni image file se replace karo aur alt text ko meaningful description se badlo.",
       "quiz": {
-        "question": "What should you do after learning elements & attributes?",
+        "question": "<a href=\"...\"> mein href ka kaam kya hai?",
         "answers": [
-          "Apply it in a small practice task",
-          "Only memorise the heading",
-          "Skip testing",
-          "Move to the next topic without practice"
+          "Link ka destination batana",
+          "Image show karna",
+          "Text ko bold karna",
+          "Page ka background change karna"
         ],
         "correct": 0
       },
       "video": {
-        "status": "lesson-player-ready",
-        "source": "video-library",
-        "required": true
+        "status": "published",
+        "source": "Explain Video",
+        "required": true,
+        "url": "https://scrimba.com/explain/guide0odhjlamv?claim=8pin9kpd8pocmn7c&fullscreen=1"
       },
       "resources": [
         "Lesson notes",
