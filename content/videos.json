@@ -1,6 +1,6 @@
 {
-  "version": 3,
-  "note": "Professional lesson player is implemented. Every lesson has a dedicated video production slot.",
+  "version": 4,
+  "note": "Professional lesson player with Roman Urdu-first explainers, practical code walkthroughs, kinetic word highlighting and clear beginner pacing.",
   "providers": [
     "Coding Vibes Studio",
     "Explain Video",
@@ -11,15 +11,24 @@
       "lessonId": "html-1",
       "title": "HTML Basics: What Is HTML?",
       "status": "published",
-      "durationTarget": "6-12 min",
+      "durationTarget": "2-4 min",
       "chapters": [
         "Concept",
         "Worked example",
         "Common mistakes",
         "Practice walkthrough"
       ],
-      "url": "https://scrimba.com/explain/guide0ndveo41v?claim=l876lrmo50b60447&fullscreen=1",
-      "provider": "Explain Video"
+      "url": "https://scrimba.com/explain/guide0dcpqmcpo?claim=nppdljs4tq49hqi8&fullscreen=1",
+      "provider": "Explain Video",
+      "language": "Roman Urdu",
+      "presentation": "kinetic-word-highlighting",
+      "teachingStyle": [
+        "concept first",
+        "visual explanation",
+        "line-by-line code",
+        "practical steps",
+        "recap"
+      ]
     },
     {
       "lessonId": "html-2",
