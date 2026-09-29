@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "note": "Professional lesson player is implemented. Every lesson has a dedicated video production slot.",
   "providers": [
     "Coding Vibes Studio",
@@ -134,14 +134,16 @@
     {
       "lessonId": "css-1",
       "title": "CSS syntax & selectors",
-      "status": "ready-for-production",
+      "status": "published",
       "durationTarget": "6-12 min",
       "chapters": [
         "Concept",
         "Worked example",
         "Common mistakes",
         "Practice walkthrough"
-      ]
+      ],
+      "url": "https://scrimba.com/explain/guide0pql453mj?claim=1iqdraktjitjrnkb&fullscreen=1",
+      "provider": "Explain Video"
     },
     {
       "lessonId": "css-2",
@@ -278,14 +280,16 @@
     {
       "lessonId": "javascript-1",
       "title": "JavaScript fundamentals",
-      "status": "ready-for-production",
+      "status": "published",
       "durationTarget": "6-12 min",
       "chapters": [
         "Concept",
         "Worked example",
         "Common mistakes",
         "Practice walkthrough"
-      ]
+      ],
+      "url": "https://scrimba.com/explain/guide02kdl80t7?claim=mad68p2q9a650f71&fullscreen=1",
+      "provider": "Explain Video"
     },
     {
       "lessonId": "javascript-2",
@@ -446,14 +450,16 @@
     {
       "lessonId": "react-1",
       "title": "React mental model",
-      "status": "ready-for-production",
+      "status": "published",
       "durationTarget": "6-12 min",
       "chapters": [
         "Concept",
         "Worked example",
         "Common mistakes",
         "Practice walkthrough"
-      ]
+      ],
+      "url": "https://scrimba.com/explain/guide0h6g1qroc?claim=u044ss9tun9avmag&fullscreen=1",
+      "provider": "Explain Video"
     },
     {
       "lessonId": "react-2",
@@ -638,14 +644,16 @@
     {
       "lessonId": "node-1",
       "title": "Node.js fundamentals",
-      "status": "ready-for-production",
+      "status": "published",
       "durationTarget": "6-12 min",
       "chapters": [
         "Concept",
         "Worked example",
         "Common mistakes",
         "Practice walkthrough"
-      ]
+      ],
+      "url": "https://scrimba.com/explain/guide0oaidftsg?claim=71siv01hu8u9ap3o&fullscreen=1",
+      "provider": "Explain Video"
     },
     {
       "lessonId": "node-2",
@@ -818,14 +826,16 @@
     {
       "lessonId": "fullstack-1",
       "title": "Computer & web basics",
-      "status": "ready-for-production",
+      "status": "published",
       "durationTarget": "6-12 min",
       "chapters": [
         "Concept",
         "Worked example",
         "Common mistakes",
         "Practice walkthrough"
-      ]
+      ],
+      "url": "https://scrimba.com/explain/guide0f2menrg9?claim=1de8rfa5ubk60gdp&fullscreen=1",
+      "provider": "Explain Video"
     },
     {
       "lessonId": "fullstack-2",
