@@ -1,293 +1,375 @@
 {
-  "version": 1,
+  "version": 2,
   "roadmaps": [
     {
       "id": "full-stack",
       "title": "Full Stack Developer Roadmap",
       "description": "From computer and web basics to deployed portfolio projects.",
       "nodes": [
-        [
-          "01",
-          "Computer Basics",
-          "Foundations",
-          []
-        ],
-        [
-          "02",
-          "HTML",
-          "Frontend",
-          [
+        {
+          "0": "01",
+          "1": "Computer Basics",
+          "2": "Foundations",
+          "3": [],
+          "estimatedTime": "2–3 hrs",
+          "buildProject": "Setup Lab"
+        },
+        {
+          "0": "02",
+          "1": "HTML",
+          "2": "Frontend",
+          "3": [
             "01"
-          ]
-        ],
-        [
-          "03",
-          "CSS",
-          "Frontend",
-          [
+          ],
+          "estimatedTime": "6–8 hrs",
+          "buildProject": "Developer Portfolio"
+        },
+        {
+          "0": "03",
+          "1": "CSS",
+          "2": "Frontend",
+          "3": [
             "02"
-          ]
-        ],
-        [
-          "04",
-          "JavaScript",
-          "Frontend",
-          [
+          ],
+          "estimatedTime": "8–10 hrs",
+          "buildProject": "Responsive Dashboard"
+        },
+        {
+          "0": "04",
+          "1": "JavaScript",
+          "2": "Frontend",
+          "3": [
             "02",
             "03"
-          ]
-        ],
-        [
-          "05",
-          "Git & GitHub",
-          "Workflow",
-          [
+          ],
+          "estimatedTime": "12–16 hrs",
+          "buildProject": "Quiz App"
+        },
+        {
+          "0": "05",
+          "1": "Git & GitHub",
+          "2": "Workflow",
+          "3": [
             "04"
-          ]
-        ],
-        [
-          "06",
-          "React",
-          "Frontend",
-          [
+          ],
+          "estimatedTime": "3–4 hrs",
+          "buildProject": "Project Publishing"
+        },
+        {
+          "0": "06",
+          "1": "React",
+          "2": "Frontend",
+          "3": [
             "04",
             "05"
-          ]
-        ],
-        [
-          "07",
-          "Node.js",
-          "Backend",
-          [
+          ],
+          "estimatedTime": "14–18 hrs",
+          "buildProject": "React Task Board"
+        },
+        {
+          "0": "07",
+          "1": "Node.js",
+          "2": "Backend",
+          "3": [
             "04",
             "05"
-          ]
-        ],
-        [
-          "08",
-          "Express",
-          "Backend",
-          [
+          ],
+          "estimatedTime": "8–10 hrs",
+          "buildProject": "REST API"
+        },
+        {
+          "0": "08",
+          "1": "Express",
+          "2": "Backend",
+          "3": [
             "07"
-          ]
-        ],
-        [
-          "09",
-          "Database",
-          "Backend",
-          [
+          ],
+          "estimatedTime": "6–8 hrs",
+          "buildProject": "Projects API"
+        },
+        {
+          "0": "09",
+          "1": "Database",
+          "2": "Backend",
+          "3": [
             "08"
-          ]
-        ],
-        [
-          "10",
-          "APIs",
-          "Full Stack",
-          [
+          ],
+          "estimatedTime": "8–10 hrs",
+          "buildProject": "Course Database"
+        },
+        {
+          "0": "10",
+          "1": "APIs",
+          "2": "Full Stack",
+          "3": [
             "06",
             "08",
             "09"
-          ]
-        ],
-        [
-          "11",
-          "Authentication",
-          "Full Stack",
-          [
+          ],
+          "estimatedTime": "5–7 hrs",
+          "buildProject": "Weather Explorer"
+        },
+        {
+          "0": "11",
+          "1": "Authentication",
+          "2": "Full Stack",
+          "3": [
             "09",
             "10"
-          ]
-        ],
-        [
-          "12",
-          "Deployment",
-          "DevOps",
-          [
+          ],
+          "estimatedTime": "6–8 hrs",
+          "buildProject": "Auth App"
+        },
+        {
+          "0": "12",
+          "1": "Deployment",
+          "2": "DevOps",
+          "3": [
             "05",
             "10",
             "11"
-          ]
-        ],
-        [
-          "13",
-          "Real Projects",
-          "Portfolio",
-          [
+          ],
+          "estimatedTime": "4–6 hrs",
+          "buildProject": "Production Launch"
+        },
+        {
+          "0": "13",
+          "1": "Real Projects",
+          "2": "Portfolio",
+          "3": [
             "06",
             "10",
             "11",
             "12"
-          ]
-        ]
-      ]
+          ],
+          "estimatedTime": "10–20 hrs",
+          "buildProject": "Coding Vibes Capstone"
+        }
+      ],
+      "visual": {
+        "style": "connected-neon-node-map",
+        "desktop": "zigzag",
+        "mobile": "vertical",
+        "interaction": "click-to-complete"
+      }
     },
     {
       "id": "frontend",
       "title": "Frontend Developer Roadmap",
       "description": "Build accessible, responsive and interactive web interfaces.",
       "nodes": [
-        [
-          "01",
-          "HTML",
-          "Structure",
-          []
-        ],
-        [
-          "02",
-          "CSS",
-          "Styling",
-          [
+        {
+          "0": "01",
+          "1": "HTML",
+          "2": "Structure",
+          "3": [],
+          "estimatedTime": "6–8 hrs",
+          "buildProject": "Developer Portfolio"
+        },
+        {
+          "0": "02",
+          "1": "CSS",
+          "2": "Styling",
+          "3": [
             "01"
-          ]
-        ],
-        [
-          "03",
-          "Responsive Design",
-          "UI",
-          [
+          ],
+          "estimatedTime": "8–10 hrs",
+          "buildProject": "Responsive Dashboard"
+        },
+        {
+          "0": "03",
+          "1": "Responsive Design",
+          "2": "UI",
+          "3": [
             "02"
-          ]
-        ],
-        [
-          "04",
-          "JavaScript",
-          "Logic",
-          [
+          ],
+          "estimatedTime": "4–6 hrs",
+          "buildProject": "Responsive Dashboard"
+        },
+        {
+          "0": "04",
+          "1": "JavaScript",
+          "2": "Logic",
+          "3": [
             "01",
             "02"
-          ]
-        ],
-        [
-          "05",
-          "DOM & Browser APIs",
-          "Interaction",
-          [
+          ],
+          "estimatedTime": "12–16 hrs",
+          "buildProject": "Quiz App"
+        },
+        {
+          "0": "05",
+          "1": "DOM & Browser APIs",
+          "2": "Interaction",
+          "3": [
             "04"
-          ]
-        ],
-        [
-          "06",
-          "Git & GitHub",
-          "Workflow",
-          [
+          ],
+          "estimatedTime": "5–7 hrs",
+          "buildProject": "JavaScript Quiz App"
+        },
+        {
+          "0": "06",
+          "1": "Git & GitHub",
+          "2": "Workflow",
+          "3": [
             "04"
-          ]
-        ],
-        [
-          "07",
-          "React",
-          "Components",
-          [
+          ],
+          "estimatedTime": "3–4 hrs",
+          "buildProject": "Project Publishing"
+        },
+        {
+          "0": "07",
+          "1": "React",
+          "2": "Components",
+          "3": [
             "05",
             "06"
-          ]
-        ],
-        [
-          "08",
-          "APIs",
-          "Integration",
-          [
+          ],
+          "estimatedTime": "14–18 hrs",
+          "buildProject": "React Task Board"
+        },
+        {
+          "0": "08",
+          "1": "APIs",
+          "2": "Integration",
+          "3": [
             "07"
-          ]
-        ],
-        [
-          "09",
-          "Testing",
-          "Quality",
-          [
+          ],
+          "estimatedTime": "5–7 hrs",
+          "buildProject": "Weather Explorer"
+        },
+        {
+          "0": "09",
+          "1": "Testing",
+          "2": "Quality",
+          "3": [
             "07"
-          ]
-        ],
-        [
-          "10",
-          "Deployment",
-          "Shipping",
-          [
+          ],
+          "estimatedTime": "4–6 hrs",
+          "buildProject": "Project Test Suite"
+        },
+        {
+          "0": "10",
+          "1": "Deployment",
+          "2": "Shipping",
+          "3": [
             "08",
             "09"
-          ]
-        ]
-      ]
+          ],
+          "estimatedTime": "4–6 hrs",
+          "buildProject": "Production Launch"
+        }
+      ],
+      "visual": {
+        "style": "connected-neon-node-map",
+        "desktop": "zigzag",
+        "mobile": "vertical",
+        "interaction": "click-to-complete"
+      }
     },
     {
       "id": "backend",
       "title": "Backend Developer Roadmap",
       "description": "Build APIs, authentication, data layers and production services.",
       "nodes": [
-        [
-          "01",
-          "JavaScript",
-          "Language",
-          []
-        ],
-        [
-          "02",
-          "Node.js",
-          "Runtime",
-          [
+        {
+          "0": "01",
+          "1": "JavaScript",
+          "2": "Language",
+          "3": [],
+          "estimatedTime": "12–16 hrs",
+          "buildProject": "Quiz App"
+        },
+        {
+          "0": "02",
+          "1": "Node.js",
+          "2": "Runtime",
+          "3": [
             "01"
-          ]
-        ],
-        [
-          "03",
-          "npm & Modules",
-          "Tooling",
-          [
+          ],
+          "estimatedTime": "8–10 hrs",
+          "buildProject": "REST API"
+        },
+        {
+          "0": "03",
+          "1": "npm & Modules",
+          "2": "Tooling",
+          "3": [
             "02"
-          ]
-        ],
-        [
-          "04",
-          "Express",
-          "Server",
-          [
+          ],
+          "estimatedTime": "4–5 hrs",
+          "buildProject": "Node REST API"
+        },
+        {
+          "0": "04",
+          "1": "Express",
+          "2": "Server",
+          "3": [
             "03"
-          ]
-        ],
-        [
-          "05",
-          "REST APIs",
-          "API design",
-          [
+          ],
+          "estimatedTime": "6–8 hrs",
+          "buildProject": "Projects API"
+        },
+        {
+          "0": "05",
+          "1": "REST APIs",
+          "2": "API design",
+          "3": [
             "04"
-          ]
-        ],
-        [
-          "06",
-          "Database",
-          "Data",
-          [
+          ],
+          "estimatedTime": "5–7 hrs",
+          "buildProject": "Node REST API"
+        },
+        {
+          "0": "06",
+          "1": "Database",
+          "2": "Data",
+          "3": [
             "05"
-          ]
-        ],
-        [
-          "07",
-          "Authentication",
-          "Security",
-          [
+          ],
+          "estimatedTime": "8–10 hrs",
+          "buildProject": "Course Database"
+        },
+        {
+          "0": "07",
+          "1": "Authentication",
+          "2": "Security",
+          "3": [
             "05",
             "06"
-          ]
-        ],
-        [
-          "08",
-          "Testing",
-          "Quality",
-          [
+          ],
+          "estimatedTime": "6–8 hrs",
+          "buildProject": "Auth App"
+        },
+        {
+          "0": "08",
+          "1": "Testing",
+          "2": "Quality",
+          "3": [
             "05"
-          ]
-        ],
-        [
-          "09",
-          "Deployment",
-          "Production",
-          [
+          ],
+          "estimatedTime": "4–6 hrs",
+          "buildProject": "Project Test Suite"
+        },
+        {
+          "0": "09",
+          "1": "Deployment",
+          "2": "Production",
+          "3": [
             "06",
             "07",
             "08"
-          ]
-        ]
-      ]
+          ],
+          "estimatedTime": "4–6 hrs",
+          "buildProject": "Production Launch"
+        }
+      ],
+      "visual": {
+        "style": "connected-neon-node-map",
+        "desktop": "zigzag",
+        "mobile": "vertical",
+        "interaction": "click-to-complete"
+      }
     }
   ]
 }
