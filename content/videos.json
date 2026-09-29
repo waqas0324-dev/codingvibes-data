@@ -1,6 +1,6 @@
 {
-  "version": 5,
-  "note": "Roman Urdu-first explainers with kinetic word highlighting, visual concept teaching, line-by-line code walkthroughs and practical beginner pacing.",
+  "version": 6,
+  "note": "All currently published starter videos use Roman Urdu narration, kinetic word highlighting, visual concept explanations, line-by-line code references and practical beginner pacing.",
   "providers": [
     "Coding Vibes Studio",
     "Explain Video",
@@ -34,15 +34,24 @@
       "lessonId": "html-2",
       "title": "Elements & attributes",
       "status": "published",
-      "durationTarget": "8-10 min",
+      "durationTarget": "2-4 min",
       "chapters": [
         "Concept",
         "Worked example",
         "Common mistakes",
         "Practice walkthrough"
       ],
-      "url": "https://scrimba.com/explain/guide0odhjlamv?claim=8pin9kpd8pocmn7c&fullscreen=1",
-      "provider": "Explain Video"
+      "url": "https://scrimba.com/explain/guide0f6ig39st?claim=e3j643f7fhjvcqbm&fullscreen=1",
+      "provider": "Explain Video",
+      "language": "Roman Urdu",
+      "presentation": "kinetic-word-highlighting",
+      "teachingStyle": [
+        "concept first",
+        "visual explanation",
+        "line-by-line code",
+        "practical steps",
+        "recap"
+      ]
     },
     {
       "lessonId": "html-3",
@@ -478,15 +487,24 @@
       "lessonId": "react-1",
       "title": "React mental model",
       "status": "published",
-      "durationTarget": "6-12 min",
+      "durationTarget": "2-4 min",
       "chapters": [
         "Concept",
         "Worked example",
         "Common mistakes",
         "Practice walkthrough"
       ],
-      "url": "https://scrimba.com/explain/guide0h6g1qroc?claim=u044ss9tun9avmag&fullscreen=1",
-      "provider": "Explain Video"
+      "url": "https://scrimba.com/explain/guide00m8aak4e?claim=t7stvebs3v1903am&fullscreen=1",
+      "provider": "Explain Video",
+      "language": "Roman Urdu",
+      "presentation": "kinetic-word-highlighting",
+      "teachingStyle": [
+        "concept first",
+        "visual explanation",
+        "line-by-line code",
+        "practical steps",
+        "recap"
+      ]
     },
     {
       "lessonId": "react-2",
@@ -672,15 +690,24 @@
       "lessonId": "node-1",
       "title": "Node.js fundamentals",
       "status": "published",
-      "durationTarget": "6-12 min",
+      "durationTarget": "2-4 min",
       "chapters": [
         "Concept",
         "Worked example",
         "Common mistakes",
         "Practice walkthrough"
       ],
-      "url": "https://scrimba.com/explain/guide0oaidftsg?claim=71siv01hu8u9ap3o&fullscreen=1",
-      "provider": "Explain Video"
+      "url": "https://scrimba.com/explain/guide0s4sbme9h?claim=79ljs0v8mmukmgge&fullscreen=1",
+      "provider": "Explain Video",
+      "language": "Roman Urdu",
+      "presentation": "kinetic-word-highlighting",
+      "teachingStyle": [
+        "concept first",
+        "visual explanation",
+        "line-by-line code",
+        "practical steps",
+        "recap"
+      ]
     },
     {
       "lessonId": "node-2",
@@ -854,15 +881,24 @@
       "lessonId": "fullstack-1",
       "title": "Computer & web basics",
       "status": "published",
-      "durationTarget": "6-12 min",
+      "durationTarget": "2-4 min",
       "chapters": [
         "Concept",
         "Worked example",
         "Common mistakes",
         "Practice walkthrough"
       ],
-      "url": "https://scrimba.com/explain/guide0f2menrg9?claim=1de8rfa5ubk60gdp&fullscreen=1",
-      "provider": "Explain Video"
+      "url": "https://scrimba.com/explain/guide0cj3bcpif?claim=r8cl4obbqjlr613m&fullscreen=1",
+      "provider": "Explain Video",
+      "language": "Roman Urdu",
+      "presentation": "kinetic-word-highlighting",
+      "teachingStyle": [
+        "concept first",
+        "visual explanation",
+        "line-by-line code",
+        "practical steps",
+        "recap"
+      ]
     },
     {
       "lessonId": "fullstack-2",
