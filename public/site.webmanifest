@@ -1,0 +1,11 @@
+{
+  "name":"Coding Vibes",
+  "short_name":"CodingVibes",
+  "description":"Learn coding visually, practice with real projects and follow structured roadmaps.",
+  "start_url":"/",
+  "display":"standalone",
+  "background_color":"#050b12",
+  "theme_color":"#22c55e",
+  "lang":"en",
+  "icons":[]
+}
