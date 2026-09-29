@@ -1,0 +1,4187 @@
+{
+  "version": 1,
+  "platform": "Coding Vibes",
+  "purpose": "Production-ready lesson video storyboards. Published video URLs remain in videos.json.",
+  "scripts": [
+    {
+      "lessonId": "html-1",
+      "title": "How the web is structured",
+      "durationTarget": "4–7 min",
+      "format": "Visual code walkthrough",
+      "scenes": [
+        {
+          "step": 1,
+          "title": "What and why",
+          "narration": "Explain How the web is structured: what it does, where it is used, and what the learner should be able to do after the lesson."
+        },
+        {
+          "step": 2,
+          "title": "Code example",
+          "narration": "Show the complete example and identify the important syntax before editing anything.",
+          "code": "// HTML — How the web is structured\n// Start with a small example, then modify it and test the result."
+        },
+        {
+          "step": 3,
+          "title": "Line by line",
+          "narration": "Walk through each meaningful line in order and connect it to the expected browser, console, API, or UI result."
+        },
+        {
+          "step": 4,
+          "title": "Output",
+          "narration": "Run the example, show the resulting output, then change one value and run it again so the learner sees cause and effect."
+        },
+        {
+          "step": 5,
+          "title": "Try it yourself",
+          "narration": "Create a small exercise using how the web is structured. Change at least one part of the example and explain what changed."
+        }
+      ],
+      "quiz": {
+        "question": "What should you do after learning how the web is structured?",
+        "answers": [
+          "Apply it in a small practice task",
+          "Only memorise the heading",
+          "Skip testing",
+          "Move to the next topic without practice"
+        ],
+        "correct": 0
+      }
+    },
+    {
+      "lessonId": "html-2",
+      "title": "Elements & attributes",
+      "durationTarget": "4–7 min",
+      "format": "Visual code walkthrough",
+      "scenes": [
+        {
+          "step": 1,
+          "title": "What and why",
+          "narration": "Explain Elements & attributes: what it does, where it is used, and what the learner should be able to do after the lesson."
+        },
+        {
+          "step": 2,
+          "title": "Code example",
+          "narration": "Show the complete example and identify the important syntax before editing anything.",
+          "code": "<a href=\"https://example.com\">Visit Example</a>\n<img src=\"profile.jpg\" alt=\"Student coding at a desk\">"
+        },
+        {
+          "step": 3,
+          "title": "Line by line",
+          "narration": "Walk through each meaningful line in order and connect it to the expected browser, console, API, or UI result."
+        },
+        {
+          "step": 4,
+          "title": "Output",
+          "narration": "Run the example, show the resulting output, then change one value and run it again so the learner sees cause and effect."
+        },
+        {
+          "step": 5,
+          "title": "Try it yourself",
+          "narration": "Live Output mein link par click karke destination check karo. Phir href ko apni website ke URL se replace karo. Image ke src ko apni image file se replace karo aur alt text ko meaningful description se badlo."
+        }
+      ],
+      "quiz": {
+        "question": "<a href=\"...\"> mein href ka kaam kya hai?",
+        "answers": [
+          "Link ka destination batana",
+          "Image show karna",
+          "Text ko bold karna",
+          "Page ka background change karna"
+        ],
+        "correct": 0
+      }
+    },
+    {
+      "lessonId": "html-3",
+      "title": "Links, images & media",
+      "durationTarget": "4–7 min",
+      "format": "Visual code walkthrough",
+      "scenes": [
+        {
+          "step": 1,
+          "title": "What and why",
+          "narration": "Explain Links, images & media: what it does, where it is used, and what the learner should be able to do after the lesson."
+        },
+        {
+          "step": 2,
+          "title": "Code example",
+          "narration": "Show the complete example and identify the important syntax before editing anything.",
+          "code": "// HTML — Links, images & media\n// Start with a small example, then modify it and test the result."
+        },
+        {
+          "step": 3,
+          "title": "Line by line",
+          "narration": "Walk through each meaningful line in order and connect it to the expected browser, console, API, or UI result."
+        },
+        {
+          "step": 4,
+          "title": "Output",
+          "narration": "Run the example, show the resulting output, then change one value and run it again so the learner sees cause and effect."
+        },
+        {
+          "step": 5,
+          "title": "Try it yourself",
+          "narration": "Create a small exercise using links, images & media. Change at least one part of the example and explain what changed."
+        }
+      ],
+      "quiz": {
+        "question": "What should you do after learning links, images & media?",
+        "answers": [
+          "Apply it in a small practice task",
+          "Only memorise the heading",
+          "Skip testing",
+          "Move to the next topic without practice"
+        ],
+        "correct": 0
+      }
+    },
+    {
+      "lessonId": "html-4",
+      "title": "Lists, tables & forms",
+      "durationTarget": "4–7 min",
+      "format": "Visual code walkthrough",
+      "scenes": [
+        {
+          "step": 1,
+          "title": "What and why",
+          "narration": "Explain Lists, tables & forms: what it does, where it is used, and what the learner should be able to do after the lesson."
+        },
+        {
+          "step": 2,
+          "title": "Code example",
+          "narration": "Show the complete example and identify the important syntax before editing anything.",
+          "code": "// HTML — Lists, tables & forms\n// Start with a small example, then modify it and test the result."
+        },
+        {
+          "step": 3,
+          "title": "Line by line",
+          "narration": "Walk through each meaningful line in order and connect it to the expected browser, console, API, or UI result."
+        },
+        {
+          "step": 4,
+          "title": "Output",
+          "narration": "Run the example, show the resulting output, then change one value and run it again so the learner sees cause and effect."
+        },
+        {
+          "step": 5,
+          "title": "Try it yourself",
+          "narration": "Create a small exercise using lists, tables & forms. Change at least one part of the example and explain what changed."
+        }
+      ],
+      "quiz": {
+        "question": "What should you do after learning lists, tables & forms?",
+        "answers": [
+          "Apply it in a small practice task",
+          "Only memorise the heading",
+          "Skip testing",
+          "Move to the next topic without practice"
+        ],
+        "correct": 0
+      }
+    },
+    {
+      "lessonId": "html-5",
+      "title": "Semantic page layout",
+      "durationTarget": "4–7 min",
+      "format": "Visual code walkthrough",
+      "scenes": [
+        {
+          "step": 1,
+          "title": "What and why",
+          "narration": "Explain Semantic page layout: what it does, where it is used, and what the learner should be able to do after the lesson."
+        },
+        {
+          "step": 2,
+          "title": "Code example",
+          "narration": "Show the complete example and identify the important syntax before editing anything.",
+          "code": "// HTML — Semantic page layout\n// Start with a small example, then modify it and test the result."
+        },
+        {
+          "step": 3,
+          "title": "Line by line",
+          "narration": "Walk through each meaningful line in order and connect it to the expected browser, console, API, or UI result."
+        },
+        {
+          "step": 4,
+          "title": "Output",
+          "narration": "Run the example, show the resulting output, then change one value and run it again so the learner sees cause and effect."
+        },
+        {
+          "step": 5,
+          "title": "Try it yourself",
+          "narration": "Create a small exercise using semantic page layout. Change at least one part of the example and explain what changed."
+        }
+      ],
+      "quiz": {
+        "question": "What should you do after learning semantic page layout?",
+        "answers": [
+          "Apply it in a small practice task",
+          "Only memorise the heading",
+          "Skip testing",
+          "Move to the next topic without practice"
+        ],
+        "correct": 0
+      }
+    },
+    {
+      "lessonId": "html-6",
+      "title": "Forms & validation",
+      "durationTarget": "4–7 min",
+      "format": "Visual code walkthrough",
+      "scenes": [
+        {
+          "step": 1,
+          "title": "What and why",
+          "narration": "Explain Forms & validation: what it does, where it is used, and what the learner should be able to do after the lesson."
+        },
+        {
+          "step": 2,
+          "title": "Code example",
+          "narration": "Show the complete example and identify the important syntax before editing anything.",
+          "code": "// HTML — Forms & validation\n// Start with a small example, then modify it and test the result."
+        },
+        {
+          "step": 3,
+          "title": "Line by line",
+          "narration": "Walk through each meaningful line in order and connect it to the expected browser, console, API, or UI result."
+        },
+        {
+          "step": 4,
+          "title": "Output",
+          "narration": "Run the example, show the resulting output, then change one value and run it again so the learner sees cause and effect."
+        },
+        {
+          "step": 5,
+          "title": "Try it yourself",
+          "narration": "Create a small exercise using forms & validation. Change at least one part of the example and explain what changed."
+        }
+      ],
+      "quiz": {
+        "question": "What should you do after learning forms & validation?",
+        "answers": [
+          "Apply it in a small practice task",
+          "Only memorise the heading",
+          "Skip testing",
+          "Move to the next topic without practice"
+        ],
+        "correct": 0
+      }
+    },
+    {
+      "lessonId": "html-7",
+      "title": "Accessibility foundations",
+      "durationTarget": "4–7 min",
+      "format": "Visual code walkthrough",
+      "scenes": [
+        {
+          "step": 1,
+          "title": "What and why",
+          "narration": "Explain Accessibility foundations: what it does, where it is used, and what the learner should be able to do after the lesson."
+        },
+        {
+          "step": 2,
+          "title": "Code example",
+          "narration": "Show the complete example and identify the important syntax before editing anything.",
+          "code": "// HTML — Accessibility foundations\n// Start with a small example, then modify it and test the result."
+        },
+        {
+          "step": 3,
+          "title": "Line by line",
+          "narration": "Walk through each meaningful line in order and connect it to the expected browser, console, API, or UI result."
+        },
+        {
+          "step": 4,
+          "title": "Output",
+          "narration": "Run the example, show the resulting output, then change one value and run it again so the learner sees cause and effect."
+        },
+        {
+          "step": 5,
+          "title": "Try it yourself",
+          "narration": "Create a small exercise using accessibility foundations. Change at least one part of the example and explain what changed."
+        }
+      ],
+      "quiz": {
+        "question": "What should you do after learning accessibility foundations?",
+        "answers": [
+          "Apply it in a small practice task",
+          "Only memorise the heading",
+          "Skip testing",
+          "Move to the next topic without practice"
+        ],
+        "correct": 0
+      }
+    },
+    {
+      "lessonId": "html-8",
+      "title": "Metadata & SEO",
+      "durationTarget": "4–7 min",
+      "format": "Visual code walkthrough",
+      "scenes": [
+        {
+          "step": 1,
+          "title": "What and why",
+          "narration": "Explain Metadata & SEO: what it does, where it is used, and what the learner should be able to do after the lesson."
+        },
+        {
+          "step": 2,
+          "title": "Code example",
+          "narration": "Show the complete example and identify the important syntax before editing anything.",
+          "code": "// HTML — Metadata & SEO\n// Start with a small example, then modify it and test the result."
+        },
+        {
+          "step": 3,
+          "title": "Line by line",
+          "narration": "Walk through each meaningful line in order and connect it to the expected browser, console, API, or UI result."
+        },
+        {
+          "step": 4,
+          "title": "Output",
+          "narration": "Run the example, show the resulting output, then change one value and run it again so the learner sees cause and effect."
+        },
+        {
+          "step": 5,
+          "title": "Try it yourself",
+          "narration": "Create a small exercise using metadata & seo. Change at least one part of the example and explain what changed."
+        }
+      ],
+      "quiz": {
+        "question": "What should you do after learning metadata & seo?",
+        "answers": [
+          "Apply it in a small practice task",
+          "Only memorise the heading",
+          "Skip testing",
+          "Move to the next topic without practice"
+        ],
+        "correct": 0
+      }
+    },
+    {
+      "lessonId": "html-9",
+      "title": "Project: profile page",
+      "durationTarget": "4–7 min",
+      "format": "Visual code walkthrough",
+      "scenes": [
+        {
+          "step": 1,
+          "title": "What and why",
+          "narration": "Explain Project: profile page: what it does, where it is used, and what the learner should be able to do after the lesson."
+        },
+        {
+          "step": 2,
+          "title": "Code example",
+          "narration": "Show the complete example and identify the important syntax before editing anything.",
+          "code": "// HTML — Project: profile page\n// Start with a small example, then modify it and test the result."
+        },
+        {
+          "step": 3,
+          "title": "Line by line",
+          "narration": "Walk through each meaningful line in order and connect it to the expected browser, console, API, or UI result."
+        },
+        {
+          "step": 4,
+          "title": "Output",
+          "narration": "Run the example, show the resulting output, then change one value and run it again so the learner sees cause and effect."
+        },
+        {
+          "step": 5,
+          "title": "Try it yourself",
+          "narration": "Create a small exercise using project: profile page. Change at least one part of the example and explain what changed."
+        }
+      ],
+      "quiz": {
+        "question": "What should you do after learning project: profile page?",
+        "answers": [
+          "Apply it in a small practice task",
+          "Only memorise the heading",
+          "Skip testing",
+          "Move to the next topic without practice"
+        ],
+        "correct": 0
+      }
+    },
+    {
+      "lessonId": "html-10",
+      "title": "Project review & next steps",
+      "durationTarget": "4–7 min",
+      "format": "Visual code walkthrough",
+      "scenes": [
+        {
+          "step": 1,
+          "title": "What and why",
+          "narration": "Explain Project review & next steps: what it does, where it is used, and what the learner should be able to do after the lesson."
+        },
+        {
+          "step": 2,
+          "title": "Code example",
+          "narration": "Show the complete example and identify the important syntax before editing anything.",
+          "code": "// HTML — Project review & next steps\n// Start with a small example, then modify it and test the result."
+        },
+        {
+          "step": 3,
+          "title": "Line by line",
+          "narration": "Walk through each meaningful line in order and connect it to the expected browser, console, API, or UI result."
+        },
+        {
+          "step": 4,
+          "title": "Output",
+          "narration": "Run the example, show the resulting output, then change one value and run it again so the learner sees cause and effect."
+        },
+        {
+          "step": 5,
+          "title": "Try it yourself",
+          "narration": "Create a small exercise using project review & next steps. Change at least one part of the example and explain what changed."
+        }
+      ],
+      "quiz": {
+        "question": "What should you do after learning project review & next steps?",
+        "answers": [
+          "Apply it in a small practice task",
+          "Only memorise the heading",
+          "Skip testing",
+          "Move to the next topic without practice"
+        ],
+        "correct": 0
+      }
+    },
+    {
+      "lessonId": "css-1",
+      "title": "CSS syntax & selectors",
+      "durationTarget": "4–7 min",
+      "format": "Visual code walkthrough",
+      "scenes": [
+        {
+          "step": 1,
+          "title": "What and why",
+          "narration": "Explain CSS syntax & selectors: what it does, where it is used, and what the learner should be able to do after the lesson."
+        },
+        {
+          "step": 2,
+          "title": "Code example",
+          "narration": "Show the complete example and identify the important syntax before editing anything.",
+          "code": ".card { padding: 1rem; }\\n.card:hover { transform: translateY(-2px); }"
+        },
+        {
+          "step": 3,
+          "title": "Line by line",
+          "narration": "Walk through each meaningful line in order and connect it to the expected browser, console, API, or UI result."
+        },
+        {
+          "step": 4,
+          "title": "Output",
+          "narration": "Run the example, show the resulting output, then change one value and run it again so the learner sees cause and effect."
+        },
+        {
+          "step": 5,
+          "title": "Try it yourself",
+          "narration": "Build a small CSS syntax & selectors exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why."
+        }
+      ],
+      "quiz": {
+        "question": "Which workflow is most useful when learning CSS syntax & selectors?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      }
+    },
+    {
+      "lessonId": "css-2",
+      "title": "Colors, units & typography",
+      "durationTarget": "4–7 min",
+      "format": "Visual code walkthrough",
+      "scenes": [
+        {
+          "step": 1,
+          "title": "What and why",
+          "narration": "Explain Colors, units & typography: what it does, where it is used, and what the learner should be able to do after the lesson."
+        },
+        {
+          "step": 2,
+          "title": "Code example",
+          "narration": "Show the complete example and identify the important syntax before editing anything.",
+          "code": ".component {\\n  display: grid;\\n  gap: 1rem;\\n}"
+        },
+        {
+          "step": 3,
+          "title": "Line by line",
+          "narration": "Walk through each meaningful line in order and connect it to the expected browser, console, API, or UI result."
+        },
+        {
+          "step": 4,
+          "title": "Output",
+          "narration": "Run the example, show the resulting output, then change one value and run it again so the learner sees cause and effect."
+        },
+        {
+          "step": 5,
+          "title": "Try it yourself",
+          "narration": "Build a small Colors, units & typography exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why."
+        }
+      ],
+      "quiz": {
+        "question": "Which workflow is most useful when learning Colors, units & typography?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      }
+    },
+    {
+      "lessonId": "css-3",
+      "title": "The box model",
+      "durationTarget": "4–7 min",
+      "format": "Visual code walkthrough",
+      "scenes": [
+        {
+          "step": 1,
+          "title": "What and why",
+          "narration": "Explain The box model: what it does, where it is used, and what the learner should be able to do after the lesson."
+        },
+        {
+          "step": 2,
+          "title": "Code example",
+          "narration": "Show the complete example and identify the important syntax before editing anything.",
+          "code": ".component {\\n  display: grid;\\n  gap: 1rem;\\n}"
+        },
+        {
+          "step": 3,
+          "title": "Line by line",
+          "narration": "Walk through each meaningful line in order and connect it to the expected browser, console, API, or UI result."
+        },
+        {
+          "step": 4,
+          "title": "Output",
+          "narration": "Run the example, show the resulting output, then change one value and run it again so the learner sees cause and effect."
+        },
+        {
+          "step": 5,
+          "title": "Try it yourself",
+          "narration": "Build a small The box model exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why."
+        }
+      ],
+      "quiz": {
+        "question": "Which workflow is most useful when learning The box model?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      }
+    },
+    {
+      "lessonId": "css-4",
+      "title": "Display & positioning",
+      "durationTarget": "4–7 min",
+      "format": "Visual code walkthrough",
+      "scenes": [
+        {
+          "step": 1,
+          "title": "What and why",
+          "narration": "Explain Display & positioning: what it does, where it is used, and what the learner should be able to do after the lesson."
+        },
+        {
+          "step": 2,
+          "title": "Code example",
+          "narration": "Show the complete example and identify the important syntax before editing anything.",
+          "code": ".component {\\n  display: grid;\\n  gap: 1rem;\\n}"
+        },
+        {
+          "step": 3,
+          "title": "Line by line",
+          "narration": "Walk through each meaningful line in order and connect it to the expected browser, console, API, or UI result."
+        },
+        {
+          "step": 4,
+          "title": "Output",
+          "narration": "Run the example, show the resulting output, then change one value and run it again so the learner sees cause and effect."
+        },
+        {
+          "step": 5,
+          "title": "Try it yourself",
+          "narration": "Build a small Display & positioning exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why."
+        }
+      ],
+      "quiz": {
+        "question": "Which workflow is most useful when learning Display & positioning?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      }
+    },
+    {
+      "lessonId": "css-5",
+      "title": "Flexbox layouts",
+      "durationTarget": "4–7 min",
+      "format": "Visual code walkthrough",
+      "scenes": [
+        {
+          "step": 1,
+          "title": "What and why",
+          "narration": "Explain Flexbox layouts: what it does, where it is used, and what the learner should be able to do after the lesson."
+        },
+        {
+          "step": 2,
+          "title": "Code example",
+          "narration": "Show the complete example and identify the important syntax before editing anything.",
+          "code": ".toolbar {\\n  display: flex;\\n  align-items: center;\\n  justify-content: space-between;\\n  gap: 1rem;\\n}"
+        },
+        {
+          "step": 3,
+          "title": "Line by line",
+          "narration": "Walk through each meaningful line in order and connect it to the expected browser, console, API, or UI result."
+        },
+        {
+          "step": 4,
+          "title": "Output",
+          "narration": "Run the example, show the resulting output, then change one value and run it again so the learner sees cause and effect."
+        },
+        {
+          "step": 5,
+          "title": "Try it yourself",
+          "narration": "Build a small Flexbox layouts exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why."
+        }
+      ],
+      "quiz": {
+        "question": "Which workflow is most useful when learning Flexbox layouts?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      }
+    },
+    {
+      "lessonId": "css-6",
+      "title": "CSS Grid",
+      "durationTarget": "4–7 min",
+      "format": "Visual code walkthrough",
+      "scenes": [
+        {
+          "step": 1,
+          "title": "What and why",
+          "narration": "Explain CSS Grid: what it does, where it is used, and what the learner should be able to do after the lesson."
+        },
+        {
+          "step": 2,
+          "title": "Code example",
+          "narration": "Show the complete example and identify the important syntax before editing anything.",
+          "code": ".cards {\\n  display: grid;\\n  grid-template-columns: repeat(3, minmax(0, 1fr));\\n  gap: 1rem;\\n}"
+        },
+        {
+          "step": 3,
+          "title": "Line by line",
+          "narration": "Walk through each meaningful line in order and connect it to the expected browser, console, API, or UI result."
+        },
+        {
+          "step": 4,
+          "title": "Output",
+          "narration": "Run the example, show the resulting output, then change one value and run it again so the learner sees cause and effect."
+        },
+        {
+          "step": 5,
+          "title": "Try it yourself",
+          "narration": "Build a small CSS Grid exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why."
+        }
+      ],
+      "quiz": {
+        "question": "Which workflow is most useful when learning CSS Grid?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      }
+    },
+    {
+      "lessonId": "css-7",
+      "title": "Responsive design",
+      "durationTarget": "4–7 min",
+      "format": "Visual code walkthrough",
+      "scenes": [
+        {
+          "step": 1,
+          "title": "What and why",
+          "narration": "Explain Responsive design: what it does, where it is used, and what the learner should be able to do after the lesson."
+        },
+        {
+          "step": 2,
+          "title": "Code example",
+          "narration": "Show the complete example and identify the important syntax before editing anything.",
+          "code": ".cards { display: grid; grid-template-columns: repeat(3, 1fr); }\\n@media (max-width: 760px) { .cards { grid-template-columns: 1fr; } }"
+        },
+        {
+          "step": 3,
+          "title": "Line by line",
+          "narration": "Walk through each meaningful line in order and connect it to the expected browser, console, API, or UI result."
+        },
+        {
+          "step": 4,
+          "title": "Output",
+          "narration": "Run the example, show the resulting output, then change one value and run it again so the learner sees cause and effect."
+        },
+        {
+          "step": 5,
+          "title": "Try it yourself",
+          "narration": "Build a small Responsive design exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why."
+        }
+      ],
+      "quiz": {
+        "question": "Which workflow is most useful when learning Responsive design?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      }
+    },
+    {
+      "lessonId": "css-8",
+      "title": "Transitions & transforms",
+      "durationTarget": "4–7 min",
+      "format": "Visual code walkthrough",
+      "scenes": [
+        {
+          "step": 1,
+          "title": "What and why",
+          "narration": "Explain Transitions & transforms: what it does, where it is used, and what the learner should be able to do after the lesson."
+        },
+        {
+          "step": 2,
+          "title": "Code example",
+          "narration": "Show the complete example and identify the important syntax before editing anything.",
+          "code": ".component {\\n  display: grid;\\n  gap: 1rem;\\n}"
+        },
+        {
+          "step": 3,
+          "title": "Line by line",
+          "narration": "Walk through each meaningful line in order and connect it to the expected browser, console, API, or UI result."
+        },
+        {
+          "step": 4,
+          "title": "Output",
+          "narration": "Run the example, show the resulting output, then change one value and run it again so the learner sees cause and effect."
+        },
+        {
+          "step": 5,
+          "title": "Try it yourself",
+          "narration": "Build a small Transitions & transforms exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why."
+        }
+      ],
+      "quiz": {
+        "question": "Which workflow is most useful when learning Transitions & transforms?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      }
+    },
+    {
+      "lessonId": "css-9",
+      "title": "Animations",
+      "durationTarget": "4–7 min",
+      "format": "Visual code walkthrough",
+      "scenes": [
+        {
+          "step": 1,
+          "title": "What and why",
+          "narration": "Explain Animations: what it does, where it is used, and what the learner should be able to do after the lesson."
+        },
+        {
+          "step": 2,
+          "title": "Code example",
+          "narration": "Show the complete example and identify the important syntax before editing anything.",
+          "code": ".component {\\n  display: grid;\\n  gap: 1rem;\\n}"
+        },
+        {
+          "step": 3,
+          "title": "Line by line",
+          "narration": "Walk through each meaningful line in order and connect it to the expected browser, console, API, or UI result."
+        },
+        {
+          "step": 4,
+          "title": "Output",
+          "narration": "Run the example, show the resulting output, then change one value and run it again so the learner sees cause and effect."
+        },
+        {
+          "step": 5,
+          "title": "Try it yourself",
+          "narration": "Build a small Animations exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why."
+        }
+      ],
+      "quiz": {
+        "question": "Which workflow is most useful when learning Animations?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      }
+    },
+    {
+      "lessonId": "css-10",
+      "title": "Forms & UI states",
+      "durationTarget": "4–7 min",
+      "format": "Visual code walkthrough",
+      "scenes": [
+        {
+          "step": 1,
+          "title": "What and why",
+          "narration": "Explain Forms & UI states: what it does, where it is used, and what the learner should be able to do after the lesson."
+        },
+        {
+          "step": 2,
+          "title": "Code example",
+          "narration": "Show the complete example and identify the important syntax before editing anything.",
+          "code": "const [open, setOpen] = useState(false);\\n<button onClick={() => setOpen(!open)}>{open ? \"Close\" : \"Open\"}</button>"
+        },
+        {
+          "step": 3,
+          "title": "Line by line",
+          "narration": "Walk through each meaningful line in order and connect it to the expected browser, console, API, or UI result."
+        },
+        {
+          "step": 4,
+          "title": "Output",
+          "narration": "Run the example, show the resulting output, then change one value and run it again so the learner sees cause and effect."
+        },
+        {
+          "step": 5,
+          "title": "Try it yourself",
+          "narration": "Build a small Forms & UI states exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why."
+        }
+      ],
+      "quiz": {
+        "question": "Which workflow is most useful when learning Forms & UI states?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      }
+    },
+    {
+      "lessonId": "css-11",
+      "title": "Component styling",
+      "durationTarget": "4–7 min",
+      "format": "Visual code walkthrough",
+      "scenes": [
+        {
+          "step": 1,
+          "title": "What and why",
+          "narration": "Explain Component styling: what it does, where it is used, and what the learner should be able to do after the lesson."
+        },
+        {
+          "step": 2,
+          "title": "Code example",
+          "narration": "Show the complete example and identify the important syntax before editing anything.",
+          "code": "function CourseCard({ title }: { title: string }) {\\n  return <article><h2>{title}</h2></article>;\\n}"
+        },
+        {
+          "step": 3,
+          "title": "Line by line",
+          "narration": "Walk through each meaningful line in order and connect it to the expected browser, console, API, or UI result."
+        },
+        {
+          "step": 4,
+          "title": "Output",
+          "narration": "Run the example, show the resulting output, then change one value and run it again so the learner sees cause and effect."
+        },
+        {
+          "step": 5,
+          "title": "Try it yourself",
+          "narration": "Build a small Component styling exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why."
+        }
+      ],
+      "quiz": {
+        "question": "Which workflow is most useful when learning Component styling?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      }
+    },
+    {
+      "lessonId": "css-12",
+      "title": "CSS project",
+      "durationTarget": "4–7 min",
+      "format": "Visual code walkthrough",
+      "scenes": [
+        {
+          "step": 1,
+          "title": "What and why",
+          "narration": "Explain CSS project: what it does, where it is used, and what the learner should be able to do after the lesson."
+        },
+        {
+          "step": 2,
+          "title": "Code example",
+          "narration": "Show the complete example and identify the important syntax before editing anything.",
+          "code": ".component {\\n  display: grid;\\n  gap: 1rem;\\n}"
+        },
+        {
+          "step": 3,
+          "title": "Line by line",
+          "narration": "Walk through each meaningful line in order and connect it to the expected browser, console, API, or UI result."
+        },
+        {
+          "step": 4,
+          "title": "Output",
+          "narration": "Run the example, show the resulting output, then change one value and run it again so the learner sees cause and effect."
+        },
+        {
+          "step": 5,
+          "title": "Try it yourself",
+          "narration": "Build a small CSS project exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why."
+        }
+      ],
+      "quiz": {
+        "question": "Which workflow is most useful when learning CSS project?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      }
+    },
+    {
+      "lessonId": "javascript-1",
+      "title": "JavaScript fundamentals",
+      "durationTarget": "4–7 min",
+      "format": "Visual code walkthrough",
+      "scenes": [
+        {
+          "step": 1,
+          "title": "What and why",
+          "narration": "Explain JavaScript fundamentals: what it does, where it is used, and what the learner should be able to do after the lesson."
+        },
+        {
+          "step": 2,
+          "title": "Code example",
+          "narration": "Show the complete example and identify the important syntax before editing anything.",
+          "code": "const value = \"Coding Vibes\";\\nconsole.log(value);"
+        },
+        {
+          "step": 3,
+          "title": "Line by line",
+          "narration": "Walk through each meaningful line in order and connect it to the expected browser, console, API, or UI result."
+        },
+        {
+          "step": 4,
+          "title": "Output",
+          "narration": "Run the example, show the resulting output, then change one value and run it again so the learner sees cause and effect."
+        },
+        {
+          "step": 5,
+          "title": "Try it yourself",
+          "narration": "Build a small JavaScript fundamentals exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why."
+        }
+      ],
+      "quiz": {
+        "question": "Which workflow is most useful when learning JavaScript fundamentals?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      }
+    },
+    {
+      "lessonId": "javascript-2",
+      "title": "Variables & data types",
+      "durationTarget": "4–7 min",
+      "format": "Visual code walkthrough",
+      "scenes": [
+        {
+          "step": 1,
+          "title": "What and why",
+          "narration": "Explain Variables & data types: what it does, where it is used, and what the learner should be able to do after the lesson."
+        },
+        {
+          "step": 2,
+          "title": "Code example",
+          "narration": "Show the complete example and identify the important syntax before editing anything.",
+          "code": "const lessons = 10;\\nconst completed = 7;\\nconst progress = Math.round(completed / lessons * 100);\\nconsole.log(progress);"
+        },
+        {
+          "step": 3,
+          "title": "Line by line",
+          "narration": "Walk through each meaningful line in order and connect it to the expected browser, console, API, or UI result."
+        },
+        {
+          "step": 4,
+          "title": "Output",
+          "narration": "Run the example, show the resulting output, then change one value and run it again so the learner sees cause and effect."
+        },
+        {
+          "step": 5,
+          "title": "Try it yourself",
+          "narration": "Build a small Variables & data types exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why."
+        }
+      ],
+      "quiz": {
+        "question": "Which workflow is most useful when learning Variables & data types?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      }
+    },
+    {
+      "lessonId": "javascript-3",
+      "title": "Operators & conditionals",
+      "durationTarget": "4–7 min",
+      "format": "Visual code walkthrough",
+      "scenes": [
+        {
+          "step": 1,
+          "title": "What and why",
+          "narration": "Explain Operators & conditionals: what it does, where it is used, and what the learner should be able to do after the lesson."
+        },
+        {
+          "step": 2,
+          "title": "Code example",
+          "narration": "Show the complete example and identify the important syntax before editing anything.",
+          "code": "const value = \"Coding Vibes\";\\nconsole.log(value);"
+        },
+        {
+          "step": 3,
+          "title": "Line by line",
+          "narration": "Walk through each meaningful line in order and connect it to the expected browser, console, API, or UI result."
+        },
+        {
+          "step": 4,
+          "title": "Output",
+          "narration": "Run the example, show the resulting output, then change one value and run it again so the learner sees cause and effect."
+        },
+        {
+          "step": 5,
+          "title": "Try it yourself",
+          "narration": "Build a small Operators & conditionals exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why."
+        }
+      ],
+      "quiz": {
+        "question": "Which workflow is most useful when learning Operators & conditionals?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      }
+    },
+    {
+      "lessonId": "javascript-4",
+      "title": "Loops & iteration",
+      "durationTarget": "4–7 min",
+      "format": "Visual code walkthrough",
+      "scenes": [
+        {
+          "step": 1,
+          "title": "What and why",
+          "narration": "Explain Loops & iteration: what it does, where it is used, and what the learner should be able to do after the lesson."
+        },
+        {
+          "step": 2,
+          "title": "Code example",
+          "narration": "Show the complete example and identify the important syntax before editing anything.",
+          "code": "const value = \"Coding Vibes\";\\nconsole.log(value);"
+        },
+        {
+          "step": 3,
+          "title": "Line by line",
+          "narration": "Walk through each meaningful line in order and connect it to the expected browser, console, API, or UI result."
+        },
+        {
+          "step": 4,
+          "title": "Output",
+          "narration": "Run the example, show the resulting output, then change one value and run it again so the learner sees cause and effect."
+        },
+        {
+          "step": 5,
+          "title": "Try it yourself",
+          "narration": "Build a small Loops & iteration exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why."
+        }
+      ],
+      "quiz": {
+        "question": "Which workflow is most useful when learning Loops & iteration?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      }
+    },
+    {
+      "lessonId": "javascript-5",
+      "title": "Functions",
+      "durationTarget": "4–7 min",
+      "format": "Visual code walkthrough",
+      "scenes": [
+        {
+          "step": 1,
+          "title": "What and why",
+          "narration": "Explain Functions: what it does, where it is used, and what the learner should be able to do after the lesson."
+        },
+        {
+          "step": 2,
+          "title": "Code example",
+          "narration": "Show the complete example and identify the important syntax before editing anything.",
+          "code": "function progress(done, total) {\\n  return Math.round(done / total * 100);\\n}\\nconsole.log(progress(7, 10));"
+        },
+        {
+          "step": 3,
+          "title": "Line by line",
+          "narration": "Walk through each meaningful line in order and connect it to the expected browser, console, API, or UI result."
+        },
+        {
+          "step": 4,
+          "title": "Output",
+          "narration": "Run the example, show the resulting output, then change one value and run it again so the learner sees cause and effect."
+        },
+        {
+          "step": 5,
+          "title": "Try it yourself",
+          "narration": "Build a small Functions exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why."
+        }
+      ],
+      "quiz": {
+        "question": "Which workflow is most useful when learning Functions?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      }
+    },
+    {
+      "lessonId": "javascript-6",
+      "title": "Arrays & objects",
+      "durationTarget": "4–7 min",
+      "format": "Visual code walkthrough",
+      "scenes": [
+        {
+          "step": 1,
+          "title": "What and why",
+          "narration": "Explain Arrays & objects: what it does, where it is used, and what the learner should be able to do after the lesson."
+        },
+        {
+          "step": 2,
+          "title": "Code example",
+          "narration": "Show the complete example and identify the important syntax before editing anything.",
+          "code": "const course = { title: \"HTML\", lessons: 10 };\\nconsole.log(course.title);"
+        },
+        {
+          "step": 3,
+          "title": "Line by line",
+          "narration": "Walk through each meaningful line in order and connect it to the expected browser, console, API, or UI result."
+        },
+        {
+          "step": 4,
+          "title": "Output",
+          "narration": "Run the example, show the resulting output, then change one value and run it again so the learner sees cause and effect."
+        },
+        {
+          "step": 5,
+          "title": "Try it yourself",
+          "narration": "Build a small Arrays & objects exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why."
+        }
+      ],
+      "quiz": {
+        "question": "Which workflow is most useful when learning Arrays & objects?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      }
+    },
+    {
+      "lessonId": "javascript-7",
+      "title": "DOM selection",
+      "durationTarget": "4–7 min",
+      "format": "Visual code walkthrough",
+      "scenes": [
+        {
+          "step": 1,
+          "title": "What and why",
+          "narration": "Explain DOM selection: what it does, where it is used, and what the learner should be able to do after the lesson."
+        },
+        {
+          "step": 2,
+          "title": "Code example",
+          "narration": "Show the complete example and identify the important syntax before editing anything.",
+          "code": "const button = document.querySelector(\"#save\");\\nbutton?.addEventListener(\"click\", () => {\\n  document.body.dataset.saved = \"true\";\\n});"
+        },
+        {
+          "step": 3,
+          "title": "Line by line",
+          "narration": "Walk through each meaningful line in order and connect it to the expected browser, console, API, or UI result."
+        },
+        {
+          "step": 4,
+          "title": "Output",
+          "narration": "Run the example, show the resulting output, then change one value and run it again so the learner sees cause and effect."
+        },
+        {
+          "step": 5,
+          "title": "Try it yourself",
+          "narration": "Build a small DOM selection exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why."
+        }
+      ],
+      "quiz": {
+        "question": "Which workflow is most useful when learning DOM selection?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      }
+    },
+    {
+      "lessonId": "javascript-8",
+      "title": "Events & interactions",
+      "durationTarget": "4–7 min",
+      "format": "Visual code walkthrough",
+      "scenes": [
+        {
+          "step": 1,
+          "title": "What and why",
+          "narration": "Explain Events & interactions: what it does, where it is used, and what the learner should be able to do after the lesson."
+        },
+        {
+          "step": 2,
+          "title": "Code example",
+          "narration": "Show the complete example and identify the important syntax before editing anything.",
+          "code": "const button = document.querySelector(\"#save\");\\nbutton?.addEventListener(\"click\", () => {\\n  document.body.dataset.saved = \"true\";\\n});"
+        },
+        {
+          "step": 3,
+          "title": "Line by line",
+          "narration": "Walk through each meaningful line in order and connect it to the expected browser, console, API, or UI result."
+        },
+        {
+          "step": 4,
+          "title": "Output",
+          "narration": "Run the example, show the resulting output, then change one value and run it again so the learner sees cause and effect."
+        },
+        {
+          "step": 5,
+          "title": "Try it yourself",
+          "narration": "Build a small Events & interactions exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why."
+        }
+      ],
+      "quiz": {
+        "question": "Which workflow is most useful when learning Events & interactions?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      }
+    },
+    {
+      "lessonId": "javascript-9",
+      "title": "Forms & validation",
+      "durationTarget": "4–7 min",
+      "format": "Visual code walkthrough",
+      "scenes": [
+        {
+          "step": 1,
+          "title": "What and why",
+          "narration": "Explain Forms & validation: what it does, where it is used, and what the learner should be able to do after the lesson."
+        },
+        {
+          "step": 2,
+          "title": "Code example",
+          "narration": "Show the complete example and identify the important syntax before editing anything.",
+          "code": "const value = \"Coding Vibes\";\\nconsole.log(value);"
+        },
+        {
+          "step": 3,
+          "title": "Line by line",
+          "narration": "Walk through each meaningful line in order and connect it to the expected browser, console, API, or UI result."
+        },
+        {
+          "step": 4,
+          "title": "Output",
+          "narration": "Run the example, show the resulting output, then change one value and run it again so the learner sees cause and effect."
+        },
+        {
+          "step": 5,
+          "title": "Try it yourself",
+          "narration": "Build a small Forms & validation exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why."
+        }
+      ],
+      "quiz": {
+        "question": "Which workflow is most useful when learning Forms & validation?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      }
+    },
+    {
+      "lessonId": "javascript-10",
+      "title": "Fetch & APIs",
+      "durationTarget": "4–7 min",
+      "format": "Visual code walkthrough",
+      "scenes": [
+        {
+          "step": 1,
+          "title": "What and why",
+          "narration": "Explain Fetch & APIs: what it does, where it is used, and what the learner should be able to do after the lesson."
+        },
+        {
+          "step": 2,
+          "title": "Code example",
+          "narration": "Show the complete example and identify the important syntax before editing anything.",
+          "code": "const response = await fetch(\"/api/courses\");\\nif (!response.ok) throw new Error(\"Request failed\");\\nconst data = await response.json();"
+        },
+        {
+          "step": 3,
+          "title": "Line by line",
+          "narration": "Walk through each meaningful line in order and connect it to the expected browser, console, API, or UI result."
+        },
+        {
+          "step": 4,
+          "title": "Output",
+          "narration": "Run the example, show the resulting output, then change one value and run it again so the learner sees cause and effect."
+        },
+        {
+          "step": 5,
+          "title": "Try it yourself",
+          "narration": "Build a small Fetch & APIs exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why."
+        }
+      ],
+      "quiz": {
+        "question": "Which workflow is most useful when learning Fetch & APIs?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      }
+    },
+    {
+      "lessonId": "javascript-11",
+      "title": "Async JavaScript",
+      "durationTarget": "4–7 min",
+      "format": "Visual code walkthrough",
+      "scenes": [
+        {
+          "step": 1,
+          "title": "What and why",
+          "narration": "Explain Async JavaScript: what it does, where it is used, and what the learner should be able to do after the lesson."
+        },
+        {
+          "step": 2,
+          "title": "Code example",
+          "narration": "Show the complete example and identify the important syntax before editing anything.",
+          "code": "const value = \"Coding Vibes\";\\nconsole.log(value);"
+        },
+        {
+          "step": 3,
+          "title": "Line by line",
+          "narration": "Walk through each meaningful line in order and connect it to the expected browser, console, API, or UI result."
+        },
+        {
+          "step": 4,
+          "title": "Output",
+          "narration": "Run the example, show the resulting output, then change one value and run it again so the learner sees cause and effect."
+        },
+        {
+          "step": 5,
+          "title": "Try it yourself",
+          "narration": "Build a small Async JavaScript exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why."
+        }
+      ],
+      "quiz": {
+        "question": "Which workflow is most useful when learning Async JavaScript?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      }
+    },
+    {
+      "lessonId": "javascript-12",
+      "title": "Modules",
+      "durationTarget": "4–7 min",
+      "format": "Visual code walkthrough",
+      "scenes": [
+        {
+          "step": 1,
+          "title": "What and why",
+          "narration": "Explain Modules: what it does, where it is used, and what the learner should be able to do after the lesson."
+        },
+        {
+          "step": 2,
+          "title": "Code example",
+          "narration": "Show the complete example and identify the important syntax before editing anything.",
+          "code": "const value = \"Coding Vibes\";\\nconsole.log(value);"
+        },
+        {
+          "step": 3,
+          "title": "Line by line",
+          "narration": "Walk through each meaningful line in order and connect it to the expected browser, console, API, or UI result."
+        },
+        {
+          "step": 4,
+          "title": "Output",
+          "narration": "Run the example, show the resulting output, then change one value and run it again so the learner sees cause and effect."
+        },
+        {
+          "step": 5,
+          "title": "Try it yourself",
+          "narration": "Build a small Modules exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why."
+        }
+      ],
+      "quiz": {
+        "question": "Which workflow is most useful when learning Modules?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      }
+    },
+    {
+      "lessonId": "javascript-13",
+      "title": "Error handling",
+      "durationTarget": "4–7 min",
+      "format": "Visual code walkthrough",
+      "scenes": [
+        {
+          "step": 1,
+          "title": "What and why",
+          "narration": "Explain Error handling: what it does, where it is used, and what the learner should be able to do after the lesson."
+        },
+        {
+          "step": 2,
+          "title": "Code example",
+          "narration": "Show the complete example and identify the important syntax before editing anything.",
+          "code": "const value = \"Coding Vibes\";\\nconsole.log(value);"
+        },
+        {
+          "step": 3,
+          "title": "Line by line",
+          "narration": "Walk through each meaningful line in order and connect it to the expected browser, console, API, or UI result."
+        },
+        {
+          "step": 4,
+          "title": "Output",
+          "narration": "Run the example, show the resulting output, then change one value and run it again so the learner sees cause and effect."
+        },
+        {
+          "step": 5,
+          "title": "Try it yourself",
+          "narration": "Build a small Error handling exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why."
+        }
+      ],
+      "quiz": {
+        "question": "Which workflow is most useful when learning Error handling?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      }
+    },
+    {
+      "lessonId": "javascript-14",
+      "title": "JavaScript project",
+      "durationTarget": "4–7 min",
+      "format": "Visual code walkthrough",
+      "scenes": [
+        {
+          "step": 1,
+          "title": "What and why",
+          "narration": "Explain JavaScript project: what it does, where it is used, and what the learner should be able to do after the lesson."
+        },
+        {
+          "step": 2,
+          "title": "Code example",
+          "narration": "Show the complete example and identify the important syntax before editing anything.",
+          "code": "const value = \"Coding Vibes\";\\nconsole.log(value);"
+        },
+        {
+          "step": 3,
+          "title": "Line by line",
+          "narration": "Walk through each meaningful line in order and connect it to the expected browser, console, API, or UI result."
+        },
+        {
+          "step": 4,
+          "title": "Output",
+          "narration": "Run the example, show the resulting output, then change one value and run it again so the learner sees cause and effect."
+        },
+        {
+          "step": 5,
+          "title": "Try it yourself",
+          "narration": "Build a small JavaScript project exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why."
+        }
+      ],
+      "quiz": {
+        "question": "Which workflow is most useful when learning JavaScript project?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      }
+    },
+    {
+      "lessonId": "react-1",
+      "title": "React mental model",
+      "durationTarget": "4–7 min",
+      "format": "Visual code walkthrough",
+      "scenes": [
+        {
+          "step": 1,
+          "title": "What and why",
+          "narration": "Explain React mental model: what it does, where it is used, and what the learner should be able to do after the lesson."
+        },
+        {
+          "step": 2,
+          "title": "Code example",
+          "narration": "Show the complete example and identify the important syntax before editing anything.",
+          "code": "function LessonCard() {\\n  return <article>Lesson</article>;\\n}"
+        },
+        {
+          "step": 3,
+          "title": "Line by line",
+          "narration": "Walk through each meaningful line in order and connect it to the expected browser, console, API, or UI result."
+        },
+        {
+          "step": 4,
+          "title": "Output",
+          "narration": "Run the example, show the resulting output, then change one value and run it again so the learner sees cause and effect."
+        },
+        {
+          "step": 5,
+          "title": "Try it yourself",
+          "narration": "Build a small React mental model exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why."
+        }
+      ],
+      "quiz": {
+        "question": "Which workflow is most useful when learning React mental model?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      }
+    },
+    {
+      "lessonId": "react-2",
+      "title": "Vite project setup",
+      "durationTarget": "4–7 min",
+      "format": "Visual code walkthrough",
+      "scenes": [
+        {
+          "step": 1,
+          "title": "What and why",
+          "narration": "Explain Vite project setup: what it does, where it is used, and what the learner should be able to do after the lesson."
+        },
+        {
+          "step": 2,
+          "title": "Code example",
+          "narration": "Show the complete example and identify the important syntax before editing anything.",
+          "code": "function LessonCard() {\\n  return <article>Lesson</article>;\\n}"
+        },
+        {
+          "step": 3,
+          "title": "Line by line",
+          "narration": "Walk through each meaningful line in order and connect it to the expected browser, console, API, or UI result."
+        },
+        {
+          "step": 4,
+          "title": "Output",
+          "narration": "Run the example, show the resulting output, then change one value and run it again so the learner sees cause and effect."
+        },
+        {
+          "step": 5,
+          "title": "Try it yourself",
+          "narration": "Build a small Vite project setup exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why."
+        }
+      ],
+      "quiz": {
+        "question": "Which workflow is most useful when learning Vite project setup?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      }
+    },
+    {
+      "lessonId": "react-3",
+      "title": "Components & JSX",
+      "durationTarget": "4–7 min",
+      "format": "Visual code walkthrough",
+      "scenes": [
+        {
+          "step": 1,
+          "title": "What and why",
+          "narration": "Explain Components & JSX: what it does, where it is used, and what the learner should be able to do after the lesson."
+        },
+        {
+          "step": 2,
+          "title": "Code example",
+          "narration": "Show the complete example and identify the important syntax before editing anything.",
+          "code": "function CourseCard({ title }: { title: string }) {\\n  return <article><h2>{title}</h2></article>;\\n}"
+        },
+        {
+          "step": 3,
+          "title": "Line by line",
+          "narration": "Walk through each meaningful line in order and connect it to the expected browser, console, API, or UI result."
+        },
+        {
+          "step": 4,
+          "title": "Output",
+          "narration": "Run the example, show the resulting output, then change one value and run it again so the learner sees cause and effect."
+        },
+        {
+          "step": 5,
+          "title": "Try it yourself",
+          "narration": "Build a small Components & JSX exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why."
+        }
+      ],
+      "quiz": {
+        "question": "Which workflow is most useful when learning Components & JSX?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      }
+    },
+    {
+      "lessonId": "react-4",
+      "title": "Props",
+      "durationTarget": "4–7 min",
+      "format": "Visual code walkthrough",
+      "scenes": [
+        {
+          "step": 1,
+          "title": "What and why",
+          "narration": "Explain Props: what it does, where it is used, and what the learner should be able to do after the lesson."
+        },
+        {
+          "step": 2,
+          "title": "Code example",
+          "narration": "Show the complete example and identify the important syntax before editing anything.",
+          "code": "function CourseCard({ title }: { title: string }) {\\n  return <article><h2>{title}</h2></article>;\\n}"
+        },
+        {
+          "step": 3,
+          "title": "Line by line",
+          "narration": "Walk through each meaningful line in order and connect it to the expected browser, console, API, or UI result."
+        },
+        {
+          "step": 4,
+          "title": "Output",
+          "narration": "Run the example, show the resulting output, then change one value and run it again so the learner sees cause and effect."
+        },
+        {
+          "step": 5,
+          "title": "Try it yourself",
+          "narration": "Build a small Props exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why."
+        }
+      ],
+      "quiz": {
+        "question": "Which workflow is most useful when learning Props?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      }
+    },
+    {
+      "lessonId": "react-5",
+      "title": "State",
+      "durationTarget": "4–7 min",
+      "format": "Visual code walkthrough",
+      "scenes": [
+        {
+          "step": 1,
+          "title": "What and why",
+          "narration": "Explain State: what it does, where it is used, and what the learner should be able to do after the lesson."
+        },
+        {
+          "step": 2,
+          "title": "Code example",
+          "narration": "Show the complete example and identify the important syntax before editing anything.",
+          "code": "const [open, setOpen] = useState(false);\\n<button onClick={() => setOpen(!open)}>{open ? \"Close\" : \"Open\"}</button>"
+        },
+        {
+          "step": 3,
+          "title": "Line by line",
+          "narration": "Walk through each meaningful line in order and connect it to the expected browser, console, API, or UI result."
+        },
+        {
+          "step": 4,
+          "title": "Output",
+          "narration": "Run the example, show the resulting output, then change one value and run it again so the learner sees cause and effect."
+        },
+        {
+          "step": 5,
+          "title": "Try it yourself",
+          "narration": "Build a small State exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why."
+        }
+      ],
+      "quiz": {
+        "question": "Which workflow is most useful when learning State?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      }
+    },
+    {
+      "lessonId": "react-6",
+      "title": "Events",
+      "durationTarget": "4–7 min",
+      "format": "Visual code walkthrough",
+      "scenes": [
+        {
+          "step": 1,
+          "title": "What and why",
+          "narration": "Explain Events: what it does, where it is used, and what the learner should be able to do after the lesson."
+        },
+        {
+          "step": 2,
+          "title": "Code example",
+          "narration": "Show the complete example and identify the important syntax before editing anything.",
+          "code": "const button = document.querySelector(\"#save\");\\nbutton?.addEventListener(\"click\", () => {\\n  document.body.dataset.saved = \"true\";\\n});"
+        },
+        {
+          "step": 3,
+          "title": "Line by line",
+          "narration": "Walk through each meaningful line in order and connect it to the expected browser, console, API, or UI result."
+        },
+        {
+          "step": 4,
+          "title": "Output",
+          "narration": "Run the example, show the resulting output, then change one value and run it again so the learner sees cause and effect."
+        },
+        {
+          "step": 5,
+          "title": "Try it yourself",
+          "narration": "Build a small Events exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why."
+        }
+      ],
+      "quiz": {
+        "question": "Which workflow is most useful when learning Events?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      }
+    },
+    {
+      "lessonId": "react-7",
+      "title": "Conditional rendering",
+      "durationTarget": "4–7 min",
+      "format": "Visual code walkthrough",
+      "scenes": [
+        {
+          "step": 1,
+          "title": "What and why",
+          "narration": "Explain Conditional rendering: what it does, where it is used, and what the learner should be able to do after the lesson."
+        },
+        {
+          "step": 2,
+          "title": "Code example",
+          "narration": "Show the complete example and identify the important syntax before editing anything.",
+          "code": "function LessonCard() {\\n  return <article>Lesson</article>;\\n}"
+        },
+        {
+          "step": 3,
+          "title": "Line by line",
+          "narration": "Walk through each meaningful line in order and connect it to the expected browser, console, API, or UI result."
+        },
+        {
+          "step": 4,
+          "title": "Output",
+          "narration": "Run the example, show the resulting output, then change one value and run it again so the learner sees cause and effect."
+        },
+        {
+          "step": 5,
+          "title": "Try it yourself",
+          "narration": "Build a small Conditional rendering exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why."
+        }
+      ],
+      "quiz": {
+        "question": "Which workflow is most useful when learning Conditional rendering?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      }
+    },
+    {
+      "lessonId": "react-8",
+      "title": "Lists & keys",
+      "durationTarget": "4–7 min",
+      "format": "Visual code walkthrough",
+      "scenes": [
+        {
+          "step": 1,
+          "title": "What and why",
+          "narration": "Explain Lists & keys: what it does, where it is used, and what the learner should be able to do after the lesson."
+        },
+        {
+          "step": 2,
+          "title": "Code example",
+          "narration": "Show the complete example and identify the important syntax before editing anything.",
+          "code": "function LessonCard() {\\n  return <article>Lesson</article>;\\n}"
+        },
+        {
+          "step": 3,
+          "title": "Line by line",
+          "narration": "Walk through each meaningful line in order and connect it to the expected browser, console, API, or UI result."
+        },
+        {
+          "step": 4,
+          "title": "Output",
+          "narration": "Run the example, show the resulting output, then change one value and run it again so the learner sees cause and effect."
+        },
+        {
+          "step": 5,
+          "title": "Try it yourself",
+          "narration": "Build a small Lists & keys exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why."
+        }
+      ],
+      "quiz": {
+        "question": "Which workflow is most useful when learning Lists & keys?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      }
+    },
+    {
+      "lessonId": "react-9",
+      "title": "Forms",
+      "durationTarget": "4–7 min",
+      "format": "Visual code walkthrough",
+      "scenes": [
+        {
+          "step": 1,
+          "title": "What and why",
+          "narration": "Explain Forms: what it does, where it is used, and what the learner should be able to do after the lesson."
+        },
+        {
+          "step": 2,
+          "title": "Code example",
+          "narration": "Show the complete example and identify the important syntax before editing anything.",
+          "code": "function LessonCard() {\\n  return <article>Lesson</article>;\\n}"
+        },
+        {
+          "step": 3,
+          "title": "Line by line",
+          "narration": "Walk through each meaningful line in order and connect it to the expected browser, console, API, or UI result."
+        },
+        {
+          "step": 4,
+          "title": "Output",
+          "narration": "Run the example, show the resulting output, then change one value and run it again so the learner sees cause and effect."
+        },
+        {
+          "step": 5,
+          "title": "Try it yourself",
+          "narration": "Build a small Forms exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why."
+        }
+      ],
+      "quiz": {
+        "question": "Which workflow is most useful when learning Forms?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      }
+    },
+    {
+      "lessonId": "react-10",
+      "title": "Effects",
+      "durationTarget": "4–7 min",
+      "format": "Visual code walkthrough",
+      "scenes": [
+        {
+          "step": 1,
+          "title": "What and why",
+          "narration": "Explain Effects: what it does, where it is used, and what the learner should be able to do after the lesson."
+        },
+        {
+          "step": 2,
+          "title": "Code example",
+          "narration": "Show the complete example and identify the important syntax before editing anything.",
+          "code": "function LessonCard() {\\n  return <article>Lesson</article>;\\n}"
+        },
+        {
+          "step": 3,
+          "title": "Line by line",
+          "narration": "Walk through each meaningful line in order and connect it to the expected browser, console, API, or UI result."
+        },
+        {
+          "step": 4,
+          "title": "Output",
+          "narration": "Run the example, show the resulting output, then change one value and run it again so the learner sees cause and effect."
+        },
+        {
+          "step": 5,
+          "title": "Try it yourself",
+          "narration": "Build a small Effects exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why."
+        }
+      ],
+      "quiz": {
+        "question": "Which workflow is most useful when learning Effects?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      }
+    },
+    {
+      "lessonId": "react-11",
+      "title": "Fetching APIs",
+      "durationTarget": "4–7 min",
+      "format": "Visual code walkthrough",
+      "scenes": [
+        {
+          "step": 1,
+          "title": "What and why",
+          "narration": "Explain Fetching APIs: what it does, where it is used, and what the learner should be able to do after the lesson."
+        },
+        {
+          "step": 2,
+          "title": "Code example",
+          "narration": "Show the complete example and identify the important syntax before editing anything.",
+          "code": "const response = await fetch(\"/api/courses\");\\nif (!response.ok) throw new Error(\"Request failed\");\\nconst data = await response.json();"
+        },
+        {
+          "step": 3,
+          "title": "Line by line",
+          "narration": "Walk through each meaningful line in order and connect it to the expected browser, console, API, or UI result."
+        },
+        {
+          "step": 4,
+          "title": "Output",
+          "narration": "Run the example, show the resulting output, then change one value and run it again so the learner sees cause and effect."
+        },
+        {
+          "step": 5,
+          "title": "Try it yourself",
+          "narration": "Build a small Fetching APIs exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why."
+        }
+      ],
+      "quiz": {
+        "question": "Which workflow is most useful when learning Fetching APIs?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      }
+    },
+    {
+      "lessonId": "react-12",
+      "title": "Custom hooks",
+      "durationTarget": "4–7 min",
+      "format": "Visual code walkthrough",
+      "scenes": [
+        {
+          "step": 1,
+          "title": "What and why",
+          "narration": "Explain Custom hooks: what it does, where it is used, and what the learner should be able to do after the lesson."
+        },
+        {
+          "step": 2,
+          "title": "Code example",
+          "narration": "Show the complete example and identify the important syntax before editing anything.",
+          "code": "function LessonCard() {\\n  return <article>Lesson</article>;\\n}"
+        },
+        {
+          "step": 3,
+          "title": "Line by line",
+          "narration": "Walk through each meaningful line in order and connect it to the expected browser, console, API, or UI result."
+        },
+        {
+          "step": 4,
+          "title": "Output",
+          "narration": "Run the example, show the resulting output, then change one value and run it again so the learner sees cause and effect."
+        },
+        {
+          "step": 5,
+          "title": "Try it yourself",
+          "narration": "Build a small Custom hooks exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why."
+        }
+      ],
+      "quiz": {
+        "question": "Which workflow is most useful when learning Custom hooks?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      }
+    },
+    {
+      "lessonId": "react-13",
+      "title": "Routing",
+      "durationTarget": "4–7 min",
+      "format": "Visual code walkthrough",
+      "scenes": [
+        {
+          "step": 1,
+          "title": "What and why",
+          "narration": "Explain Routing: what it does, where it is used, and what the learner should be able to do after the lesson."
+        },
+        {
+          "step": 2,
+          "title": "Code example",
+          "narration": "Show the complete example and identify the important syntax before editing anything.",
+          "code": "function LessonCard() {\\n  return <article>Lesson</article>;\\n}"
+        },
+        {
+          "step": 3,
+          "title": "Line by line",
+          "narration": "Walk through each meaningful line in order and connect it to the expected browser, console, API, or UI result."
+        },
+        {
+          "step": 4,
+          "title": "Output",
+          "narration": "Run the example, show the resulting output, then change one value and run it again so the learner sees cause and effect."
+        },
+        {
+          "step": 5,
+          "title": "Try it yourself",
+          "narration": "Build a small Routing exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why."
+        }
+      ],
+      "quiz": {
+        "question": "Which workflow is most useful when learning Routing?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      }
+    },
+    {
+      "lessonId": "react-14",
+      "title": "Reusable UI",
+      "durationTarget": "4–7 min",
+      "format": "Visual code walkthrough",
+      "scenes": [
+        {
+          "step": 1,
+          "title": "What and why",
+          "narration": "Explain Reusable UI: what it does, where it is used, and what the learner should be able to do after the lesson."
+        },
+        {
+          "step": 2,
+          "title": "Code example",
+          "narration": "Show the complete example and identify the important syntax before editing anything.",
+          "code": "function LessonCard() {\\n  return <article>Lesson</article>;\\n}"
+        },
+        {
+          "step": 3,
+          "title": "Line by line",
+          "narration": "Walk through each meaningful line in order and connect it to the expected browser, console, API, or UI result."
+        },
+        {
+          "step": 4,
+          "title": "Output",
+          "narration": "Run the example, show the resulting output, then change one value and run it again so the learner sees cause and effect."
+        },
+        {
+          "step": 5,
+          "title": "Try it yourself",
+          "narration": "Build a small Reusable UI exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why."
+        }
+      ],
+      "quiz": {
+        "question": "Which workflow is most useful when learning Reusable UI?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      }
+    },
+    {
+      "lessonId": "react-15",
+      "title": "Performance basics",
+      "durationTarget": "4–7 min",
+      "format": "Visual code walkthrough",
+      "scenes": [
+        {
+          "step": 1,
+          "title": "What and why",
+          "narration": "Explain Performance basics: what it does, where it is used, and what the learner should be able to do after the lesson."
+        },
+        {
+          "step": 2,
+          "title": "Code example",
+          "narration": "Show the complete example and identify the important syntax before editing anything.",
+          "code": "function LessonCard() {\\n  return <article>Lesson</article>;\\n}"
+        },
+        {
+          "step": 3,
+          "title": "Line by line",
+          "narration": "Walk through each meaningful line in order and connect it to the expected browser, console, API, or UI result."
+        },
+        {
+          "step": 4,
+          "title": "Output",
+          "narration": "Run the example, show the resulting output, then change one value and run it again so the learner sees cause and effect."
+        },
+        {
+          "step": 5,
+          "title": "Try it yourself",
+          "narration": "Build a small Performance basics exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why."
+        }
+      ],
+      "quiz": {
+        "question": "Which workflow is most useful when learning Performance basics?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      }
+    },
+    {
+      "lessonId": "react-16",
+      "title": "React project",
+      "durationTarget": "4–7 min",
+      "format": "Visual code walkthrough",
+      "scenes": [
+        {
+          "step": 1,
+          "title": "What and why",
+          "narration": "Explain React project: what it does, where it is used, and what the learner should be able to do after the lesson."
+        },
+        {
+          "step": 2,
+          "title": "Code example",
+          "narration": "Show the complete example and identify the important syntax before editing anything.",
+          "code": "function LessonCard() {\\n  return <article>Lesson</article>;\\n}"
+        },
+        {
+          "step": 3,
+          "title": "Line by line",
+          "narration": "Walk through each meaningful line in order and connect it to the expected browser, console, API, or UI result."
+        },
+        {
+          "step": 4,
+          "title": "Output",
+          "narration": "Run the example, show the resulting output, then change one value and run it again so the learner sees cause and effect."
+        },
+        {
+          "step": 5,
+          "title": "Try it yourself",
+          "narration": "Build a small React project exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why."
+        }
+      ],
+      "quiz": {
+        "question": "Which workflow is most useful when learning React project?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      }
+    },
+    {
+      "lessonId": "node-1",
+      "title": "Node.js fundamentals",
+      "durationTarget": "4–7 min",
+      "format": "Visual code walkthrough",
+      "scenes": [
+        {
+          "step": 1,
+          "title": "What and why",
+          "narration": "Explain Node.js fundamentals: what it does, where it is used, and what the learner should be able to do after the lesson."
+        },
+        {
+          "step": 2,
+          "title": "Code example",
+          "narration": "Show the complete example and identify the important syntax before editing anything.",
+          "code": "app.get(\"/api/health\", (req, res) => {\\n  res.json({ ok: true });\\n});"
+        },
+        {
+          "step": 3,
+          "title": "Line by line",
+          "narration": "Walk through each meaningful line in order and connect it to the expected browser, console, API, or UI result."
+        },
+        {
+          "step": 4,
+          "title": "Output",
+          "narration": "Run the example, show the resulting output, then change one value and run it again so the learner sees cause and effect."
+        },
+        {
+          "step": 5,
+          "title": "Try it yourself",
+          "narration": "Build a small Node.js fundamentals exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why."
+        }
+      ],
+      "quiz": {
+        "question": "Which workflow is most useful when learning Node.js fundamentals?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      }
+    },
+    {
+      "lessonId": "node-2",
+      "title": "npm & packages",
+      "durationTarget": "4–7 min",
+      "format": "Visual code walkthrough",
+      "scenes": [
+        {
+          "step": 1,
+          "title": "What and why",
+          "narration": "Explain npm & packages: what it does, where it is used, and what the learner should be able to do after the lesson."
+        },
+        {
+          "step": 2,
+          "title": "Code example",
+          "narration": "Show the complete example and identify the important syntax before editing anything.",
+          "code": "const message = \"Coding Vibes API\";\\nconsole.log(message);"
+        },
+        {
+          "step": 3,
+          "title": "Line by line",
+          "narration": "Walk through each meaningful line in order and connect it to the expected browser, console, API, or UI result."
+        },
+        {
+          "step": 4,
+          "title": "Output",
+          "narration": "Run the example, show the resulting output, then change one value and run it again so the learner sees cause and effect."
+        },
+        {
+          "step": 5,
+          "title": "Try it yourself",
+          "narration": "Build a small npm & packages exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why."
+        }
+      ],
+      "quiz": {
+        "question": "Which workflow is most useful when learning npm & packages?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      }
+    },
+    {
+      "lessonId": "node-3",
+      "title": "Modules",
+      "durationTarget": "4–7 min",
+      "format": "Visual code walkthrough",
+      "scenes": [
+        {
+          "step": 1,
+          "title": "What and why",
+          "narration": "Explain Modules: what it does, where it is used, and what the learner should be able to do after the lesson."
+        },
+        {
+          "step": 2,
+          "title": "Code example",
+          "narration": "Show the complete example and identify the important syntax before editing anything.",
+          "code": "const message = \"Coding Vibes API\";\\nconsole.log(message);"
+        },
+        {
+          "step": 3,
+          "title": "Line by line",
+          "narration": "Walk through each meaningful line in order and connect it to the expected browser, console, API, or UI result."
+        },
+        {
+          "step": 4,
+          "title": "Output",
+          "narration": "Run the example, show the resulting output, then change one value and run it again so the learner sees cause and effect."
+        },
+        {
+          "step": 5,
+          "title": "Try it yourself",
+          "narration": "Build a small Modules exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why."
+        }
+      ],
+      "quiz": {
+        "question": "Which workflow is most useful when learning Modules?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      }
+    },
+    {
+      "lessonId": "node-4",
+      "title": "HTTP server",
+      "durationTarget": "4–7 min",
+      "format": "Visual code walkthrough",
+      "scenes": [
+        {
+          "step": 1,
+          "title": "What and why",
+          "narration": "Explain HTTP server: what it does, where it is used, and what the learner should be able to do after the lesson."
+        },
+        {
+          "step": 2,
+          "title": "Code example",
+          "narration": "Show the complete example and identify the important syntax before editing anything.",
+          "code": "app.get(\"/api/health\", (req, res) => {\\n  res.json({ ok: true });\\n});"
+        },
+        {
+          "step": 3,
+          "title": "Line by line",
+          "narration": "Walk through each meaningful line in order and connect it to the expected browser, console, API, or UI result."
+        },
+        {
+          "step": 4,
+          "title": "Output",
+          "narration": "Run the example, show the resulting output, then change one value and run it again so the learner sees cause and effect."
+        },
+        {
+          "step": 5,
+          "title": "Try it yourself",
+          "narration": "Build a small HTTP server exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why."
+        }
+      ],
+      "quiz": {
+        "question": "Which workflow is most useful when learning HTTP server?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      }
+    },
+    {
+      "lessonId": "node-5",
+      "title": "Express setup",
+      "durationTarget": "4–7 min",
+      "format": "Visual code walkthrough",
+      "scenes": [
+        {
+          "step": 1,
+          "title": "What and why",
+          "narration": "Explain Express setup: what it does, where it is used, and what the learner should be able to do after the lesson."
+        },
+        {
+          "step": 2,
+          "title": "Code example",
+          "narration": "Show the complete example and identify the important syntax before editing anything.",
+          "code": "app.get(\"/api/health\", (req, res) => {\\n  res.json({ ok: true });\\n});"
+        },
+        {
+          "step": 3,
+          "title": "Line by line",
+          "narration": "Walk through each meaningful line in order and connect it to the expected browser, console, API, or UI result."
+        },
+        {
+          "step": 4,
+          "title": "Output",
+          "narration": "Run the example, show the resulting output, then change one value and run it again so the learner sees cause and effect."
+        },
+        {
+          "step": 5,
+          "title": "Try it yourself",
+          "narration": "Build a small Express setup exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why."
+        }
+      ],
+      "quiz": {
+        "question": "Which workflow is most useful when learning Express setup?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      }
+    },
+    {
+      "lessonId": "node-6",
+      "title": "Routes",
+      "durationTarget": "4–7 min",
+      "format": "Visual code walkthrough",
+      "scenes": [
+        {
+          "step": 1,
+          "title": "What and why",
+          "narration": "Explain Routes: what it does, where it is used, and what the learner should be able to do after the lesson."
+        },
+        {
+          "step": 2,
+          "title": "Code example",
+          "narration": "Show the complete example and identify the important syntax before editing anything.",
+          "code": "app.get(\"/api/health\", (req, res) => {\\n  res.json({ ok: true });\\n});"
+        },
+        {
+          "step": 3,
+          "title": "Line by line",
+          "narration": "Walk through each meaningful line in order and connect it to the expected browser, console, API, or UI result."
+        },
+        {
+          "step": 4,
+          "title": "Output",
+          "narration": "Run the example, show the resulting output, then change one value and run it again so the learner sees cause and effect."
+        },
+        {
+          "step": 5,
+          "title": "Try it yourself",
+          "narration": "Build a small Routes exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why."
+        }
+      ],
+      "quiz": {
+        "question": "Which workflow is most useful when learning Routes?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      }
+    },
+    {
+      "lessonId": "node-7",
+      "title": "Middleware",
+      "durationTarget": "4–7 min",
+      "format": "Visual code walkthrough",
+      "scenes": [
+        {
+          "step": 1,
+          "title": "What and why",
+          "narration": "Explain Middleware: what it does, where it is used, and what the learner should be able to do after the lesson."
+        },
+        {
+          "step": 2,
+          "title": "Code example",
+          "narration": "Show the complete example and identify the important syntax before editing anything.",
+          "code": "const message = \"Coding Vibes API\";\\nconsole.log(message);"
+        },
+        {
+          "step": 3,
+          "title": "Line by line",
+          "narration": "Walk through each meaningful line in order and connect it to the expected browser, console, API, or UI result."
+        },
+        {
+          "step": 4,
+          "title": "Output",
+          "narration": "Run the example, show the resulting output, then change one value and run it again so the learner sees cause and effect."
+        },
+        {
+          "step": 5,
+          "title": "Try it yourself",
+          "narration": "Build a small Middleware exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why."
+        }
+      ],
+      "quiz": {
+        "question": "Which workflow is most useful when learning Middleware?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      }
+    },
+    {
+      "lessonId": "node-8",
+      "title": "REST APIs",
+      "durationTarget": "4–7 min",
+      "format": "Visual code walkthrough",
+      "scenes": [
+        {
+          "step": 1,
+          "title": "What and why",
+          "narration": "Explain REST APIs: what it does, where it is used, and what the learner should be able to do after the lesson."
+        },
+        {
+          "step": 2,
+          "title": "Code example",
+          "narration": "Show the complete example and identify the important syntax before editing anything.",
+          "code": "const response = await fetch(\"/api/courses\");\\nif (!response.ok) throw new Error(\"Request failed\");\\nconst data = await response.json();"
+        },
+        {
+          "step": 3,
+          "title": "Line by line",
+          "narration": "Walk through each meaningful line in order and connect it to the expected browser, console, API, or UI result."
+        },
+        {
+          "step": 4,
+          "title": "Output",
+          "narration": "Run the example, show the resulting output, then change one value and run it again so the learner sees cause and effect."
+        },
+        {
+          "step": 5,
+          "title": "Try it yourself",
+          "narration": "Build a small REST APIs exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why."
+        }
+      ],
+      "quiz": {
+        "question": "Which workflow is most useful when learning REST APIs?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      }
+    },
+    {
+      "lessonId": "node-9",
+      "title": "Validation",
+      "durationTarget": "4–7 min",
+      "format": "Visual code walkthrough",
+      "scenes": [
+        {
+          "step": 1,
+          "title": "What and why",
+          "narration": "Explain Validation: what it does, where it is used, and what the learner should be able to do after the lesson."
+        },
+        {
+          "step": 2,
+          "title": "Code example",
+          "narration": "Show the complete example and identify the important syntax before editing anything.",
+          "code": "const message = \"Coding Vibes API\";\\nconsole.log(message);"
+        },
+        {
+          "step": 3,
+          "title": "Line by line",
+          "narration": "Walk through each meaningful line in order and connect it to the expected browser, console, API, or UI result."
+        },
+        {
+          "step": 4,
+          "title": "Output",
+          "narration": "Run the example, show the resulting output, then change one value and run it again so the learner sees cause and effect."
+        },
+        {
+          "step": 5,
+          "title": "Try it yourself",
+          "narration": "Build a small Validation exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why."
+        }
+      ],
+      "quiz": {
+        "question": "Which workflow is most useful when learning Validation?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      }
+    },
+    {
+      "lessonId": "node-10",
+      "title": "Environment variables",
+      "durationTarget": "4–7 min",
+      "format": "Visual code walkthrough",
+      "scenes": [
+        {
+          "step": 1,
+          "title": "What and why",
+          "narration": "Explain Environment variables: what it does, where it is used, and what the learner should be able to do after the lesson."
+        },
+        {
+          "step": 2,
+          "title": "Code example",
+          "narration": "Show the complete example and identify the important syntax before editing anything.",
+          "code": "const lessons = 10;\\nconst completed = 7;\\nconst progress = Math.round(completed / lessons * 100);\\nconsole.log(progress);"
+        },
+        {
+          "step": 3,
+          "title": "Line by line",
+          "narration": "Walk through each meaningful line in order and connect it to the expected browser, console, API, or UI result."
+        },
+        {
+          "step": 4,
+          "title": "Output",
+          "narration": "Run the example, show the resulting output, then change one value and run it again so the learner sees cause and effect."
+        },
+        {
+          "step": 5,
+          "title": "Try it yourself",
+          "narration": "Build a small Environment variables exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why."
+        }
+      ],
+      "quiz": {
+        "question": "Which workflow is most useful when learning Environment variables?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      }
+    },
+    {
+      "lessonId": "node-11",
+      "title": "Error handling",
+      "durationTarget": "4–7 min",
+      "format": "Visual code walkthrough",
+      "scenes": [
+        {
+          "step": 1,
+          "title": "What and why",
+          "narration": "Explain Error handling: what it does, where it is used, and what the learner should be able to do after the lesson."
+        },
+        {
+          "step": 2,
+          "title": "Code example",
+          "narration": "Show the complete example and identify the important syntax before editing anything.",
+          "code": "const message = \"Coding Vibes API\";\\nconsole.log(message);"
+        },
+        {
+          "step": 3,
+          "title": "Line by line",
+          "narration": "Walk through each meaningful line in order and connect it to the expected browser, console, API, or UI result."
+        },
+        {
+          "step": 4,
+          "title": "Output",
+          "narration": "Run the example, show the resulting output, then change one value and run it again so the learner sees cause and effect."
+        },
+        {
+          "step": 5,
+          "title": "Try it yourself",
+          "narration": "Build a small Error handling exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why."
+        }
+      ],
+      "quiz": {
+        "question": "Which workflow is most useful when learning Error handling?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      }
+    },
+    {
+      "lessonId": "node-12",
+      "title": "Authentication basics",
+      "durationTarget": "4–7 min",
+      "format": "Visual code walkthrough",
+      "scenes": [
+        {
+          "step": 1,
+          "title": "What and why",
+          "narration": "Explain Authentication basics: what it does, where it is used, and what the learner should be able to do after the lesson."
+        },
+        {
+          "step": 2,
+          "title": "Code example",
+          "narration": "Show the complete example and identify the important syntax before editing anything.",
+          "code": "const message = \"Coding Vibes API\";\\nconsole.log(message);"
+        },
+        {
+          "step": 3,
+          "title": "Line by line",
+          "narration": "Walk through each meaningful line in order and connect it to the expected browser, console, API, or UI result."
+        },
+        {
+          "step": 4,
+          "title": "Output",
+          "narration": "Run the example, show the resulting output, then change one value and run it again so the learner sees cause and effect."
+        },
+        {
+          "step": 5,
+          "title": "Try it yourself",
+          "narration": "Build a small Authentication basics exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why."
+        }
+      ],
+      "quiz": {
+        "question": "Which workflow is most useful when learning Authentication basics?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      }
+    },
+    {
+      "lessonId": "node-13",
+      "title": "Database connection",
+      "durationTarget": "4–7 min",
+      "format": "Visual code walkthrough",
+      "scenes": [
+        {
+          "step": 1,
+          "title": "What and why",
+          "narration": "Explain Database connection: what it does, where it is used, and what the learner should be able to do after the lesson."
+        },
+        {
+          "step": 2,
+          "title": "Code example",
+          "narration": "Show the complete example and identify the important syntax before editing anything.",
+          "code": "SELECT title, difficulty\\nFROM projects\\nWHERE published = true\\nORDER BY created_at DESC;"
+        },
+        {
+          "step": 3,
+          "title": "Line by line",
+          "narration": "Walk through each meaningful line in order and connect it to the expected browser, console, API, or UI result."
+        },
+        {
+          "step": 4,
+          "title": "Output",
+          "narration": "Run the example, show the resulting output, then change one value and run it again so the learner sees cause and effect."
+        },
+        {
+          "step": 5,
+          "title": "Try it yourself",
+          "narration": "Build a small Database connection exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why."
+        }
+      ],
+      "quiz": {
+        "question": "Which workflow is most useful when learning Database connection?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      }
+    },
+    {
+      "lessonId": "node-14",
+      "title": "Testing APIs",
+      "durationTarget": "4–7 min",
+      "format": "Visual code walkthrough",
+      "scenes": [
+        {
+          "step": 1,
+          "title": "What and why",
+          "narration": "Explain Testing APIs: what it does, where it is used, and what the learner should be able to do after the lesson."
+        },
+        {
+          "step": 2,
+          "title": "Code example",
+          "narration": "Show the complete example and identify the important syntax before editing anything.",
+          "code": "const response = await fetch(\"/api/courses\");\\nif (!response.ok) throw new Error(\"Request failed\");\\nconst data = await response.json();"
+        },
+        {
+          "step": 3,
+          "title": "Line by line",
+          "narration": "Walk through each meaningful line in order and connect it to the expected browser, console, API, or UI result."
+        },
+        {
+          "step": 4,
+          "title": "Output",
+          "narration": "Run the example, show the resulting output, then change one value and run it again so the learner sees cause and effect."
+        },
+        {
+          "step": 5,
+          "title": "Try it yourself",
+          "narration": "Build a small Testing APIs exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why."
+        }
+      ],
+      "quiz": {
+        "question": "Which workflow is most useful when learning Testing APIs?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      }
+    },
+    {
+      "lessonId": "node-15",
+      "title": "Node project",
+      "durationTarget": "4–7 min",
+      "format": "Visual code walkthrough",
+      "scenes": [
+        {
+          "step": 1,
+          "title": "What and why",
+          "narration": "Explain Node project: what it does, where it is used, and what the learner should be able to do after the lesson."
+        },
+        {
+          "step": 2,
+          "title": "Code example",
+          "narration": "Show the complete example and identify the important syntax before editing anything.",
+          "code": "app.get(\"/api/health\", (req, res) => {\\n  res.json({ ok: true });\\n});"
+        },
+        {
+          "step": 3,
+          "title": "Line by line",
+          "narration": "Walk through each meaningful line in order and connect it to the expected browser, console, API, or UI result."
+        },
+        {
+          "step": 4,
+          "title": "Output",
+          "narration": "Run the example, show the resulting output, then change one value and run it again so the learner sees cause and effect."
+        },
+        {
+          "step": 5,
+          "title": "Try it yourself",
+          "narration": "Build a small Node project exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why."
+        }
+      ],
+      "quiz": {
+        "question": "Which workflow is most useful when learning Node project?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      }
+    },
+    {
+      "lessonId": "fullstack-1",
+      "title": "Computer & web basics",
+      "durationTarget": "4–7 min",
+      "format": "Visual code walkthrough",
+      "scenes": [
+        {
+          "step": 1,
+          "title": "What and why",
+          "narration": "Explain Computer & web basics: what it does, where it is used, and what the learner should be able to do after the lesson."
+        },
+        {
+          "step": 2,
+          "title": "Code example",
+          "narration": "Show the complete example and identify the important syntax before editing anything.",
+          "code": "// fullstack flow\\nconst step = \"Computer & web basics\";\\nconsole.log(step);"
+        },
+        {
+          "step": 3,
+          "title": "Line by line",
+          "narration": "Walk through each meaningful line in order and connect it to the expected browser, console, API, or UI result."
+        },
+        {
+          "step": 4,
+          "title": "Output",
+          "narration": "Run the example, show the resulting output, then change one value and run it again so the learner sees cause and effect."
+        },
+        {
+          "step": 5,
+          "title": "Try it yourself",
+          "narration": "Build a small Computer & web basics exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why."
+        }
+      ],
+      "quiz": {
+        "question": "Which workflow is most useful when learning Computer & web basics?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      }
+    },
+    {
+      "lessonId": "fullstack-2",
+      "title": "HTML foundations",
+      "durationTarget": "4–7 min",
+      "format": "Visual code walkthrough",
+      "scenes": [
+        {
+          "step": 1,
+          "title": "What and why",
+          "narration": "Explain HTML foundations: what it does, where it is used, and what the learner should be able to do after the lesson."
+        },
+        {
+          "step": 2,
+          "title": "Code example",
+          "narration": "Show the complete example and identify the important syntax before editing anything.",
+          "code": "// fullstack flow\\nconst step = \"HTML foundations\";\\nconsole.log(step);"
+        },
+        {
+          "step": 3,
+          "title": "Line by line",
+          "narration": "Walk through each meaningful line in order and connect it to the expected browser, console, API, or UI result."
+        },
+        {
+          "step": 4,
+          "title": "Output",
+          "narration": "Run the example, show the resulting output, then change one value and run it again so the learner sees cause and effect."
+        },
+        {
+          "step": 5,
+          "title": "Try it yourself",
+          "narration": "Build a small HTML foundations exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why."
+        }
+      ],
+      "quiz": {
+        "question": "Which workflow is most useful when learning HTML foundations?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      }
+    },
+    {
+      "lessonId": "fullstack-3",
+      "title": "CSS foundations",
+      "durationTarget": "4–7 min",
+      "format": "Visual code walkthrough",
+      "scenes": [
+        {
+          "step": 1,
+          "title": "What and why",
+          "narration": "Explain CSS foundations: what it does, where it is used, and what the learner should be able to do after the lesson."
+        },
+        {
+          "step": 2,
+          "title": "Code example",
+          "narration": "Show the complete example and identify the important syntax before editing anything.",
+          "code": "// fullstack flow\\nconst step = \"CSS foundations\";\\nconsole.log(step);"
+        },
+        {
+          "step": 3,
+          "title": "Line by line",
+          "narration": "Walk through each meaningful line in order and connect it to the expected browser, console, API, or UI result."
+        },
+        {
+          "step": 4,
+          "title": "Output",
+          "narration": "Run the example, show the resulting output, then change one value and run it again so the learner sees cause and effect."
+        },
+        {
+          "step": 5,
+          "title": "Try it yourself",
+          "narration": "Build a small CSS foundations exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why."
+        }
+      ],
+      "quiz": {
+        "question": "Which workflow is most useful when learning CSS foundations?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      }
+    },
+    {
+      "lessonId": "fullstack-4",
+      "title": "JavaScript foundations",
+      "durationTarget": "4–7 min",
+      "format": "Visual code walkthrough",
+      "scenes": [
+        {
+          "step": 1,
+          "title": "What and why",
+          "narration": "Explain JavaScript foundations: what it does, where it is used, and what the learner should be able to do after the lesson."
+        },
+        {
+          "step": 2,
+          "title": "Code example",
+          "narration": "Show the complete example and identify the important syntax before editing anything.",
+          "code": "// fullstack flow\\nconst step = \"JavaScript foundations\";\\nconsole.log(step);"
+        },
+        {
+          "step": 3,
+          "title": "Line by line",
+          "narration": "Walk through each meaningful line in order and connect it to the expected browser, console, API, or UI result."
+        },
+        {
+          "step": 4,
+          "title": "Output",
+          "narration": "Run the example, show the resulting output, then change one value and run it again so the learner sees cause and effect."
+        },
+        {
+          "step": 5,
+          "title": "Try it yourself",
+          "narration": "Build a small JavaScript foundations exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why."
+        }
+      ],
+      "quiz": {
+        "question": "Which workflow is most useful when learning JavaScript foundations?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      }
+    },
+    {
+      "lessonId": "fullstack-5",
+      "title": "Git & GitHub",
+      "durationTarget": "4–7 min",
+      "format": "Visual code walkthrough",
+      "scenes": [
+        {
+          "step": 1,
+          "title": "What and why",
+          "narration": "Explain Git & GitHub: what it does, where it is used, and what the learner should be able to do after the lesson."
+        },
+        {
+          "step": 2,
+          "title": "Code example",
+          "narration": "Show the complete example and identify the important syntax before editing anything.",
+          "code": "git status\\ngit add .\\ngit commit -m \"Complete lesson practice\"\\ngit push origin main"
+        },
+        {
+          "step": 3,
+          "title": "Line by line",
+          "narration": "Walk through each meaningful line in order and connect it to the expected browser, console, API, or UI result."
+        },
+        {
+          "step": 4,
+          "title": "Output",
+          "narration": "Run the example, show the resulting output, then change one value and run it again so the learner sees cause and effect."
+        },
+        {
+          "step": 5,
+          "title": "Try it yourself",
+          "narration": "Build a small Git & GitHub exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why."
+        }
+      ],
+      "quiz": {
+        "question": "Which workflow is most useful when learning Git & GitHub?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      }
+    },
+    {
+      "lessonId": "fullstack-6",
+      "title": "React",
+      "durationTarget": "4–7 min",
+      "format": "Visual code walkthrough",
+      "scenes": [
+        {
+          "step": 1,
+          "title": "What and why",
+          "narration": "Explain React: what it does, where it is used, and what the learner should be able to do after the lesson."
+        },
+        {
+          "step": 2,
+          "title": "Code example",
+          "narration": "Show the complete example and identify the important syntax before editing anything.",
+          "code": "// fullstack flow\\nconst step = \"React\";\\nconsole.log(step);"
+        },
+        {
+          "step": 3,
+          "title": "Line by line",
+          "narration": "Walk through each meaningful line in order and connect it to the expected browser, console, API, or UI result."
+        },
+        {
+          "step": 4,
+          "title": "Output",
+          "narration": "Run the example, show the resulting output, then change one value and run it again so the learner sees cause and effect."
+        },
+        {
+          "step": 5,
+          "title": "Try it yourself",
+          "narration": "Build a small React exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why."
+        }
+      ],
+      "quiz": {
+        "question": "Which workflow is most useful when learning React?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      }
+    },
+    {
+      "lessonId": "fullstack-7",
+      "title": "Component architecture",
+      "durationTarget": "4–7 min",
+      "format": "Visual code walkthrough",
+      "scenes": [
+        {
+          "step": 1,
+          "title": "What and why",
+          "narration": "Explain Component architecture: what it does, where it is used, and what the learner should be able to do after the lesson."
+        },
+        {
+          "step": 2,
+          "title": "Code example",
+          "narration": "Show the complete example and identify the important syntax before editing anything.",
+          "code": "function CourseCard({ title }: { title: string }) {\\n  return <article><h2>{title}</h2></article>;\\n}"
+        },
+        {
+          "step": 3,
+          "title": "Line by line",
+          "narration": "Walk through each meaningful line in order and connect it to the expected browser, console, API, or UI result."
+        },
+        {
+          "step": 4,
+          "title": "Output",
+          "narration": "Run the example, show the resulting output, then change one value and run it again so the learner sees cause and effect."
+        },
+        {
+          "step": 5,
+          "title": "Try it yourself",
+          "narration": "Build a small Component architecture exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why."
+        }
+      ],
+      "quiz": {
+        "question": "Which workflow is most useful when learning Component architecture?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      }
+    },
+    {
+      "lessonId": "fullstack-8",
+      "title": "Node.js",
+      "durationTarget": "4–7 min",
+      "format": "Visual code walkthrough",
+      "scenes": [
+        {
+          "step": 1,
+          "title": "What and why",
+          "narration": "Explain Node.js: what it does, where it is used, and what the learner should be able to do after the lesson."
+        },
+        {
+          "step": 2,
+          "title": "Code example",
+          "narration": "Show the complete example and identify the important syntax before editing anything.",
+          "code": "app.get(\"/api/health\", (req, res) => {\\n  res.json({ ok: true });\\n});"
+        },
+        {
+          "step": 3,
+          "title": "Line by line",
+          "narration": "Walk through each meaningful line in order and connect it to the expected browser, console, API, or UI result."
+        },
+        {
+          "step": 4,
+          "title": "Output",
+          "narration": "Run the example, show the resulting output, then change one value and run it again so the learner sees cause and effect."
+        },
+        {
+          "step": 5,
+          "title": "Try it yourself",
+          "narration": "Build a small Node.js exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why."
+        }
+      ],
+      "quiz": {
+        "question": "Which workflow is most useful when learning Node.js?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      }
+    },
+    {
+      "lessonId": "fullstack-9",
+      "title": "Express APIs",
+      "durationTarget": "4–7 min",
+      "format": "Visual code walkthrough",
+      "scenes": [
+        {
+          "step": 1,
+          "title": "What and why",
+          "narration": "Explain Express APIs: what it does, where it is used, and what the learner should be able to do after the lesson."
+        },
+        {
+          "step": 2,
+          "title": "Code example",
+          "narration": "Show the complete example and identify the important syntax before editing anything.",
+          "code": "const response = await fetch(\"/api/courses\");\\nif (!response.ok) throw new Error(\"Request failed\");\\nconst data = await response.json();"
+        },
+        {
+          "step": 3,
+          "title": "Line by line",
+          "narration": "Walk through each meaningful line in order and connect it to the expected browser, console, API, or UI result."
+        },
+        {
+          "step": 4,
+          "title": "Output",
+          "narration": "Run the example, show the resulting output, then change one value and run it again so the learner sees cause and effect."
+        },
+        {
+          "step": 5,
+          "title": "Try it yourself",
+          "narration": "Build a small Express APIs exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why."
+        }
+      ],
+      "quiz": {
+        "question": "Which workflow is most useful when learning Express APIs?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      }
+    },
+    {
+      "lessonId": "fullstack-10",
+      "title": "Database design",
+      "durationTarget": "4–7 min",
+      "format": "Visual code walkthrough",
+      "scenes": [
+        {
+          "step": 1,
+          "title": "What and why",
+          "narration": "Explain Database design: what it does, where it is used, and what the learner should be able to do after the lesson."
+        },
+        {
+          "step": 2,
+          "title": "Code example",
+          "narration": "Show the complete example and identify the important syntax before editing anything.",
+          "code": "SELECT title, difficulty\\nFROM projects\\nWHERE published = true\\nORDER BY created_at DESC;"
+        },
+        {
+          "step": 3,
+          "title": "Line by line",
+          "narration": "Walk through each meaningful line in order and connect it to the expected browser, console, API, or UI result."
+        },
+        {
+          "step": 4,
+          "title": "Output",
+          "narration": "Run the example, show the resulting output, then change one value and run it again so the learner sees cause and effect."
+        },
+        {
+          "step": 5,
+          "title": "Try it yourself",
+          "narration": "Build a small Database design exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why."
+        }
+      ],
+      "quiz": {
+        "question": "Which workflow is most useful when learning Database design?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      }
+    },
+    {
+      "lessonId": "fullstack-11",
+      "title": "SQL & queries",
+      "durationTarget": "4–7 min",
+      "format": "Visual code walkthrough",
+      "scenes": [
+        {
+          "step": 1,
+          "title": "What and why",
+          "narration": "Explain SQL & queries: what it does, where it is used, and what the learner should be able to do after the lesson."
+        },
+        {
+          "step": 2,
+          "title": "Code example",
+          "narration": "Show the complete example and identify the important syntax before editing anything.",
+          "code": "SELECT title, difficulty\\nFROM projects\\nWHERE published = true\\nORDER BY created_at DESC;"
+        },
+        {
+          "step": 3,
+          "title": "Line by line",
+          "narration": "Walk through each meaningful line in order and connect it to the expected browser, console, API, or UI result."
+        },
+        {
+          "step": 4,
+          "title": "Output",
+          "narration": "Run the example, show the resulting output, then change one value and run it again so the learner sees cause and effect."
+        },
+        {
+          "step": 5,
+          "title": "Try it yourself",
+          "narration": "Build a small SQL & queries exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why."
+        }
+      ],
+      "quiz": {
+        "question": "Which workflow is most useful when learning SQL & queries?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      }
+    },
+    {
+      "lessonId": "fullstack-12",
+      "title": "Authentication",
+      "durationTarget": "4–7 min",
+      "format": "Visual code walkthrough",
+      "scenes": [
+        {
+          "step": 1,
+          "title": "What and why",
+          "narration": "Explain Authentication: what it does, where it is used, and what the learner should be able to do after the lesson."
+        },
+        {
+          "step": 2,
+          "title": "Code example",
+          "narration": "Show the complete example and identify the important syntax before editing anything.",
+          "code": "// fullstack flow\\nconst step = \"Authentication\";\\nconsole.log(step);"
+        },
+        {
+          "step": 3,
+          "title": "Line by line",
+          "narration": "Walk through each meaningful line in order and connect it to the expected browser, console, API, or UI result."
+        },
+        {
+          "step": 4,
+          "title": "Output",
+          "narration": "Run the example, show the resulting output, then change one value and run it again so the learner sees cause and effect."
+        },
+        {
+          "step": 5,
+          "title": "Try it yourself",
+          "narration": "Build a small Authentication exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why."
+        }
+      ],
+      "quiz": {
+        "question": "Which workflow is most useful when learning Authentication?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      }
+    },
+    {
+      "lessonId": "fullstack-13",
+      "title": "Authorization",
+      "durationTarget": "4–7 min",
+      "format": "Visual code walkthrough",
+      "scenes": [
+        {
+          "step": 1,
+          "title": "What and why",
+          "narration": "Explain Authorization: what it does, where it is used, and what the learner should be able to do after the lesson."
+        },
+        {
+          "step": 2,
+          "title": "Code example",
+          "narration": "Show the complete example and identify the important syntax before editing anything.",
+          "code": "// fullstack flow\\nconst step = \"Authorization\";\\nconsole.log(step);"
+        },
+        {
+          "step": 3,
+          "title": "Line by line",
+          "narration": "Walk through each meaningful line in order and connect it to the expected browser, console, API, or UI result."
+        },
+        {
+          "step": 4,
+          "title": "Output",
+          "narration": "Run the example, show the resulting output, then change one value and run it again so the learner sees cause and effect."
+        },
+        {
+          "step": 5,
+          "title": "Try it yourself",
+          "narration": "Build a small Authorization exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why."
+        }
+      ],
+      "quiz": {
+        "question": "Which workflow is most useful when learning Authorization?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      }
+    },
+    {
+      "lessonId": "fullstack-14",
+      "title": "API integration",
+      "durationTarget": "4–7 min",
+      "format": "Visual code walkthrough",
+      "scenes": [
+        {
+          "step": 1,
+          "title": "What and why",
+          "narration": "Explain API integration: what it does, where it is used, and what the learner should be able to do after the lesson."
+        },
+        {
+          "step": 2,
+          "title": "Code example",
+          "narration": "Show the complete example and identify the important syntax before editing anything.",
+          "code": "const response = await fetch(\"/api/courses\");\\nif (!response.ok) throw new Error(\"Request failed\");\\nconst data = await response.json();"
+        },
+        {
+          "step": 3,
+          "title": "Line by line",
+          "narration": "Walk through each meaningful line in order and connect it to the expected browser, console, API, or UI result."
+        },
+        {
+          "step": 4,
+          "title": "Output",
+          "narration": "Run the example, show the resulting output, then change one value and run it again so the learner sees cause and effect."
+        },
+        {
+          "step": 5,
+          "title": "Try it yourself",
+          "narration": "Build a small API integration exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why."
+        }
+      ],
+      "quiz": {
+        "question": "Which workflow is most useful when learning API integration?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      }
+    },
+    {
+      "lessonId": "fullstack-15",
+      "title": "Forms & validation",
+      "durationTarget": "4–7 min",
+      "format": "Visual code walkthrough",
+      "scenes": [
+        {
+          "step": 1,
+          "title": "What and why",
+          "narration": "Explain Forms & validation: what it does, where it is used, and what the learner should be able to do after the lesson."
+        },
+        {
+          "step": 2,
+          "title": "Code example",
+          "narration": "Show the complete example and identify the important syntax before editing anything.",
+          "code": "// fullstack flow\\nconst step = \"Forms & validation\";\\nconsole.log(step);"
+        },
+        {
+          "step": 3,
+          "title": "Line by line",
+          "narration": "Walk through each meaningful line in order and connect it to the expected browser, console, API, or UI result."
+        },
+        {
+          "step": 4,
+          "title": "Output",
+          "narration": "Run the example, show the resulting output, then change one value and run it again so the learner sees cause and effect."
+        },
+        {
+          "step": 5,
+          "title": "Try it yourself",
+          "narration": "Build a small Forms & validation exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why."
+        }
+      ],
+      "quiz": {
+        "question": "Which workflow is most useful when learning Forms & validation?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      }
+    },
+    {
+      "lessonId": "fullstack-16",
+      "title": "Security basics",
+      "durationTarget": "4–7 min",
+      "format": "Visual code walkthrough",
+      "scenes": [
+        {
+          "step": 1,
+          "title": "What and why",
+          "narration": "Explain Security basics: what it does, where it is used, and what the learner should be able to do after the lesson."
+        },
+        {
+          "step": 2,
+          "title": "Code example",
+          "narration": "Show the complete example and identify the important syntax before editing anything.",
+          "code": "// fullstack flow\\nconst step = \"Security basics\";\\nconsole.log(step);"
+        },
+        {
+          "step": 3,
+          "title": "Line by line",
+          "narration": "Walk through each meaningful line in order and connect it to the expected browser, console, API, or UI result."
+        },
+        {
+          "step": 4,
+          "title": "Output",
+          "narration": "Run the example, show the resulting output, then change one value and run it again so the learner sees cause and effect."
+        },
+        {
+          "step": 5,
+          "title": "Try it yourself",
+          "narration": "Build a small Security basics exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why."
+        }
+      ],
+      "quiz": {
+        "question": "Which workflow is most useful when learning Security basics?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      }
+    },
+    {
+      "lessonId": "fullstack-17",
+      "title": "Testing",
+      "durationTarget": "4–7 min",
+      "format": "Visual code walkthrough",
+      "scenes": [
+        {
+          "step": 1,
+          "title": "What and why",
+          "narration": "Explain Testing: what it does, where it is used, and what the learner should be able to do after the lesson."
+        },
+        {
+          "step": 2,
+          "title": "Code example",
+          "narration": "Show the complete example and identify the important syntax before editing anything.",
+          "code": "// fullstack flow\\nconst step = \"Testing\";\\nconsole.log(step);"
+        },
+        {
+          "step": 3,
+          "title": "Line by line",
+          "narration": "Walk through each meaningful line in order and connect it to the expected browser, console, API, or UI result."
+        },
+        {
+          "step": 4,
+          "title": "Output",
+          "narration": "Run the example, show the resulting output, then change one value and run it again so the learner sees cause and effect."
+        },
+        {
+          "step": 5,
+          "title": "Try it yourself",
+          "narration": "Build a small Testing exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why."
+        }
+      ],
+      "quiz": {
+        "question": "Which workflow is most useful when learning Testing?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      }
+    },
+    {
+      "lessonId": "fullstack-18",
+      "title": "Deployment",
+      "durationTarget": "4–7 min",
+      "format": "Visual code walkthrough",
+      "scenes": [
+        {
+          "step": 1,
+          "title": "What and why",
+          "narration": "Explain Deployment: what it does, where it is used, and what the learner should be able to do after the lesson."
+        },
+        {
+          "step": 2,
+          "title": "Code example",
+          "narration": "Show the complete example and identify the important syntax before editing anything.",
+          "code": "git push origin main\\n# CI builds the app\\n# Hosting publishes the production build"
+        },
+        {
+          "step": 3,
+          "title": "Line by line",
+          "narration": "Walk through each meaningful line in order and connect it to the expected browser, console, API, or UI result."
+        },
+        {
+          "step": 4,
+          "title": "Output",
+          "narration": "Run the example, show the resulting output, then change one value and run it again so the learner sees cause and effect."
+        },
+        {
+          "step": 5,
+          "title": "Try it yourself",
+          "narration": "Build a small Deployment exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why."
+        }
+      ],
+      "quiz": {
+        "question": "Which workflow is most useful when learning Deployment?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      }
+    },
+    {
+      "lessonId": "fullstack-19",
+      "title": "Environment configuration",
+      "durationTarget": "4–7 min",
+      "format": "Visual code walkthrough",
+      "scenes": [
+        {
+          "step": 1,
+          "title": "What and why",
+          "narration": "Explain Environment configuration: what it does, where it is used, and what the learner should be able to do after the lesson."
+        },
+        {
+          "step": 2,
+          "title": "Code example",
+          "narration": "Show the complete example and identify the important syntax before editing anything.",
+          "code": "// fullstack flow\\nconst step = \"Environment configuration\";\\nconsole.log(step);"
+        },
+        {
+          "step": 3,
+          "title": "Line by line",
+          "narration": "Walk through each meaningful line in order and connect it to the expected browser, console, API, or UI result."
+        },
+        {
+          "step": 4,
+          "title": "Output",
+          "narration": "Run the example, show the resulting output, then change one value and run it again so the learner sees cause and effect."
+        },
+        {
+          "step": 5,
+          "title": "Try it yourself",
+          "narration": "Build a small Environment configuration exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why."
+        }
+      ],
+      "quiz": {
+        "question": "Which workflow is most useful when learning Environment configuration?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      }
+    },
+    {
+      "lessonId": "fullstack-20",
+      "title": "Performance",
+      "durationTarget": "4–7 min",
+      "format": "Visual code walkthrough",
+      "scenes": [
+        {
+          "step": 1,
+          "title": "What and why",
+          "narration": "Explain Performance: what it does, where it is used, and what the learner should be able to do after the lesson."
+        },
+        {
+          "step": 2,
+          "title": "Code example",
+          "narration": "Show the complete example and identify the important syntax before editing anything.",
+          "code": "// fullstack flow\\nconst step = \"Performance\";\\nconsole.log(step);"
+        },
+        {
+          "step": 3,
+          "title": "Line by line",
+          "narration": "Walk through each meaningful line in order and connect it to the expected browser, console, API, or UI result."
+        },
+        {
+          "step": 4,
+          "title": "Output",
+          "narration": "Run the example, show the resulting output, then change one value and run it again so the learner sees cause and effect."
+        },
+        {
+          "step": 5,
+          "title": "Try it yourself",
+          "narration": "Build a small Performance exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why."
+        }
+      ],
+      "quiz": {
+        "question": "Which workflow is most useful when learning Performance?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      }
+    },
+    {
+      "lessonId": "fullstack-21",
+      "title": "Accessibility",
+      "durationTarget": "4–7 min",
+      "format": "Visual code walkthrough",
+      "scenes": [
+        {
+          "step": 1,
+          "title": "What and why",
+          "narration": "Explain Accessibility: what it does, where it is used, and what the learner should be able to do after the lesson."
+        },
+        {
+          "step": 2,
+          "title": "Code example",
+          "narration": "Show the complete example and identify the important syntax before editing anything.",
+          "code": "// fullstack flow\\nconst step = \"Accessibility\";\\nconsole.log(step);"
+        },
+        {
+          "step": 3,
+          "title": "Line by line",
+          "narration": "Walk through each meaningful line in order and connect it to the expected browser, console, API, or UI result."
+        },
+        {
+          "step": 4,
+          "title": "Output",
+          "narration": "Run the example, show the resulting output, then change one value and run it again so the learner sees cause and effect."
+        },
+        {
+          "step": 5,
+          "title": "Try it yourself",
+          "narration": "Build a small Accessibility exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why."
+        }
+      ],
+      "quiz": {
+        "question": "Which workflow is most useful when learning Accessibility?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      }
+    },
+    {
+      "lessonId": "fullstack-22",
+      "title": "SEO",
+      "durationTarget": "4–7 min",
+      "format": "Visual code walkthrough",
+      "scenes": [
+        {
+          "step": 1,
+          "title": "What and why",
+          "narration": "Explain SEO: what it does, where it is used, and what the learner should be able to do after the lesson."
+        },
+        {
+          "step": 2,
+          "title": "Code example",
+          "narration": "Show the complete example and identify the important syntax before editing anything.",
+          "code": "// fullstack flow\\nconst step = \"SEO\";\\nconsole.log(step);"
+        },
+        {
+          "step": 3,
+          "title": "Line by line",
+          "narration": "Walk through each meaningful line in order and connect it to the expected browser, console, API, or UI result."
+        },
+        {
+          "step": 4,
+          "title": "Output",
+          "narration": "Run the example, show the resulting output, then change one value and run it again so the learner sees cause and effect."
+        },
+        {
+          "step": 5,
+          "title": "Try it yourself",
+          "narration": "Build a small SEO exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why."
+        }
+      ],
+      "quiz": {
+        "question": "Which workflow is most useful when learning SEO?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      }
+    },
+    {
+      "lessonId": "fullstack-23",
+      "title": "Project architecture",
+      "durationTarget": "4–7 min",
+      "format": "Visual code walkthrough",
+      "scenes": [
+        {
+          "step": 1,
+          "title": "What and why",
+          "narration": "Explain Project architecture: what it does, where it is used, and what the learner should be able to do after the lesson."
+        },
+        {
+          "step": 2,
+          "title": "Code example",
+          "narration": "Show the complete example and identify the important syntax before editing anything.",
+          "code": "// fullstack flow\\nconst step = \"Project architecture\";\\nconsole.log(step);"
+        },
+        {
+          "step": 3,
+          "title": "Line by line",
+          "narration": "Walk through each meaningful line in order and connect it to the expected browser, console, API, or UI result."
+        },
+        {
+          "step": 4,
+          "title": "Output",
+          "narration": "Run the example, show the resulting output, then change one value and run it again so the learner sees cause and effect."
+        },
+        {
+          "step": 5,
+          "title": "Try it yourself",
+          "narration": "Build a small Project architecture exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why."
+        }
+      ],
+      "quiz": {
+        "question": "Which workflow is most useful when learning Project architecture?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      }
+    },
+    {
+      "lessonId": "fullstack-24",
+      "title": "Portfolio project",
+      "durationTarget": "4–7 min",
+      "format": "Visual code walkthrough",
+      "scenes": [
+        {
+          "step": 1,
+          "title": "What and why",
+          "narration": "Explain Portfolio project: what it does, where it is used, and what the learner should be able to do after the lesson."
+        },
+        {
+          "step": 2,
+          "title": "Code example",
+          "narration": "Show the complete example and identify the important syntax before editing anything.",
+          "code": "// fullstack flow\\nconst step = \"Portfolio project\";\\nconsole.log(step);"
+        },
+        {
+          "step": 3,
+          "title": "Line by line",
+          "narration": "Walk through each meaningful line in order and connect it to the expected browser, console, API, or UI result."
+        },
+        {
+          "step": 4,
+          "title": "Output",
+          "narration": "Run the example, show the resulting output, then change one value and run it again so the learner sees cause and effect."
+        },
+        {
+          "step": 5,
+          "title": "Try it yourself",
+          "narration": "Build a small Portfolio project exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why."
+        }
+      ],
+      "quiz": {
+        "question": "Which workflow is most useful when learning Portfolio project?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      }
+    },
+    {
+      "lessonId": "fullstack-25",
+      "title": "Capstone planning",
+      "durationTarget": "4–7 min",
+      "format": "Visual code walkthrough",
+      "scenes": [
+        {
+          "step": 1,
+          "title": "What and why",
+          "narration": "Explain Capstone planning: what it does, where it is used, and what the learner should be able to do after the lesson."
+        },
+        {
+          "step": 2,
+          "title": "Code example",
+          "narration": "Show the complete example and identify the important syntax before editing anything.",
+          "code": "// fullstack flow\\nconst step = \"Capstone planning\";\\nconsole.log(step);"
+        },
+        {
+          "step": 3,
+          "title": "Line by line",
+          "narration": "Walk through each meaningful line in order and connect it to the expected browser, console, API, or UI result."
+        },
+        {
+          "step": 4,
+          "title": "Output",
+          "narration": "Run the example, show the resulting output, then change one value and run it again so the learner sees cause and effect."
+        },
+        {
+          "step": 5,
+          "title": "Try it yourself",
+          "narration": "Build a small Capstone planning exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why."
+        }
+      ],
+      "quiz": {
+        "question": "Which workflow is most useful when learning Capstone planning?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      }
+    },
+    {
+      "lessonId": "fullstack-26",
+      "title": "Capstone build",
+      "durationTarget": "4–7 min",
+      "format": "Visual code walkthrough",
+      "scenes": [
+        {
+          "step": 1,
+          "title": "What and why",
+          "narration": "Explain Capstone build: what it does, where it is used, and what the learner should be able to do after the lesson."
+        },
+        {
+          "step": 2,
+          "title": "Code example",
+          "narration": "Show the complete example and identify the important syntax before editing anything.",
+          "code": "// fullstack flow\\nconst step = \"Capstone build\";\\nconsole.log(step);"
+        },
+        {
+          "step": 3,
+          "title": "Line by line",
+          "narration": "Walk through each meaningful line in order and connect it to the expected browser, console, API, or UI result."
+        },
+        {
+          "step": 4,
+          "title": "Output",
+          "narration": "Run the example, show the resulting output, then change one value and run it again so the learner sees cause and effect."
+        },
+        {
+          "step": 5,
+          "title": "Try it yourself",
+          "narration": "Build a small Capstone build exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why."
+        }
+      ],
+      "quiz": {
+        "question": "Which workflow is most useful when learning Capstone build?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      }
+    },
+    {
+      "lessonId": "fullstack-27",
+      "title": "Capstone deployment",
+      "durationTarget": "4–7 min",
+      "format": "Visual code walkthrough",
+      "scenes": [
+        {
+          "step": 1,
+          "title": "What and why",
+          "narration": "Explain Capstone deployment: what it does, where it is used, and what the learner should be able to do after the lesson."
+        },
+        {
+          "step": 2,
+          "title": "Code example",
+          "narration": "Show the complete example and identify the important syntax before editing anything.",
+          "code": "git push origin main\\n# CI builds the app\\n# Hosting publishes the production build"
+        },
+        {
+          "step": 3,
+          "title": "Line by line",
+          "narration": "Walk through each meaningful line in order and connect it to the expected browser, console, API, or UI result."
+        },
+        {
+          "step": 4,
+          "title": "Output",
+          "narration": "Run the example, show the resulting output, then change one value and run it again so the learner sees cause and effect."
+        },
+        {
+          "step": 5,
+          "title": "Try it yourself",
+          "narration": "Build a small Capstone deployment exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why."
+        }
+      ],
+      "quiz": {
+        "question": "Which workflow is most useful when learning Capstone deployment?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      }
+    },
+    {
+      "lessonId": "fullstack-28",
+      "title": "Final review",
+      "durationTarget": "4–7 min",
+      "format": "Visual code walkthrough",
+      "scenes": [
+        {
+          "step": 1,
+          "title": "What and why",
+          "narration": "Explain Final review: what it does, where it is used, and what the learner should be able to do after the lesson."
+        },
+        {
+          "step": 2,
+          "title": "Code example",
+          "narration": "Show the complete example and identify the important syntax before editing anything.",
+          "code": "// fullstack flow\\nconst step = \"Final review\";\\nconsole.log(step);"
+        },
+        {
+          "step": 3,
+          "title": "Line by line",
+          "narration": "Walk through each meaningful line in order and connect it to the expected browser, console, API, or UI result."
+        },
+        {
+          "step": 4,
+          "title": "Output",
+          "narration": "Run the example, show the resulting output, then change one value and run it again so the learner sees cause and effect."
+        },
+        {
+          "step": 5,
+          "title": "Try it yourself",
+          "narration": "Build a small Final review exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why."
+        }
+      ],
+      "quiz": {
+        "question": "Which workflow is most useful when learning Final review?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      }
+    }
+  ]
+}
