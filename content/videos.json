@@ -1,6 +1,6 @@
 {
-  "version": 4,
-  "note": "Professional lesson player with Roman Urdu-first explainers, practical code walkthroughs, kinetic word highlighting and clear beginner pacing.",
+  "version": 5,
+  "note": "Roman Urdu-first explainers with kinetic word highlighting, visual concept teaching, line-by-line code walkthroughs and practical beginner pacing.",
   "providers": [
     "Coding Vibes Studio",
     "Explain Video",
@@ -144,15 +144,24 @@
       "lessonId": "css-1",
       "title": "CSS syntax & selectors",
       "status": "published",
-      "durationTarget": "6-12 min",
+      "durationTarget": "2-4 min",
       "chapters": [
         "Concept",
         "Worked example",
         "Common mistakes",
         "Practice walkthrough"
       ],
-      "url": "https://scrimba.com/explain/guide0pql453mj?claim=1iqdraktjitjrnkb&fullscreen=1",
-      "provider": "Explain Video"
+      "url": "https://scrimba.com/explain/guide0gngcl920?claim=378cvs9se93hp2ff&fullscreen=1",
+      "provider": "Explain Video",
+      "language": "Roman Urdu",
+      "presentation": "kinetic-word-highlighting",
+      "teachingStyle": [
+        "concept first",
+        "visual explanation",
+        "line-by-line code",
+        "practical steps",
+        "recap"
+      ]
     },
     {
       "lessonId": "css-2",
@@ -290,15 +299,24 @@
       "lessonId": "javascript-1",
       "title": "JavaScript fundamentals",
       "status": "published",
-      "durationTarget": "6-12 min",
+      "durationTarget": "2-4 min",
       "chapters": [
         "Concept",
         "Worked example",
         "Common mistakes",
         "Practice walkthrough"
       ],
-      "url": "https://scrimba.com/explain/guide02kdl80t7?claim=mad68p2q9a650f71&fullscreen=1",
-      "provider": "Explain Video"
+      "url": "https://scrimba.com/explain/guide0qhdjth8g?claim=qh0h3ptpc5ntqlad&fullscreen=1",
+      "provider": "Explain Video",
+      "language": "Roman Urdu",
+      "presentation": "kinetic-word-highlighting",
+      "teachingStyle": [
+        "concept first",
+        "visual explanation",
+        "line-by-line code",
+        "practical steps",
+        "recap"
+      ]
     },
     {
       "lessonId": "javascript-2",
