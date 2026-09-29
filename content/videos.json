@@ -22,14 +22,16 @@
     {
       "lessonId": "html-2",
       "title": "Elements & attributes",
-      "status": "ready-for-production",
-      "durationTarget": "6-12 min",
+      "status": "published",
+      "durationTarget": "8-10 min",
       "chapters": [
         "Concept",
         "Worked example",
         "Common mistakes",
         "Practice walkthrough"
-      ]
+      ],
+      "url": "https://scrimba.com/explain/guide0odhjlamv?claim=8pin9kpd8pocmn7c&fullscreen=1",
+      "provider": "Explain Video"
     },
     {
       "lessonId": "html-3",
