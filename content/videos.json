@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "note": "Professional lesson player is implemented. Every lesson has a dedicated video production slot.",
   "providers": [
     "Coding Vibes Studio",
@@ -9,15 +9,17 @@
   "lessons": [
     {
       "lessonId": "html-1",
-      "title": "How the web is structured",
-      "status": "ready-for-production",
+      "title": "HTML Basics: What Is HTML?",
+      "status": "published",
       "durationTarget": "6-12 min",
       "chapters": [
         "Concept",
         "Worked example",
         "Common mistakes",
         "Practice walkthrough"
-      ]
+      ],
+      "url": "https://scrimba.com/explain/guide0ndveo41v?claim=l876lrmo50b60447&fullscreen=1",
+      "provider": "Explain Video"
     },
     {
       "lessonId": "html-2",
