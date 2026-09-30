@@ -120,3 +120,10 @@ html[data-theme="light"] .premium-map-node{background:rgba(255,255,255,.92);box-
 .rich-reading-javascript .code-line:hover{border-color:rgba(250,204,21,.26);background:rgba(250,204,21,.035)}
 .rich-reading-react .code-line:hover{border-color:rgba(96,165,250,.3);background:rgba(96,165,250,.04)}
 .rich-reading-node .code-line:hover,.rich-reading-fullstack .code-line:hover{border-color:rgba(168,85,247,.28);background:rgba(168,85,247,.035)}
+
+
+/* Cinematic 3D polish */
+body{background-attachment:fixed}.nav{box-shadow:0 8px 40px rgba(0,0,0,.12)}.scene3d{perspective:1200px}.scene3d canvas{transform:translateZ(0)}
+.path-card,.why-card,.feature-card,.resource-card,.project-card,.roadmap-library-card{will-change:transform}.path-card:hover,.why-card:hover,.feature-card:hover,.resource-card:hover,.project-card:hover,.roadmap-library-card:hover{box-shadow:0 22px 55px rgba(0,0,0,.2),0 0 0 1px rgba(74,222,128,.08)}
+.lesson-page{position:relative}.lesson-page:before{content:"";position:absolute;top:90px;right:-220px;width:480px;height:480px;border-radius:50%;background:radial-gradient(circle,rgba(34,197,94,.08),transparent 68%);pointer-events:none}.text-lesson{position:relative;z-index:1}.learning-tabs{position:sticky;top:78px;z-index:20;background:rgba(5,11,18,.82);backdrop-filter:blur(18px);border:1px solid rgba(148,163,184,.12);box-shadow:0 12px 35px rgba(0,0,0,.18)}
+@media(max-width:680px){.learning-tabs{top:60px}.lesson-page:before{display:none}}
