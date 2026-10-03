@@ -152,3 +152,19 @@ body{background-attachment:fixed}.nav{box-shadow:0 8px 40px rgba(0,0,0,.12)}.sce
 .roadmap-cta-badges span{font-size:11px;color:#9fd8b2;background:rgba(34,197,94,.07);border:1px solid rgba(74,222,128,.22);padding:7px 12px;border-radius:99px}
 @media(max-width:1050px){.featured-grid{grid-template-columns:repeat(2,1fr)}.home-roadmap-cta{grid-template-columns:1fr}}
 @media(max-width:680px){.home-featured{padding:20px 16px 8px}.featured-grid{grid-template-columns:1fr}.home-roadmap-cta{padding:20px 16px 8px}.rc-node{min-width:64px;font-size:9px}}
+
+
+/* Final reference layout lock — match the supplied Coding Vibes master design */
+.home{display:grid;grid-template-columns:minmax(0,2.15fr) minmax(330px,.85fr);column-gap:14px;align-items:start}
+.home>.exact-hero{grid-column:1/-1}
+.home>.exact-paths{grid-column:1}
+.home>.exact-why{grid-column:2;grid-row:auto;display:block;margin:0;padding:10px 10px 42px}
+.home>.exact-why .why-title{margin-bottom:9px}
+.home>.exact-why .why-grid{grid-template-columns:1fr 1fr}
+.home>.exact-featured{grid-column:1;margin-top:0}
+.home>.exact-roadmap-cta{grid-column:2;margin-top:0;padding:0 10px 10px;display:block}
+.home>.exact-roadmap-cta .roadmap-cta-copy{border:1px solid rgba(148,163,184,.18);border-radius:14px;padding:25px 28px;background:rgba(7,15,21,.55);min-height:180px}
+.home>.exact-roadmap-cta .roadmap-cta-copy h2{font-size:clamp(30px,3vw,43px)}
+.home>.exact-roadmap-cta .roadmap-cta-visual{margin-top:9px;min-height:190px}
+@media(max-width:1050px){.home{display:block}.home>.exact-paths,.home>.exact-why,.home>.exact-featured,.home>.exact-roadmap-cta{width:100%;}.home>.exact-why{display:grid;grid-template-columns:1fr 1fr}.home>.exact-why .why-title{margin-bottom:0}.home>.exact-roadmap-cta{padding:20px 16px}.home>.exact-roadmap-cta .roadmap-cta-copy{min-height:0}}
+@media(max-width:680px){.home>.exact-why{display:block}.home>.exact-why .why-title{margin-bottom:9px}.home>.exact-why .why-grid{grid-template-columns:1fr 1fr}.home>.exact-roadmap-cta .roadmap-cta-path{gap:4px}.home>.exact-roadmap-cta .roadmap-cta-visual{overflow:hidden}}
