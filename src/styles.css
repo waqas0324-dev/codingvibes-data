@@ -168,3 +168,43 @@ body{background-attachment:fixed}.nav{box-shadow:0 8px 40px rgba(0,0,0,.12)}.sce
 .home>.exact-roadmap-cta .roadmap-cta-visual{margin-top:9px;min-height:190px}
 @media(max-width:1050px){.home{display:block}.home>.exact-paths,.home>.exact-why,.home>.exact-featured,.home>.exact-roadmap-cta{width:100%;}.home>.exact-why{display:grid;grid-template-columns:1fr 1fr}.home>.exact-why .why-title{margin-bottom:0}.home>.exact-roadmap-cta{padding:20px 16px}.home>.exact-roadmap-cta .roadmap-cta-copy{min-height:0}}
 @media(max-width:680px){.home>.exact-why{display:block}.home>.exact-why .why-title{margin-bottom:9px}.home>.exact-why .why-grid{grid-template-columns:1fr 1fr}.home>.exact-roadmap-cta .roadmap-cta-path{gap:4px}.home>.exact-roadmap-cta .roadmap-cta-visual{overflow:hidden}}
+
+
+/* FINAL DESIGN SYSTEM — shared across every Coding Vibes page */
+:root{--cv-bg:#03080d;--cv-panel:#07131a;--cv-panel2:#0a1820;--cv-line:rgba(148,163,184,.13);--cv-green:#22e879;--cv-cyan:#35d7ff;--cv-purple:#a855f7;--cv-text:#f1f7f4;--cv-muted:#8fa3ab}
+body{background:radial-gradient(circle at 50% -12%,rgba(34,232,121,.055),transparent 32%),radial-gradient(circle at 100% 50%,rgba(53,215,255,.035),transparent 30%),var(--cv-bg);color:var(--cv-text)}
+body:before{content:"";position:fixed;inset:0;pointer-events:none;z-index:-1;background-image:linear-gradient(rgba(255,255,255,.018) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.014) 1px,transparent 1px);background-size:70px 70px;mask-image:linear-gradient(to bottom,black,transparent 75%)}
+.reference-orbit{position:absolute;width:340px;height:340px;border:1px solid rgba(34,232,121,.10);border-radius:50%;pointer-events:none;filter:blur(.2px);animation:orbitFloat 10s ease-in-out infinite}.orbit-a{right:6%;top:8%;transform:rotateX(62deg) rotateZ(-12deg)}.orbit-b{left:2%;top:23%;width:220px;height:220px;border-color:rgba(53,215,255,.08);animation-delay:-4s}@keyframes orbitFloat{50%{transform:rotateX(62deg) rotateZ(12deg) translateY(-10px)}}
+.page-hero,.path-hero,.resource-hero,.project-hero,.dashboard-hero,.studio-header,.auth-card{position:relative;overflow:hidden;border:1px solid var(--cv-line);background:linear-gradient(145deg,rgba(10,24,32,.90),rgba(4,10,15,.94));box-shadow:0 25px 80px rgba(0,0,0,.22),inset 0 1px rgba(255,255,255,.035)}
+.page-hero:after,.path-hero:after,.resource-hero:after,.project-hero:after,.dashboard-hero:after,.studio-header:after,.auth-card:after{content:"";position:absolute;width:280px;height:280px;right:-150px;top:-160px;border-radius:50%;background:radial-gradient(circle,rgba(34,232,121,.12),transparent 68%);pointer-events:none}
+.card-grid,.resource-grid,.project-grid,.roadmap-grid,.lesson-list,.dashboard-grid,.studio-grid{position:relative;z-index:1}
+.feature-card,.resource-card,.project-card,.roadmap-library-card,.lesson-row,.side-card,.dashboard-card,.studio-card,.auth-form{border-color:var(--cv-line);background:linear-gradient(145deg,rgba(10,24,32,.78),rgba(5,12,18,.86));box-shadow:0 14px 45px rgba(0,0,0,.13),inset 0 1px rgba(255,255,255,.025);transition:transform .28s ease,border-color .28s ease,box-shadow .28s ease}
+.feature-card:hover,.resource-card:hover,.project-card:hover,.roadmap-library-card:hover,.lesson-row:hover,.dashboard-card:hover,.studio-card:hover{transform:translateY(-5px);border-color:rgba(34,232,121,.28);box-shadow:0 24px 65px rgba(0,0,0,.24),0 0 0 1px rgba(34,232,121,.04)}
+.kicker{letter-spacing:.18em;font-size:9px;font-weight:900;color:#61e997;text-transform:uppercase}.primary{box-shadow:0 10px 30px rgba(34,232,121,.14)}.secondary{backdrop-filter:blur(10px)}
+/* lesson reading becomes a visual chapter, not a text dump */
+.text-lesson{max-width:940px}.text-lesson>h2{display:flex;align-items:center;gap:12px;margin-top:42px}.text-lesson>h2:before{content:"";width:5px;height:26px;border-radius:99px;background:linear-gradient(#22e879,#35d7ff);box-shadow:0 0 18px rgba(34,232,121,.25)}
+.learning-carousel{border-color:rgba(34,232,121,.20);background:linear-gradient(145deg,rgba(8,26,31,.95),rgba(4,12,18,.98));box-shadow:0 30px 90px rgba(0,0,0,.28),0 0 60px rgba(34,232,121,.04)}
+.learning-carousel .carousel-slide{background:linear-gradient(145deg,rgba(34,232,121,.055),rgba(53,215,255,.025));min-height:170px}.carousel-number{box-shadow:0 0 40px rgba(34,232,121,.22)}
+/* project / roadmap visual hierarchy */
+.project-preview{position:relative;overflow:hidden}.project-preview img{transition:transform .45s ease,filter .45s ease}.project-card:hover .project-preview img{transform:scale(1.035);filter:saturate(1.1)}
+.roadmap-node{filter:drop-shadow(0 0 16px rgba(34,232,121,.08))}.roadmap-node:hover{filter:drop-shadow(0 0 24px rgba(34,232,121,.2))}
+/* studio/admin: full-width premium workspace */
+.studio{min-height:calc(100vh - 70px);background:radial-gradient(circle at 80% 0%,rgba(34,232,121,.06),transparent 24%)}.studio-sidebar{backdrop-filter:blur(18px);background:rgba(4,12,17,.84);border-right:1px solid var(--cv-line)}.studio-main{background:linear-gradient(145deg,rgba(3,9,14,.4),transparent)}
+@media(max-width:760px){body:before{background-size:42px 42px}.reference-orbit{display:none}.page-hero,.path-hero,.resource-hero,.project-hero{border-radius:18px}.feature-card,.resource-card,.project-card,.roadmap-library-card{transform:none}.feature-card:hover,.resource-card:hover,.project-card:hover,.roadmap-library-card:hover{transform:none}.text-lesson>h2{font-size:24px}.carousel-slide{min-height:150px}}
+@media(prefers-reduced-motion:reduce){.reference-orbit,.hero-art-photo{animation:none!important}.feature-card,.resource-card,.project-card,.roadmap-library-card,.lesson-row{transition:none}}
+
+
+.lesson-language-note span{display:block;margin-top:8px;color:var(--muted,#94a3b8)}
+.lesson-deep-dive{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin:26px 0}
+.deep-card{padding:20px;border:1px solid rgba(34,197,94,.16);border-radius:18px;background:linear-gradient(145deg,rgba(15,31,30,.92),rgba(9,18,30,.94));box-shadow:0 16px 45px rgba(0,0,0,.18)}
+.deep-card span{display:block;font-size:11px;letter-spacing:.14em;color:#63f39a;font-weight:800;margin-bottom:8px}
+.deep-card b{display:block;font-size:17px;color:#f8fafc;margin-bottom:7px}
+.deep-card p{margin:0;color:#a9b7c8;line-height:1.75}
+.deep-card.mistake{border-color:rgba(56,189,248,.2)}
+.deep-card.mistake span{color:#67e8f9}
+.lesson-checkpoint{display:flex;gap:12px;align-items:flex-start;margin:18px 0 28px;padding:18px 20px;border-radius:18px;background:rgba(34,197,94,.07);border:1px solid rgba(34,197,94,.18)}
+.lesson-checkpoint svg{color:#63f39a;flex:0 0 auto;margin-top:2px}
+.lesson-checkpoint b{display:block;color:#f8fafc;margin-bottom:4px}
+.lesson-checkpoint p{margin:0;color:#a9b7c8;line-height:1.7}
+@media(max-width:760px){.lesson-deep-dive{grid-template-columns:1fr}.deep-card{padding:16px}}
+@media(prefers-reduced-motion:reduce){.deep-card,.lesson-checkpoint{scroll-behavior:auto}}
