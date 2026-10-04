@@ -192,3 +192,19 @@ body:before{content:"";position:fixed;inset:0;pointer-events:none;z-index:-1;bac
 .studio{min-height:calc(100vh - 70px);background:radial-gradient(circle at 80% 0%,rgba(34,232,121,.06),transparent 24%)}.studio-sidebar{backdrop-filter:blur(18px);background:rgba(4,12,17,.84);border-right:1px solid var(--cv-line)}.studio-main{background:linear-gradient(145deg,rgba(3,9,14,.4),transparent)}
 @media(max-width:760px){body:before{background-size:42px 42px}.reference-orbit{display:none}.page-hero,.path-hero,.resource-hero,.project-hero{border-radius:18px}.feature-card,.resource-card,.project-card,.roadmap-library-card{transform:none}.feature-card:hover,.resource-card:hover,.project-card:hover,.roadmap-library-card:hover{transform:none}.text-lesson>h2{font-size:24px}.carousel-slide{min-height:150px}}
 @media(prefers-reduced-motion:reduce){.reference-orbit,.hero-art-photo{animation:none!important}.feature-card,.resource-card,.project-card,.roadmap-library-card,.lesson-row{transition:none}}
+
+
+.lesson-language-note span{display:block;margin-top:8px;color:var(--muted,#94a3b8)}
+.lesson-deep-dive{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin:26px 0}
+.deep-card{padding:20px;border:1px solid rgba(34,197,94,.16);border-radius:18px;background:linear-gradient(145deg,rgba(15,31,30,.92),rgba(9,18,30,.94));box-shadow:0 16px 45px rgba(0,0,0,.18)}
+.deep-card span{display:block;font-size:11px;letter-spacing:.14em;color:#63f39a;font-weight:800;margin-bottom:8px}
+.deep-card b{display:block;font-size:17px;color:#f8fafc;margin-bottom:7px}
+.deep-card p{margin:0;color:#a9b7c8;line-height:1.75}
+.deep-card.mistake{border-color:rgba(56,189,248,.2)}
+.deep-card.mistake span{color:#67e8f9}
+.lesson-checkpoint{display:flex;gap:12px;align-items:flex-start;margin:18px 0 28px;padding:18px 20px;border-radius:18px;background:rgba(34,197,94,.07);border:1px solid rgba(34,197,94,.18)}
+.lesson-checkpoint svg{color:#63f39a;flex:0 0 auto;margin-top:2px}
+.lesson-checkpoint b{display:block;color:#f8fafc;margin-bottom:4px}
+.lesson-checkpoint p{margin:0;color:#a9b7c8;line-height:1.7}
+@media(max-width:760px){.lesson-deep-dive{grid-template-columns:1fr}.deep-card{padding:16px}}
+@media(prefers-reduced-motion:reduce){.deep-card,.lesson-checkpoint{scroll-behavior:auto}}
