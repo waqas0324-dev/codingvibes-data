@@ -523,3 +523,25 @@ button{font:inherit}
 }
 @media(max-width:560px){.roadmap-filter-row button{font-size:11px;padding:8px 9px}.reference-roadmap-top h1{font-size:31px}.reference-roadmap-stage{min-height:1030px}.visual-platform{width:100px;height:66px}.visual-node-copy b{font-size:14px}}
 @media print{.nav,.back,.roadmap-filter-row,.reference-roadmap-progress,footer{display:none!important}.reference-roadmap-stage{box-shadow:none;border:0;min-height:650px}.reference-roadmap-page{max-width:none}}
+
+
+/* W3SCHOOLS-STYLE CONTINUOUS LESSON FLOW */
+.lesson-section{margin:42px 0;padding-top:6px}
+.lesson-section .section-kicker{display:block;font-size:11px;letter-spacing:.13em;color:#49e89a;font-weight:900;margin-bottom:9px}
+.lesson-section h2{margin:0 0 14px;font-size:clamp(23px,3vw,32px);letter-spacing:-.025em}
+.lesson-section>p{max-width:780px;color:#a9b6bb;line-height:1.8;font-size:15px}
+.lesson-steps{display:grid;gap:10px;margin:18px 0;padding:0;list-style:none;counter-reset:lessonstep}
+.lesson-steps li{counter-increment:lessonstep;display:grid;grid-template-columns:38px 1fr;gap:12px;align-items:start;padding:15px 16px;border:1px solid rgba(82,130,137,.2);border-radius:12px;background:rgba(8,20,27,.65)}
+.lesson-steps li:before{content:counter(lessonstep);display:grid;place-items:center;width:28px;height:28px;border-radius:50%;background:rgba(34,197,94,.12);border:1px solid rgba(34,197,94,.4);color:#52e99a;font-weight:900;font-size:12px}
+.lesson-steps li b{display:block;color:#eaf7f1;margin-bottom:4px}.lesson-steps li span{display:block;color:#8fa2a8;font-size:13px;line-height:1.55}
+.lesson-summary-list{padding-left:20px;color:#a9b6bb;line-height:2}
+.lesson-summary-list li::marker{color:#27df7f}
+.lesson-bottom-nav{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:48px 0 8px;padding:22px 0;border-top:1px solid rgba(74,117,124,.24)}
+.lesson-nav-btn{min-height:76px!important;padding:14px 18px!important;text-align:left!important;display:flex!important;flex-direction:column;justify-content:center;gap:5px}
+.lesson-nav-btn span{font-size:11px;letter-spacing:.08em;text-transform:uppercase;opacity:.75}
+.lesson-nav-btn b{font-size:14px;line-height:1.35}
+.lesson-nav-btn.primary{box-shadow:0 0 24px rgba(34,197,94,.12)}
+.lesson-nav-btn:disabled{opacity:.4;cursor:not-allowed}
+@media(max-width:700px){.lesson-bottom-nav{grid-template-columns:1fr}.lesson-section{margin:32px 0}.lesson-steps li{grid-template-columns:32px 1fr}}
+
+/* lesson-flow build verification */
