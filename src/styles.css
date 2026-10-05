@@ -263,3 +263,108 @@ body{background:var(--cv-bg);color:#f6fbf8}
 .path-hero-purple .path-orb{background:linear-gradient(145deg,rgba(168,85,247,.28),rgba(168,85,247,.04));border-color:rgba(168,85,247,.45)}
 .path-progress-card{position:relative;z-index:2}
 @media(max-width:640px){.path-detail-page{padding-top:88px}.path-hero{grid-template-columns:1fr;padding:22px;min-height:0}.path-hero:before{right:-150px;top:-100px}.path-orb{width:74px;height:74px;margin:12px 0}.path-hero h1{font-size:45px}.path-progress-card{margin-top:10px}.curriculum-head{padding-top:42px;align-items:start}.curriculum-head h2{font-size:28px}}
+
+
+/* === FINAL REFERENCE POLISH / V3 === */
+html{scroll-behavior:smooth}
+body{overflow-x:hidden}
+button{font:inherit}
+.nav-links button{position:relative;transition:color .2s ease,background .2s ease}
+.nav-links button:after{content:"";position:absolute;left:14px;right:14px;bottom:5px;height:2px;border-radius:999px;background:var(--cv-green);transform:scaleX(0);transform-origin:center;transition:transform .2s ease}
+.nav-links button:hover:after,.nav-links button.active:after{transform:scaleX(1)}
+.nav-links button.active{color:#fff}
+.nav-links button:focus-visible,.nav-actions button:focus-visible,.brand:focus-visible{outline:2px solid var(--cv-green);outline-offset:3px}
+.reference-hero{isolation:isolate}
+.reference-hero:after{content:"";position:absolute;inset:0;pointer-events:none;background:radial-gradient(circle at 85% 18%,rgba(56,189,248,.07),transparent 18%),radial-gradient(circle at 65% 85%,rgba(23,239,120,.06),transparent 22%);z-index:-1}
+.reference-hero h1 em{text-shadow:0 0 35px rgba(23,239,120,.12)}
+.reference-hero .hero-actions button{min-height:50px;transition:transform .2s ease,box-shadow .2s ease,border-color .2s ease}
+.reference-hero .hero-actions button:hover{transform:translateY(-2px)}
+.reference-hero .primary:hover{box-shadow:0 14px 35px rgba(23,239,120,.25)}
+.reference-stats span{padding:10px 0}
+.reference-stats svg{filter:drop-shadow(0 0 8px rgba(23,239,120,.2))}
+.reference-student:after{content:"";position:absolute;inset:0;border:1px solid rgba(111,255,180,.16);border-radius:inherit;pointer-events:none;z-index:3}
+.reference-skill-card,.reference-project-card{backdrop-filter:blur(18px);background:linear-gradient(145deg,rgba(8,24,30,.94),rgba(3,10,15,.9));border:1px solid rgba(93,226,165,.2);box-shadow:0 22px 60px rgba(0,0,0,.45),0 0 35px rgba(23,239,120,.07)}
+.ref-tech{transition:transform .25s ease,box-shadow .25s ease}
+.ref-tech:hover{transform:translateY(-5px) rotate(-2deg);box-shadow:0 22px 50px rgba(0,0,0,.45),0 0 25px rgba(23,239,120,.12)}
+.reference-path-card{transition:transform .22s ease,border-color .22s ease,box-shadow .22s ease}
+.reference-path-card:hover{transform:translateY(-4px);border-color:rgba(23,239,120,.42);box-shadow:0 18px 45px rgba(0,0,0,.28),0 0 30px rgba(23,239,120,.05)}
+.reference-why .why-title{box-shadow:0 20px 70px rgba(0,0,0,.18)}
+.reference-why-grid .why-card{transition:transform .2s ease,border-color .2s ease,background .2s ease}
+.reference-why-grid .why-card:hover{transform:translateY(-3px);border-color:rgba(23,239,120,.35);background:#07161d}
+.reference-why-grid .why-card:hover .why-icon{box-shadow:0 0 24px rgba(23,239,120,.1)}
+
+.reference-roadmaps-list{padding-top:105px}
+.reference-roadmap-library-hero{min-height:360px!important;padding:34px!important;border:1px solid #16303a;border-radius:24px;background:radial-gradient(circle at 82% 40%,rgba(23,239,120,.14),transparent 26%),linear-gradient(145deg,#061219,#030a0f)!important;overflow:hidden}
+.reference-roadmap-library-hero h1,.reference-projects-hero h1{font-size:clamp(48px,5.2vw,74px);letter-spacing:-.055em}
+.reference-roadmap-library-hero h1 em,.reference-projects-hero h1 em{color:var(--cv-green);font-style:normal}
+.roadmap-library-stats,.project-library-stats{display:flex;gap:28px;margin-top:28px}
+.roadmap-library-stats span,.project-library-stats span{display:grid;gap:2px}
+.roadmap-library-stats b,.project-library-stats b{font-size:18px;color:#f7fbf8}
+.roadmap-library-stats small,.project-library-stats small{font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:#71858f}
+.premium-roadmap-visual{min-height:250px!important;border:1px solid rgba(23,239,120,.18);background:radial-gradient(circle,rgba(23,239,120,.11),transparent 62%)}
+.reference-roadmap-library-grid{grid-template-columns:repeat(3,1fr);gap:16px;margin-top:24px}
+.premium-roadmap-card{border:1px solid #16303a!important;border-radius:20px!important;background:linear-gradient(145deg,#07151c,#041017)!important;overflow:hidden;transition:transform .22s ease,border-color .22s ease,box-shadow .22s ease!important}
+.premium-roadmap-card:hover{transform:translateY(-5px)!important;border-color:rgba(23,239,120,.45)!important;box-shadow:0 24px 65px rgba(0,0,0,.32),0 0 35px rgba(23,239,120,.06)}
+.roadmap-card-art{min-height:145px!important;background:radial-gradient(circle at 65% 35%,rgba(23,239,120,.16),transparent 25%),linear-gradient(135deg,rgba(23,239,120,.07),rgba(3,10,15,.1))!important;border-bottom:1px solid #132d35!important;padding:20px!important;position:relative}
+.roadmap-card-art span{font-size:11px;letter-spacing:.15em;color:var(--cv-green)}
+.roadmap-card-art b{font-size:13px;text-transform:uppercase;letter-spacing:.12em}
+.roadmap-card-art strong{position:absolute;right:20px;bottom:20px;font-size:11px;color:#82949e}
+.roadmap-mini-line{position:absolute!important;left:20px!important;right:20px!important;bottom:52px!important;height:2px!important;background:linear-gradient(90deg,rgba(23,239,120,.1),var(--cv-green),rgba(23,239,120,.1))!important}
+.roadmap-mini-line i{width:8px!important;height:8px!important;background:#07151c!important;border:2px solid var(--cv-green)!important;box-shadow:0 0 12px rgba(23,239,120,.35)}
+.roadmap-card-content{padding:22px!important}
+.roadmap-card-content h3{font-size:24px!important;margin:7px 0 8px!important}
+.roadmap-card-content p{min-height:68px;color:#879aa4;line-height:1.55}
+.roadmap-flow{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin:16px 0;color:#8fa1a9;font-size:10px;text-transform:uppercase;letter-spacing:.08em}
+.roadmap-flow i{color:var(--cv-green);font-style:normal}
+.roadmap-method{margin-top:28px;padding:30px;border:1px solid #16303a;border-radius:20px;background:linear-gradient(120deg,rgba(23,239,120,.06),#061118);display:grid;grid-template-columns:1fr 1.2fr;gap:28px;align-items:center}
+.roadmap-method h2{font-size:clamp(27px,3vw,42px);letter-spacing:-.04em;margin:8px 0}
+.roadmap-method p{color:#91a2ab;line-height:1.65;max-width:650px}
+.roadmap-method-steps{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.roadmap-method-steps span{display:flex;gap:10px;align-items:center;padding:16px;border:1px solid #16303a;border-radius:14px;background:#061219;color:#aebcc2;font-size:12px}
+.roadmap-method-steps b{display:grid;place-items:center;width:30px;height:30px;border-radius:50%;background:rgba(23,239,120,.1);color:var(--cv-green);font-size:9px}
+
+.reference-projects-page{padding-top:105px}
+.reference-projects-hero{min-height:360px!important;padding:34px!important;border:1px solid #16303a;border-radius:24px;background:radial-gradient(circle at 82% 40%,rgba(23,239,120,.12),transparent 26%),linear-gradient(145deg,#061219,#030a0f)!important;overflow:hidden}
+.premium-project-stat{width:220px!important;min-height:180px!important;display:grid!important;place-items:center;align-content:center;gap:6px;border:1px solid rgba(23,239,120,.2)!important;background:radial-gradient(circle,rgba(23,239,120,.11),transparent 65%)!important}
+.premium-project-stat svg{width:42px;height:42px;color:var(--cv-green);filter:drop-shadow(0 0 16px rgba(23,239,120,.25))}
+.premium-project-stat b{font-size:42px}.premium-project-stat i{font-size:9px;color:#687b84;font-style:normal;letter-spacing:.08em}
+.project-toolbar{padding:22px 0!important}
+.premium-project-toolbar .searchbox{border-color:#1b3841!important;background:#061118!important;box-shadow:0 12px 35px rgba(0,0,0,.16)}
+.premium-project-toolbar .filter-row{gap:8px}
+.premium-project-toolbar .filter{border-color:#16303a!important;background:#061118!important;color:#8fa1a9!important}
+.premium-project-toolbar .filter:hover{border-color:rgba(23,239,120,.35)!important;color:#fff!important}
+.premium-project-toolbar .filter.active{background:var(--cv-green)!important;color:#031109!important;border-color:var(--cv-green)!important}
+.reference-project-grid{grid-template-columns:repeat(2,1fr)!important;gap:16px!important}
+.reference-project-grid .project-card{border:1px solid #16303a!important;border-radius:20px!important;background:linear-gradient(145deg,#07151c,#041017)!important;overflow:hidden!important;transition:transform .22s ease,border-color .22s ease,box-shadow .22s ease!important}
+.reference-project-grid .project-card:hover{transform:translateY(-5px)!important;border-color:rgba(23,239,120,.42)!important;box-shadow:0 24px 65px rgba(0,0,0,.3),0 0 35px rgba(23,239,120,.05)}
+.reference-project-grid .premium-project-preview{aspect-ratio:16/9!important;background:#02080d!important;border-bottom:1px solid #16303a}
+.reference-project-grid .project-thumb-image{height:100%!important}
+.reference-project-grid .project-thumb-image img{width:100%;height:100%;object-fit:cover}
+.reference-project-grid .thumb-image-overlay{background:linear-gradient(180deg,transparent 50%,rgba(2,8,13,.94))!important}
+.reference-project-grid .project-card-body{padding:20px!important}
+.reference-project-grid .project-card-body h3{font-size:23px!important;margin:7px 0}
+.reference-project-grid .project-card-body p{color:#879aa4;line-height:1.55;min-height:48px}
+.project-card-bottom{display:flex;justify-content:space-between;align-items:center;margin-top:16px;padding-top:13px;border-top:1px solid rgba(22,48,58,.75)}
+.project-card-bottom small{color:#6f828b;font-size:9px;text-transform:uppercase;letter-spacing:.08em}
+.project-card-bottom span{display:flex;align-items:center;gap:5px;color:var(--cv-green);font-size:11px;font-weight:800}
+
+@media(max-width:900px){
+ .reference-roadmap-library-grid{grid-template-columns:1fr 1fr}
+ .roadmap-method{grid-template-columns:1fr}
+ .premium-project-stat{width:170px!important}
+}
+@media(max-width:640px){
+ .reference-roadmaps-list,.reference-projects-page{padding:86px 18px 50px}
+ .reference-roadmap-library-hero,.reference-projects-hero{padding:22px!important;min-height:0!important;border-radius:18px}
+ .reference-roadmap-library-hero h1,.reference-projects-hero h1{font-size:45px}
+ .roadmap-library-stats,.project-library-stats{gap:15px;flex-wrap:wrap}
+ .reference-roadmap-library-grid,.reference-project-grid{grid-template-columns:1fr!important}
+ .premium-roadmap-visual{min-height:190px!important;margin-top:20px}
+ .roadmap-method{padding:20px}
+ .roadmap-method-steps{grid-template-columns:1fr}
+ .premium-project-stat{width:100%!important;min-height:130px!important;margin-top:20px}
+ .reference-project-grid .project-card-body p{min-height:0}
+}
+@media(prefers-reduced-motion:reduce){
+ .nav-links button,.reference-path-card,.ref-tech,.reference-why-grid .why-card,.premium-roadmap-card,.reference-project-grid .project-card{transition:none!important}
+}
