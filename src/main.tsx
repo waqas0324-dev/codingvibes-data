@@ -107,12 +107,10 @@ return <div className="scene3d" ref={ref}/>;
 function TechIcon({name,color}:{name:string;color:string}){const icons:any={html:siHtml5,css:siCss,javascript:siJavascript,react:siReact,node:siNodedotjs};const icon=icons[name];return icon?<svg className="tech-icon-img" viewBox="0 0 24 24" role="img" aria-label={name+' logo'}><path fill={'#'+color} d={icon.path}/></svg>:<Layers3 className="tech-icon-img-fallback"/>}
 function Nav(){
  const[open,setOpen]=useState(false);
- const[q,setQ]=useState('');
  const[dark,setDark]=useState(()=>localStorage.getItem('cv-theme')!=='light');
  const current=location.pathname.split('/').filter(Boolean)[0]||'home';
  useEffect(()=>{document.documentElement.dataset.theme=dark?'dark':'light';localStorage.setItem('cv-theme',dark?'dark':'light')},[dark]);
  useEffect(()=>{const close=()=>setOpen(false);addEventListener('popstate',close);return()=>removeEventListener('popstate',close)},[]);
- const submit=(e:React.FormEvent)=>{e.preventDefault();go('search');};
  const navItems:[Page,string,string][]=[['home','Home','home'],['paths','Learning Paths','paths'],['roadmaps','Roadmaps','roadmaps'],['paths','Courses','courses'],['projects','Projects','projects'],['resources','Resources','resources']];
  return <header className="nav"><div className="nav-inner">
    <button className="brand" onClick={()=>go('home')} aria-label="Coding Vibes home"><span className="brand-word">Coding<span>Vibes</span></span></button>
