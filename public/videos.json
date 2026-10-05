@@ -1,0 +1,1228 @@
+{
+  "version": 6,
+  "note": "All currently published starter videos use Roman Urdu narration, kinetic word highlighting, visual concept explanations, line-by-line code references and practical beginner pacing.",
+  "providers": [
+    "Coding Vibes Studio",
+    "Explain Video",
+    "YouTube"
+  ],
+  "lessons": [
+    {
+      "lessonId": "html-1",
+      "title": "HTML Basics: What Is HTML?",
+      "status": "published",
+      "durationTarget": "2-4 min",
+      "chapters": [
+        "Concept",
+        "Worked example",
+        "Common mistakes",
+        "Practice walkthrough"
+      ],
+      "url": "https://scrimba.com/explain/guide0dcpqmcpo?claim=nppdljs4tq49hqi8&fullscreen=1",
+      "provider": "Explain Video",
+      "language": "Roman Urdu",
+      "presentation": "kinetic-word-highlighting",
+      "teachingStyle": [
+        "concept first",
+        "visual explanation",
+        "line-by-line code",
+        "practical steps",
+        "recap"
+      ]
+    },
+    {
+      "lessonId": "html-2",
+      "title": "Elements & attributes",
+      "status": "published",
+      "durationTarget": "2-4 min",
+      "chapters": [
+        "Concept",
+        "Worked example",
+        "Common mistakes",
+        "Practice walkthrough"
+      ],
+      "url": "https://scrimba.com/explain/guide0f6ig39st?claim=e3j643f7fhjvcqbm&fullscreen=1",
+      "provider": "Explain Video",
+      "language": "Roman Urdu",
+      "presentation": "kinetic-word-highlighting",
+      "teachingStyle": [
+        "concept first",
+        "visual explanation",
+        "line-by-line code",
+        "practical steps",
+        "recap"
+      ]
+    },
+    {
+      "lessonId": "html-3",
+      "title": "Links, images & media",
+      "status": "ready-for-production",
+      "durationTarget": "6-12 min",
+      "chapters": [
+        "Concept",
+        "Worked example",
+        "Common mistakes",
+        "Practice walkthrough"
+      ]
+    },
+    {
+      "lessonId": "html-4",
+      "title": "Lists, tables & forms",
+      "status": "ready-for-production",
+      "durationTarget": "6-12 min",
+      "chapters": [
+        "Concept",
+        "Worked example",
+        "Common mistakes",
+        "Practice walkthrough"
+      ]
+    },
+    {
+      "lessonId": "html-5",
+      "title": "Semantic page layout",
+      "status": "ready-for-production",
+      "durationTarget": "6-12 min",
+      "chapters": [
+        "Concept",
+        "Worked example",
+        "Common mistakes",
+        "Practice walkthrough"
+      ]
+    },
+    {
+      "lessonId": "html-6",
+      "title": "Forms & validation",
+      "status": "ready-for-production",
+      "durationTarget": "6-12 min",
+      "chapters": [
+        "Concept",
+        "Worked example",
+        "Common mistakes",
+        "Practice walkthrough"
+      ]
+    },
+    {
+      "lessonId": "html-7",
+      "title": "Accessibility foundations",
+      "status": "ready-for-production",
+      "durationTarget": "6-12 min",
+      "chapters": [
+        "Concept",
+        "Worked example",
+        "Common mistakes",
+        "Practice walkthrough"
+      ]
+    },
+    {
+      "lessonId": "html-8",
+      "title": "Metadata & SEO",
+      "status": "ready-for-production",
+      "durationTarget": "6-12 min",
+      "chapters": [
+        "Concept",
+        "Worked example",
+        "Common mistakes",
+        "Practice walkthrough"
+      ]
+    },
+    {
+      "lessonId": "html-9",
+      "title": "Project: profile page",
+      "status": "ready-for-production",
+      "durationTarget": "6-12 min",
+      "chapters": [
+        "Concept",
+        "Worked example",
+        "Common mistakes",
+        "Practice walkthrough"
+      ]
+    },
+    {
+      "lessonId": "html-10",
+      "title": "Project review & next steps",
+      "status": "ready-for-production",
+      "durationTarget": "6-12 min",
+      "chapters": [
+        "Concept",
+        "Worked example",
+        "Common mistakes",
+        "Practice walkthrough"
+      ]
+    },
+    {
+      "lessonId": "css-1",
+      "title": "CSS syntax & selectors",
+      "status": "published",
+      "durationTarget": "2-4 min",
+      "chapters": [
+        "Concept",
+        "Worked example",
+        "Common mistakes",
+        "Practice walkthrough"
+      ],
+      "url": "https://scrimba.com/explain/guide0gngcl920?claim=378cvs9se93hp2ff&fullscreen=1",
+      "provider": "Explain Video",
+      "language": "Roman Urdu",
+      "presentation": "kinetic-word-highlighting",
+      "teachingStyle": [
+        "concept first",
+        "visual explanation",
+        "line-by-line code",
+        "practical steps",
+        "recap"
+      ]
+    },
+    {
+      "lessonId": "css-2",
+      "title": "Colors, units & typography",
+      "status": "ready-for-production",
+      "durationTarget": "6-12 min",
+      "chapters": [
+        "Concept",
+        "Worked example",
+        "Common mistakes",
+        "Practice walkthrough"
+      ]
+    },
+    {
+      "lessonId": "css-3",
+      "title": "The box model",
+      "status": "ready-for-production",
+      "durationTarget": "6-12 min",
+      "chapters": [
+        "Concept",
+        "Worked example",
+        "Common mistakes",
+        "Practice walkthrough"
+      ]
+    },
+    {
+      "lessonId": "css-4",
+      "title": "Display & positioning",
+      "status": "ready-for-production",
+      "durationTarget": "6-12 min",
+      "chapters": [
+        "Concept",
+        "Worked example",
+        "Common mistakes",
+        "Practice walkthrough"
+      ]
+    },
+    {
+      "lessonId": "css-5",
+      "title": "Flexbox layouts",
+      "status": "ready-for-production",
+      "durationTarget": "6-12 min",
+      "chapters": [
+        "Concept",
+        "Worked example",
+        "Common mistakes",
+        "Practice walkthrough"
+      ]
+    },
+    {
+      "lessonId": "css-6",
+      "title": "CSS Grid",
+      "status": "ready-for-production",
+      "durationTarget": "6-12 min",
+      "chapters": [
+        "Concept",
+        "Worked example",
+        "Common mistakes",
+        "Practice walkthrough"
+      ]
+    },
+    {
+      "lessonId": "css-7",
+      "title": "Responsive design",
+      "status": "ready-for-production",
+      "durationTarget": "6-12 min",
+      "chapters": [
+        "Concept",
+        "Worked example",
+        "Common mistakes",
+        "Practice walkthrough"
+      ]
+    },
+    {
+      "lessonId": "css-8",
+      "title": "Transitions & transforms",
+      "status": "ready-for-production",
+      "durationTarget": "6-12 min",
+      "chapters": [
+        "Concept",
+        "Worked example",
+        "Common mistakes",
+        "Practice walkthrough"
+      ]
+    },
+    {
+      "lessonId": "css-9",
+      "title": "Animations",
+      "status": "ready-for-production",
+      "durationTarget": "6-12 min",
+      "chapters": [
+        "Concept",
+        "Worked example",
+        "Common mistakes",
+        "Practice walkthrough"
+      ]
+    },
+    {
+      "lessonId": "css-10",
+      "title": "Forms & UI states",
+      "status": "ready-for-production",
+      "durationTarget": "6-12 min",
+      "chapters": [
+        "Concept",
+        "Worked example",
+        "Common mistakes",
+        "Practice walkthrough"
+      ]
+    },
+    {
+      "lessonId": "css-11",
+      "title": "Component styling",
+      "status": "ready-for-production",
+      "durationTarget": "6-12 min",
+      "chapters": [
+        "Concept",
+        "Worked example",
+        "Common mistakes",
+        "Practice walkthrough"
+      ]
+    },
+    {
+      "lessonId": "css-12",
+      "title": "CSS project",
+      "status": "ready-for-production",
+      "durationTarget": "6-12 min",
+      "chapters": [
+        "Concept",
+        "Worked example",
+        "Common mistakes",
+        "Practice walkthrough"
+      ]
+    },
+    {
+      "lessonId": "javascript-1",
+      "title": "JavaScript fundamentals",
+      "status": "published",
+      "durationTarget": "2-4 min",
+      "chapters": [
+        "Concept",
+        "Worked example",
+        "Common mistakes",
+        "Practice walkthrough"
+      ],
+      "url": "https://scrimba.com/explain/guide0qhdjth8g?claim=qh0h3ptpc5ntqlad&fullscreen=1",
+      "provider": "Explain Video",
+      "language": "Roman Urdu",
+      "presentation": "kinetic-word-highlighting",
+      "teachingStyle": [
+        "concept first",
+        "visual explanation",
+        "line-by-line code",
+        "practical steps",
+        "recap"
+      ]
+    },
+    {
+      "lessonId": "javascript-2",
+      "title": "Variables & data types",
+      "status": "ready-for-production",
+      "durationTarget": "6-12 min",
+      "chapters": [
+        "Concept",
+        "Worked example",
+        "Common mistakes",
+        "Practice walkthrough"
+      ]
+    },
+    {
+      "lessonId": "javascript-3",
+      "title": "Operators & conditionals",
+      "status": "ready-for-production",
+      "durationTarget": "6-12 min",
+      "chapters": [
+        "Concept",
+        "Worked example",
+        "Common mistakes",
+        "Practice walkthrough"
+      ]
+    },
+    {
+      "lessonId": "javascript-4",
+      "title": "Loops & iteration",
+      "status": "ready-for-production",
+      "durationTarget": "6-12 min",
+      "chapters": [
+        "Concept",
+        "Worked example",
+        "Common mistakes",
+        "Practice walkthrough"
+      ]
+    },
+    {
+      "lessonId": "javascript-5",
+      "title": "Functions",
+      "status": "ready-for-production",
+      "durationTarget": "6-12 min",
+      "chapters": [
+        "Concept",
+        "Worked example",
+        "Common mistakes",
+        "Practice walkthrough"
+      ]
+    },
+    {
+      "lessonId": "javascript-6",
+      "title": "Arrays & objects",
+      "status": "ready-for-production",
+      "durationTarget": "6-12 min",
+      "chapters": [
+        "Concept",
+        "Worked example",
+        "Common mistakes",
+        "Practice walkthrough"
+      ]
+    },
+    {
+      "lessonId": "javascript-7",
+      "title": "DOM selection",
+      "status": "ready-for-production",
+      "durationTarget": "6-12 min",
+      "chapters": [
+        "Concept",
+        "Worked example",
+        "Common mistakes",
+        "Practice walkthrough"
+      ]
+    },
+    {
+      "lessonId": "javascript-8",
+      "title": "Events & interactions",
+      "status": "ready-for-production",
+      "durationTarget": "6-12 min",
+      "chapters": [
+        "Concept",
+        "Worked example",
+        "Common mistakes",
+        "Practice walkthrough"
+      ]
+    },
+    {
+      "lessonId": "javascript-9",
+      "title": "Forms & validation",
+      "status": "ready-for-production",
+      "durationTarget": "6-12 min",
+      "chapters": [
+        "Concept",
+        "Worked example",
+        "Common mistakes",
+        "Practice walkthrough"
+      ]
+    },
+    {
+      "lessonId": "javascript-10",
+      "title": "Fetch & APIs",
+      "status": "ready-for-production",
+      "durationTarget": "6-12 min",
+      "chapters": [
+        "Concept",
+        "Worked example",
+        "Common mistakes",
+        "Practice walkthrough"
+      ]
+    },
+    {
+      "lessonId": "javascript-11",
+      "title": "Async JavaScript",
+      "status": "ready-for-production",
+      "durationTarget": "6-12 min",
+      "chapters": [
+        "Concept",
+        "Worked example",
+        "Common mistakes",
+        "Practice walkthrough"
+      ]
+    },
+    {
+      "lessonId": "javascript-12",
+      "title": "Modules",
+      "status": "ready-for-production",
+      "durationTarget": "6-12 min",
+      "chapters": [
+        "Concept",
+        "Worked example",
+        "Common mistakes",
+        "Practice walkthrough"
+      ]
+    },
+    {
+      "lessonId": "javascript-13",
+      "title": "Error handling",
+      "status": "ready-for-production",
+      "durationTarget": "6-12 min",
+      "chapters": [
+        "Concept",
+        "Worked example",
+        "Common mistakes",
+        "Practice walkthrough"
+      ]
+    },
+    {
+      "lessonId": "javascript-14",
+      "title": "JavaScript project",
+      "status": "ready-for-production",
+      "durationTarget": "6-12 min",
+      "chapters": [
+        "Concept",
+        "Worked example",
+        "Common mistakes",
+        "Practice walkthrough"
+      ]
+    },
+    {
+      "lessonId": "react-1",
+      "title": "React mental model",
+      "status": "published",
+      "durationTarget": "2-4 min",
+      "chapters": [
+        "Concept",
+        "Worked example",
+        "Common mistakes",
+        "Practice walkthrough"
+      ],
+      "url": "https://scrimba.com/explain/guide00m8aak4e?claim=t7stvebs3v1903am&fullscreen=1",
+      "provider": "Explain Video",
+      "language": "Roman Urdu",
+      "presentation": "kinetic-word-highlighting",
+      "teachingStyle": [
+        "concept first",
+        "visual explanation",
+        "line-by-line code",
+        "practical steps",
+        "recap"
+      ]
+    },
+    {
+      "lessonId": "react-2",
+      "title": "Vite project setup",
+      "status": "ready-for-production",
+      "durationTarget": "6-12 min",
+      "chapters": [
+        "Concept",
+        "Worked example",
+        "Common mistakes",
+        "Practice walkthrough"
+      ]
+    },
+    {
+      "lessonId": "react-3",
+      "title": "Components & JSX",
+      "status": "ready-for-production",
+      "durationTarget": "6-12 min",
+      "chapters": [
+        "Concept",
+        "Worked example",
+        "Common mistakes",
+        "Practice walkthrough"
+      ]
+    },
+    {
+      "lessonId": "react-4",
+      "title": "Props",
+      "status": "ready-for-production",
+      "durationTarget": "6-12 min",
+      "chapters": [
+        "Concept",
+        "Worked example",
+        "Common mistakes",
+        "Practice walkthrough"
+      ]
+    },
+    {
+      "lessonId": "react-5",
+      "title": "State",
+      "status": "ready-for-production",
+      "durationTarget": "6-12 min",
+      "chapters": [
+        "Concept",
+        "Worked example",
+        "Common mistakes",
+        "Practice walkthrough"
+      ]
+    },
+    {
+      "lessonId": "react-6",
+      "title": "Events",
+      "status": "ready-for-production",
+      "durationTarget": "6-12 min",
+      "chapters": [
+        "Concept",
+        "Worked example",
+        "Common mistakes",
+        "Practice walkthrough"
+      ]
+    },
+    {
+      "lessonId": "react-7",
+      "title": "Conditional rendering",
+      "status": "ready-for-production",
+      "durationTarget": "6-12 min",
+      "chapters": [
+        "Concept",
+        "Worked example",
+        "Common mistakes",
+        "Practice walkthrough"
+      ]
+    },
+    {
+      "lessonId": "react-8",
+      "title": "Lists & keys",
+      "status": "ready-for-production",
+      "durationTarget": "6-12 min",
+      "chapters": [
+        "Concept",
+        "Worked example",
+        "Common mistakes",
+        "Practice walkthrough"
+      ]
+    },
+    {
+      "lessonId": "react-9",
+      "title": "Forms",
+      "status": "ready-for-production",
+      "durationTarget": "6-12 min",
+      "chapters": [
+        "Concept",
+        "Worked example",
+        "Common mistakes",
+        "Practice walkthrough"
+      ]
+    },
+    {
+      "lessonId": "react-10",
+      "title": "Effects",
+      "status": "ready-for-production",
+      "durationTarget": "6-12 min",
+      "chapters": [
+        "Concept",
+        "Worked example",
+        "Common mistakes",
+        "Practice walkthrough"
+      ]
+    },
+    {
+      "lessonId": "react-11",
+      "title": "Fetching APIs",
+      "status": "ready-for-production",
+      "durationTarget": "6-12 min",
+      "chapters": [
+        "Concept",
+        "Worked example",
+        "Common mistakes",
+        "Practice walkthrough"
+      ]
+    },
+    {
+      "lessonId": "react-12",
+      "title": "Custom hooks",
+      "status": "ready-for-production",
+      "durationTarget": "6-12 min",
+      "chapters": [
+        "Concept",
+        "Worked example",
+        "Common mistakes",
+        "Practice walkthrough"
+      ]
+    },
+    {
+      "lessonId": "react-13",
+      "title": "Routing",
+      "status": "ready-for-production",
+      "durationTarget": "6-12 min",
+      "chapters": [
+        "Concept",
+        "Worked example",
+        "Common mistakes",
+        "Practice walkthrough"
+      ]
+    },
+    {
+      "lessonId": "react-14",
+      "title": "Reusable UI",
+      "status": "ready-for-production",
+      "durationTarget": "6-12 min",
+      "chapters": [
+        "Concept",
+        "Worked example",
+        "Common mistakes",
+        "Practice walkthrough"
+      ]
+    },
+    {
+      "lessonId": "react-15",
+      "title": "Performance basics",
+      "status": "ready-for-production",
+      "durationTarget": "6-12 min",
+      "chapters": [
+        "Concept",
+        "Worked example",
+        "Common mistakes",
+        "Practice walkthrough"
+      ]
+    },
+    {
+      "lessonId": "react-16",
+      "title": "React project",
+      "status": "ready-for-production",
+      "durationTarget": "6-12 min",
+      "chapters": [
+        "Concept",
+        "Worked example",
+        "Common mistakes",
+        "Practice walkthrough"
+      ]
+    },
+    {
+      "lessonId": "node-1",
+      "title": "Node.js fundamentals",
+      "status": "published",
+      "durationTarget": "2-4 min",
+      "chapters": [
+        "Concept",
+        "Worked example",
+        "Common mistakes",
+        "Practice walkthrough"
+      ],
+      "url": "https://scrimba.com/explain/guide0s4sbme9h?claim=79ljs0v8mmukmgge&fullscreen=1",
+      "provider": "Explain Video",
+      "language": "Roman Urdu",
+      "presentation": "kinetic-word-highlighting",
+      "teachingStyle": [
+        "concept first",
+        "visual explanation",
+        "line-by-line code",
+        "practical steps",
+        "recap"
+      ]
+    },
+    {
+      "lessonId": "node-2",
+      "title": "npm & packages",
+      "status": "ready-for-production",
+      "durationTarget": "6-12 min",
+      "chapters": [
+        "Concept",
+        "Worked example",
+        "Common mistakes",
+        "Practice walkthrough"
+      ]
+    },
+    {
+      "lessonId": "node-3",
+      "title": "Modules",
+      "status": "ready-for-production",
+      "durationTarget": "6-12 min",
+      "chapters": [
+        "Concept",
+        "Worked example",
+        "Common mistakes",
+        "Practice walkthrough"
+      ]
+    },
+    {
+      "lessonId": "node-4",
+      "title": "HTTP server",
+      "status": "ready-for-production",
+      "durationTarget": "6-12 min",
+      "chapters": [
+        "Concept",
+        "Worked example",
+        "Common mistakes",
+        "Practice walkthrough"
+      ]
+    },
+    {
+      "lessonId": "node-5",
+      "title": "Express setup",
+      "status": "ready-for-production",
+      "durationTarget": "6-12 min",
+      "chapters": [
+        "Concept",
+        "Worked example",
+        "Common mistakes",
+        "Practice walkthrough"
+      ]
+    },
+    {
+      "lessonId": "node-6",
+      "title": "Routes",
+      "status": "ready-for-production",
+      "durationTarget": "6-12 min",
+      "chapters": [
+        "Concept",
+        "Worked example",
+        "Common mistakes",
+        "Practice walkthrough"
+      ]
+    },
+    {
+      "lessonId": "node-7",
+      "title": "Middleware",
+      "status": "ready-for-production",
+      "durationTarget": "6-12 min",
+      "chapters": [
+        "Concept",
+        "Worked example",
+        "Common mistakes",
+        "Practice walkthrough"
+      ]
+    },
+    {
+      "lessonId": "node-8",
+      "title": "REST APIs",
+      "status": "ready-for-production",
+      "durationTarget": "6-12 min",
+      "chapters": [
+        "Concept",
+        "Worked example",
+        "Common mistakes",
+        "Practice walkthrough"
+      ]
+    },
+    {
+      "lessonId": "node-9",
+      "title": "Validation",
+      "status": "ready-for-production",
+      "durationTarget": "6-12 min",
+      "chapters": [
+        "Concept",
+        "Worked example",
+        "Common mistakes",
+        "Practice walkthrough"
+      ]
+    },
+    {
+      "lessonId": "node-10",
+      "title": "Environment variables",
+      "status": "ready-for-production",
+      "durationTarget": "6-12 min",
+      "chapters": [
+        "Concept",
+        "Worked example",
+        "Common mistakes",
+        "Practice walkthrough"
+      ]
+    },
+    {
+      "lessonId": "node-11",
+      "title": "Error handling",
+      "status": "ready-for-production",
+      "durationTarget": "6-12 min",
+      "chapters": [
+        "Concept",
+        "Worked example",
+        "Common mistakes",
+        "Practice walkthrough"
+      ]
+    },
+    {
+      "lessonId": "node-12",
+      "title": "Authentication basics",
+      "status": "ready-for-production",
+      "durationTarget": "6-12 min",
+      "chapters": [
+        "Concept",
+        "Worked example",
+        "Common mistakes",
+        "Practice walkthrough"
+      ]
+    },
+    {
+      "lessonId": "node-13",
+      "title": "Database connection",
+      "status": "ready-for-production",
+      "durationTarget": "6-12 min",
+      "chapters": [
+        "Concept",
+        "Worked example",
+        "Common mistakes",
+        "Practice walkthrough"
+      ]
+    },
+    {
+      "lessonId": "node-14",
+      "title": "Testing APIs",
+      "status": "ready-for-production",
+      "durationTarget": "6-12 min",
+      "chapters": [
+        "Concept",
+        "Worked example",
+        "Common mistakes",
+        "Practice walkthrough"
+      ]
+    },
+    {
+      "lessonId": "node-15",
+      "title": "Node project",
+      "status": "ready-for-production",
+      "durationTarget": "6-12 min",
+      "chapters": [
+        "Concept",
+        "Worked example",
+        "Common mistakes",
+        "Practice walkthrough"
+      ]
+    },
+    {
+      "lessonId": "fullstack-1",
+      "title": "Computer & web basics",
+      "status": "published",
+      "durationTarget": "2-4 min",
+      "chapters": [
+        "Concept",
+        "Worked example",
+        "Common mistakes",
+        "Practice walkthrough"
+      ],
+      "url": "https://scrimba.com/explain/guide0cj3bcpif?claim=r8cl4obbqjlr613m&fullscreen=1",
+      "provider": "Explain Video",
+      "language": "Roman Urdu",
+      "presentation": "kinetic-word-highlighting",
+      "teachingStyle": [
+        "concept first",
+        "visual explanation",
+        "line-by-line code",
+        "practical steps",
+        "recap"
+      ]
+    },
+    {
+      "lessonId": "fullstack-2",
+      "title": "HTML foundations",
+      "status": "ready-for-production",
+      "durationTarget": "6-12 min",
+      "chapters": [
+        "Concept",
+        "Worked example",
+        "Common mistakes",
+        "Practice walkthrough"
+      ]
+    },
+    {
+      "lessonId": "fullstack-3",
+      "title": "CSS foundations",
+      "status": "ready-for-production",
+      "durationTarget": "6-12 min",
+      "chapters": [
+        "Concept",
+        "Worked example",
+        "Common mistakes",
+        "Practice walkthrough"
+      ]
+    },
+    {
+      "lessonId": "fullstack-4",
+      "title": "JavaScript foundations",
+      "status": "ready-for-production",
+      "durationTarget": "6-12 min",
+      "chapters": [
+        "Concept",
+        "Worked example",
+        "Common mistakes",
+        "Practice walkthrough"
+      ]
+    },
+    {
+      "lessonId": "fullstack-5",
+      "title": "Git & GitHub",
+      "status": "ready-for-production",
+      "durationTarget": "6-12 min",
+      "chapters": [
+        "Concept",
+        "Worked example",
+        "Common mistakes",
+        "Practice walkthrough"
+      ]
+    },
+    {
+      "lessonId": "fullstack-6",
+      "title": "React",
+      "status": "ready-for-production",
+      "durationTarget": "6-12 min",
+      "chapters": [
+        "Concept",
+        "Worked example",
+        "Common mistakes",
+        "Practice walkthrough"
+      ]
+    },
+    {
+      "lessonId": "fullstack-7",
+      "title": "Component architecture",
+      "status": "ready-for-production",
+      "durationTarget": "6-12 min",
+      "chapters": [
+        "Concept",
+        "Worked example",
+        "Common mistakes",
+        "Practice walkthrough"
+      ]
+    },
+    {
+      "lessonId": "fullstack-8",
+      "title": "Node.js",
+      "status": "ready-for-production",
+      "durationTarget": "6-12 min",
+      "chapters": [
+        "Concept",
+        "Worked example",
+        "Common mistakes",
+        "Practice walkthrough"
+      ]
+    },
+    {
+      "lessonId": "fullstack-9",
+      "title": "Express APIs",
+      "status": "ready-for-production",
+      "durationTarget": "6-12 min",
+      "chapters": [
+        "Concept",
+        "Worked example",
+        "Common mistakes",
+        "Practice walkthrough"
+      ]
+    },
+    {
+      "lessonId": "fullstack-10",
+      "title": "Database design",
+      "status": "ready-for-production",
+      "durationTarget": "6-12 min",
+      "chapters": [
+        "Concept",
+        "Worked example",
+        "Common mistakes",
+        "Practice walkthrough"
+      ]
+    },
+    {
+      "lessonId": "fullstack-11",
+      "title": "SQL & queries",
+      "status": "ready-for-production",
+      "durationTarget": "6-12 min",
+      "chapters": [
+        "Concept",
+        "Worked example",
+        "Common mistakes",
+        "Practice walkthrough"
+      ]
+    },
+    {
+      "lessonId": "fullstack-12",
+      "title": "Authentication",
+      "status": "ready-for-production",
+      "durationTarget": "6-12 min",
+      "chapters": [
+        "Concept",
+        "Worked example",
+        "Common mistakes",
+        "Practice walkthrough"
+      ]
+    },
+    {
+      "lessonId": "fullstack-13",
+      "title": "Authorization",
+      "status": "ready-for-production",
+      "durationTarget": "6-12 min",
+      "chapters": [
+        "Concept",
+        "Worked example",
+        "Common mistakes",
+        "Practice walkthrough"
+      ]
+    },
+    {
+      "lessonId": "fullstack-14",
+      "title": "API integration",
+      "status": "ready-for-production",
+      "durationTarget": "6-12 min",
+      "chapters": [
+        "Concept",
+        "Worked example",
+        "Common mistakes",
+        "Practice walkthrough"
+      ]
+    },
+    {
+      "lessonId": "fullstack-15",
+      "title": "Forms & validation",
+      "status": "ready-for-production",
+      "durationTarget": "6-12 min",
+      "chapters": [
+        "Concept",
+        "Worked example",
+        "Common mistakes",
+        "Practice walkthrough"
+      ]
+    },
+    {
+      "lessonId": "fullstack-16",
+      "title": "Security basics",
+      "status": "ready-for-production",
+      "durationTarget": "6-12 min",
+      "chapters": [
+        "Concept",
+        "Worked example",
+        "Common mistakes",
+        "Practice walkthrough"
+      ]
+    },
+    {
+      "lessonId": "fullstack-17",
+      "title": "Testing",
+      "status": "ready-for-production",
+      "durationTarget": "6-12 min",
+      "chapters": [
+        "Concept",
+        "Worked example",
+        "Common mistakes",
+        "Practice walkthrough"
+      ]
+    },
+    {
+      "lessonId": "fullstack-18",
+      "title": "Deployment",
+      "status": "ready-for-production",
+      "durationTarget": "6-12 min",
+      "chapters": [
+        "Concept",
+        "Worked example",
+        "Common mistakes",
+        "Practice walkthrough"
+      ]
+    },
+    {
+      "lessonId": "fullstack-19",
+      "title": "Environment configuration",
+      "status": "ready-for-production",
+      "durationTarget": "6-12 min",
+      "chapters": [
+        "Concept",
+        "Worked example",
+        "Common mistakes",
+        "Practice walkthrough"
+      ]
+    },
+    {
+      "lessonId": "fullstack-20",
+      "title": "Performance",
+      "status": "ready-for-production",
+      "durationTarget": "6-12 min",
+      "chapters": [
+        "Concept",
+        "Worked example",
+        "Common mistakes",
+        "Practice walkthrough"
+      ]
+    },
+    {
+      "lessonId": "fullstack-21",
+      "title": "Accessibility",
+      "status": "ready-for-production",
+      "durationTarget": "6-12 min",
+      "chapters": [
+        "Concept",
+        "Worked example",
+        "Common mistakes",
+        "Practice walkthrough"
+      ]
+    },
+    {
+      "lessonId": "fullstack-22",
+      "title": "SEO",
+      "status": "ready-for-production",
+      "durationTarget": "6-12 min",
+      "chapters": [
+        "Concept",
+        "Worked example",
+        "Common mistakes",
+        "Practice walkthrough"
+      ]
+    },
+    {
+      "lessonId": "fullstack-23",
+      "title": "Project architecture",
+      "status": "ready-for-production",
+      "durationTarget": "6-12 min",
+      "chapters": [
+        "Concept",
+        "Worked example",
+        "Common mistakes",
+        "Practice walkthrough"
+      ]
+    },
+    {
+      "lessonId": "fullstack-24",
+      "title": "Portfolio project",
+      "status": "ready-for-production",
+      "durationTarget": "6-12 min",
+      "chapters": [
+        "Concept",
+        "Worked example",
+        "Common mistakes",
+        "Practice walkthrough"
+      ]
+    },
+    {
+      "lessonId": "fullstack-25",
+      "title": "Capstone planning",
+      "status": "ready-for-production",
+      "durationTarget": "6-12 min",
+      "chapters": [
+        "Concept",
+        "Worked example",
+        "Common mistakes",
+        "Practice walkthrough"
+      ]
+    },
+    {
+      "lessonId": "fullstack-26",
+      "title": "Capstone build",
+      "status": "ready-for-production",
+      "durationTarget": "6-12 min",
+      "chapters": [
+        "Concept",
+        "Worked example",
+        "Common mistakes",
+        "Practice walkthrough"
+      ]
+    },
+    {
+      "lessonId": "fullstack-27",
+      "title": "Capstone deployment",
+      "status": "ready-for-production",
+      "durationTarget": "6-12 min",
+      "chapters": [
+        "Concept",
+        "Worked example",
+        "Common mistakes",
+        "Practice walkthrough"
+      ]
+    },
+    {
+      "lessonId": "fullstack-28",
+      "title": "Final review",
+      "status": "ready-for-production",
+      "durationTarget": "6-12 min",
+      "chapters": [
+        "Concept",
+        "Worked example",
+        "Common mistakes",
+        "Practice walkthrough"
+      ]
+    }
+  ]
+}
