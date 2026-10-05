@@ -368,3 +368,31 @@ button{font:inherit}
 @media(prefers-reduced-motion:reduce){
  .nav-links button,.reference-path-card,.ref-tech,.reference-why-grid .why-card,.premium-roadmap-card,.reference-project-grid .project-card{transition:none!important}
 }
+
+
+/* Exact supplied reference hero artwork */
+.exact-reference-hero-art{
+  position:relative;
+  min-height:520px;
+  display:flex;
+  align-items:center;
+  justify-content:flex-end;
+  overflow:visible;
+}
+.exact-reference-hero-art img{
+  display:block;
+  width:min(100%,560px);
+  aspect-ratio:1/1;
+  object-fit:cover;
+  border-radius:28px;
+  border:1px solid rgba(23,239,120,.18);
+  box-shadow:0 35px 100px rgba(0,0,0,.48),0 0 70px rgba(23,239,120,.08);
+}
+@media(max-width:900px){
+  .exact-reference-hero-art{min-height:440px;justify-content:center}
+  .exact-reference-hero-art img{width:min(100%,520px)}
+}
+@media(max-width:640px){
+  .exact-reference-hero-art{min-height:0;margin-top:10px}
+  .exact-reference-hero-art img{width:100%;border-radius:20px}
+}
