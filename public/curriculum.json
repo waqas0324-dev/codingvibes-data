@@ -1,0 +1,2999 @@
+{
+  "version": 2,
+  "platform": "Coding Vibes",
+  "workflow": [
+    "Watch",
+    "Read",
+    "Practice",
+    "Quiz",
+    "Complete"
+  ],
+  "paths": [
+    {
+      "id": "html",
+      "title": "HTML",
+      "level": "Beginner",
+      "lessons": 10
+    },
+    {
+      "id": "css",
+      "title": "CSS",
+      "level": "Beginner",
+      "lessons": 12
+    },
+    {
+      "id": "javascript",
+      "title": "JavaScript",
+      "level": "Intermediate",
+      "lessons": 14
+    },
+    {
+      "id": "react",
+      "title": "React",
+      "level": "Intermediate",
+      "lessons": 16
+    },
+    {
+      "id": "node",
+      "title": "Node.js",
+      "level": "Intermediate",
+      "lessons": 15
+    },
+    {
+      "id": "fullstack",
+      "title": "Full Stack",
+      "level": "Advanced",
+      "lessons": 28
+    }
+  ],
+  "lessonCount": 95,
+  "lessons": [
+    {
+      "id": "html-1",
+      "path": "html",
+      "order": 1,
+      "title": "How the web is structured",
+      "objective": "Understand how the web is structured and apply it in a small, working HTML example.",
+      "explanation": "This lesson teaches how the web is structured as part of the ordered HTML curriculum. Learn the purpose first, inspect a worked example, change the example yourself, and verify the result. The goal is practical understanding rather than memorising isolated syntax.",
+      "example": "// HTML — How the web is structured\n// Start with a small example, then modify it and test the result.",
+      "practice": "Create a small exercise using how the web is structured. Change at least one part of the example and explain what changed.",
+      "quiz": {
+        "question": "What should you do after learning how the web is structured?",
+        "answers": [
+          "Apply it in a small practice task",
+          "Only memorise the heading",
+          "Skip testing",
+          "Move to the next topic without practice"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "lesson-player-ready",
+        "source": "video-library",
+        "required": true
+      },
+      "resources": [
+        "Lesson notes",
+        "Code example",
+        "Practice task",
+        "Quiz"
+      ]
+    },
+    {
+      "id": "html-2",
+      "path": "html",
+      "order": 2,
+      "title": "Elements & attributes",
+      "objective": "HTML element aur attribute ko samjho, har line ka role identify karo, browser output dekho, aur khud markup modify karo.",
+      "explanation": "HTML mein element page ke content ka structure batata hai. Misal ke taur par <a> link banata hai aur <img> image show karta hai. Attribute element ko extra information deta hai. Is lesson mein hum ek link aur image ko line by line samjhenge. Pehle browser ko batayenge ke link ka text kya hai, phir href se destination denge. Image ke liye src file ka path batata hai aur alt image ka meaningful text deta hai. Har code change ke baad Live Output mein result dekho, phir code ko khud change karke verify karo.",
+      "example": "<a href=\"https://example.com\">Visit Example</a>\n<img src=\"profile.jpg\" alt=\"Student coding at a desk\">",
+      "practice": "Live Output mein link par click karke destination check karo. Phir href ko apni website ke URL se replace karo. Image ke src ko apni image file se replace karo aur alt text ko meaningful description se badlo.",
+      "quiz": {
+        "question": "<a href=\"...\"> mein href ka kaam kya hai?",
+        "answers": [
+          "Link ka destination batana",
+          "Image show karna",
+          "Text ko bold karna",
+          "Page ka background change karna"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "published",
+        "source": "Explain Video",
+        "required": true,
+        "url": "https://scrimba.com/explain/guide0odhjlamv?claim=8pin9kpd8pocmn7c&fullscreen=1"
+      },
+      "resources": [
+        "Lesson notes",
+        "Code example",
+        "Practice task",
+        "Quiz"
+      ]
+    },
+    {
+      "id": "html-3",
+      "path": "html",
+      "order": 3,
+      "title": "Links, images & media",
+      "objective": "Understand links, images & media and apply it in a small, working HTML example.",
+      "explanation": "This lesson teaches links, images & media as part of the ordered HTML curriculum. Learn the purpose first, inspect a worked example, change the example yourself, and verify the result. The goal is practical understanding rather than memorising isolated syntax.",
+      "example": "// HTML — Links, images & media\n// Start with a small example, then modify it and test the result.",
+      "practice": "Create a small exercise using links, images & media. Change at least one part of the example and explain what changed.",
+      "quiz": {
+        "question": "What should you do after learning links, images & media?",
+        "answers": [
+          "Apply it in a small practice task",
+          "Only memorise the heading",
+          "Skip testing",
+          "Move to the next topic without practice"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "lesson-player-ready",
+        "source": "video-library",
+        "required": true
+      },
+      "resources": [
+        "Lesson notes",
+        "Code example",
+        "Practice task",
+        "Quiz"
+      ]
+    },
+    {
+      "id": "html-4",
+      "path": "html",
+      "order": 4,
+      "title": "Lists, tables & forms",
+      "objective": "Understand lists, tables & forms and apply it in a small, working HTML example.",
+      "explanation": "This lesson teaches lists, tables & forms as part of the ordered HTML curriculum. Learn the purpose first, inspect a worked example, change the example yourself, and verify the result. The goal is practical understanding rather than memorising isolated syntax.",
+      "example": "// HTML — Lists, tables & forms\n// Start with a small example, then modify it and test the result.",
+      "practice": "Create a small exercise using lists, tables & forms. Change at least one part of the example and explain what changed.",
+      "quiz": {
+        "question": "What should you do after learning lists, tables & forms?",
+        "answers": [
+          "Apply it in a small practice task",
+          "Only memorise the heading",
+          "Skip testing",
+          "Move to the next topic without practice"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "lesson-player-ready",
+        "source": "video-library",
+        "required": true
+      },
+      "resources": [
+        "Lesson notes",
+        "Code example",
+        "Practice task",
+        "Quiz"
+      ]
+    },
+    {
+      "id": "html-5",
+      "path": "html",
+      "order": 5,
+      "title": "Semantic page layout",
+      "objective": "Understand semantic page layout and apply it in a small, working HTML example.",
+      "explanation": "This lesson teaches semantic page layout as part of the ordered HTML curriculum. Learn the purpose first, inspect a worked example, change the example yourself, and verify the result. The goal is practical understanding rather than memorising isolated syntax.",
+      "example": "// HTML — Semantic page layout\n// Start with a small example, then modify it and test the result.",
+      "practice": "Create a small exercise using semantic page layout. Change at least one part of the example and explain what changed.",
+      "quiz": {
+        "question": "What should you do after learning semantic page layout?",
+        "answers": [
+          "Apply it in a small practice task",
+          "Only memorise the heading",
+          "Skip testing",
+          "Move to the next topic without practice"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "lesson-player-ready",
+        "source": "video-library",
+        "required": true
+      },
+      "resources": [
+        "Lesson notes",
+        "Code example",
+        "Practice task",
+        "Quiz"
+      ]
+    },
+    {
+      "id": "html-6",
+      "path": "html",
+      "order": 6,
+      "title": "Forms & validation",
+      "objective": "Understand forms & validation and apply it in a small, working HTML example.",
+      "explanation": "This lesson teaches forms & validation as part of the ordered HTML curriculum. Learn the purpose first, inspect a worked example, change the example yourself, and verify the result. The goal is practical understanding rather than memorising isolated syntax.",
+      "example": "// HTML — Forms & validation\n// Start with a small example, then modify it and test the result.",
+      "practice": "Create a small exercise using forms & validation. Change at least one part of the example and explain what changed.",
+      "quiz": {
+        "question": "What should you do after learning forms & validation?",
+        "answers": [
+          "Apply it in a small practice task",
+          "Only memorise the heading",
+          "Skip testing",
+          "Move to the next topic without practice"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "lesson-player-ready",
+        "source": "video-library",
+        "required": true
+      },
+      "resources": [
+        "Lesson notes",
+        "Code example",
+        "Practice task",
+        "Quiz"
+      ]
+    },
+    {
+      "id": "html-7",
+      "path": "html",
+      "order": 7,
+      "title": "Accessibility foundations",
+      "objective": "Understand accessibility foundations and apply it in a small, working HTML example.",
+      "explanation": "This lesson teaches accessibility foundations as part of the ordered HTML curriculum. Learn the purpose first, inspect a worked example, change the example yourself, and verify the result. The goal is practical understanding rather than memorising isolated syntax.",
+      "example": "// HTML — Accessibility foundations\n// Start with a small example, then modify it and test the result.",
+      "practice": "Create a small exercise using accessibility foundations. Change at least one part of the example and explain what changed.",
+      "quiz": {
+        "question": "What should you do after learning accessibility foundations?",
+        "answers": [
+          "Apply it in a small practice task",
+          "Only memorise the heading",
+          "Skip testing",
+          "Move to the next topic without practice"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "lesson-player-ready",
+        "source": "video-library",
+        "required": true
+      },
+      "resources": [
+        "Lesson notes",
+        "Code example",
+        "Practice task",
+        "Quiz"
+      ]
+    },
+    {
+      "id": "html-8",
+      "path": "html",
+      "order": 8,
+      "title": "Metadata & SEO",
+      "objective": "Understand metadata & seo and apply it in a small, working HTML example.",
+      "explanation": "This lesson teaches metadata & seo as part of the ordered HTML curriculum. Learn the purpose first, inspect a worked example, change the example yourself, and verify the result. The goal is practical understanding rather than memorising isolated syntax.",
+      "example": "// HTML — Metadata & SEO\n// Start with a small example, then modify it and test the result.",
+      "practice": "Create a small exercise using metadata & seo. Change at least one part of the example and explain what changed.",
+      "quiz": {
+        "question": "What should you do after learning metadata & seo?",
+        "answers": [
+          "Apply it in a small practice task",
+          "Only memorise the heading",
+          "Skip testing",
+          "Move to the next topic without practice"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "lesson-player-ready",
+        "source": "video-library",
+        "required": true
+      },
+      "resources": [
+        "Lesson notes",
+        "Code example",
+        "Practice task",
+        "Quiz"
+      ]
+    },
+    {
+      "id": "html-9",
+      "path": "html",
+      "order": 9,
+      "title": "Project: profile page",
+      "objective": "Understand project: profile page and apply it in a small, working HTML example.",
+      "explanation": "This lesson teaches project: profile page as part of the ordered HTML curriculum. Learn the purpose first, inspect a worked example, change the example yourself, and verify the result. The goal is practical understanding rather than memorising isolated syntax.",
+      "example": "// HTML — Project: profile page\n// Start with a small example, then modify it and test the result.",
+      "practice": "Create a small exercise using project: profile page. Change at least one part of the example and explain what changed.",
+      "quiz": {
+        "question": "What should you do after learning project: profile page?",
+        "answers": [
+          "Apply it in a small practice task",
+          "Only memorise the heading",
+          "Skip testing",
+          "Move to the next topic without practice"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "lesson-player-ready",
+        "source": "video-library",
+        "required": true
+      },
+      "resources": [
+        "Lesson notes",
+        "Code example",
+        "Practice task",
+        "Quiz"
+      ]
+    },
+    {
+      "id": "html-10",
+      "path": "html",
+      "order": 10,
+      "title": "Project review & next steps",
+      "objective": "Understand project review & next steps and apply it in a small, working HTML example.",
+      "explanation": "This lesson teaches project review & next steps as part of the ordered HTML curriculum. Learn the purpose first, inspect a worked example, change the example yourself, and verify the result. The goal is practical understanding rather than memorising isolated syntax.",
+      "example": "// HTML — Project review & next steps\n// Start with a small example, then modify it and test the result.",
+      "practice": "Create a small exercise using project review & next steps. Change at least one part of the example and explain what changed.",
+      "quiz": {
+        "question": "What should you do after learning project review & next steps?",
+        "answers": [
+          "Apply it in a small practice task",
+          "Only memorise the heading",
+          "Skip testing",
+          "Move to the next topic without practice"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "lesson-player-ready",
+        "source": "video-library",
+        "required": true
+      },
+      "resources": [
+        "Lesson notes",
+        "Code example",
+        "Practice task",
+        "Quiz"
+      ]
+    },
+    {
+      "id": "css-1",
+      "path": "css",
+      "order": 1,
+      "title": "CSS syntax & selectors",
+      "objective": "By the end of this lesson, you can explain CSS syntax & selectors, write a small working example, and diagnose one common mistake.",
+      "explanation": "CSS syntax & selectors is a practical part of the css learning path. Focus on what problem it solves, how the main pieces connect, and how to verify your result.\\n\\nHow to learn it: first identify the input and expected output, then inspect the example line by line. Change one value yourself and run the result. Finally, explain why the output changed.\\n\\nCommon mistake: changing styles without checking the box model or responsive behavior. Verify your work with the browser, terminal, console, or API response instead of assuming it works.",
+      "example": ".card { padding: 1rem; }\\n.card:hover { transform: translateY(-2px); }",
+      "practice": "Build a small CSS syntax & selectors exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why.",
+      "quiz": {
+        "question": "Which workflow is most useful when learning CSS syntax & selectors?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "lesson-player-ready",
+        "source": "video-library",
+        "required": true
+      },
+      "resources": [
+        "Lesson notes",
+        "Code example",
+        "Practice task",
+        "Quiz"
+      ]
+    },
+    {
+      "id": "css-2",
+      "path": "css",
+      "order": 2,
+      "title": "Colors, units & typography",
+      "objective": "By the end of this lesson, you can explain Colors, units & typography, write a small working example, and diagnose one common mistake.",
+      "explanation": "Colors, units & typography is a practical part of the css learning path. Focus on what problem it solves, how the main pieces connect, and how to verify your result.\\n\\nHow to learn it: first identify the input and expected output, then inspect the example line by line. Change one value yourself and run the result. Finally, explain why the output changed.\\n\\nCommon mistake: changing styles without checking the box model or responsive behavior. Verify your work with the browser, terminal, console, or API response instead of assuming it works.",
+      "example": ".component {\\n  display: grid;\\n  gap: 1rem;\\n}",
+      "practice": "Build a small Colors, units & typography exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why.",
+      "quiz": {
+        "question": "Which workflow is most useful when learning Colors, units & typography?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "lesson-player-ready",
+        "source": "video-library",
+        "required": true
+      },
+      "resources": [
+        "Lesson notes",
+        "Code example",
+        "Practice task",
+        "Quiz"
+      ]
+    },
+    {
+      "id": "css-3",
+      "path": "css",
+      "order": 3,
+      "title": "The box model",
+      "objective": "By the end of this lesson, you can explain The box model, write a small working example, and diagnose one common mistake.",
+      "explanation": "The box model is a practical part of the css learning path. Focus on what problem it solves, how the main pieces connect, and how to verify your result.\\n\\nHow to learn it: first identify the input and expected output, then inspect the example line by line. Change one value yourself and run the result. Finally, explain why the output changed.\\n\\nCommon mistake: changing styles without checking the box model or responsive behavior. Verify your work with the browser, terminal, console, or API response instead of assuming it works.",
+      "example": ".component {\\n  display: grid;\\n  gap: 1rem;\\n}",
+      "practice": "Build a small The box model exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why.",
+      "quiz": {
+        "question": "Which workflow is most useful when learning The box model?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "lesson-player-ready",
+        "source": "video-library",
+        "required": true
+      },
+      "resources": [
+        "Lesson notes",
+        "Code example",
+        "Practice task",
+        "Quiz"
+      ]
+    },
+    {
+      "id": "css-4",
+      "path": "css",
+      "order": 4,
+      "title": "Display & positioning",
+      "objective": "By the end of this lesson, you can explain Display & positioning, write a small working example, and diagnose one common mistake.",
+      "explanation": "Display & positioning is a practical part of the css learning path. Focus on what problem it solves, how the main pieces connect, and how to verify your result.\\n\\nHow to learn it: first identify the input and expected output, then inspect the example line by line. Change one value yourself and run the result. Finally, explain why the output changed.\\n\\nCommon mistake: changing styles without checking the box model or responsive behavior. Verify your work with the browser, terminal, console, or API response instead of assuming it works.",
+      "example": ".component {\\n  display: grid;\\n  gap: 1rem;\\n}",
+      "practice": "Build a small Display & positioning exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why.",
+      "quiz": {
+        "question": "Which workflow is most useful when learning Display & positioning?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "lesson-player-ready",
+        "source": "video-library",
+        "required": true
+      },
+      "resources": [
+        "Lesson notes",
+        "Code example",
+        "Practice task",
+        "Quiz"
+      ]
+    },
+    {
+      "id": "css-5",
+      "path": "css",
+      "order": 5,
+      "title": "Flexbox layouts",
+      "objective": "By the end of this lesson, you can explain Flexbox layouts, write a small working example, and diagnose one common mistake.",
+      "explanation": "Flexbox layouts is a practical part of the css learning path. Focus on what problem it solves, how the main pieces connect, and how to verify your result.\\n\\nHow to learn it: first identify the input and expected output, then inspect the example line by line. Change one value yourself and run the result. Finally, explain why the output changed.\\n\\nCommon mistake: changing styles without checking the box model or responsive behavior. Verify your work with the browser, terminal, console, or API response instead of assuming it works.",
+      "example": ".toolbar {\\n  display: flex;\\n  align-items: center;\\n  justify-content: space-between;\\n  gap: 1rem;\\n}",
+      "practice": "Build a small Flexbox layouts exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why.",
+      "quiz": {
+        "question": "Which workflow is most useful when learning Flexbox layouts?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "lesson-player-ready",
+        "source": "video-library",
+        "required": true
+      },
+      "resources": [
+        "Lesson notes",
+        "Code example",
+        "Practice task",
+        "Quiz"
+      ]
+    },
+    {
+      "id": "css-6",
+      "path": "css",
+      "order": 6,
+      "title": "CSS Grid",
+      "objective": "By the end of this lesson, you can explain CSS Grid, write a small working example, and diagnose one common mistake.",
+      "explanation": "CSS Grid is a practical part of the css learning path. Focus on what problem it solves, how the main pieces connect, and how to verify your result.\\n\\nHow to learn it: first identify the input and expected output, then inspect the example line by line. Change one value yourself and run the result. Finally, explain why the output changed.\\n\\nCommon mistake: changing styles without checking the box model or responsive behavior. Verify your work with the browser, terminal, console, or API response instead of assuming it works.",
+      "example": ".cards {\\n  display: grid;\\n  grid-template-columns: repeat(3, minmax(0, 1fr));\\n  gap: 1rem;\\n}",
+      "practice": "Build a small CSS Grid exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why.",
+      "quiz": {
+        "question": "Which workflow is most useful when learning CSS Grid?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "lesson-player-ready",
+        "source": "video-library",
+        "required": true
+      },
+      "resources": [
+        "Lesson notes",
+        "Code example",
+        "Practice task",
+        "Quiz"
+      ]
+    },
+    {
+      "id": "css-7",
+      "path": "css",
+      "order": 7,
+      "title": "Responsive design",
+      "objective": "By the end of this lesson, you can explain Responsive design, write a small working example, and diagnose one common mistake.",
+      "explanation": "Responsive design is a practical part of the css learning path. Focus on what problem it solves, how the main pieces connect, and how to verify your result.\\n\\nHow to learn it: first identify the input and expected output, then inspect the example line by line. Change one value yourself and run the result. Finally, explain why the output changed.\\n\\nCommon mistake: changing styles without checking the box model or responsive behavior. Verify your work with the browser, terminal, console, or API response instead of assuming it works.",
+      "example": ".cards { display: grid; grid-template-columns: repeat(3, 1fr); }\\n@media (max-width: 760px) { .cards { grid-template-columns: 1fr; } }",
+      "practice": "Build a small Responsive design exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why.",
+      "quiz": {
+        "question": "Which workflow is most useful when learning Responsive design?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "lesson-player-ready",
+        "source": "video-library",
+        "required": true
+      },
+      "resources": [
+        "Lesson notes",
+        "Code example",
+        "Practice task",
+        "Quiz"
+      ]
+    },
+    {
+      "id": "css-8",
+      "path": "css",
+      "order": 8,
+      "title": "Transitions & transforms",
+      "objective": "By the end of this lesson, you can explain Transitions & transforms, write a small working example, and diagnose one common mistake.",
+      "explanation": "Transitions & transforms is a practical part of the css learning path. Focus on what problem it solves, how the main pieces connect, and how to verify your result.\\n\\nHow to learn it: first identify the input and expected output, then inspect the example line by line. Change one value yourself and run the result. Finally, explain why the output changed.\\n\\nCommon mistake: changing styles without checking the box model or responsive behavior. Verify your work with the browser, terminal, console, or API response instead of assuming it works.",
+      "example": ".component {\\n  display: grid;\\n  gap: 1rem;\\n}",
+      "practice": "Build a small Transitions & transforms exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why.",
+      "quiz": {
+        "question": "Which workflow is most useful when learning Transitions & transforms?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "lesson-player-ready",
+        "source": "video-library",
+        "required": true
+      },
+      "resources": [
+        "Lesson notes",
+        "Code example",
+        "Practice task",
+        "Quiz"
+      ]
+    },
+    {
+      "id": "css-9",
+      "path": "css",
+      "order": 9,
+      "title": "Animations",
+      "objective": "By the end of this lesson, you can explain Animations, write a small working example, and diagnose one common mistake.",
+      "explanation": "Animations is a practical part of the css learning path. Focus on what problem it solves, how the main pieces connect, and how to verify your result.\\n\\nHow to learn it: first identify the input and expected output, then inspect the example line by line. Change one value yourself and run the result. Finally, explain why the output changed.\\n\\nCommon mistake: changing styles without checking the box model or responsive behavior. Verify your work with the browser, terminal, console, or API response instead of assuming it works.",
+      "example": ".component {\\n  display: grid;\\n  gap: 1rem;\\n}",
+      "practice": "Build a small Animations exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why.",
+      "quiz": {
+        "question": "Which workflow is most useful when learning Animations?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "lesson-player-ready",
+        "source": "video-library",
+        "required": true
+      },
+      "resources": [
+        "Lesson notes",
+        "Code example",
+        "Practice task",
+        "Quiz"
+      ]
+    },
+    {
+      "id": "css-10",
+      "path": "css",
+      "order": 10,
+      "title": "Forms & UI states",
+      "objective": "By the end of this lesson, you can explain Forms & UI states, write a small working example, and diagnose one common mistake.",
+      "explanation": "Forms & UI states is a practical part of the css learning path. Focus on what problem it solves, how the main pieces connect, and how to verify your result.\\n\\nHow to learn it: first identify the input and expected output, then inspect the example line by line. Change one value yourself and run the result. Finally, explain why the output changed.\\n\\nCommon mistake: changing styles without checking the box model or responsive behavior. Verify your work with the browser, terminal, console, or API response instead of assuming it works.",
+      "example": "const [open, setOpen] = useState(false);\\n<button onClick={() => setOpen(!open)}>{open ? \"Close\" : \"Open\"}</button>",
+      "practice": "Build a small Forms & UI states exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why.",
+      "quiz": {
+        "question": "Which workflow is most useful when learning Forms & UI states?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "lesson-player-ready",
+        "source": "video-library",
+        "required": true
+      },
+      "resources": [
+        "Lesson notes",
+        "Code example",
+        "Practice task",
+        "Quiz"
+      ]
+    },
+    {
+      "id": "css-11",
+      "path": "css",
+      "order": 11,
+      "title": "Component styling",
+      "objective": "By the end of this lesson, you can explain Component styling, write a small working example, and diagnose one common mistake.",
+      "explanation": "Component styling is a practical part of the css learning path. Focus on what problem it solves, how the main pieces connect, and how to verify your result.\\n\\nHow to learn it: first identify the input and expected output, then inspect the example line by line. Change one value yourself and run the result. Finally, explain why the output changed.\\n\\nCommon mistake: changing styles without checking the box model or responsive behavior. Verify your work with the browser, terminal, console, or API response instead of assuming it works.",
+      "example": "function CourseCard({ title }: { title: string }) {\\n  return <article><h2>{title}</h2></article>;\\n}",
+      "practice": "Build a small Component styling exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why.",
+      "quiz": {
+        "question": "Which workflow is most useful when learning Component styling?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "lesson-player-ready",
+        "source": "video-library",
+        "required": true
+      },
+      "resources": [
+        "Lesson notes",
+        "Code example",
+        "Practice task",
+        "Quiz"
+      ]
+    },
+    {
+      "id": "css-12",
+      "path": "css",
+      "order": 12,
+      "title": "CSS project",
+      "objective": "By the end of this lesson, you can explain CSS project, write a small working example, and diagnose one common mistake.",
+      "explanation": "CSS project is a practical part of the css learning path. Focus on what problem it solves, how the main pieces connect, and how to verify your result.\\n\\nHow to learn it: first identify the input and expected output, then inspect the example line by line. Change one value yourself and run the result. Finally, explain why the output changed.\\n\\nCommon mistake: changing styles without checking the box model or responsive behavior. Verify your work with the browser, terminal, console, or API response instead of assuming it works.",
+      "example": ".component {\\n  display: grid;\\n  gap: 1rem;\\n}",
+      "practice": "Build a small CSS project exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why.",
+      "quiz": {
+        "question": "Which workflow is most useful when learning CSS project?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "lesson-player-ready",
+        "source": "video-library",
+        "required": true
+      },
+      "resources": [
+        "Lesson notes",
+        "Code example",
+        "Practice task",
+        "Quiz"
+      ]
+    },
+    {
+      "id": "javascript-1",
+      "path": "javascript",
+      "order": 1,
+      "title": "JavaScript fundamentals",
+      "objective": "By the end of this lesson, you can explain JavaScript fundamentals, write a small working example, and diagnose one common mistake.",
+      "explanation": "JavaScript fundamentals is a practical part of the javascript learning path. Focus on what problem it solves, how the main pieces connect, and how to verify your result.\\n\\nHow to learn it: first identify the input and expected output, then inspect the example line by line. Change one value yourself and run the result. Finally, explain why the output changed.\\n\\nCommon mistake: copying syntax without changing and testing the example. Verify your work with the browser, terminal, console, or API response instead of assuming it works.",
+      "example": "const value = \"Coding Vibes\";\\nconsole.log(value);",
+      "practice": "Build a small JavaScript fundamentals exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why.",
+      "quiz": {
+        "question": "Which workflow is most useful when learning JavaScript fundamentals?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "lesson-player-ready",
+        "source": "video-library",
+        "required": true
+      },
+      "resources": [
+        "Lesson notes",
+        "Code example",
+        "Practice task",
+        "Quiz"
+      ]
+    },
+    {
+      "id": "javascript-2",
+      "path": "javascript",
+      "order": 2,
+      "title": "Variables & data types",
+      "objective": "By the end of this lesson, you can explain Variables & data types, write a small working example, and diagnose one common mistake.",
+      "explanation": "Variables & data types is a practical part of the javascript learning path. Focus on what problem it solves, how the main pieces connect, and how to verify your result.\\n\\nHow to learn it: first identify the input and expected output, then inspect the example line by line. Change one value yourself and run the result. Finally, explain why the output changed.\\n\\nCommon mistake: copying syntax without changing and testing the example. Verify your work with the browser, terminal, console, or API response instead of assuming it works.",
+      "example": "const lessons = 10;\\nconst completed = 7;\\nconst progress = Math.round(completed / lessons * 100);\\nconsole.log(progress);",
+      "practice": "Build a small Variables & data types exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why.",
+      "quiz": {
+        "question": "Which workflow is most useful when learning Variables & data types?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "lesson-player-ready",
+        "source": "video-library",
+        "required": true
+      },
+      "resources": [
+        "Lesson notes",
+        "Code example",
+        "Practice task",
+        "Quiz"
+      ]
+    },
+    {
+      "id": "javascript-3",
+      "path": "javascript",
+      "order": 3,
+      "title": "Operators & conditionals",
+      "objective": "By the end of this lesson, you can explain Operators & conditionals, write a small working example, and diagnose one common mistake.",
+      "explanation": "Operators & conditionals is a practical part of the javascript learning path. Focus on what problem it solves, how the main pieces connect, and how to verify your result.\\n\\nHow to learn it: first identify the input and expected output, then inspect the example line by line. Change one value yourself and run the result. Finally, explain why the output changed.\\n\\nCommon mistake: copying syntax without changing and testing the example. Verify your work with the browser, terminal, console, or API response instead of assuming it works.",
+      "example": "const value = \"Coding Vibes\";\\nconsole.log(value);",
+      "practice": "Build a small Operators & conditionals exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why.",
+      "quiz": {
+        "question": "Which workflow is most useful when learning Operators & conditionals?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "lesson-player-ready",
+        "source": "video-library",
+        "required": true
+      },
+      "resources": [
+        "Lesson notes",
+        "Code example",
+        "Practice task",
+        "Quiz"
+      ]
+    },
+    {
+      "id": "javascript-4",
+      "path": "javascript",
+      "order": 4,
+      "title": "Loops & iteration",
+      "objective": "By the end of this lesson, you can explain Loops & iteration, write a small working example, and diagnose one common mistake.",
+      "explanation": "Loops & iteration is a practical part of the javascript learning path. Focus on what problem it solves, how the main pieces connect, and how to verify your result.\\n\\nHow to learn it: first identify the input and expected output, then inspect the example line by line. Change one value yourself and run the result. Finally, explain why the output changed.\\n\\nCommon mistake: copying syntax without changing and testing the example. Verify your work with the browser, terminal, console, or API response instead of assuming it works.",
+      "example": "const value = \"Coding Vibes\";\\nconsole.log(value);",
+      "practice": "Build a small Loops & iteration exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why.",
+      "quiz": {
+        "question": "Which workflow is most useful when learning Loops & iteration?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "lesson-player-ready",
+        "source": "video-library",
+        "required": true
+      },
+      "resources": [
+        "Lesson notes",
+        "Code example",
+        "Practice task",
+        "Quiz"
+      ]
+    },
+    {
+      "id": "javascript-5",
+      "path": "javascript",
+      "order": 5,
+      "title": "Functions",
+      "objective": "By the end of this lesson, you can explain Functions, write a small working example, and diagnose one common mistake.",
+      "explanation": "Functions is a practical part of the javascript learning path. Focus on what problem it solves, how the main pieces connect, and how to verify your result.\\n\\nHow to learn it: first identify the input and expected output, then inspect the example line by line. Change one value yourself and run the result. Finally, explain why the output changed.\\n\\nCommon mistake: copying syntax without changing and testing the example. Verify your work with the browser, terminal, console, or API response instead of assuming it works.",
+      "example": "function progress(done, total) {\\n  return Math.round(done / total * 100);\\n}\\nconsole.log(progress(7, 10));",
+      "practice": "Build a small Functions exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why.",
+      "quiz": {
+        "question": "Which workflow is most useful when learning Functions?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "lesson-player-ready",
+        "source": "video-library",
+        "required": true
+      },
+      "resources": [
+        "Lesson notes",
+        "Code example",
+        "Practice task",
+        "Quiz"
+      ]
+    },
+    {
+      "id": "javascript-6",
+      "path": "javascript",
+      "order": 6,
+      "title": "Arrays & objects",
+      "objective": "By the end of this lesson, you can explain Arrays & objects, write a small working example, and diagnose one common mistake.",
+      "explanation": "Arrays & objects is a practical part of the javascript learning path. Focus on what problem it solves, how the main pieces connect, and how to verify your result.\\n\\nHow to learn it: first identify the input and expected output, then inspect the example line by line. Change one value yourself and run the result. Finally, explain why the output changed.\\n\\nCommon mistake: copying syntax without changing and testing the example. Verify your work with the browser, terminal, console, or API response instead of assuming it works.",
+      "example": "const course = { title: \"HTML\", lessons: 10 };\\nconsole.log(course.title);",
+      "practice": "Build a small Arrays & objects exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why.",
+      "quiz": {
+        "question": "Which workflow is most useful when learning Arrays & objects?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "lesson-player-ready",
+        "source": "video-library",
+        "required": true
+      },
+      "resources": [
+        "Lesson notes",
+        "Code example",
+        "Practice task",
+        "Quiz"
+      ]
+    },
+    {
+      "id": "javascript-7",
+      "path": "javascript",
+      "order": 7,
+      "title": "DOM selection",
+      "objective": "By the end of this lesson, you can explain DOM selection, write a small working example, and diagnose one common mistake.",
+      "explanation": "DOM selection is a practical part of the javascript learning path. Focus on what problem it solves, how the main pieces connect, and how to verify your result.\\n\\nHow to learn it: first identify the input and expected output, then inspect the example line by line. Change one value yourself and run the result. Finally, explain why the output changed.\\n\\nCommon mistake: copying syntax without changing and testing the example. Verify your work with the browser, terminal, console, or API response instead of assuming it works.",
+      "example": "const button = document.querySelector(\"#save\");\\nbutton?.addEventListener(\"click\", () => {\\n  document.body.dataset.saved = \"true\";\\n});",
+      "practice": "Build a small DOM selection exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why.",
+      "quiz": {
+        "question": "Which workflow is most useful when learning DOM selection?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "lesson-player-ready",
+        "source": "video-library",
+        "required": true
+      },
+      "resources": [
+        "Lesson notes",
+        "Code example",
+        "Practice task",
+        "Quiz"
+      ]
+    },
+    {
+      "id": "javascript-8",
+      "path": "javascript",
+      "order": 8,
+      "title": "Events & interactions",
+      "objective": "By the end of this lesson, you can explain Events & interactions, write a small working example, and diagnose one common mistake.",
+      "explanation": "Events & interactions is a practical part of the javascript learning path. Focus on what problem it solves, how the main pieces connect, and how to verify your result.\\n\\nHow to learn it: first identify the input and expected output, then inspect the example line by line. Change one value yourself and run the result. Finally, explain why the output changed.\\n\\nCommon mistake: copying syntax without changing and testing the example. Verify your work with the browser, terminal, console, or API response instead of assuming it works.",
+      "example": "const button = document.querySelector(\"#save\");\\nbutton?.addEventListener(\"click\", () => {\\n  document.body.dataset.saved = \"true\";\\n});",
+      "practice": "Build a small Events & interactions exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why.",
+      "quiz": {
+        "question": "Which workflow is most useful when learning Events & interactions?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "lesson-player-ready",
+        "source": "video-library",
+        "required": true
+      },
+      "resources": [
+        "Lesson notes",
+        "Code example",
+        "Practice task",
+        "Quiz"
+      ]
+    },
+    {
+      "id": "javascript-9",
+      "path": "javascript",
+      "order": 9,
+      "title": "Forms & validation",
+      "objective": "By the end of this lesson, you can explain Forms & validation, write a small working example, and diagnose one common mistake.",
+      "explanation": "Forms & validation is a practical part of the javascript learning path. Focus on what problem it solves, how the main pieces connect, and how to verify your result.\\n\\nHow to learn it: first identify the input and expected output, then inspect the example line by line. Change one value yourself and run the result. Finally, explain why the output changed.\\n\\nCommon mistake: copying syntax without changing and testing the example. Verify your work with the browser, terminal, console, or API response instead of assuming it works.",
+      "example": "const value = \"Coding Vibes\";\\nconsole.log(value);",
+      "practice": "Build a small Forms & validation exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why.",
+      "quiz": {
+        "question": "Which workflow is most useful when learning Forms & validation?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "lesson-player-ready",
+        "source": "video-library",
+        "required": true
+      },
+      "resources": [
+        "Lesson notes",
+        "Code example",
+        "Practice task",
+        "Quiz"
+      ]
+    },
+    {
+      "id": "javascript-10",
+      "path": "javascript",
+      "order": 10,
+      "title": "Fetch & APIs",
+      "objective": "By the end of this lesson, you can explain Fetch & APIs, write a small working example, and diagnose one common mistake.",
+      "explanation": "Fetch & APIs is a practical part of the javascript learning path. Focus on what problem it solves, how the main pieces connect, and how to verify your result.\\n\\nHow to learn it: first identify the input and expected output, then inspect the example line by line. Change one value yourself and run the result. Finally, explain why the output changed.\\n\\nCommon mistake: assuming every request succeeds. Verify your work with the browser, terminal, console, or API response instead of assuming it works.",
+      "example": "const response = await fetch(\"/api/courses\");\\nif (!response.ok) throw new Error(\"Request failed\");\\nconst data = await response.json();",
+      "practice": "Build a small Fetch & APIs exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why.",
+      "quiz": {
+        "question": "Which workflow is most useful when learning Fetch & APIs?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "lesson-player-ready",
+        "source": "video-library",
+        "required": true
+      },
+      "resources": [
+        "Lesson notes",
+        "Code example",
+        "Practice task",
+        "Quiz"
+      ]
+    },
+    {
+      "id": "javascript-11",
+      "path": "javascript",
+      "order": 11,
+      "title": "Async JavaScript",
+      "objective": "By the end of this lesson, you can explain Async JavaScript, write a small working example, and diagnose one common mistake.",
+      "explanation": "Async JavaScript is a practical part of the javascript learning path. Focus on what problem it solves, how the main pieces connect, and how to verify your result.\\n\\nHow to learn it: first identify the input and expected output, then inspect the example line by line. Change one value yourself and run the result. Finally, explain why the output changed.\\n\\nCommon mistake: copying syntax without changing and testing the example. Verify your work with the browser, terminal, console, or API response instead of assuming it works.",
+      "example": "const value = \"Coding Vibes\";\\nconsole.log(value);",
+      "practice": "Build a small Async JavaScript exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why.",
+      "quiz": {
+        "question": "Which workflow is most useful when learning Async JavaScript?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "lesson-player-ready",
+        "source": "video-library",
+        "required": true
+      },
+      "resources": [
+        "Lesson notes",
+        "Code example",
+        "Practice task",
+        "Quiz"
+      ]
+    },
+    {
+      "id": "javascript-12",
+      "path": "javascript",
+      "order": 12,
+      "title": "Modules",
+      "objective": "By the end of this lesson, you can explain Modules, write a small working example, and diagnose one common mistake.",
+      "explanation": "Modules is a practical part of the javascript learning path. Focus on what problem it solves, how the main pieces connect, and how to verify your result.\\n\\nHow to learn it: first identify the input and expected output, then inspect the example line by line. Change one value yourself and run the result. Finally, explain why the output changed.\\n\\nCommon mistake: copying syntax without changing and testing the example. Verify your work with the browser, terminal, console, or API response instead of assuming it works.",
+      "example": "const value = \"Coding Vibes\";\\nconsole.log(value);",
+      "practice": "Build a small Modules exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why.",
+      "quiz": {
+        "question": "Which workflow is most useful when learning Modules?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "lesson-player-ready",
+        "source": "video-library",
+        "required": true
+      },
+      "resources": [
+        "Lesson notes",
+        "Code example",
+        "Practice task",
+        "Quiz"
+      ]
+    },
+    {
+      "id": "javascript-13",
+      "path": "javascript",
+      "order": 13,
+      "title": "Error handling",
+      "objective": "By the end of this lesson, you can explain Error handling, write a small working example, and diagnose one common mistake.",
+      "explanation": "Error handling is a practical part of the javascript learning path. Focus on what problem it solves, how the main pieces connect, and how to verify your result.\\n\\nHow to learn it: first identify the input and expected output, then inspect the example line by line. Change one value yourself and run the result. Finally, explain why the output changed.\\n\\nCommon mistake: copying syntax without changing and testing the example. Verify your work with the browser, terminal, console, or API response instead of assuming it works.",
+      "example": "const value = \"Coding Vibes\";\\nconsole.log(value);",
+      "practice": "Build a small Error handling exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why.",
+      "quiz": {
+        "question": "Which workflow is most useful when learning Error handling?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "lesson-player-ready",
+        "source": "video-library",
+        "required": true
+      },
+      "resources": [
+        "Lesson notes",
+        "Code example",
+        "Practice task",
+        "Quiz"
+      ]
+    },
+    {
+      "id": "javascript-14",
+      "path": "javascript",
+      "order": 14,
+      "title": "JavaScript project",
+      "objective": "By the end of this lesson, you can explain JavaScript project, write a small working example, and diagnose one common mistake.",
+      "explanation": "JavaScript project is a practical part of the javascript learning path. Focus on what problem it solves, how the main pieces connect, and how to verify your result.\\n\\nHow to learn it: first identify the input and expected output, then inspect the example line by line. Change one value yourself and run the result. Finally, explain why the output changed.\\n\\nCommon mistake: copying syntax without changing and testing the example. Verify your work with the browser, terminal, console, or API response instead of assuming it works.",
+      "example": "const value = \"Coding Vibes\";\\nconsole.log(value);",
+      "practice": "Build a small JavaScript project exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why.",
+      "quiz": {
+        "question": "Which workflow is most useful when learning JavaScript project?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "lesson-player-ready",
+        "source": "video-library",
+        "required": true
+      },
+      "resources": [
+        "Lesson notes",
+        "Code example",
+        "Practice task",
+        "Quiz"
+      ]
+    },
+    {
+      "id": "react-1",
+      "path": "react",
+      "order": 1,
+      "title": "React mental model",
+      "objective": "By the end of this lesson, you can explain React mental model, write a small working example, and diagnose one common mistake.",
+      "explanation": "React mental model is a practical part of the react learning path. Focus on what problem it solves, how the main pieces connect, and how to verify your result.\\n\\nHow to learn it: first identify the input and expected output, then inspect the example line by line. Change one value yourself and run the result. Finally, explain why the output changed.\\n\\nCommon mistake: copying syntax without changing and testing the example. Verify your work with the browser, terminal, console, or API response instead of assuming it works.",
+      "example": "function LessonCard() {\\n  return <article>Lesson</article>;\\n}",
+      "practice": "Build a small React mental model exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why.",
+      "quiz": {
+        "question": "Which workflow is most useful when learning React mental model?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "lesson-player-ready",
+        "source": "video-library",
+        "required": true
+      },
+      "resources": [
+        "Lesson notes",
+        "Code example",
+        "Practice task",
+        "Quiz"
+      ]
+    },
+    {
+      "id": "react-2",
+      "path": "react",
+      "order": 2,
+      "title": "Vite project setup",
+      "objective": "By the end of this lesson, you can explain Vite project setup, write a small working example, and diagnose one common mistake.",
+      "explanation": "Vite project setup is a practical part of the react learning path. Focus on what problem it solves, how the main pieces connect, and how to verify your result.\\n\\nHow to learn it: first identify the input and expected output, then inspect the example line by line. Change one value yourself and run the result. Finally, explain why the output changed.\\n\\nCommon mistake: copying syntax without changing and testing the example. Verify your work with the browser, terminal, console, or API response instead of assuming it works.",
+      "example": "function LessonCard() {\\n  return <article>Lesson</article>;\\n}",
+      "practice": "Build a small Vite project setup exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why.",
+      "quiz": {
+        "question": "Which workflow is most useful when learning Vite project setup?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "lesson-player-ready",
+        "source": "video-library",
+        "required": true
+      },
+      "resources": [
+        "Lesson notes",
+        "Code example",
+        "Practice task",
+        "Quiz"
+      ]
+    },
+    {
+      "id": "react-3",
+      "path": "react",
+      "order": 3,
+      "title": "Components & JSX",
+      "objective": "By the end of this lesson, you can explain Components & JSX, write a small working example, and diagnose one common mistake.",
+      "explanation": "Components & JSX is a practical part of the react learning path. Focus on what problem it solves, how the main pieces connect, and how to verify your result.\\n\\nHow to learn it: first identify the input and expected output, then inspect the example line by line. Change one value yourself and run the result. Finally, explain why the output changed.\\n\\nCommon mistake: copying syntax without changing and testing the example. Verify your work with the browser, terminal, console, or API response instead of assuming it works.",
+      "example": "function CourseCard({ title }: { title: string }) {\\n  return <article><h2>{title}</h2></article>;\\n}",
+      "practice": "Build a small Components & JSX exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why.",
+      "quiz": {
+        "question": "Which workflow is most useful when learning Components & JSX?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "lesson-player-ready",
+        "source": "video-library",
+        "required": true
+      },
+      "resources": [
+        "Lesson notes",
+        "Code example",
+        "Practice task",
+        "Quiz"
+      ]
+    },
+    {
+      "id": "react-4",
+      "path": "react",
+      "order": 4,
+      "title": "Props",
+      "objective": "By the end of this lesson, you can explain Props, write a small working example, and diagnose one common mistake.",
+      "explanation": "Props is a practical part of the react learning path. Focus on what problem it solves, how the main pieces connect, and how to verify your result.\\n\\nHow to learn it: first identify the input and expected output, then inspect the example line by line. Change one value yourself and run the result. Finally, explain why the output changed.\\n\\nCommon mistake: copying syntax without changing and testing the example. Verify your work with the browser, terminal, console, or API response instead of assuming it works.",
+      "example": "function CourseCard({ title }: { title: string }) {\\n  return <article><h2>{title}</h2></article>;\\n}",
+      "practice": "Build a small Props exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why.",
+      "quiz": {
+        "question": "Which workflow is most useful when learning Props?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "lesson-player-ready",
+        "source": "video-library",
+        "required": true
+      },
+      "resources": [
+        "Lesson notes",
+        "Code example",
+        "Practice task",
+        "Quiz"
+      ]
+    },
+    {
+      "id": "react-5",
+      "path": "react",
+      "order": 5,
+      "title": "State",
+      "objective": "By the end of this lesson, you can explain State, write a small working example, and diagnose one common mistake.",
+      "explanation": "State is a practical part of the react learning path. Focus on what problem it solves, how the main pieces connect, and how to verify your result.\\n\\nHow to learn it: first identify the input and expected output, then inspect the example line by line. Change one value yourself and run the result. Finally, explain why the output changed.\\n\\nCommon mistake: duplicating derived data instead of keeping one source of truth. Verify your work with the browser, terminal, console, or API response instead of assuming it works.",
+      "example": "const [open, setOpen] = useState(false);\\n<button onClick={() => setOpen(!open)}>{open ? \"Close\" : \"Open\"}</button>",
+      "practice": "Build a small State exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why.",
+      "quiz": {
+        "question": "Which workflow is most useful when learning State?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "lesson-player-ready",
+        "source": "video-library",
+        "required": true
+      },
+      "resources": [
+        "Lesson notes",
+        "Code example",
+        "Practice task",
+        "Quiz"
+      ]
+    },
+    {
+      "id": "react-6",
+      "path": "react",
+      "order": 6,
+      "title": "Events",
+      "objective": "By the end of this lesson, you can explain Events, write a small working example, and diagnose one common mistake.",
+      "explanation": "Events is a practical part of the react learning path. Focus on what problem it solves, how the main pieces connect, and how to verify your result.\\n\\nHow to learn it: first identify the input and expected output, then inspect the example line by line. Change one value yourself and run the result. Finally, explain why the output changed.\\n\\nCommon mistake: copying syntax without changing and testing the example. Verify your work with the browser, terminal, console, or API response instead of assuming it works.",
+      "example": "const button = document.querySelector(\"#save\");\\nbutton?.addEventListener(\"click\", () => {\\n  document.body.dataset.saved = \"true\";\\n});",
+      "practice": "Build a small Events exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why.",
+      "quiz": {
+        "question": "Which workflow is most useful when learning Events?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "lesson-player-ready",
+        "source": "video-library",
+        "required": true
+      },
+      "resources": [
+        "Lesson notes",
+        "Code example",
+        "Practice task",
+        "Quiz"
+      ]
+    },
+    {
+      "id": "react-7",
+      "path": "react",
+      "order": 7,
+      "title": "Conditional rendering",
+      "objective": "By the end of this lesson, you can explain Conditional rendering, write a small working example, and diagnose one common mistake.",
+      "explanation": "Conditional rendering is a practical part of the react learning path. Focus on what problem it solves, how the main pieces connect, and how to verify your result.\\n\\nHow to learn it: first identify the input and expected output, then inspect the example line by line. Change one value yourself and run the result. Finally, explain why the output changed.\\n\\nCommon mistake: copying syntax without changing and testing the example. Verify your work with the browser, terminal, console, or API response instead of assuming it works.",
+      "example": "function LessonCard() {\\n  return <article>Lesson</article>;\\n}",
+      "practice": "Build a small Conditional rendering exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why.",
+      "quiz": {
+        "question": "Which workflow is most useful when learning Conditional rendering?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "lesson-player-ready",
+        "source": "video-library",
+        "required": true
+      },
+      "resources": [
+        "Lesson notes",
+        "Code example",
+        "Practice task",
+        "Quiz"
+      ]
+    },
+    {
+      "id": "react-8",
+      "path": "react",
+      "order": 8,
+      "title": "Lists & keys",
+      "objective": "By the end of this lesson, you can explain Lists & keys, write a small working example, and diagnose one common mistake.",
+      "explanation": "Lists & keys is a practical part of the react learning path. Focus on what problem it solves, how the main pieces connect, and how to verify your result.\\n\\nHow to learn it: first identify the input and expected output, then inspect the example line by line. Change one value yourself and run the result. Finally, explain why the output changed.\\n\\nCommon mistake: copying syntax without changing and testing the example. Verify your work with the browser, terminal, console, or API response instead of assuming it works.",
+      "example": "function LessonCard() {\\n  return <article>Lesson</article>;\\n}",
+      "practice": "Build a small Lists & keys exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why.",
+      "quiz": {
+        "question": "Which workflow is most useful when learning Lists & keys?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "lesson-player-ready",
+        "source": "video-library",
+        "required": true
+      },
+      "resources": [
+        "Lesson notes",
+        "Code example",
+        "Practice task",
+        "Quiz"
+      ]
+    },
+    {
+      "id": "react-9",
+      "path": "react",
+      "order": 9,
+      "title": "Forms",
+      "objective": "By the end of this lesson, you can explain Forms, write a small working example, and diagnose one common mistake.",
+      "explanation": "Forms is a practical part of the react learning path. Focus on what problem it solves, how the main pieces connect, and how to verify your result.\\n\\nHow to learn it: first identify the input and expected output, then inspect the example line by line. Change one value yourself and run the result. Finally, explain why the output changed.\\n\\nCommon mistake: copying syntax without changing and testing the example. Verify your work with the browser, terminal, console, or API response instead of assuming it works.",
+      "example": "function LessonCard() {\\n  return <article>Lesson</article>;\\n}",
+      "practice": "Build a small Forms exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why.",
+      "quiz": {
+        "question": "Which workflow is most useful when learning Forms?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "lesson-player-ready",
+        "source": "video-library",
+        "required": true
+      },
+      "resources": [
+        "Lesson notes",
+        "Code example",
+        "Practice task",
+        "Quiz"
+      ]
+    },
+    {
+      "id": "react-10",
+      "path": "react",
+      "order": 10,
+      "title": "Effects",
+      "objective": "By the end of this lesson, you can explain Effects, write a small working example, and diagnose one common mistake.",
+      "explanation": "Effects is a practical part of the react learning path. Focus on what problem it solves, how the main pieces connect, and how to verify your result.\\n\\nHow to learn it: first identify the input and expected output, then inspect the example line by line. Change one value yourself and run the result. Finally, explain why the output changed.\\n\\nCommon mistake: copying syntax without changing and testing the example. Verify your work with the browser, terminal, console, or API response instead of assuming it works.",
+      "example": "function LessonCard() {\\n  return <article>Lesson</article>;\\n}",
+      "practice": "Build a small Effects exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why.",
+      "quiz": {
+        "question": "Which workflow is most useful when learning Effects?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "lesson-player-ready",
+        "source": "video-library",
+        "required": true
+      },
+      "resources": [
+        "Lesson notes",
+        "Code example",
+        "Practice task",
+        "Quiz"
+      ]
+    },
+    {
+      "id": "react-11",
+      "path": "react",
+      "order": 11,
+      "title": "Fetching APIs",
+      "objective": "By the end of this lesson, you can explain Fetching APIs, write a small working example, and diagnose one common mistake.",
+      "explanation": "Fetching APIs is a practical part of the react learning path. Focus on what problem it solves, how the main pieces connect, and how to verify your result.\\n\\nHow to learn it: first identify the input and expected output, then inspect the example line by line. Change one value yourself and run the result. Finally, explain why the output changed.\\n\\nCommon mistake: assuming every request succeeds. Verify your work with the browser, terminal, console, or API response instead of assuming it works.",
+      "example": "const response = await fetch(\"/api/courses\");\\nif (!response.ok) throw new Error(\"Request failed\");\\nconst data = await response.json();",
+      "practice": "Build a small Fetching APIs exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why.",
+      "quiz": {
+        "question": "Which workflow is most useful when learning Fetching APIs?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "lesson-player-ready",
+        "source": "video-library",
+        "required": true
+      },
+      "resources": [
+        "Lesson notes",
+        "Code example",
+        "Practice task",
+        "Quiz"
+      ]
+    },
+    {
+      "id": "react-12",
+      "path": "react",
+      "order": 12,
+      "title": "Custom hooks",
+      "objective": "By the end of this lesson, you can explain Custom hooks, write a small working example, and diagnose one common mistake.",
+      "explanation": "Custom hooks is a practical part of the react learning path. Focus on what problem it solves, how the main pieces connect, and how to verify your result.\\n\\nHow to learn it: first identify the input and expected output, then inspect the example line by line. Change one value yourself and run the result. Finally, explain why the output changed.\\n\\nCommon mistake: copying syntax without changing and testing the example. Verify your work with the browser, terminal, console, or API response instead of assuming it works.",
+      "example": "function LessonCard() {\\n  return <article>Lesson</article>;\\n}",
+      "practice": "Build a small Custom hooks exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why.",
+      "quiz": {
+        "question": "Which workflow is most useful when learning Custom hooks?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "lesson-player-ready",
+        "source": "video-library",
+        "required": true
+      },
+      "resources": [
+        "Lesson notes",
+        "Code example",
+        "Practice task",
+        "Quiz"
+      ]
+    },
+    {
+      "id": "react-13",
+      "path": "react",
+      "order": 13,
+      "title": "Routing",
+      "objective": "By the end of this lesson, you can explain Routing, write a small working example, and diagnose one common mistake.",
+      "explanation": "Routing is a practical part of the react learning path. Focus on what problem it solves, how the main pieces connect, and how to verify your result.\\n\\nHow to learn it: first identify the input and expected output, then inspect the example line by line. Change one value yourself and run the result. Finally, explain why the output changed.\\n\\nCommon mistake: copying syntax without changing and testing the example. Verify your work with the browser, terminal, console, or API response instead of assuming it works.",
+      "example": "function LessonCard() {\\n  return <article>Lesson</article>;\\n}",
+      "practice": "Build a small Routing exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why.",
+      "quiz": {
+        "question": "Which workflow is most useful when learning Routing?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "lesson-player-ready",
+        "source": "video-library",
+        "required": true
+      },
+      "resources": [
+        "Lesson notes",
+        "Code example",
+        "Practice task",
+        "Quiz"
+      ]
+    },
+    {
+      "id": "react-14",
+      "path": "react",
+      "order": 14,
+      "title": "Reusable UI",
+      "objective": "By the end of this lesson, you can explain Reusable UI, write a small working example, and diagnose one common mistake.",
+      "explanation": "Reusable UI is a practical part of the react learning path. Focus on what problem it solves, how the main pieces connect, and how to verify your result.\\n\\nHow to learn it: first identify the input and expected output, then inspect the example line by line. Change one value yourself and run the result. Finally, explain why the output changed.\\n\\nCommon mistake: copying syntax without changing and testing the example. Verify your work with the browser, terminal, console, or API response instead of assuming it works.",
+      "example": "function LessonCard() {\\n  return <article>Lesson</article>;\\n}",
+      "practice": "Build a small Reusable UI exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why.",
+      "quiz": {
+        "question": "Which workflow is most useful when learning Reusable UI?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "lesson-player-ready",
+        "source": "video-library",
+        "required": true
+      },
+      "resources": [
+        "Lesson notes",
+        "Code example",
+        "Practice task",
+        "Quiz"
+      ]
+    },
+    {
+      "id": "react-15",
+      "path": "react",
+      "order": 15,
+      "title": "Performance basics",
+      "objective": "By the end of this lesson, you can explain Performance basics, write a small working example, and diagnose one common mistake.",
+      "explanation": "Performance basics is a practical part of the react learning path. Focus on what problem it solves, how the main pieces connect, and how to verify your result.\\n\\nHow to learn it: first identify the input and expected output, then inspect the example line by line. Change one value yourself and run the result. Finally, explain why the output changed.\\n\\nCommon mistake: copying syntax without changing and testing the example. Verify your work with the browser, terminal, console, or API response instead of assuming it works.",
+      "example": "function LessonCard() {\\n  return <article>Lesson</article>;\\n}",
+      "practice": "Build a small Performance basics exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why.",
+      "quiz": {
+        "question": "Which workflow is most useful when learning Performance basics?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "lesson-player-ready",
+        "source": "video-library",
+        "required": true
+      },
+      "resources": [
+        "Lesson notes",
+        "Code example",
+        "Practice task",
+        "Quiz"
+      ]
+    },
+    {
+      "id": "react-16",
+      "path": "react",
+      "order": 16,
+      "title": "React project",
+      "objective": "By the end of this lesson, you can explain React project, write a small working example, and diagnose one common mistake.",
+      "explanation": "React project is a practical part of the react learning path. Focus on what problem it solves, how the main pieces connect, and how to verify your result.\\n\\nHow to learn it: first identify the input and expected output, then inspect the example line by line. Change one value yourself and run the result. Finally, explain why the output changed.\\n\\nCommon mistake: copying syntax without changing and testing the example. Verify your work with the browser, terminal, console, or API response instead of assuming it works.",
+      "example": "function LessonCard() {\\n  return <article>Lesson</article>;\\n}",
+      "practice": "Build a small React project exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why.",
+      "quiz": {
+        "question": "Which workflow is most useful when learning React project?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "lesson-player-ready",
+        "source": "video-library",
+        "required": true
+      },
+      "resources": [
+        "Lesson notes",
+        "Code example",
+        "Practice task",
+        "Quiz"
+      ]
+    },
+    {
+      "id": "node-1",
+      "path": "node",
+      "order": 1,
+      "title": "Node.js fundamentals",
+      "objective": "By the end of this lesson, you can explain Node.js fundamentals, write a small working example, and diagnose one common mistake.",
+      "explanation": "Node.js fundamentals is a practical part of the node learning path. Focus on what problem it solves, how the main pieces connect, and how to verify your result.\\n\\nHow to learn it: first identify the input and expected output, then inspect the example line by line. Change one value yourself and run the result. Finally, explain why the output changed.\\n\\nCommon mistake: copying syntax without changing and testing the example. Verify your work with the browser, terminal, console, or API response instead of assuming it works.",
+      "example": "app.get(\"/api/health\", (req, res) => {\\n  res.json({ ok: true });\\n});",
+      "practice": "Build a small Node.js fundamentals exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why.",
+      "quiz": {
+        "question": "Which workflow is most useful when learning Node.js fundamentals?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "lesson-player-ready",
+        "source": "video-library",
+        "required": true
+      },
+      "resources": [
+        "Lesson notes",
+        "Code example",
+        "Practice task",
+        "Quiz"
+      ]
+    },
+    {
+      "id": "node-2",
+      "path": "node",
+      "order": 2,
+      "title": "npm & packages",
+      "objective": "By the end of this lesson, you can explain npm & packages, write a small working example, and diagnose one common mistake.",
+      "explanation": "npm & packages is a practical part of the node learning path. Focus on what problem it solves, how the main pieces connect, and how to verify your result.\\n\\nHow to learn it: first identify the input and expected output, then inspect the example line by line. Change one value yourself and run the result. Finally, explain why the output changed.\\n\\nCommon mistake: copying syntax without changing and testing the example. Verify your work with the browser, terminal, console, or API response instead of assuming it works.",
+      "example": "const message = \"Coding Vibes API\";\\nconsole.log(message);",
+      "practice": "Build a small npm & packages exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why.",
+      "quiz": {
+        "question": "Which workflow is most useful when learning npm & packages?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "lesson-player-ready",
+        "source": "video-library",
+        "required": true
+      },
+      "resources": [
+        "Lesson notes",
+        "Code example",
+        "Practice task",
+        "Quiz"
+      ]
+    },
+    {
+      "id": "node-3",
+      "path": "node",
+      "order": 3,
+      "title": "Modules",
+      "objective": "By the end of this lesson, you can explain Modules, write a small working example, and diagnose one common mistake.",
+      "explanation": "Modules is a practical part of the node learning path. Focus on what problem it solves, how the main pieces connect, and how to verify your result.\\n\\nHow to learn it: first identify the input and expected output, then inspect the example line by line. Change one value yourself and run the result. Finally, explain why the output changed.\\n\\nCommon mistake: copying syntax without changing and testing the example. Verify your work with the browser, terminal, console, or API response instead of assuming it works.",
+      "example": "const message = \"Coding Vibes API\";\\nconsole.log(message);",
+      "practice": "Build a small Modules exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why.",
+      "quiz": {
+        "question": "Which workflow is most useful when learning Modules?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "lesson-player-ready",
+        "source": "video-library",
+        "required": true
+      },
+      "resources": [
+        "Lesson notes",
+        "Code example",
+        "Practice task",
+        "Quiz"
+      ]
+    },
+    {
+      "id": "node-4",
+      "path": "node",
+      "order": 4,
+      "title": "HTTP server",
+      "objective": "By the end of this lesson, you can explain HTTP server, write a small working example, and diagnose one common mistake.",
+      "explanation": "HTTP server is a practical part of the node learning path. Focus on what problem it solves, how the main pieces connect, and how to verify your result.\\n\\nHow to learn it: first identify the input and expected output, then inspect the example line by line. Change one value yourself and run the result. Finally, explain why the output changed.\\n\\nCommon mistake: copying syntax without changing and testing the example. Verify your work with the browser, terminal, console, or API response instead of assuming it works.",
+      "example": "app.get(\"/api/health\", (req, res) => {\\n  res.json({ ok: true });\\n});",
+      "practice": "Build a small HTTP server exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why.",
+      "quiz": {
+        "question": "Which workflow is most useful when learning HTTP server?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "lesson-player-ready",
+        "source": "video-library",
+        "required": true
+      },
+      "resources": [
+        "Lesson notes",
+        "Code example",
+        "Practice task",
+        "Quiz"
+      ]
+    },
+    {
+      "id": "node-5",
+      "path": "node",
+      "order": 5,
+      "title": "Express setup",
+      "objective": "By the end of this lesson, you can explain Express setup, write a small working example, and diagnose one common mistake.",
+      "explanation": "Express setup is a practical part of the node learning path. Focus on what problem it solves, how the main pieces connect, and how to verify your result.\\n\\nHow to learn it: first identify the input and expected output, then inspect the example line by line. Change one value yourself and run the result. Finally, explain why the output changed.\\n\\nCommon mistake: copying syntax without changing and testing the example. Verify your work with the browser, terminal, console, or API response instead of assuming it works.",
+      "example": "app.get(\"/api/health\", (req, res) => {\\n  res.json({ ok: true });\\n});",
+      "practice": "Build a small Express setup exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why.",
+      "quiz": {
+        "question": "Which workflow is most useful when learning Express setup?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "lesson-player-ready",
+        "source": "video-library",
+        "required": true
+      },
+      "resources": [
+        "Lesson notes",
+        "Code example",
+        "Practice task",
+        "Quiz"
+      ]
+    },
+    {
+      "id": "node-6",
+      "path": "node",
+      "order": 6,
+      "title": "Routes",
+      "objective": "By the end of this lesson, you can explain Routes, write a small working example, and diagnose one common mistake.",
+      "explanation": "Routes is a practical part of the node learning path. Focus on what problem it solves, how the main pieces connect, and how to verify your result.\\n\\nHow to learn it: first identify the input and expected output, then inspect the example line by line. Change one value yourself and run the result. Finally, explain why the output changed.\\n\\nCommon mistake: copying syntax without changing and testing the example. Verify your work with the browser, terminal, console, or API response instead of assuming it works.",
+      "example": "app.get(\"/api/health\", (req, res) => {\\n  res.json({ ok: true });\\n});",
+      "practice": "Build a small Routes exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why.",
+      "quiz": {
+        "question": "Which workflow is most useful when learning Routes?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "lesson-player-ready",
+        "source": "video-library",
+        "required": true
+      },
+      "resources": [
+        "Lesson notes",
+        "Code example",
+        "Practice task",
+        "Quiz"
+      ]
+    },
+    {
+      "id": "node-7",
+      "path": "node",
+      "order": 7,
+      "title": "Middleware",
+      "objective": "By the end of this lesson, you can explain Middleware, write a small working example, and diagnose one common mistake.",
+      "explanation": "Middleware is a practical part of the node learning path. Focus on what problem it solves, how the main pieces connect, and how to verify your result.\\n\\nHow to learn it: first identify the input and expected output, then inspect the example line by line. Change one value yourself and run the result. Finally, explain why the output changed.\\n\\nCommon mistake: copying syntax without changing and testing the example. Verify your work with the browser, terminal, console, or API response instead of assuming it works.",
+      "example": "const message = \"Coding Vibes API\";\\nconsole.log(message);",
+      "practice": "Build a small Middleware exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why.",
+      "quiz": {
+        "question": "Which workflow is most useful when learning Middleware?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "lesson-player-ready",
+        "source": "video-library",
+        "required": true
+      },
+      "resources": [
+        "Lesson notes",
+        "Code example",
+        "Practice task",
+        "Quiz"
+      ]
+    },
+    {
+      "id": "node-8",
+      "path": "node",
+      "order": 8,
+      "title": "REST APIs",
+      "objective": "By the end of this lesson, you can explain REST APIs, write a small working example, and diagnose one common mistake.",
+      "explanation": "REST APIs is a practical part of the node learning path. Focus on what problem it solves, how the main pieces connect, and how to verify your result.\\n\\nHow to learn it: first identify the input and expected output, then inspect the example line by line. Change one value yourself and run the result. Finally, explain why the output changed.\\n\\nCommon mistake: assuming every request succeeds. Verify your work with the browser, terminal, console, or API response instead of assuming it works.",
+      "example": "const response = await fetch(\"/api/courses\");\\nif (!response.ok) throw new Error(\"Request failed\");\\nconst data = await response.json();",
+      "practice": "Build a small REST APIs exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why.",
+      "quiz": {
+        "question": "Which workflow is most useful when learning REST APIs?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "lesson-player-ready",
+        "source": "video-library",
+        "required": true
+      },
+      "resources": [
+        "Lesson notes",
+        "Code example",
+        "Practice task",
+        "Quiz"
+      ]
+    },
+    {
+      "id": "node-9",
+      "path": "node",
+      "order": 9,
+      "title": "Validation",
+      "objective": "By the end of this lesson, you can explain Validation, write a small working example, and diagnose one common mistake.",
+      "explanation": "Validation is a practical part of the node learning path. Focus on what problem it solves, how the main pieces connect, and how to verify your result.\\n\\nHow to learn it: first identify the input and expected output, then inspect the example line by line. Change one value yourself and run the result. Finally, explain why the output changed.\\n\\nCommon mistake: copying syntax without changing and testing the example. Verify your work with the browser, terminal, console, or API response instead of assuming it works.",
+      "example": "const message = \"Coding Vibes API\";\\nconsole.log(message);",
+      "practice": "Build a small Validation exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why.",
+      "quiz": {
+        "question": "Which workflow is most useful when learning Validation?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "lesson-player-ready",
+        "source": "video-library",
+        "required": true
+      },
+      "resources": [
+        "Lesson notes",
+        "Code example",
+        "Practice task",
+        "Quiz"
+      ]
+    },
+    {
+      "id": "node-10",
+      "path": "node",
+      "order": 10,
+      "title": "Environment variables",
+      "objective": "By the end of this lesson, you can explain Environment variables, write a small working example, and diagnose one common mistake.",
+      "explanation": "Environment variables is a practical part of the node learning path. Focus on what problem it solves, how the main pieces connect, and how to verify your result.\\n\\nHow to learn it: first identify the input and expected output, then inspect the example line by line. Change one value yourself and run the result. Finally, explain why the output changed.\\n\\nCommon mistake: copying syntax without changing and testing the example. Verify your work with the browser, terminal, console, or API response instead of assuming it works.",
+      "example": "const lessons = 10;\\nconst completed = 7;\\nconst progress = Math.round(completed / lessons * 100);\\nconsole.log(progress);",
+      "practice": "Build a small Environment variables exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why.",
+      "quiz": {
+        "question": "Which workflow is most useful when learning Environment variables?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "lesson-player-ready",
+        "source": "video-library",
+        "required": true
+      },
+      "resources": [
+        "Lesson notes",
+        "Code example",
+        "Practice task",
+        "Quiz"
+      ]
+    },
+    {
+      "id": "node-11",
+      "path": "node",
+      "order": 11,
+      "title": "Error handling",
+      "objective": "By the end of this lesson, you can explain Error handling, write a small working example, and diagnose one common mistake.",
+      "explanation": "Error handling is a practical part of the node learning path. Focus on what problem it solves, how the main pieces connect, and how to verify your result.\\n\\nHow to learn it: first identify the input and expected output, then inspect the example line by line. Change one value yourself and run the result. Finally, explain why the output changed.\\n\\nCommon mistake: copying syntax without changing and testing the example. Verify your work with the browser, terminal, console, or API response instead of assuming it works.",
+      "example": "const message = \"Coding Vibes API\";\\nconsole.log(message);",
+      "practice": "Build a small Error handling exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why.",
+      "quiz": {
+        "question": "Which workflow is most useful when learning Error handling?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "lesson-player-ready",
+        "source": "video-library",
+        "required": true
+      },
+      "resources": [
+        "Lesson notes",
+        "Code example",
+        "Practice task",
+        "Quiz"
+      ]
+    },
+    {
+      "id": "node-12",
+      "path": "node",
+      "order": 12,
+      "title": "Authentication basics",
+      "objective": "By the end of this lesson, you can explain Authentication basics, write a small working example, and diagnose one common mistake.",
+      "explanation": "Authentication basics is a practical part of the node learning path. Focus on what problem it solves, how the main pieces connect, and how to verify your result.\\n\\nHow to learn it: first identify the input and expected output, then inspect the example line by line. Change one value yourself and run the result. Finally, explain why the output changed.\\n\\nCommon mistake: copying syntax without changing and testing the example. Verify your work with the browser, terminal, console, or API response instead of assuming it works.",
+      "example": "const message = \"Coding Vibes API\";\\nconsole.log(message);",
+      "practice": "Build a small Authentication basics exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why.",
+      "quiz": {
+        "question": "Which workflow is most useful when learning Authentication basics?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "lesson-player-ready",
+        "source": "video-library",
+        "required": true
+      },
+      "resources": [
+        "Lesson notes",
+        "Code example",
+        "Practice task",
+        "Quiz"
+      ]
+    },
+    {
+      "id": "node-13",
+      "path": "node",
+      "order": 13,
+      "title": "Database connection",
+      "objective": "By the end of this lesson, you can explain Database connection, write a small working example, and diagnose one common mistake.",
+      "explanation": "Database connection is a practical part of the node learning path. Focus on what problem it solves, how the main pieces connect, and how to verify your result.\\n\\nHow to learn it: first identify the input and expected output, then inspect the example line by line. Change one value yourself and run the result. Finally, explain why the output changed.\\n\\nCommon mistake: copying syntax without changing and testing the example. Verify your work with the browser, terminal, console, or API response instead of assuming it works.",
+      "example": "SELECT title, difficulty\\nFROM projects\\nWHERE published = true\\nORDER BY created_at DESC;",
+      "practice": "Build a small Database connection exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why.",
+      "quiz": {
+        "question": "Which workflow is most useful when learning Database connection?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "lesson-player-ready",
+        "source": "video-library",
+        "required": true
+      },
+      "resources": [
+        "Lesson notes",
+        "Code example",
+        "Practice task",
+        "Quiz"
+      ]
+    },
+    {
+      "id": "node-14",
+      "path": "node",
+      "order": 14,
+      "title": "Testing APIs",
+      "objective": "By the end of this lesson, you can explain Testing APIs, write a small working example, and diagnose one common mistake.",
+      "explanation": "Testing APIs is a practical part of the node learning path. Focus on what problem it solves, how the main pieces connect, and how to verify your result.\\n\\nHow to learn it: first identify the input and expected output, then inspect the example line by line. Change one value yourself and run the result. Finally, explain why the output changed.\\n\\nCommon mistake: assuming every request succeeds. Verify your work with the browser, terminal, console, or API response instead of assuming it works.",
+      "example": "const response = await fetch(\"/api/courses\");\\nif (!response.ok) throw new Error(\"Request failed\");\\nconst data = await response.json();",
+      "practice": "Build a small Testing APIs exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why.",
+      "quiz": {
+        "question": "Which workflow is most useful when learning Testing APIs?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "lesson-player-ready",
+        "source": "video-library",
+        "required": true
+      },
+      "resources": [
+        "Lesson notes",
+        "Code example",
+        "Practice task",
+        "Quiz"
+      ]
+    },
+    {
+      "id": "node-15",
+      "path": "node",
+      "order": 15,
+      "title": "Node project",
+      "objective": "By the end of this lesson, you can explain Node project, write a small working example, and diagnose one common mistake.",
+      "explanation": "Node project is a practical part of the node learning path. Focus on what problem it solves, how the main pieces connect, and how to verify your result.\\n\\nHow to learn it: first identify the input and expected output, then inspect the example line by line. Change one value yourself and run the result. Finally, explain why the output changed.\\n\\nCommon mistake: copying syntax without changing and testing the example. Verify your work with the browser, terminal, console, or API response instead of assuming it works.",
+      "example": "app.get(\"/api/health\", (req, res) => {\\n  res.json({ ok: true });\\n});",
+      "practice": "Build a small Node project exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why.",
+      "quiz": {
+        "question": "Which workflow is most useful when learning Node project?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "lesson-player-ready",
+        "source": "video-library",
+        "required": true
+      },
+      "resources": [
+        "Lesson notes",
+        "Code example",
+        "Practice task",
+        "Quiz"
+      ]
+    },
+    {
+      "id": "fullstack-1",
+      "path": "fullstack",
+      "order": 1,
+      "title": "Computer & web basics",
+      "objective": "By the end of this lesson, you can explain Computer & web basics, write a small working example, and diagnose one common mistake.",
+      "explanation": "Computer & web basics is a practical part of the fullstack learning path. Focus on what problem it solves, how the main pieces connect, and how to verify your result.\\n\\nHow to learn it: first identify the input and expected output, then inspect the example line by line. Change one value yourself and run the result. Finally, explain why the output changed.\\n\\nCommon mistake: copying syntax without changing and testing the example. Verify your work with the browser, terminal, console, or API response instead of assuming it works.",
+      "example": "// fullstack flow\\nconst step = \"Computer & web basics\";\\nconsole.log(step);",
+      "practice": "Build a small Computer & web basics exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why.",
+      "quiz": {
+        "question": "Which workflow is most useful when learning Computer & web basics?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "lesson-player-ready",
+        "source": "video-library",
+        "required": true
+      },
+      "resources": [
+        "Lesson notes",
+        "Code example",
+        "Practice task",
+        "Quiz"
+      ]
+    },
+    {
+      "id": "fullstack-2",
+      "path": "fullstack",
+      "order": 2,
+      "title": "HTML foundations",
+      "objective": "By the end of this lesson, you can explain HTML foundations, write a small working example, and diagnose one common mistake.",
+      "explanation": "HTML foundations is a practical part of the fullstack learning path. Focus on what problem it solves, how the main pieces connect, and how to verify your result.\\n\\nHow to learn it: first identify the input and expected output, then inspect the example line by line. Change one value yourself and run the result. Finally, explain why the output changed.\\n\\nCommon mistake: copying syntax without changing and testing the example. Verify your work with the browser, terminal, console, or API response instead of assuming it works.",
+      "example": "// fullstack flow\\nconst step = \"HTML foundations\";\\nconsole.log(step);",
+      "practice": "Build a small HTML foundations exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why.",
+      "quiz": {
+        "question": "Which workflow is most useful when learning HTML foundations?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "lesson-player-ready",
+        "source": "video-library",
+        "required": true
+      },
+      "resources": [
+        "Lesson notes",
+        "Code example",
+        "Practice task",
+        "Quiz"
+      ]
+    },
+    {
+      "id": "fullstack-3",
+      "path": "fullstack",
+      "order": 3,
+      "title": "CSS foundations",
+      "objective": "By the end of this lesson, you can explain CSS foundations, write a small working example, and diagnose one common mistake.",
+      "explanation": "CSS foundations is a practical part of the fullstack learning path. Focus on what problem it solves, how the main pieces connect, and how to verify your result.\\n\\nHow to learn it: first identify the input and expected output, then inspect the example line by line. Change one value yourself and run the result. Finally, explain why the output changed.\\n\\nCommon mistake: changing styles without checking the box model or responsive behavior. Verify your work with the browser, terminal, console, or API response instead of assuming it works.",
+      "example": "// fullstack flow\\nconst step = \"CSS foundations\";\\nconsole.log(step);",
+      "practice": "Build a small CSS foundations exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why.",
+      "quiz": {
+        "question": "Which workflow is most useful when learning CSS foundations?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "lesson-player-ready",
+        "source": "video-library",
+        "required": true
+      },
+      "resources": [
+        "Lesson notes",
+        "Code example",
+        "Practice task",
+        "Quiz"
+      ]
+    },
+    {
+      "id": "fullstack-4",
+      "path": "fullstack",
+      "order": 4,
+      "title": "JavaScript foundations",
+      "objective": "By the end of this lesson, you can explain JavaScript foundations, write a small working example, and diagnose one common mistake.",
+      "explanation": "JavaScript foundations is a practical part of the fullstack learning path. Focus on what problem it solves, how the main pieces connect, and how to verify your result.\\n\\nHow to learn it: first identify the input and expected output, then inspect the example line by line. Change one value yourself and run the result. Finally, explain why the output changed.\\n\\nCommon mistake: copying syntax without changing and testing the example. Verify your work with the browser, terminal, console, or API response instead of assuming it works.",
+      "example": "// fullstack flow\\nconst step = \"JavaScript foundations\";\\nconsole.log(step);",
+      "practice": "Build a small JavaScript foundations exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why.",
+      "quiz": {
+        "question": "Which workflow is most useful when learning JavaScript foundations?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "lesson-player-ready",
+        "source": "video-library",
+        "required": true
+      },
+      "resources": [
+        "Lesson notes",
+        "Code example",
+        "Practice task",
+        "Quiz"
+      ]
+    },
+    {
+      "id": "fullstack-5",
+      "path": "fullstack",
+      "order": 5,
+      "title": "Git & GitHub",
+      "objective": "By the end of this lesson, you can explain Git & GitHub, write a small working example, and diagnose one common mistake.",
+      "explanation": "Git & GitHub is a practical part of the fullstack learning path. Focus on what problem it solves, how the main pieces connect, and how to verify your result.\\n\\nHow to learn it: first identify the input and expected output, then inspect the example line by line. Change one value yourself and run the result. Finally, explain why the output changed.\\n\\nCommon mistake: copying syntax without changing and testing the example. Verify your work with the browser, terminal, console, or API response instead of assuming it works.",
+      "example": "git status\\ngit add .\\ngit commit -m \"Complete lesson practice\"\\ngit push origin main",
+      "practice": "Build a small Git & GitHub exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why.",
+      "quiz": {
+        "question": "Which workflow is most useful when learning Git & GitHub?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "lesson-player-ready",
+        "source": "video-library",
+        "required": true
+      },
+      "resources": [
+        "Lesson notes",
+        "Code example",
+        "Practice task",
+        "Quiz"
+      ]
+    },
+    {
+      "id": "fullstack-6",
+      "path": "fullstack",
+      "order": 6,
+      "title": "React",
+      "objective": "By the end of this lesson, you can explain React, write a small working example, and diagnose one common mistake.",
+      "explanation": "React is a practical part of the fullstack learning path. Focus on what problem it solves, how the main pieces connect, and how to verify your result.\\n\\nHow to learn it: first identify the input and expected output, then inspect the example line by line. Change one value yourself and run the result. Finally, explain why the output changed.\\n\\nCommon mistake: copying syntax without changing and testing the example. Verify your work with the browser, terminal, console, or API response instead of assuming it works.",
+      "example": "// fullstack flow\\nconst step = \"React\";\\nconsole.log(step);",
+      "practice": "Build a small React exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why.",
+      "quiz": {
+        "question": "Which workflow is most useful when learning React?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "lesson-player-ready",
+        "source": "video-library",
+        "required": true
+      },
+      "resources": [
+        "Lesson notes",
+        "Code example",
+        "Practice task",
+        "Quiz"
+      ]
+    },
+    {
+      "id": "fullstack-7",
+      "path": "fullstack",
+      "order": 7,
+      "title": "Component architecture",
+      "objective": "By the end of this lesson, you can explain Component architecture, write a small working example, and diagnose one common mistake.",
+      "explanation": "Component architecture is a practical part of the fullstack learning path. Focus on what problem it solves, how the main pieces connect, and how to verify your result.\\n\\nHow to learn it: first identify the input and expected output, then inspect the example line by line. Change one value yourself and run the result. Finally, explain why the output changed.\\n\\nCommon mistake: copying syntax without changing and testing the example. Verify your work with the browser, terminal, console, or API response instead of assuming it works.",
+      "example": "function CourseCard({ title }: { title: string }) {\\n  return <article><h2>{title}</h2></article>;\\n}",
+      "practice": "Build a small Component architecture exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why.",
+      "quiz": {
+        "question": "Which workflow is most useful when learning Component architecture?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "lesson-player-ready",
+        "source": "video-library",
+        "required": true
+      },
+      "resources": [
+        "Lesson notes",
+        "Code example",
+        "Practice task",
+        "Quiz"
+      ]
+    },
+    {
+      "id": "fullstack-8",
+      "path": "fullstack",
+      "order": 8,
+      "title": "Node.js",
+      "objective": "By the end of this lesson, you can explain Node.js, write a small working example, and diagnose one common mistake.",
+      "explanation": "Node.js is a practical part of the fullstack learning path. Focus on what problem it solves, how the main pieces connect, and how to verify your result.\\n\\nHow to learn it: first identify the input and expected output, then inspect the example line by line. Change one value yourself and run the result. Finally, explain why the output changed.\\n\\nCommon mistake: copying syntax without changing and testing the example. Verify your work with the browser, terminal, console, or API response instead of assuming it works.",
+      "example": "app.get(\"/api/health\", (req, res) => {\\n  res.json({ ok: true });\\n});",
+      "practice": "Build a small Node.js exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why.",
+      "quiz": {
+        "question": "Which workflow is most useful when learning Node.js?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "lesson-player-ready",
+        "source": "video-library",
+        "required": true
+      },
+      "resources": [
+        "Lesson notes",
+        "Code example",
+        "Practice task",
+        "Quiz"
+      ]
+    },
+    {
+      "id": "fullstack-9",
+      "path": "fullstack",
+      "order": 9,
+      "title": "Express APIs",
+      "objective": "By the end of this lesson, you can explain Express APIs, write a small working example, and diagnose one common mistake.",
+      "explanation": "Express APIs is a practical part of the fullstack learning path. Focus on what problem it solves, how the main pieces connect, and how to verify your result.\\n\\nHow to learn it: first identify the input and expected output, then inspect the example line by line. Change one value yourself and run the result. Finally, explain why the output changed.\\n\\nCommon mistake: assuming every request succeeds. Verify your work with the browser, terminal, console, or API response instead of assuming it works.",
+      "example": "const response = await fetch(\"/api/courses\");\\nif (!response.ok) throw new Error(\"Request failed\");\\nconst data = await response.json();",
+      "practice": "Build a small Express APIs exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why.",
+      "quiz": {
+        "question": "Which workflow is most useful when learning Express APIs?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "lesson-player-ready",
+        "source": "video-library",
+        "required": true
+      },
+      "resources": [
+        "Lesson notes",
+        "Code example",
+        "Practice task",
+        "Quiz"
+      ]
+    },
+    {
+      "id": "fullstack-10",
+      "path": "fullstack",
+      "order": 10,
+      "title": "Database design",
+      "objective": "By the end of this lesson, you can explain Database design, write a small working example, and diagnose one common mistake.",
+      "explanation": "Database design is a practical part of the fullstack learning path. Focus on what problem it solves, how the main pieces connect, and how to verify your result.\\n\\nHow to learn it: first identify the input and expected output, then inspect the example line by line. Change one value yourself and run the result. Finally, explain why the output changed.\\n\\nCommon mistake: copying syntax without changing and testing the example. Verify your work with the browser, terminal, console, or API response instead of assuming it works.",
+      "example": "SELECT title, difficulty\\nFROM projects\\nWHERE published = true\\nORDER BY created_at DESC;",
+      "practice": "Build a small Database design exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why.",
+      "quiz": {
+        "question": "Which workflow is most useful when learning Database design?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "lesson-player-ready",
+        "source": "video-library",
+        "required": true
+      },
+      "resources": [
+        "Lesson notes",
+        "Code example",
+        "Practice task",
+        "Quiz"
+      ]
+    },
+    {
+      "id": "fullstack-11",
+      "path": "fullstack",
+      "order": 11,
+      "title": "SQL & queries",
+      "objective": "By the end of this lesson, you can explain SQL & queries, write a small working example, and diagnose one common mistake.",
+      "explanation": "SQL & queries is a practical part of the fullstack learning path. Focus on what problem it solves, how the main pieces connect, and how to verify your result.\\n\\nHow to learn it: first identify the input and expected output, then inspect the example line by line. Change one value yourself and run the result. Finally, explain why the output changed.\\n\\nCommon mistake: copying syntax without changing and testing the example. Verify your work with the browser, terminal, console, or API response instead of assuming it works.",
+      "example": "SELECT title, difficulty\\nFROM projects\\nWHERE published = true\\nORDER BY created_at DESC;",
+      "practice": "Build a small SQL & queries exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why.",
+      "quiz": {
+        "question": "Which workflow is most useful when learning SQL & queries?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "lesson-player-ready",
+        "source": "video-library",
+        "required": true
+      },
+      "resources": [
+        "Lesson notes",
+        "Code example",
+        "Practice task",
+        "Quiz"
+      ]
+    },
+    {
+      "id": "fullstack-12",
+      "path": "fullstack",
+      "order": 12,
+      "title": "Authentication",
+      "objective": "By the end of this lesson, you can explain Authentication, write a small working example, and diagnose one common mistake.",
+      "explanation": "Authentication is a practical part of the fullstack learning path. Focus on what problem it solves, how the main pieces connect, and how to verify your result.\\n\\nHow to learn it: first identify the input and expected output, then inspect the example line by line. Change one value yourself and run the result. Finally, explain why the output changed.\\n\\nCommon mistake: copying syntax without changing and testing the example. Verify your work with the browser, terminal, console, or API response instead of assuming it works.",
+      "example": "// fullstack flow\\nconst step = \"Authentication\";\\nconsole.log(step);",
+      "practice": "Build a small Authentication exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why.",
+      "quiz": {
+        "question": "Which workflow is most useful when learning Authentication?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "lesson-player-ready",
+        "source": "video-library",
+        "required": true
+      },
+      "resources": [
+        "Lesson notes",
+        "Code example",
+        "Practice task",
+        "Quiz"
+      ]
+    },
+    {
+      "id": "fullstack-13",
+      "path": "fullstack",
+      "order": 13,
+      "title": "Authorization",
+      "objective": "By the end of this lesson, you can explain Authorization, write a small working example, and diagnose one common mistake.",
+      "explanation": "Authorization is a practical part of the fullstack learning path. Focus on what problem it solves, how the main pieces connect, and how to verify your result.\\n\\nHow to learn it: first identify the input and expected output, then inspect the example line by line. Change one value yourself and run the result. Finally, explain why the output changed.\\n\\nCommon mistake: copying syntax without changing and testing the example. Verify your work with the browser, terminal, console, or API response instead of assuming it works.",
+      "example": "// fullstack flow\\nconst step = \"Authorization\";\\nconsole.log(step);",
+      "practice": "Build a small Authorization exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why.",
+      "quiz": {
+        "question": "Which workflow is most useful when learning Authorization?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "lesson-player-ready",
+        "source": "video-library",
+        "required": true
+      },
+      "resources": [
+        "Lesson notes",
+        "Code example",
+        "Practice task",
+        "Quiz"
+      ]
+    },
+    {
+      "id": "fullstack-14",
+      "path": "fullstack",
+      "order": 14,
+      "title": "API integration",
+      "objective": "By the end of this lesson, you can explain API integration, write a small working example, and diagnose one common mistake.",
+      "explanation": "API integration is a practical part of the fullstack learning path. Focus on what problem it solves, how the main pieces connect, and how to verify your result.\\n\\nHow to learn it: first identify the input and expected output, then inspect the example line by line. Change one value yourself and run the result. Finally, explain why the output changed.\\n\\nCommon mistake: assuming every request succeeds. Verify your work with the browser, terminal, console, or API response instead of assuming it works.",
+      "example": "const response = await fetch(\"/api/courses\");\\nif (!response.ok) throw new Error(\"Request failed\");\\nconst data = await response.json();",
+      "practice": "Build a small API integration exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why.",
+      "quiz": {
+        "question": "Which workflow is most useful when learning API integration?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "lesson-player-ready",
+        "source": "video-library",
+        "required": true
+      },
+      "resources": [
+        "Lesson notes",
+        "Code example",
+        "Practice task",
+        "Quiz"
+      ]
+    },
+    {
+      "id": "fullstack-15",
+      "path": "fullstack",
+      "order": 15,
+      "title": "Forms & validation",
+      "objective": "By the end of this lesson, you can explain Forms & validation, write a small working example, and diagnose one common mistake.",
+      "explanation": "Forms & validation is a practical part of the fullstack learning path. Focus on what problem it solves, how the main pieces connect, and how to verify your result.\\n\\nHow to learn it: first identify the input and expected output, then inspect the example line by line. Change one value yourself and run the result. Finally, explain why the output changed.\\n\\nCommon mistake: copying syntax without changing and testing the example. Verify your work with the browser, terminal, console, or API response instead of assuming it works.",
+      "example": "// fullstack flow\\nconst step = \"Forms & validation\";\\nconsole.log(step);",
+      "practice": "Build a small Forms & validation exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why.",
+      "quiz": {
+        "question": "Which workflow is most useful when learning Forms & validation?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "lesson-player-ready",
+        "source": "video-library",
+        "required": true
+      },
+      "resources": [
+        "Lesson notes",
+        "Code example",
+        "Practice task",
+        "Quiz"
+      ]
+    },
+    {
+      "id": "fullstack-16",
+      "path": "fullstack",
+      "order": 16,
+      "title": "Security basics",
+      "objective": "By the end of this lesson, you can explain Security basics, write a small working example, and diagnose one common mistake.",
+      "explanation": "Security basics is a practical part of the fullstack learning path. Focus on what problem it solves, how the main pieces connect, and how to verify your result.\\n\\nHow to learn it: first identify the input and expected output, then inspect the example line by line. Change one value yourself and run the result. Finally, explain why the output changed.\\n\\nCommon mistake: copying syntax without changing and testing the example. Verify your work with the browser, terminal, console, or API response instead of assuming it works.",
+      "example": "// fullstack flow\\nconst step = \"Security basics\";\\nconsole.log(step);",
+      "practice": "Build a small Security basics exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why.",
+      "quiz": {
+        "question": "Which workflow is most useful when learning Security basics?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "lesson-player-ready",
+        "source": "video-library",
+        "required": true
+      },
+      "resources": [
+        "Lesson notes",
+        "Code example",
+        "Practice task",
+        "Quiz"
+      ]
+    },
+    {
+      "id": "fullstack-17",
+      "path": "fullstack",
+      "order": 17,
+      "title": "Testing",
+      "objective": "By the end of this lesson, you can explain Testing, write a small working example, and diagnose one common mistake.",
+      "explanation": "Testing is a practical part of the fullstack learning path. Focus on what problem it solves, how the main pieces connect, and how to verify your result.\\n\\nHow to learn it: first identify the input and expected output, then inspect the example line by line. Change one value yourself and run the result. Finally, explain why the output changed.\\n\\nCommon mistake: copying syntax without changing and testing the example. Verify your work with the browser, terminal, console, or API response instead of assuming it works.",
+      "example": "// fullstack flow\\nconst step = \"Testing\";\\nconsole.log(step);",
+      "practice": "Build a small Testing exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why.",
+      "quiz": {
+        "question": "Which workflow is most useful when learning Testing?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "lesson-player-ready",
+        "source": "video-library",
+        "required": true
+      },
+      "resources": [
+        "Lesson notes",
+        "Code example",
+        "Practice task",
+        "Quiz"
+      ]
+    },
+    {
+      "id": "fullstack-18",
+      "path": "fullstack",
+      "order": 18,
+      "title": "Deployment",
+      "objective": "By the end of this lesson, you can explain Deployment, write a small working example, and diagnose one common mistake.",
+      "explanation": "Deployment is a practical part of the fullstack learning path. Focus on what problem it solves, how the main pieces connect, and how to verify your result.\\n\\nHow to learn it: first identify the input and expected output, then inspect the example line by line. Change one value yourself and run the result. Finally, explain why the output changed.\\n\\nCommon mistake: copying syntax without changing and testing the example. Verify your work with the browser, terminal, console, or API response instead of assuming it works.",
+      "example": "git push origin main\\n# CI builds the app\\n# Hosting publishes the production build",
+      "practice": "Build a small Deployment exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why.",
+      "quiz": {
+        "question": "Which workflow is most useful when learning Deployment?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "lesson-player-ready",
+        "source": "video-library",
+        "required": true
+      },
+      "resources": [
+        "Lesson notes",
+        "Code example",
+        "Practice task",
+        "Quiz"
+      ]
+    },
+    {
+      "id": "fullstack-19",
+      "path": "fullstack",
+      "order": 19,
+      "title": "Environment configuration",
+      "objective": "By the end of this lesson, you can explain Environment configuration, write a small working example, and diagnose one common mistake.",
+      "explanation": "Environment configuration is a practical part of the fullstack learning path. Focus on what problem it solves, how the main pieces connect, and how to verify your result.\\n\\nHow to learn it: first identify the input and expected output, then inspect the example line by line. Change one value yourself and run the result. Finally, explain why the output changed.\\n\\nCommon mistake: copying syntax without changing and testing the example. Verify your work with the browser, terminal, console, or API response instead of assuming it works.",
+      "example": "// fullstack flow\\nconst step = \"Environment configuration\";\\nconsole.log(step);",
+      "practice": "Build a small Environment configuration exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why.",
+      "quiz": {
+        "question": "Which workflow is most useful when learning Environment configuration?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "lesson-player-ready",
+        "source": "video-library",
+        "required": true
+      },
+      "resources": [
+        "Lesson notes",
+        "Code example",
+        "Practice task",
+        "Quiz"
+      ]
+    },
+    {
+      "id": "fullstack-20",
+      "path": "fullstack",
+      "order": 20,
+      "title": "Performance",
+      "objective": "By the end of this lesson, you can explain Performance, write a small working example, and diagnose one common mistake.",
+      "explanation": "Performance is a practical part of the fullstack learning path. Focus on what problem it solves, how the main pieces connect, and how to verify your result.\\n\\nHow to learn it: first identify the input and expected output, then inspect the example line by line. Change one value yourself and run the result. Finally, explain why the output changed.\\n\\nCommon mistake: copying syntax without changing and testing the example. Verify your work with the browser, terminal, console, or API response instead of assuming it works.",
+      "example": "// fullstack flow\\nconst step = \"Performance\";\\nconsole.log(step);",
+      "practice": "Build a small Performance exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why.",
+      "quiz": {
+        "question": "Which workflow is most useful when learning Performance?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "lesson-player-ready",
+        "source": "video-library",
+        "required": true
+      },
+      "resources": [
+        "Lesson notes",
+        "Code example",
+        "Practice task",
+        "Quiz"
+      ]
+    },
+    {
+      "id": "fullstack-21",
+      "path": "fullstack",
+      "order": 21,
+      "title": "Accessibility",
+      "objective": "By the end of this lesson, you can explain Accessibility, write a small working example, and diagnose one common mistake.",
+      "explanation": "Accessibility is a practical part of the fullstack learning path. Focus on what problem it solves, how the main pieces connect, and how to verify your result.\\n\\nHow to learn it: first identify the input and expected output, then inspect the example line by line. Change one value yourself and run the result. Finally, explain why the output changed.\\n\\nCommon mistake: copying syntax without changing and testing the example. Verify your work with the browser, terminal, console, or API response instead of assuming it works.",
+      "example": "// fullstack flow\\nconst step = \"Accessibility\";\\nconsole.log(step);",
+      "practice": "Build a small Accessibility exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why.",
+      "quiz": {
+        "question": "Which workflow is most useful when learning Accessibility?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "lesson-player-ready",
+        "source": "video-library",
+        "required": true
+      },
+      "resources": [
+        "Lesson notes",
+        "Code example",
+        "Practice task",
+        "Quiz"
+      ]
+    },
+    {
+      "id": "fullstack-22",
+      "path": "fullstack",
+      "order": 22,
+      "title": "SEO",
+      "objective": "By the end of this lesson, you can explain SEO, write a small working example, and diagnose one common mistake.",
+      "explanation": "SEO is a practical part of the fullstack learning path. Focus on what problem it solves, how the main pieces connect, and how to verify your result.\\n\\nHow to learn it: first identify the input and expected output, then inspect the example line by line. Change one value yourself and run the result. Finally, explain why the output changed.\\n\\nCommon mistake: copying syntax without changing and testing the example. Verify your work with the browser, terminal, console, or API response instead of assuming it works.",
+      "example": "// fullstack flow\\nconst step = \"SEO\";\\nconsole.log(step);",
+      "practice": "Build a small SEO exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why.",
+      "quiz": {
+        "question": "Which workflow is most useful when learning SEO?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "lesson-player-ready",
+        "source": "video-library",
+        "required": true
+      },
+      "resources": [
+        "Lesson notes",
+        "Code example",
+        "Practice task",
+        "Quiz"
+      ]
+    },
+    {
+      "id": "fullstack-23",
+      "path": "fullstack",
+      "order": 23,
+      "title": "Project architecture",
+      "objective": "By the end of this lesson, you can explain Project architecture, write a small working example, and diagnose one common mistake.",
+      "explanation": "Project architecture is a practical part of the fullstack learning path. Focus on what problem it solves, how the main pieces connect, and how to verify your result.\\n\\nHow to learn it: first identify the input and expected output, then inspect the example line by line. Change one value yourself and run the result. Finally, explain why the output changed.\\n\\nCommon mistake: copying syntax without changing and testing the example. Verify your work with the browser, terminal, console, or API response instead of assuming it works.",
+      "example": "// fullstack flow\\nconst step = \"Project architecture\";\\nconsole.log(step);",
+      "practice": "Build a small Project architecture exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why.",
+      "quiz": {
+        "question": "Which workflow is most useful when learning Project architecture?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "lesson-player-ready",
+        "source": "video-library",
+        "required": true
+      },
+      "resources": [
+        "Lesson notes",
+        "Code example",
+        "Practice task",
+        "Quiz"
+      ]
+    },
+    {
+      "id": "fullstack-24",
+      "path": "fullstack",
+      "order": 24,
+      "title": "Portfolio project",
+      "objective": "By the end of this lesson, you can explain Portfolio project, write a small working example, and diagnose one common mistake.",
+      "explanation": "Portfolio project is a practical part of the fullstack learning path. Focus on what problem it solves, how the main pieces connect, and how to verify your result.\\n\\nHow to learn it: first identify the input and expected output, then inspect the example line by line. Change one value yourself and run the result. Finally, explain why the output changed.\\n\\nCommon mistake: copying syntax without changing and testing the example. Verify your work with the browser, terminal, console, or API response instead of assuming it works.",
+      "example": "// fullstack flow\\nconst step = \"Portfolio project\";\\nconsole.log(step);",
+      "practice": "Build a small Portfolio project exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why.",
+      "quiz": {
+        "question": "Which workflow is most useful when learning Portfolio project?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "lesson-player-ready",
+        "source": "video-library",
+        "required": true
+      },
+      "resources": [
+        "Lesson notes",
+        "Code example",
+        "Practice task",
+        "Quiz"
+      ]
+    },
+    {
+      "id": "fullstack-25",
+      "path": "fullstack",
+      "order": 25,
+      "title": "Capstone planning",
+      "objective": "By the end of this lesson, you can explain Capstone planning, write a small working example, and diagnose one common mistake.",
+      "explanation": "Capstone planning is a practical part of the fullstack learning path. Focus on what problem it solves, how the main pieces connect, and how to verify your result.\\n\\nHow to learn it: first identify the input and expected output, then inspect the example line by line. Change one value yourself and run the result. Finally, explain why the output changed.\\n\\nCommon mistake: copying syntax without changing and testing the example. Verify your work with the browser, terminal, console, or API response instead of assuming it works.",
+      "example": "// fullstack flow\\nconst step = \"Capstone planning\";\\nconsole.log(step);",
+      "practice": "Build a small Capstone planning exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why.",
+      "quiz": {
+        "question": "Which workflow is most useful when learning Capstone planning?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "lesson-player-ready",
+        "source": "video-library",
+        "required": true
+      },
+      "resources": [
+        "Lesson notes",
+        "Code example",
+        "Practice task",
+        "Quiz"
+      ]
+    },
+    {
+      "id": "fullstack-26",
+      "path": "fullstack",
+      "order": 26,
+      "title": "Capstone build",
+      "objective": "By the end of this lesson, you can explain Capstone build, write a small working example, and diagnose one common mistake.",
+      "explanation": "Capstone build is a practical part of the fullstack learning path. Focus on what problem it solves, how the main pieces connect, and how to verify your result.\\n\\nHow to learn it: first identify the input and expected output, then inspect the example line by line. Change one value yourself and run the result. Finally, explain why the output changed.\\n\\nCommon mistake: copying syntax without changing and testing the example. Verify your work with the browser, terminal, console, or API response instead of assuming it works.",
+      "example": "// fullstack flow\\nconst step = \"Capstone build\";\\nconsole.log(step);",
+      "practice": "Build a small Capstone build exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why.",
+      "quiz": {
+        "question": "Which workflow is most useful when learning Capstone build?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "lesson-player-ready",
+        "source": "video-library",
+        "required": true
+      },
+      "resources": [
+        "Lesson notes",
+        "Code example",
+        "Practice task",
+        "Quiz"
+      ]
+    },
+    {
+      "id": "fullstack-27",
+      "path": "fullstack",
+      "order": 27,
+      "title": "Capstone deployment",
+      "objective": "By the end of this lesson, you can explain Capstone deployment, write a small working example, and diagnose one common mistake.",
+      "explanation": "Capstone deployment is a practical part of the fullstack learning path. Focus on what problem it solves, how the main pieces connect, and how to verify your result.\\n\\nHow to learn it: first identify the input and expected output, then inspect the example line by line. Change one value yourself and run the result. Finally, explain why the output changed.\\n\\nCommon mistake: copying syntax without changing and testing the example. Verify your work with the browser, terminal, console, or API response instead of assuming it works.",
+      "example": "git push origin main\\n# CI builds the app\\n# Hosting publishes the production build",
+      "practice": "Build a small Capstone deployment exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why.",
+      "quiz": {
+        "question": "Which workflow is most useful when learning Capstone deployment?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "lesson-player-ready",
+        "source": "video-library",
+        "required": true
+      },
+      "resources": [
+        "Lesson notes",
+        "Code example",
+        "Practice task",
+        "Quiz"
+      ]
+    },
+    {
+      "id": "fullstack-28",
+      "path": "fullstack",
+      "order": 28,
+      "title": "Final review",
+      "objective": "By the end of this lesson, you can explain Final review, write a small working example, and diagnose one common mistake.",
+      "explanation": "Final review is a practical part of the fullstack learning path. Focus on what problem it solves, how the main pieces connect, and how to verify your result.\\n\\nHow to learn it: first identify the input and expected output, then inspect the example line by line. Change one value yourself and run the result. Finally, explain why the output changed.\\n\\nCommon mistake: copying syntax without changing and testing the example. Verify your work with the browser, terminal, console, or API response instead of assuming it works.",
+      "example": "// fullstack flow\\nconst step = \"Final review\";\\nconsole.log(step);",
+      "practice": "Build a small Final review exercise. Change at least one meaningful value, run it, and write one sentence explaining what changed and why.",
+      "quiz": {
+        "question": "Which workflow is most useful when learning Final review?",
+        "answers": [
+          "Understand the purpose, modify the example, run it, and explain the result",
+          "Memorise the heading and skip practice",
+          "Copy the example without changing it",
+          "Move on without testing"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "lesson-player-ready",
+        "source": "video-library",
+        "required": true
+      },
+      "resources": [
+        "Lesson notes",
+        "Code example",
+        "Practice task",
+        "Quiz"
+      ]
+    }
+  ],
+  "notes": "Non-HTML lessons use topic-specific explanations, runnable examples, practice tasks and quick checks. Published videos remain managed separately in content/videos.json."
+}
