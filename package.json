@@ -19,7 +19,8 @@
     "vite": "latest",
     "lucide-react": "latest",
     "jszip": "latest",
-    "simple-icons": "latest"
+    "simple-icons": "latest",
+    "@supabase/supabase-js": "latest"
   },
   "devDependencies": {
     "@types/react": "latest",
