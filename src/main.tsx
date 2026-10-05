@@ -119,7 +119,7 @@ function Nav(){
    <nav className={open?'nav-links open':'nav-links'} aria-label="Primary navigation">
     {navItems.map(([p,t,key])=><button className={current===key||((key==='courses'||key==='paths')&&current==='path')?'active':''} key={key} onClick={()=>{go(p as Page);setOpen(false)}}>{t}</button>)}
    </nav>
-   <form className="nav-search" onSubmit={submit}><Search size={16}/><input value={q} onChange={e=>setQ(e.target.value)} placeholder="Search courses, projects, topics..." aria-label="Search courses, projects, topics"/></form>
+   
    <div className="nav-actions"><button className="theme-toggle" aria-label="Toggle theme" aria-pressed={!dark} onClick={()=>setDark(!dark)}>{dark?'☾':'☀'}</button><button className="login-link" onClick={()=>go('login')}>Login</button><button className="primary small" onClick={()=>go('signup')}>Sign Up</button><button className="menu" aria-label={open?'Close menu':'Open menu'} aria-expanded={open} onClick={()=>setOpen(!open)}>{open?<X/>:<Menu/>}</button></div>
  </div></header>
 }
