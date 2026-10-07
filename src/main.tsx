@@ -9,12 +9,12 @@ import './styles.css';
 
 type Page='home'|'paths'|'path'|'lesson'|'roadmaps'|'roadmap'|'projects'|'project'|'resources'|'search'|'login'|'signup'|'dashboard'|'studio';
 const paths=[
- {id:'html',title:'HTML',desc:'Build a semantic foundation for every web experience.',lessons:25,level:'Beginner',time:'10h 30m'},
- {id:'css',title:'CSS',desc:'Turn structure into responsive, polished interfaces.',lessons:28,level:'Beginner',time:'14h 20m'},
- {id:'javascript',title:'JavaScript',desc:'Add logic, interaction, APIs and browser behavior.',lessons:32,level:'Intermediate',time:'19h 10m'},
- {id:'react',title:'React',desc:'Build component-driven interfaces that scale.',lessons:40,level:'Intermediate',time:'23h 45m'},
- {id:'node',title:'Node.js',desc:'Create backend services, APIs and server-side tools.',lessons:36,level:'Intermediate',time:'21h 15m'},
- {id:'fullstack',title:'Full Stack',desc:'Connect frontend, backend, databases and deployment.',lessons:80,level:'Advanced',time:'52h 00m'}
+ {id:'html',title:'HTML',desc:'Build a semantic foundation for every web experience.',lessons:10,level:'Beginner',time:'4h 30m'},
+ {id:'css',title:'CSS',desc:'Turn structure into responsive, polished interfaces.',lessons:12,level:'Beginner',time:'6h 00m'},
+ {id:'javascript',title:'JavaScript',desc:'Add logic, interaction, APIs and browser behavior.',lessons:14,level:'Intermediate',time:'8h 30m'},
+ {id:'react',title:'React',desc:'Build component-driven interfaces that scale.',lessons:16,level:'Intermediate',time:'9h 30m'},
+ {id:'node',title:'Node.js',desc:'Create backend services, APIs and server-side tools.',lessons:15,level:'Intermediate',time:'8h 30m'},
+ {id:'fullstack',title:'Full Stack',desc:'Connect frontend, backend, databases and deployment.',lessons:28,level:'Advanced',time:'18h 00m'}
 ];
 const lessons=[
  ['01','How the web is structured','HTML','Understand documents, elements and semantic structure.'],
