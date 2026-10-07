@@ -124,7 +124,7 @@ function Nav(){
 }
 function Footer(){return <footer><div className="footer-main"><div><button className="brand" onClick={()=>go('home')}><span className="brand-word">Coding<span>Vibes</span></span></button><p>Learn visually. Build confidently.</p></div><div className="footer-links"><button onClick={()=>go('paths')}>Learning Paths</button><button onClick={()=>go('roadmaps')}>Roadmaps</button><button onClick={()=>go('projects')}>Projects</button><button onClick={()=>go('resources')}>Resources</button></div></div><div className="footer-bottom">© 2026 Coding Vibes <span>Built for curious builders.</span></div></footer>}
 
-function Home(){return <><Nav/><main className="home reference-home"><section className="home-hero reference-hero"><div className="home-hero-copy"><div className="home-pill"><span>LEARN</span><i>•</i><span>PRACTICE</span><i>•</i><span>BUILD</span><i>•</i><span>GROW</span></div><h1>Start Your<br/><em>Coding</em> Journey<br/>Today</h1><p>Step by step learning paths, interactive projects, and real world skills to take you from beginner to professional.</p><div className="hero-actions"><button className="primary" onClick={()=>go('paths')}>Start Learning <ArrowRight/></button><button className="secondary" onClick={()=>go('roadmaps')}>Explore Roadmaps</button></div><div className="hero-stats reference-stats"><span><CheckCircle2/><b>100K+</b><small>Active Learners</small></span><span><BookOpen/><b>500+</b><small>Hands-on Projects</small></span><span><BookOpen/><b>95+</b><small>Structured Lessons</small></span><span><Sparkles/><b>4.8/5</b><small>Community Rating</small></span></div></div><div className="reference-hero-visual exact-reference-hero-art"><div className="hero-art-stage"><img className="hero-reference-image" src="/assets/cv-hero-art.webp" alt="Coding Vibes student learning with future skills" loading="eager" onError={(e)=>{e.currentTarget.style.display='none'}}/><div className="hero-skill-card">
+function Home(){return <><Nav/><main className="home reference-home"><section className="home-hero reference-hero"><div className="home-hero-copy"><div className="home-pill"><span>LEARN</span><i>•</i><span>PRACTICE</span><i>•</i><span>BUILD</span><i>•</i><span>GROW</span></div><h1>Start Your<br/><em>Coding</em> Journey<br/>Today</h1><p>Step by step learning paths, interactive projects, and real world skills to take you from beginner to professional.</p><div className="hero-actions"><button className="primary" onClick={()=>go('paths')}>Start Learning <ArrowRight/></button><button className="secondary" onClick={()=>go('roadmaps')}>Explore Roadmaps</button></div><div className="hero-stats reference-stats"><span><CheckCircle2/><b>100K+</b><small>Active Learners</small></span><span><BookOpen/><b>500+</b><small>Hands-on Projects</small></span><span><BookOpen/><b>10</b><small>HTML Core Lessons</small></span><span><Sparkles/><b>4.8/5</b><small>Community Rating</small></span></div></div><div className="reference-hero-visual exact-reference-hero-art"><div className="hero-art-stage"><img className="hero-reference-image" src="/assets/cv-hero-art.webp" alt="Coding Vibes student learning with future skills" loading="eager" onError={(e)=>{e.currentTarget.style.display='none'}}/><div className="hero-skill-card">
    <span className="kicker">YOUR FUTURE SKILLS</span><b>START HERE.</b>
    <div className="hero-skill-checks">
     <span>✓ <i>Structured Learning</i></span>
@@ -619,6 +619,22 @@ const htmlDeepLessons:Record<number,any>=[
   }
 ];
 
+function lessonTableRows(pathId:string,title:string){
+ const t=title.toLowerCase();
+ if(pathId==='html'){
+  if(t.includes('web is structured'))return [['doctype','Tells the browser to use modern HTML parsing rules.'],['html','Root element of the document.'],['head','Contains document metadata.'],['body','Contains visible page content.']];
+  if(t.includes('elements'))return [['Element','Represents a piece of content and its meaning.'],['Attribute','Adds information to an element.'],['class','Reusable styling/targeting hook.'],['id','Unique identifier for an element.']];
+  if(t.includes('links'))return [['href','Destination of an anchor link.'],['src','Resource location for media such as images.'],['alt','Text alternative for meaningful images.'],['figure','Groups media with an optional caption.']];
+  if(t.includes('lists'))return [['ul / ol','Groups unordered or ordered items.'],['li','Individual list item.'],['table','Represents tabular data.'],['form','Groups controls used to collect/submit data.']];
+  if(t.includes('semantic'))return [['header','Introductory content for a page or section.'],['nav','Major navigation links.'],['main','Primary content of the page.'],['section / article','Meaningful content group / self-contained composition.'],['footer','Closing information for a page or section.']];
+  if(t.includes('forms'))return [['label','Identifies a form control.'],['input','Collects typed or selected data.'],['select','Provides a list of options.'],['fieldset','Groups related controls.'],['required','Makes a field mandatory in browser validation.']];
+  if(t.includes('accessibility'))return [['button','Use for actions.'],['a','Use for navigation.'],['alt','Provides an image alternative.'],['label','Makes form controls understandable.'],['heading hierarchy','Creates a navigable content outline.']];
+  if(t.includes('metadata'))return [['title','Names the document/browser tab.'],['description','Summarizes page content.'],['viewport','Supports correct responsive rendering.'],['lang','Declares the document language.']];
+  if(t.includes('profile'))return [['Plan','Decide the content and page regions.'],['Structure','Choose semantic HTML elements.'],['Test','Open, inspect and test the document.'],['Refine','Fix semantics, labels, links and metadata.']];
+  return [['HTML','Structure and meaning layer.'],['CSS','Presentation and layout layer.'],['JavaScript','Behavior and interaction layer.']];
+ }
+ return [['Concept','What this lesson teaches.'],['Syntax','Smallest useful pattern.'],['Practice','A task that proves understanding.'],['Check','Questions before moving on.']];
+}
 function Lesson({id}:{id?:string}){
  const parts=(id||'html-1').split('-');
  const p=paths.find(x=>x.id===parts[0])||paths[0];
@@ -626,7 +642,7 @@ function Lesson({id}:{id?:string}){
  const lesson=p.id==='html'?lessons[idx-1]:[String(idx).padStart(2,'0'),(curriculum[p.id]||[])[idx-1]||p.title+' lesson '+idx,p.title,'Learn the concept, see a worked example, practice it and check your understanding.'];
  const key='cv-complete-'+p.id+'-'+idx;
  const fallback=lessonContent[p.id+'-'+idx]||generatedLessonData(p.id,lesson[1],idx);
- const data=p.id==='html'?htmlDeepLessons[idx]:fallback;
+ const data=p.id==='html'?htmlDeepLessons[idx-1]:fallback;
  const savedKey='cv-draft-code-'+p.id+'-'+idx;
  const[savedNotice,setSavedNotice]=useState('');
  const[done,setDone]=useState(localStorage.getItem(key)==='1');
@@ -636,40 +652,54 @@ function Lesson({id}:{id?:string}){
  const[selected,setSelected]=useState<number|null>(null);
  useEffect(()=>{const saved=localStorage.getItem(savedKey);if(saved)setCode(saved);else setCode(data.example)},[savedKey,data.example]);
  const complete=()=>{const n=!done;setDone(n);localStorage.setItem(key,n?'1':'0');if(n){const current=Number(localStorage.getItem('cv-progress-'+p.id)||0);localStorage.setItem('cv-progress-'+p.id,String(Math.max(current,idx)))}};
- const runCode=()=>{if(p.id==='html'||data.language==='HTML'){const safe=code.replace(/<script[\s\S]*?<\/script>/gi,'');setOutput(safe)}else if(data.language==='CSS'){setOutput('<style>'+code.replace(/<style>|<\/style>/gi,'')+'</style><main style="font-family:system-ui;padding:32px"><h1>CSS Playground</h1><p>Edit the CSS and run it.</p></main>')}else if(data.language==='JavaScript'){setOutput('<main style="font-family:system-ui;padding:32px"><h1 id="title">JavaScript Playground</h1><button id="btn">Run interaction</button><pre id="log"></pre></main><script>'+code.replace(/<script>|<\/script>/gi,'')+'<\/script>')}else setOutput('<main style="font-family:system-ui;padding:32px"><h2>Practice preview</h2><p>This playground is ready for '+data.language+' examples.</p></main>')};
+ const runCode=()=>{if(p.id==='html'||data.language==='HTML'){const safe=code.replace(/<script[\\s\\S]*?<\\/script>/gi,'');setOutput(safe)}else if(data.language==='CSS'){setOutput('<style>'+code.replace(/<style>|<\\/style>/gi,'')+'</style><main style="font-family:system-ui;padding:32px"><h1>CSS Playground</h1><p>Edit the CSS and run it.</p></main>')}else if(data.language==='JavaScript'){setOutput('<main style="font-family:system-ui;padding:32px"><h1 id="title">JavaScript Playground</h1><button id="btn">Run interaction</button><pre id="log"></pre></main><script>'+code.replace(/<script>|<\\/script>/gi,'')+'<\\/script>')}else setOutput('<main style="font-family:system-ui;padding:32px"><h2>Practice preview</h2><p>This playground is ready for '+data.language+' examples.</p></main>')};
  const nextIdx=idx+1,prevIdx=idx-1;
  const nextTitle=nextIdx<=p.lessons?(p.id==='html'?lessons[nextIdx-1]?.[1]:curriculum[p.id]?.[nextIdx-1])||'Next lesson':'';
  const prevTitle=prevIdx>=1?(p.id==='html'?lessons[prevIdx-1]?.[1]:curriculum[p.id]?.[prevIdx-1])||'Previous lesson':'';
+ const tableRows=lessonTableRows(p.id,lesson[1]);
+ const sectionItems=['WHAT YOU\'LL LEARN','THE CONCEPT','CORE PATTERN','WORKED EXAMPLES','DEEP DIVE','COMMON MISTAKE','PRACTICE','QUICK CHECK','QUICK SUMMARY'];
  return <><Nav/><main className="lesson-page lesson-page-v2">
   <button className="back" onClick={()=>go('path',p.id)}>← {p.title} path</button>
-  <div className="lesson-layout"><article>
-   <span className="kicker">{p.title.toUpperCase()} · LESSON {lesson[0]}</span>
-   <h1>{lesson[1]}</h1><p className="lead">{data.objective}</p>
-   <div className="learning-tabs learning-tabs-text-only">
-    <button className={tab==='text'?'active':''} onClick={()=>setTab('text')}><BookOpen/> Learn by text</button>
-    <button className={tab==='practice'?'active':''} onClick={()=>setTab('practice')}><Terminal/> Practice</button>
-   </div>
-   {tab==='text'&&<div className="text-lesson rich-reading rich-reading-html">
-    <div className="lesson-language-note"><b>Learning language:</b> English with simple explanations, examples and practical code. <span>Lesson flow: Learn → Understand → Example → Practice → Check → Next topic.</span></div>
-    <div className="lesson-callout"><Sparkles/><div><b>Lesson objective</b><p>{data.objective}</p></div></div>
-    <section className="lesson-section"><span className="section-kicker">01 · WHAT YOU'LL LEARN</span><h2>Learning outcomes</h2><ul className="lesson-summary-list">{data.outcomes.map((x:string)=><li key={x}>{x}</li>)}</ul></section>
-    <section className="lesson-section"><span className="section-kicker">02 · THE CONCEPT</span><h2>{data.title}</h2><p>{data.concept}</p><div className="lesson-deep-card lesson-why-card"><span>WHY THIS MATTERS</span><p>{data.why}</p></div></section>
-    <section className="lesson-section"><span className="section-kicker">03 · CORE PATTERN</span><h2>Start with the smallest useful syntax</h2><div className="syntax-card"><code>{data.syntax}</code><button onClick={()=>{navigator.clipboard?.writeText(data.syntax);setSavedNotice('Syntax copied.')}}>Copy syntax</button></div>{data.explain.slice(0,2).map((x:string,i:number)=><p key={i}>{x}</p>)}</section>
-    <section className="lesson-section"><span className="section-kicker">04 · WORKED EXAMPLES</span><h2>Read it, then change it</h2>{data.examples.map((ex:any,i:number)=><div className="worked-example" key={ex[0]}><div className="worked-example-head"><b>{String(i+1).padStart(2,'0')} · {ex[0]}</b><span>{p.title}</span></div><p>{data.explain[i%data.explain.length]}</p><div className="code"><div>{p.title} example <span>{p.title}</span><button onClick={()=>{navigator.clipboard?.writeText(ex[1]);setSavedNotice('Example copied.')}}>Copy</button></div><pre>{ex[1]}</pre></div><div className="line-by-line">{ex[1].split('\n').slice(0,10).map((line:string,j:number)=><div className={line.trim()?'code-line':'code-line blank'} key={j}><b>Line {j+1}</b><span><code>{line||' '}</code><small>{lessonLineNote('HTML',line,j)}</small></span></div>)}</div></div>)}</section>
-    <section className="lesson-section"><span className="section-kicker">05 · DEEP DIVE</span><h2>Important details</h2><div className="lesson-detail-grid">{data.explain.map((x:string,i:number)=><div className="lesson-detail-card" key={x}><b>{['Understand','Remember','Build correctly','Think like a developer'][i%4]}</b><p>{x}</p></div>)}</div></section>
-    <section className="lesson-section"><span className="section-kicker">06 · COMMON MISTAKE</span><h2>What to avoid</h2><div className="lesson-warning-card"><span>⚠ COMMON MISTAKE</span><p>{data.mistake}</p></div></section>
-    <section className="lesson-section"><span className="section-kicker">07 · PRACTICE</span><h2>Now build it yourself</h2><div className="reading-challenge"><Terminal/><div><b>Practice task</b><p>{data.practice}</p></div><button className="primary small" onClick={()=>setTab('practice')}>Open Practice <ArrowRight size={15}/></button></div></section>
-    <section className="lesson-section"><span className="section-kicker">08 · QUICK CHECK</span><h2>Can you explain it?</h2><div className="quiz-card">{data.check.map((q:string,i:number)=><button key={q} className={selected===i?'selected':''} onClick={()=>setSelected(i)}><span>{i+1}</span><b>{q}</b><ChevronRight/></button>)}</div><div className="lesson-check-note">{selected!==null?'Now explain the answer in your own words before continuing.':'Answer these questions mentally or in your notes before continuing.'}</div></section>
-    <section className="lesson-section"><span className="section-kicker">09 · QUICK SUMMARY</span><h2>What you should remember</h2><div className="summary-card"><ul>{data.outcomes.map((x:string)=><li key={x}>✓ {x}</li>)}</ul></div></section>
-    <div className="lesson-complete-bar"><div><b>{done?'Lesson completed':'Finish this lesson'}</b><span>{done?'Your progress is saved in this browser.':'Mark it complete when you can explain the concept and reproduce the example without copying.'}</span></div><button className={done?'secondary':'primary'} onClick={complete}>{done?'Completed ✓':'Mark lesson complete'}</button></div>
-    {savedNotice&&<div className="save-toast">{savedNotice}</div>}
-   </div>}
-   {tab==='practice'&&<section className="practice-lab"><div className="practice-head"><span className="kicker">PRACTICE LAB</span><h2>Change the code. Run it. Explain the result.</h2><p>{data.practice||data.task}</p></div><div className="practice-grid"><div className="practice-editor"><div className="source-head">{data.language||p.title}<button onClick={()=>{setCode(data.example);setSavedNotice('Starter code restored.')}}>Reset</button></div><textarea value={code} onChange={e=>setCode(e.target.value)} spellCheck={false}/><div className="editor-actions"><button className="primary" onClick={()=>{localStorage.setItem(savedKey,code);runCode();setSavedNotice('Practice saved and preview refreshed.')}}>Run code <Play size={15}/></button></div></div><div className="practice-output"><div className="source-head">Output <span>Sandbox</span></div>{output?<iframe title="practice output" sandbox="allow-scripts" srcDoc={output}/>:<div className="practice-empty"><Terminal/><p>Run your code to see the result.</p></div>}</div></div></section>}
-   <nav className="lesson-bottom-nav lesson-topic-nav">
-    <button className="lesson-nav-btn prev" disabled={idx===1} onClick={()=>idx>1&&go('lesson',p.id+'-'+prevIdx)}><span>← Previous</span><b>{prevTitle||'First lesson'}</b></button>
-    <button className="lesson-nav-btn next" disabled={idx>=p.lessons} onClick={()=>idx<p.lessons&&go('lesson',p.id+'-'+nextIdx)}><span>Next topic →</span><b>{nextTitle||'Course complete'}</b></button>
-   </nav>
-  </article></div>
+  <div className="lesson-layout">
+   <aside className="lesson-sidebar" aria-label="Lesson navigation">
+    <div className="lesson-sidebar-inner">
+     <span className="sidebar-kicker">{p.title} COURSE</span>
+     <b className="sidebar-title">Course contents</b>
+     <div className="lesson-sidebar-list">{(p.id==='html'?lessons:curriculum[p.id].map((x,i)=>[String(i+1).padStart(2,'0'),x])).map((l:any,i:number)=><button key={i} className={i===idx-1?'active':''} onClick={()=>go('lesson',p.id+'-'+(i+1))}><span>{String(i+1).padStart(2,'0')}</span><em>{l[1]||l}</em>{i<Number(localStorage.getItem('cv-progress-'+p.id)||0)&&<Check size={13}/>}</button>)}</div>
+     <div className="lesson-sidebar-note"><span>LEARNING FLOW</span><b>Read → Understand → Practice → Check</b><small>Videos are intentionally not part of the current lesson flow.</small></div>
+    </div>
+   </aside>
+   <article>
+    <span className="kicker">{p.title.toUpperCase()} · LESSON {lesson[0]}</span>
+    <h1>{lesson[1]}</h1><p className="lead">{data.objective}</p>
+    <div className="learning-tabs learning-tabs-text-only">
+     <button className={tab==='text'?'active':''} onClick={()=>setTab('text')}><BookOpen/> Learn by text</button>
+     <button className={tab==='practice'?'active':''} onClick={()=>setTab('practice')}><Terminal/> Practice</button>
+    </div>
+    {tab==='text'&&<div className="text-lesson rich-reading rich-reading-html">
+     <div className="lesson-language-note"><b>Learning language:</b> English with simple explanations, examples and practical code. <span>Lesson flow: Learn → Understand → Example → Practice → Check → Next topic.</span></div>
+     <div className="lesson-callout"><Sparkles/><div><b>Lesson objective</b><p>{data.objective}</p></div></div>
+     <section className="lesson-section" id="learn"><span className="section-kicker">01 · WHAT YOU'LL LEARN</span><h2>Learning outcomes</h2><ul className="lesson-summary-list">{data.outcomes.map((x:string)=><li key={x}>{x}</li>)}</ul></section>
+     <section className="lesson-section" id="concept"><span className="section-kicker">02 · THE CONCEPT</span><h2>{data.title}</h2><p>{data.concept}</p><div className="lesson-deep-card lesson-why-card"><span>WHY THIS MATTERS</span><p>{data.why}</p></div>
+      <div className="lesson-reference-table"><div className="lesson-table-title"><span>REFERENCE TABLE</span><b>Key elements at a glance</b></div><div className="table-scroll"><table><thead><tr><th>Element / idea</th><th>Purpose</th></tr></thead><tbody>{tableRows.map((r:any)=><tr key={r[0]}><td><code>{r[0]}</code></td><td>{r[1]}</td></tr>)}</tbody></table></div></div>
+     </section>
+     <section className="lesson-section" id="syntax"><span className="section-kicker">03 · CORE PATTERN</span><h2>Start with the smallest useful syntax</h2><div className="syntax-card"><code>{data.syntax}</code><button onClick={()=>{navigator.clipboard?.writeText(data.syntax);setSavedNotice('Syntax copied.')}}>Copy syntax</button></div>{data.explain.slice(0,2).map((x:string,i:number)=><p key={i}>{x}</p>)}</section>
+     <section className="lesson-section" id="examples"><span className="section-kicker">04 · WORKED EXAMPLES</span><h2>Read it, then change it</h2>{data.examples.map((ex:any,i:number)=><div className="worked-example" key={ex[0]}><div className="worked-example-head"><b>{String(i+1).padStart(2,'0')} · {ex[0]}</b><span>{p.title}</span></div><p>{data.explain[i%data.explain.length]}</p><div className="code"><div>{p.title} example <span>{p.title}</span><button onClick={()=>{navigator.clipboard?.writeText(ex[1]);setSavedNotice('Example copied.')}}>Copy</button></div><pre>{ex[1]}</pre></div><div className="line-by-line">{ex[1].split('\n').slice(0,10).map((line:string,j:number)=><div className={line.trim()?'code-line':'code-line blank'} key={j}><b>Line {j+1}</b><span><code>{line||' '}</code><small>{lessonLineNote(data.language||'HTML',line,j)}</small></span></div>)}</div></div>)}</section>
+     <section className="lesson-section" id="deep-dive"><span className="section-kicker">05 · DEEP DIVE</span><h2>Important details</h2><div className="lesson-detail-grid">{data.explain.map((x:string,i:number)=><div className="lesson-detail-card" key={x}><b>{['Understand','Remember','Build correctly','Think like a developer'][i%4]}</b><p>{x}</p></div>)}</div></section>
+     <section className="lesson-section" id="mistakes"><span className="section-kicker">06 · COMMON MISTAKE</span><h2>What to avoid</h2><div className="lesson-warning-card"><span>⚠ COMMON MISTAKE</span><p>{data.mistake}</p></div></section>
+     <section className="lesson-section" id="practice"><span className="section-kicker">07 · PRACTICE</span><h2>Now build it yourself</h2><div className="reading-challenge"><Terminal/><div><b>Practice task</b><p>{data.practice}</p></div><button className="primary small" onClick={()=>setTab('practice')}>Open Practice <ArrowRight size={15}/></button></div></section>
+     <section className="lesson-section" id="check"><span className="section-kicker">08 · QUICK CHECK</span><h2>Can you explain it?</h2><div className="quiz-card">{data.check.map((q:string,i:number)=><button key={q} className={selected===i?'selected':''} onClick={()=>setSelected(i)}><span>{i+1}</span><b>{q}</b><ChevronRight/></button>)}</div><div className="lesson-check-note">{selected!==null?'Now explain the answer in your own words before continuing.':'Answer these questions mentally or in your notes before continuing.'}</div></section>
+     <section className="lesson-section" id="summary"><span className="section-kicker">09 · QUICK SUMMARY</span><h2>What you should remember</h2><div className="summary-card"><ul>{data.outcomes.map((x:string)=><li key={x}>✓ {x}</li>)}</ul></div></section>
+     <div className="lesson-complete-bar"><div><b>{done?'Lesson completed':'Finish this lesson'}</b><span>{done?'Your progress is saved in this browser.':'Mark it complete when you can explain the concept and reproduce the example without copying.'}</span></div><button className={done?'secondary':'primary'} onClick={complete}>{done?'Completed ✓':'Mark lesson complete'}</button></div>
+     {savedNotice&&<div className="save-toast">{savedNotice}</div>}
+    </div>}
+    {tab==='practice'&&<section className="practice-lab"><div className="practice-head"><span className="kicker">PRACTICE LAB</span><h2>Change the code. Run it. Explain the result.</h2><p>{data.practice||data.task}</p></div><div className="practice-grid"><div className="practice-editor"><div className="source-head">{data.language||p.title}<button onClick={()=>{setCode(data.example);setSavedNotice('Starter code restored.')}}>Reset</button></div><textarea value={code} onChange={e=>setCode(e.target.value)} spellCheck={false}/><div className="editor-actions"><button className="primary" onClick={()=>{localStorage.setItem(savedKey,code);runCode();setSavedNotice('Practice saved and preview refreshed.')}}>Run code <Play size={15}/></button></div></div><div className="practice-output"><div className="source-head">Output <span>Sandbox</span></div>{output?<iframe title="practice output" sandbox="allow-scripts" srcDoc={output}/>:<div className="practice-empty"><Terminal/><p>Run your code to see the result.</p></div>}</div></div></section>}
+    <nav className="lesson-bottom-nav lesson-topic-nav" aria-label="Lesson navigation">
+     <button className="lesson-nav-btn prev" disabled={idx===1} onClick={()=>idx>1&&go('lesson',p.id+'-'+prevIdx)}><span>← Previous lesson</span><b>{prevTitle||'First lesson'}</b></button>
+     <button className="lesson-nav-btn next" disabled={idx>=p.lessons} onClick={()=>idx<p.lessons&&go('lesson',p.id+'-'+nextIdx)}><span>Next lesson →</span><b>{nextTitle||'Course complete'}</b></button>
+    </nav>
+   </article>
+  </div>
  </main><Footer/></>
 }
 function Studio(){
