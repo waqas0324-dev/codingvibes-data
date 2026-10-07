@@ -641,3 +641,57 @@ button{font:inherit}
 .project-cover-chart i{display:block;flex:1;height:35%;border-radius:5px 5px 2px 2px;background:linear-gradient(180deg,#4ade80,rgba(34,197,94,.15))}
 .project-cover-chart i:nth-child(2){height:55%}.project-cover-chart i:nth-child(3){height:42%}.project-cover-chart i:nth-child(4){height:78%}.project-cover-chart i:nth-child(5){height:62%}.project-cover-chart i:nth-child(6){height:91%}
 @media(max-width:700px){.project-cover-mock{inset:18px 18px 50px;grid-template-columns:68px 1fr}.project-cover-sidebar{padding:14px 8px}.project-cover-main{padding:13px}.project-cover-chart{height:95px}}
+
+/* === Reference learning sidebar + reference tables === */
+.lesson-page-v2 .lesson-layout{grid-template-columns:250px minmax(0,1fr);align-items:start;max-width:1180px}
+.lesson-page-v2 article{min-width:0}
+.lesson-sidebar{position:sticky;top:92px;align-self:start;max-height:calc(100vh - 112px);overflow:auto;scrollbar-width:thin}
+.lesson-sidebar-inner{border:1px solid rgba(53,91,99,.55);background:rgba(6,17,23,.86);border-radius:16px;padding:15px;box-shadow:0 18px 45px rgba(0,0,0,.2)}
+.sidebar-kicker{display:block;color:#46e88d;font-size:9px;font-weight:900;letter-spacing:.15em;text-transform:uppercase}
+.sidebar-title{display:block;color:#effff5;font-size:14px;margin:7px 0 13px}
+.lesson-sidebar-list{display:grid;gap:3px}
+.lesson-sidebar-list button{display:grid;grid-template-columns:26px 1fr auto;align-items:start;gap:7px;width:100%;border:0;border-left:2px solid transparent;background:transparent;color:#829892;text-align:left;padding:9px 7px;border-radius:8px;cursor:pointer}
+.lesson-sidebar-list button span{font-size:9px;color:#54736a;padding-top:2px}
+.lesson-sidebar-list button em{font-style:normal;font-size:11px;line-height:1.35}
+.lesson-sidebar-list button svg{color:#43e88b;margin-top:1px}
+.lesson-sidebar-list button:hover{background:rgba(34,197,94,.055);color:#ccebdc}
+.lesson-sidebar-list button.active{background:rgba(34,197,94,.10);border-left-color:#27df7f;color:#effff5}
+.lesson-sidebar-list button.active span{color:#4fe995}
+.lesson-sidebar-note{margin-top:14px;padding:12px;border-top:1px solid rgba(50,83,91,.5)}
+.lesson-sidebar-note span{display:block;color:#4be78f;font-size:9px;letter-spacing:.12em;font-weight:900}
+.lesson-sidebar-note b{display:block;color:#d7e9e2;font-size:11px;line-height:1.45;margin-top:6px}
+.lesson-sidebar-note small{display:block;color:#6f8580;font-size:9px;line-height:1.45;margin-top:6px}
+.lesson-reference-table{margin:24px 0 4px;border:1px solid rgba(50,83,91,.6);border-radius:15px;overflow:hidden;background:#06141a}
+.lesson-table-title{display:flex;justify-content:space-between;gap:15px;align-items:center;padding:13px 15px;border-bottom:1px solid rgba(50,83,91,.6);background:rgba(255,255,255,.018)}
+.lesson-table-title span{font-size:9px;letter-spacing:.14em;color:#48e88d;font-weight:900}
+.lesson-table-title b{font-size:12px;color:#dcece6}
+.table-scroll{overflow:auto}
+.lesson-reference-table table{width:100%;border-collapse:collapse;margin:0;min-width:500px}
+.lesson-reference-table th,.lesson-reference-table td{text-align:left;padding:11px 14px;border-bottom:1px solid rgba(50,83,91,.42);vertical-align:top}
+.lesson-reference-table th{color:#7e9890;font-size:9px;letter-spacing:.12em;text-transform:uppercase}
+.lesson-reference-table td{color:#a9bbb5;font-size:12px;line-height:1.5}
+.lesson-reference-table td:first-child{width:34%;color:#e6fff0}
+.lesson-reference-table tr:last-child td{border-bottom:0}
+.lesson-reference-table code{color:#62efa0;font:12px ui-monospace,SFMono-Regular,Menlo,monospace}
+@media(max-width:900px){
+ .lesson-page-v2 .lesson-layout{grid-template-columns:1fr}
+ .lesson-sidebar{position:relative;top:auto;max-height:none;overflow:visible}
+ .lesson-sidebar-inner{padding:12px}
+ .lesson-sidebar-list{display:flex;overflow:auto;gap:4px;padding-bottom:3px}
+ .lesson-sidebar-list button{min-width:190px;grid-template-columns:24px 1fr auto;border:1px solid rgba(50,83,91,.45);border-left:1px solid rgba(50,83,91,.45);background:rgba(255,255,255,.015)}
+ .lesson-sidebar-list button.active{border-color:rgba(39,223,127,.45)}
+ .lesson-sidebar-note{display:none}
+}
+@media(max-width:600px){
+ .lesson-reference-table table{min-width:440px}
+ .lesson-table-title{align-items:flex-start;flex-direction:column;gap:4px}
+}
+/* === Home reference polish === */
+.reference-home .reference-hero{min-height:760px}
+.reference-home .reference-stats span:nth-child(3) b{color:#5cf09a}
+.reference-home .reference-path-card strong{font-size:11px;letter-spacing:.04em}
+.reference-home .reference-path-card{min-height:205px}
+.reference-home .reference-path-card:hover{transform:translateY(-5px)}
+@media(max-width:900px){
+ .reference-home .reference-hero{min-height:auto}
+}
