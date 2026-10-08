@@ -1,0 +1,6 @@
+// Auto-split from main.tsx (refactor commit) — no logic changes.
+import {useEffect,useState} from 'react';
+export type Page='home'|'paths'|'path'|'lesson'|'interview'|'cheatsheet'|'roadmaps'|'roadmap'|'projects'|'project'|'resources'|'search'|'login'|'signup'|'dashboard'|'studio';
+export function go(page:Page,id?:string){const u=id?'/'+page+'/'+id:'/'+page;if(page==='home')history.pushState({},'', '/');else history.pushState({},'',u);window.dispatchEvent(new PopStateEvent('popstate'));setTimeout(()=>window.scrollTo({top:0,behavior:'auto'}),0)}
+export function route():{page:Page,id?:string}{const p=location.pathname.split('/').filter(Boolean);if(!p.length)return{page:'home'};const map:any={paths:'paths',path:'path',lesson:'lesson',interview:'interview',cheatsheet:'cheatsheet',roadmaps:'roadmaps',roadmap:'roadmap',projects:'projects',project:'project',resources:'resources',search:'search',login:'login',signup:'signup',dashboard:'dashboard',studio:'studio'};return{page:map[p[0]]||'home',id:p[1]}}
+export function useRoute(){const[,setTick]=useState(0);useEffect(()=>{const f=()=>setTick(x=>x+1);addEventListener('popstate',f);return()=>removeEventListener('popstate',f)},[]);return route()}

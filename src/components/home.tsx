@@ -1,0 +1,35 @@
+// Auto-split from main.tsx (refactor commit) — no logic changes.
+import {useEffect,useRef} from 'react';
+import * as THREE from 'three';
+import {ArrowRight,BookOpen,CheckCircle2,Code2,Play,Sparkles,Users} from 'lucide-react';
+import {go} from '../router';
+import {paths} from '../data/content';
+import {Nav,Footer,TechIcon} from './layout';
+export function Scene3D(){
+ const ref=useRef<HTMLDivElement>(null);
+ useEffect(()=>{if(!ref.current)return;const el=ref.current;const scene=new THREE.Scene();const camera=new THREE.PerspectiveCamera(45,1,.1,100);camera.position.set(0,0,7.2);
+ const renderer=new THREE.WebGLRenderer({antialias:true,alpha:true});renderer.setPixelRatio(Math.min(devicePixelRatio,2));renderer.setSize(el.clientWidth,el.clientHeight);renderer.outputColorSpace=THREE.SRGBColorSpace;el.appendChild(renderer.domElement);
+ const root=new THREE.Group();scene.add(root);
+ const core=new THREE.Mesh(new THREE.IcosahedronGeometry(1.22,2),new THREE.MeshStandardMaterial({color:0x18b957,emissive:0x063b20,metalness:.75,roughness:.18}));root.add(core);
+ const wire=new THREE.Mesh(new THREE.IcosahedronGeometry(1.58,2),new THREE.MeshBasicMaterial({color:0x63f39a,wireframe:true,transparent:true,opacity:.3}));root.add(wire);
+ const ring1=new THREE.Mesh(new THREE.TorusGeometry(2.05,.012,12,180),new THREE.MeshBasicMaterial({color:0x38bdf8,transparent:true,opacity:.65}));ring1.rotation.x=.75;root.add(ring1);
+ const ring2=ring1.clone();ring2.rotation.x=1.25;ring2.rotation.y=.5;root.add(ring2);
+ const pts=new THREE.BufferGeometry(),count=900,pos=new Float32Array(count*3);for(let i=0;i<count;i++){const r=3+Math.random()*3.5,a=Math.random()*Math.PI*2;pos[i*3]=Math.cos(a)*r;pos[i*3+1]=(Math.random()-.5)*5.5;pos[i*3+2]=(Math.random()-.5)*5.5}pts.setAttribute('position',new THREE.BufferAttribute(pos,3));scene.add(new THREE.Points(pts,new THREE.PointsMaterial({color:0x4ade80,size:.018,transparent:true,opacity:.7})));
+scene.add(new THREE.AmbientLight(0xb8ffda,.55));const light=new THREE.PointLight(0x22c55e,8,14);light.position.set(2,2,4);scene.add(light);const cyan=new THREE.PointLight(0x38bdf8,3,12);cyan.position.set(-3,-1,2);scene.add(cyan);
+const mouse={x:0,y:0};const move=(e:MouseEvent)=>{mouse.x=e.clientX/innerWidth-.5;mouse.y=e.clientY/innerHeight-.5};addEventListener('mousemove',move);
+let raf=0;const animate=()=>{raf=requestAnimationFrame(animate);root.rotation.y+=.0025;root.rotation.x+=(mouse.y*.22-root.rotation.x)*.025;root.position.x+=(mouse.x*.35-root.position.x)*.025;wire.rotation.y-=.004;ring1.rotation.z+=.006;ring2.rotation.z-=.004;renderer.render(scene,camera)};animate();
+const resize=()=>{const w=el.clientWidth,h=el.clientHeight;camera.aspect=w/h;camera.updateProjectionMatrix();renderer.setSize(w,h)};addEventListener('resize',resize);resize();
+return()=>{cancelAnimationFrame(raf);removeEventListener('mousemove',move);removeEventListener('resize',resize);renderer.dispose();el.removeChild(renderer.domElement)}} ,[]);
+return <div className="scene3d" ref={ref}/>;
+}
+
+export function Home(){return <><Nav/><main className="home reference-home"><section className="home-hero reference-hero"><div className="home-hero-copy"><div className="home-pill"><span>LEARN</span><i>•</i><span>PRACTICE</span><i>•</i><span>BUILD</span><i>•</i><span>GROW</span></div><h1>Start Your<br/><em>Coding</em> Journey<br/>Today</h1><p>Step by step learning paths, interactive projects, and real world skills to take you from beginner to professional.</p><div className="hero-actions"><button className="primary" onClick={()=>go('paths')}>Start Learning <ArrowRight/></button><button className="secondary" onClick={()=>go('roadmaps')}>Explore Roadmaps</button></div><div className="hero-stats reference-stats"><span><CheckCircle2/><b>100K+</b><small>Active Learners</small></span><span><BookOpen/><b>500+</b><small>Hands-on Projects</small></span><span><BookOpen/><b>95+</b><small>Structured Lessons</small></span><span><Sparkles/><b>4.8/5</b><small>Community Rating</small></span></div></div><div className="reference-hero-visual exact-reference-hero-art"><div className="hero-art-stage"><img className="hero-reference-image" src="/assets/cv-hero-art.webp" alt="Coding Vibes student learning with future skills" loading="eager" onError={(e)=>{e.currentTarget.style.display='none'}}/><div className="hero-skill-card">
+   <span className="kicker">YOUR FUTURE SKILLS</span><b>START HERE.</b>
+   <div className="hero-skill-checks">
+    <span>✓ <i>Structured Learning</i></span>
+    <span>✓ <i>Interactive Practice</i></span>
+    <span>✓ <i>Real World Projects</i></span>
+    <span>✓ <i>Career Guidance</i></span>
+    <span>✓ <i>Community Support</i></span>
+   </div>
+  </div><div className="hero-tech-orbit orbit-one"><TechIcon name="html"/></div><div className="hero-tech-orbit orbit-two"><TechIcon name="css"/></div><div className="hero-tech-orbit orbit-three"><TechIcon name="javascript"/></div><div className="hero-tech-orbit orbit-four"><TechIcon name="react"/></div><div className="hero-tech-orbit orbit-five"><TechIcon name="node"/></div><div className="hero-project-chip"><Play size={14}/> Build • Run • Learn</div></div></div></section><section className="home-paths reference-paths"><div className="home-section-head"><div><h2>Popular Learning Paths</h2><p>Choose a path and start learning with structured lessons, practice and projects.</p></div><button className="text-link" onClick={()=>go('paths')}>View All Paths <ArrowRight size={16}/></button></div><div className="path-cards reference-path-grid">{paths.map((p,i)=><button className={'path-card reference-path-card path-card-'+i} key={p.id} onClick={()=>go('path',p.id)}><div className="path-icon"><TechIcon name={p.id==='fullstack'?'full':p.id}/></div><span className="path-name">{p.title}</span><small>{p.id==='javascript'?'Complete Roadmap':p.id==='react'?'Frontend Development':p.id==='node'?'Backend Development':p.id==='fullstack'?'Complete Roadmap':'Beginner to Advanced'}</small><strong>{p.lessons} Lessons</strong><i><ArrowRight size={17}/></i></button>)}</div></section><section className="home-why reference-why"><div className="why-title"><span className="kicker">WHY CHOOSE CODING VIBES?</span><h2>More than just tutorials —<br/>a complete coding<br/>learning experience.</h2><p>We combine structured learning, hands-on practice, real projects and career guidance to help you truly build real skills.</p><button className="primary" onClick={()=>go('paths')}>Start Learning Now <ArrowRight/></button></div><div className="why-grid reference-why-grid">{[['Interactive Learning',Code2,'Learn with visuals, examples and live practice.'],['Real Projects',Sparkles,'Build real world projects step by step.'],['Career Roadmaps',Users,'Get clear guidance to reach your goals.'],['Free Resources',BookOpen,'Access notes, source code and useful tools.']].map(([title,Icon,desc]:any,i)=><div className="why-card" key={title}><span className="why-icon"><Icon/></span><div><b>{title}</b><p>{desc}</p></div></div>)}</div></section></main><Footer/></>}

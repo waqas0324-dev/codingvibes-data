@@ -1,0 +1,81 @@
+/* ---- Try it Yourself mini playground (reference-study) ---- */
+.tryit{margin:14px 0 6px;border:1px solid var(--line);border-radius:14px;background:var(--panel);overflow:hidden}
+.tryit-toggle{width:100%;display:flex;align-items:center;gap:10px;padding:13px 16px;background:rgba(34,197,94,.07);border:0;color:#d9f5e3}
+.tryit-toggle b{font-weight:800}
+.tryit-toggle>span{margin-left:auto;font-size:12px;color:var(--muted);font-weight:500}
+.tryit-toggle svg{color:var(--green2)}
+.tryit-chev{transition:transform .2s}
+.tryit-chev.open{transform:rotate(90deg)}
+.tryit-body{padding:14px;border-top:1px solid var(--line)}
+.tryit-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.tryit-editor textarea{width:100%;min-height:220px;background:#04090f;border:1px solid var(--line);border-radius:10px;color:#d7f5e1;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:13px;line-height:1.6;padding:12px;resize:vertical}
+.tryit-output iframe{width:100%;min-height:290px;background:#fff;border:1px solid var(--line);border-radius:10px}
+@media(max-width:720px){.tryit-grid{grid-template-columns:1fr}}
+
+/* ---- Example Explained collapsible (reference-study) ---- */
+.explained{margin:12px 0 4px;border:1px solid var(--line);border-radius:14px;background:var(--panel);overflow:hidden}
+.explained-toggle{width:100%;display:flex;align-items:center;gap:10px;padding:13px 16px;background:rgba(56,189,248,.06);border:0;color:#d9eefb}
+.explained-toggle b{font-weight:800}
+.explained-toggle>span{margin-left:auto;font-size:12px;color:var(--muted);font-weight:500}
+.explained-toggle svg{color:var(--cyan)}
+.explained .line-by-line{padding:8px 14px 14px}
+
+/* ---- Lesson-end MCQ quiz (reference-study) ---- */
+.quiz-intro{color:var(--muted);margin:6px 0 14px}
+.mcq-best{display:inline-block;background:rgba(56,189,248,.08);border:1px solid rgba(56,189,248,.25);color:#bfe6fb;padding:8px 14px;border-radius:10px;font-size:13px;margin-bottom:12px}
+.mcq-q{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:16px;margin-bottom:12px}
+.mcq-q>b{display:flex;gap:10px;align-items:flex-start;font-size:15px;margin-bottom:12px}
+.mcq-q>b span{background:rgba(34,197,94,.12);color:var(--green2);font-size:12px;padding:3px 9px;border-radius:8px;white-space:nowrap}
+.mcq-opts{display:grid;gap:8px}
+.mcq-opt{display:flex;align-items:center;gap:10px;text-align:left;background:rgba(255,255,255,.03);border:1px solid var(--line);border-radius:10px;padding:11px 13px;color:#dbe7e0;transition:border .15s,background .15s}
+.mcq-opt i{font-style:normal;font-weight:800;font-size:12px;width:26px;height:26px;display:grid;place-items:center;border-radius:8px;background:rgba(255,255,255,.06);color:var(--muted)}
+.mcq-opt svg{margin-left:auto;color:var(--green2)}
+.mcq-opt:hover:not(:disabled){border-color:rgba(74,222,128,.4);background:rgba(34,197,94,.06)}
+.mcq-opt:disabled{cursor:default}
+.mcq-opt.picked{border-color:var(--cyan);background:rgba(56,189,248,.07)}
+.mcq-opt.correct{border-color:var(--green);background:rgba(34,197,94,.10)}
+.mcq-opt.correct i{background:var(--green);color:#031108}
+.mcq-opt.wrong{border-color:#ef4444;background:rgba(239,68,68,.08)}
+.mcq-opt.wrong i{background:#ef4444;color:#fff}
+.mcq-why{margin-top:10px;font-size:13px;line-height:1.6;padding:10px 12px;border-radius:10px;background:rgba(255,255,255,.03);border:1px solid var(--line);color:var(--soft)}
+.mcq-why.ok{border-color:rgba(34,197,94,.35)}
+.mcq-why.no{border-color:rgba(239,68,68,.3)}
+.mcq-why b{color:#fff}
+.mcq-actions{display:flex;align-items:center;gap:12px;margin-top:6px}
+.mcq-actions span{font-size:13px;color:var(--muted)}
+.mcq-result{display:flex;align-items:center;gap:16px;flex-wrap:wrap;background:var(--panel);border:1px solid rgba(34,197,94,.3);border-radius:14px;padding:16px;margin-top:4px}
+.mcq-result b{font-size:28px;color:var(--green2)}
+.mcq-result span{display:block;font-size:13px;color:var(--muted);margin-top:2px}
+.mcq-xp{background:rgba(34,197,94,.12);color:var(--green2);font-weight:800;padding:8px 14px;border-radius:10px}
+
+/* ---- Career prep: interview + cheat sheets (reference-study) ---- */
+.career-prep{margin:36px 0 10px;padding:28px;border:1px solid var(--line);border-radius:18px;background:linear-gradient(135deg,rgba(34,197,94,.06),rgba(56,189,248,.04)),var(--panel)}
+.career-prep h2{margin:8px 0 6px}
+.career-prep p{color:var(--muted);margin:0 0 18px}
+.career-cards{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.career-cards button{display:flex;align-items:center;gap:12px;text-align:left;background:rgba(255,255,255,.03);border:1px solid var(--line);border-radius:14px;padding:16px;color:#e8f3ec}
+.career-cards button:hover{border-color:rgba(74,222,128,.4);background:rgba(34,197,94,.06)}
+.career-cards b{display:block;font-size:15px}
+.career-cards span{font-size:13px;color:var(--muted)}
+.career-cards svg{margin-left:auto;color:var(--green2);flex-shrink:0}
+.career-page{max-width:960px}
+.interview-list{display:grid;gap:10px;margin:18px 0 26px}
+.interview-card{border:1px solid var(--line);border-radius:14px;background:var(--panel);overflow:hidden}
+.interview-card>button{width:100%;display:flex;align-items:center;gap:12px;padding:15px 16px;background:none;border:0;color:#e8f3ec;text-align:left}
+.interview-card>button span{background:rgba(34,197,94,.12);color:var(--green2);font-size:12px;font-weight:800;padding:4px 10px;border-radius:8px;white-space:nowrap}
+.interview-card>button b{font-size:14.5px;flex:1}
+.interview-card>button svg{color:var(--muted);flex-shrink:0}
+.interview-card.open{border-color:rgba(74,222,128,.35)}
+.interview-card>p{margin:0;padding:0 16px 16px 16px;color:var(--soft);line-height:1.75;font-size:14px;border-top:1px dashed var(--line);padding-top:14px;margin:0 16px 16px}
+.cheat-section{margin:26px 0}
+.cheat-section h2{font-size:20px;margin-bottom:12px}
+.cheat-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.cheat-card{border:1px solid var(--line);border-radius:14px;background:var(--panel);overflow:hidden}
+.cheat-head{display:flex;align-items:center;justify-content:space-between;padding:11px 14px;border-bottom:1px solid var(--line)}
+.cheat-head b{font-size:13.5px}
+.cheat-head button{background:rgba(34,197,94,.1);border:1px solid rgba(74,222,128,.3);color:var(--green2);font-size:12px;font-weight:700;padding:6px 12px;border-radius:8px}
+.cheat-card pre{margin:0;padding:14px;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:12.5px;line-height:1.65;color:#c9ecd6;overflow-x:auto;background:#04090f}
+.career-cta{display:flex;align-items:center;justify-content:space-between;gap:14px;border:1px solid var(--line);border-radius:16px;padding:20px;margin:30px 0;background:var(--panel)}
+.career-cta b{display:block;font-size:16px;margin-bottom:4px}
+.career-cta span{font-size:13px;color:var(--muted)}
+@media(max-width:720px){.career-cards,.cheat-grid{grid-template-columns:1fr}.career-cta{flex-direction:column;align-items:stretch}}
