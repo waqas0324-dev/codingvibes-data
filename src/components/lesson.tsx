@@ -3,7 +3,8 @@ import React,{useEffect,useState} from 'react';
 import {ArrowRight,BookOpen,Check,ChevronRight,Play,Sparkles,Terminal} from 'lucide-react';
 import {go} from '../router';
 import {paths,lessons} from '../data/content';
-import {lessonContent,curriculum,generatedLessonData,lessonLineNote,lessonTeachingMeta,htmlDeepLessons,buildPreviewDoc,normalizeLessonData,lessonLineNoteUrdu} from '../data/lessons';
+import {lessonContent,curriculum,generatedLessonData,lessonLineNote,lessonTeachingMeta,buildPreviewDoc,normalizeLessonData,lessonLineNoteUrdu} from '../data/lessons';
+import {deepLessons} from '../data/deep';
 import {quizBank} from '../data/quiz';
 import {Nav,Footer} from './layout';
 export function ExampleExplained({code,language,defaultOpen}:{code:string;language:string;defaultOpen?:boolean}){
@@ -70,7 +71,8 @@ export function Lesson({id}:{id?:string}){
  const lesson=p.id==='html'?lessons[idx-1]:[String(idx).padStart(2,'0'),(curriculum[p.id]||[])[idx-1]||p.title+' lesson '+idx,p.title,'Learn the concept, see a worked example, practice it and check your understanding.'];
  const key='cv-complete-'+p.id+'-'+idx;
  const fallback=lessonContent[p.id+'-'+idx]||generatedLessonData(p.id,lesson[1],idx);
- const data=normalizeLessonData(p.id==='html'?htmlDeepLessons[idx]:fallback,p,idx,lesson);
+ const deep=(deepLessons[p.id]||[])[idx-1];
+ const data=normalizeLessonData(deep||fallback,p,idx,lesson);
  const savedKey='cv-draft-code-'+p.id+'-'+idx;
  const[savedNotice,setSavedNotice]=useState('');
  const[done,setDone]=useState(localStorage.getItem(key)==='1');
