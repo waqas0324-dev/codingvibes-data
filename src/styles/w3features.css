@@ -79,3 +79,56 @@
 .career-cta b{display:block;font-size:16px;margin-bottom:4px}
 .career-cta span{font-size:13px;color:var(--muted)}
 @media(max-width:720px){.career-cards,.cheat-grid{grid-template-columns:1fr}.career-cta{flex-direction:column;align-items:stretch}}
+
+/* ---- W3Schools-style syntax highlighting ---- */
+.code pre,.cheat-card pre,.syntax-card code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+.tok-tag{color:#55aaff;font-weight:600}
+.tok-attr{color:#ff9f43}
+.tok-val{color:#7bed7b}
+.tok-txt{color:#dbe7e0}
+.tok-com{color:#6b7f8c;font-style:italic}
+.tok-sel{color:#ffe25b;font-weight:600}
+.tok-prop{color:#55aaff}
+.tok-cval{color:#7bed7b}
+.tok-kw{color:#c792ea;font-weight:600}
+.tok-str{color:#7bed7b}
+.tok-fn{color:#68e9ff}
+.tok-num{color:#ff9f43}
+.tok-plain{color:#dbe7e0}
+
+/* ---- W3Schools-style Example Explained bullets ---- */
+.explained-bullets{list-style:none;margin:0;padding:6px 14px 16px;display:grid;gap:10px}
+.explained-bullets li{display:flex;gap:10px;align-items:flex-start;font-size:14px;line-height:1.7;color:#c4d4cc}
+.explained-bullets li::before{content:"•";color:var(--green2);font-weight:800;flex-shrink:0;margin-top:1px}
+.explained-bullets code{background:rgba(85,170,255,.1);border:1px solid rgba(85,170,255,.25);color:#8fc2ff;padding:2px 7px;border-radius:6px;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:12.5px;white-space:nowrap}
+
+/* ---- Responsive: lesson pages ---- */
+.code{overflow-x:auto}
+.code pre{overflow-x:auto;white-space:pre;min-width:max-content;max-width:100%}
+.worked-example .code{margin:12px 0}
+@media(max-width:720px){
+ .lesson-layout{padding:0 4px}
+ .lesson-page-v2 article{padding:0 2px}
+ .lesson-page-v2 h1{font-size:24px;line-height:1.3}
+ .lead{font-size:15px}
+ .lesson-section h2{font-size:19px}
+ .tryit-grid{grid-template-columns:1fr}
+ .tryit-editor textarea{min-height:180px;font-size:12px}
+ .tryit-output iframe{min-height:240px}
+ .practice-grid{grid-template-columns:1fr!important}
+ .practice-editor textarea{min-height:200px}
+ .line-by-line>div{grid-template-columns:1fr;gap:6px}
+ .lesson-detail-grid{grid-template-columns:1fr}
+ .lesson-bottom-nav{flex-direction:column;gap:10px}
+ .lesson-nav-btn{width:100%}
+ .syntax-card{overflow-x:auto}
+ .syntax-card code{white-space:pre;min-width:max-content}
+ .explained-bullets li{font-size:13.5px}
+ .mcq-q>b{font-size:14px}
+}
+@media(max-width:400px){
+ .lesson-page-v2 h1{font-size:21px}
+ .home-hero-copy h1{font-size:30px!important}
+ .hero-actions{flex-direction:column;align-items:stretch}
+ .hero-actions button{width:100%}
+}

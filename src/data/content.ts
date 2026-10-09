@@ -1,8 +1,8 @@
 // Auto-split from main.tsx (refactor commit) — no logic changes.
 export const paths=[
- {id:'html',title:'HTML',desc:'Build a semantic foundation for every web experience.',lessons:10,level:'Beginner',time:'4h 30m'},
- {id:'css',title:'CSS',desc:'Turn structure into responsive, polished interfaces.',lessons:12,level:'Beginner',time:'6h 00m'},
- {id:'javascript',title:'JavaScript',desc:'Add logic, interaction, APIs and browser behavior.',lessons:14,level:'Intermediate',time:'8h 30m'},
+ {id:'html',title:'HTML',desc:'Build a semantic foundation for every web experience.',lessons:47,level:'Beginner',time:'4h 30m'},
+ {id:'css',title:'CSS',desc:'Turn structure into responsive, polished interfaces.',lessons:35,level:'Beginner',time:'6h 00m'},
+ {id:'javascript',title:'JavaScript',desc:'Add logic, interaction, APIs and browser behavior.',lessons:40,level:'Intermediate',time:'8h 30m'},
  {id:'react',title:'React',desc:'Build component-driven interfaces that scale.',lessons:16,level:'Intermediate',time:'9h 30m'},
  {id:'node',title:'Node.js',desc:'Create backend services, APIs and server-side tools.',lessons:15,level:'Intermediate',time:'8h 30m'},
  {id:'fullstack',title:'Full Stack',desc:'Connect frontend, backend, databases and deployment.',lessons:28,level:'Advanced',time:'18h 00m'}
