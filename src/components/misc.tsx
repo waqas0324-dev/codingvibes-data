@@ -10,6 +10,7 @@ import {interviewBank,cheatSheetBank} from '../data/career';
 import {getAllProjects,mergeProjectLists,slugify,projectFileSets} from './projects';
 import {projects} from '../data/content';
 import {Nav,Footer,PageHero,TechIcon} from './layout';
+import {HighlightedCode} from './highlight';
 export function Studio(){
  const[authLoading,setAuthLoading]=useState(dbConfigured());const[user,setUser]=useState<any>(null);const[authEmail,setAuthEmail]=useState('');const[authPassword,setAuthPassword]=useState('');const[authError,setAuthError]=useState('');
  const[tab,setTab]=useState('overview');const[editingId,setEditingId]=useState<string|undefined>(undefined);const[title,setTitle]=useState('');const[description,setDescription]=useState('');const[level,setLevel]=useState('Beginner');const[tech,setTech]=useState('HTML · CSS · JavaScript');const[slug,setSlug]=useState('');const[thumbnail,setThumbnail]=useState<File|null>(null);const[thumbnailUrl,setThumbnailUrl]=useState('');const[selected,setSelected]=useState('index.html');const[status,setStatus]=useState('');const[saving,setSaving]=useState(false);const[dbProjects,setDbProjects]=useState<any[]>([]);const[drafts,setDrafts]=useState<any[]>(()=>{try{return JSON.parse(localStorage.getItem('cv-studio-drafts')||'[]')}catch{return[]}});
@@ -101,7 +102,7 @@ export function InterviewPage({id}:{id?:string}){
  const[open,setOpen]=useState<number|null>(0);
  return <><Nav/><main className="inner-page career-page">
   <button className="back" onClick={()=>go('path',p.id)}>← {p.title} path</button>
-  <PageHero kicker="CAREER PREP" title={p.title+' Interview Questions'} sub="Wo sawal jo interviews me pooche jate hain — Roman Urdu me samjhe hue jawab ke saath."/>
+  <PageHero kicker="CAREER PREP" title={p.title+' Interview Questions'} sub="Questions asked in interviews — with clear, simple answers."/>
   <div className="interview-list">{items.map((it,i)=><div className={'interview-card'+(open===i?' open':'')} key={i}>
    <button onClick={()=>setOpen(open===i?null:i)}><span>Q{i+1}</span><b>{it.q}</b><ChevronRight size={16} className={open===i?'tryit-chev open':''}/></button>
    {open===i&&<p>{it.a}</p>}
@@ -116,7 +117,7 @@ export function CheatSheetPage({id}:{id?:string}){
  return <><Nav/><main className="inner-page career-page">
   <button className="back" onClick={()=>go('path',p.id)}>← {p.title} path</button>
   <PageHero kicker="QUICK REFERENCE" title={p.title+' Cheat Sheet'} sub="Sab se kaam ki syntax ek jagah — copy karo, yaad karo, project me lagao."/>
-  {sections.map(s=><section className="cheat-section" key={s.section}><h2>{s.section}</h2><div className="cheat-grid">{s.items.map(it=><div className="cheat-card" key={it.label}><div className="cheat-head"><b>{it.label}</b><button onClick={()=>{try{navigator.clipboard?.writeText(it.code)}catch{};setNotice('Copied: '+it.label)}}>Copy</button></div><pre>{it.code}</pre></div>)}</div></section>)}
+  {sections.map(s=><section className="cheat-section" key={s.section}><h2>{s.section}</h2><div className="cheat-grid">{s.items.map(it=><div className="cheat-card" key={it.label}><div className="cheat-head"><b>{it.label}</b><button onClick={()=>{try{navigator.clipboard?.writeText(it.code)}catch{};setNotice('Copied: '+it.label)}}>Copy</button></div><pre><HighlightedCode code={it.code} language={p.title}/></pre></div>)}</div></section>)}
   <div className="career-cta"><div><b>Interview ki tayyari karo</b><span>10 sawal jo interviewer zaroor poochega.</span></div><button className="secondary" onClick={()=>go('interview',p.id)}>Open interview questions <ArrowRight size={15}/></button></div>
   {notice&&<div className="save-toast">{notice}</div>}
  </main><Footer/></>;
