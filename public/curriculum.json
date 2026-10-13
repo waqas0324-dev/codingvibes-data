@@ -2,10 +2,10 @@
   "version": 2,
   "platform": "Coding Vibes",
   "workflow": [
-    "Watch",
     "Read",
+    "Understand",
     "Practice",
-    "Quiz",
+    "Check",
     "Complete"
   ],
   "paths": [
@@ -13,7 +13,7 @@
       "id": "html",
       "title": "HTML",
       "level": "Beginner",
-      "lessons": 10
+      "lessons": 30
     },
     {
       "id": "css",
@@ -46,7 +46,7 @@
       "lessons": 28
     }
   ],
-  "lessonCount": 95,
+  "lessonCount": 115,
   "lessons": [
     {
       "id": "html-1",
@@ -68,9 +68,9 @@
         "correct": 0
       },
       "video": {
-        "status": "lesson-player-ready",
+        "status": "paused-for-later",
         "source": "video-library",
-        "required": true
+        "required": false
       },
       "resources": [
         "Lesson notes",
@@ -99,9 +99,9 @@
         "correct": 0
       },
       "video": {
-        "status": "published",
+        "status": "paused-for-later",
         "source": "Explain Video",
-        "required": true,
+        "required": false,
         "url": "https://scrimba.com/explain/guide0odhjlamv?claim=8pin9kpd8pocmn7c&fullscreen=1"
       },
       "resources": [
@@ -131,9 +131,9 @@
         "correct": 0
       },
       "video": {
-        "status": "lesson-player-ready",
+        "status": "paused-for-later",
         "source": "video-library",
-        "required": true
+        "required": false
       },
       "resources": [
         "Lesson notes",
@@ -162,9 +162,9 @@
         "correct": 0
       },
       "video": {
-        "status": "lesson-player-ready",
+        "status": "paused-for-later",
         "source": "video-library",
-        "required": true
+        "required": false
       },
       "resources": [
         "Lesson notes",
@@ -193,9 +193,9 @@
         "correct": 0
       },
       "video": {
-        "status": "lesson-player-ready",
+        "status": "paused-for-later",
         "source": "video-library",
-        "required": true
+        "required": false
       },
       "resources": [
         "Lesson notes",
@@ -224,9 +224,9 @@
         "correct": 0
       },
       "video": {
-        "status": "lesson-player-ready",
+        "status": "paused-for-later",
         "source": "video-library",
-        "required": true
+        "required": false
       },
       "resources": [
         "Lesson notes",
@@ -255,9 +255,9 @@
         "correct": 0
       },
       "video": {
-        "status": "lesson-player-ready",
+        "status": "paused-for-later",
         "source": "video-library",
-        "required": true
+        "required": false
       },
       "resources": [
         "Lesson notes",
@@ -286,9 +286,9 @@
         "correct": 0
       },
       "video": {
-        "status": "lesson-player-ready",
+        "status": "paused-for-later",
         "source": "video-library",
-        "required": true
+        "required": false
       },
       "resources": [
         "Lesson notes",
@@ -317,9 +317,9 @@
         "correct": 0
       },
       "video": {
-        "status": "lesson-player-ready",
+        "status": "paused-for-later",
         "source": "video-library",
-        "required": true
+        "required": false
       },
       "resources": [
         "Lesson notes",
@@ -348,9 +348,9 @@
         "correct": 0
       },
       "video": {
-        "status": "lesson-player-ready",
+        "status": "paused-for-later",
         "source": "video-library",
-        "required": true
+        "required": false
       },
       "resources": [
         "Lesson notes",
@@ -379,9 +379,9 @@
         "correct": 0
       },
       "video": {
-        "status": "lesson-player-ready",
+        "status": "paused-for-later",
         "source": "video-library",
-        "required": true
+        "required": false
       },
       "resources": [
         "Lesson notes",
@@ -410,9 +410,9 @@
         "correct": 0
       },
       "video": {
-        "status": "lesson-player-ready",
+        "status": "paused-for-later",
         "source": "video-library",
-        "required": true
+        "required": false
       },
       "resources": [
         "Lesson notes",
@@ -441,9 +441,9 @@
         "correct": 0
       },
       "video": {
-        "status": "lesson-player-ready",
+        "status": "paused-for-later",
         "source": "video-library",
-        "required": true
+        "required": false
       },
       "resources": [
         "Lesson notes",
@@ -472,9 +472,9 @@
         "correct": 0
       },
       "video": {
-        "status": "lesson-player-ready",
+        "status": "paused-for-later",
         "source": "video-library",
-        "required": true
+        "required": false
       },
       "resources": [
         "Lesson notes",
@@ -503,9 +503,9 @@
         "correct": 0
       },
       "video": {
-        "status": "lesson-player-ready",
+        "status": "paused-for-later",
         "source": "video-library",
-        "required": true
+        "required": false
       },
       "resources": [
         "Lesson notes",
@@ -534,9 +534,9 @@
         "correct": 0
       },
       "video": {
-        "status": "lesson-player-ready",
+        "status": "paused-for-later",
         "source": "video-library",
-        "required": true
+        "required": false
       },
       "resources": [
         "Lesson notes",
@@ -565,9 +565,9 @@
         "correct": 0
       },
       "video": {
-        "status": "lesson-player-ready",
+        "status": "paused-for-later",
         "source": "video-library",
-        "required": true
+        "required": false
       },
       "resources": [
         "Lesson notes",
@@ -596,9 +596,9 @@
         "correct": 0
       },
       "video": {
-        "status": "lesson-player-ready",
+        "status": "paused-for-later",
         "source": "video-library",
-        "required": true
+        "required": false
       },
       "resources": [
         "Lesson notes",
@@ -627,9 +627,9 @@
         "correct": 0
       },
       "video": {
-        "status": "lesson-player-ready",
+        "status": "paused-for-later",
         "source": "video-library",
-        "required": true
+        "required": false
       },
       "resources": [
         "Lesson notes",
@@ -658,9 +658,9 @@
         "correct": 0
       },
       "video": {
-        "status": "lesson-player-ready",
+        "status": "paused-for-later",
         "source": "video-library",
-        "required": true
+        "required": false
       },
       "resources": [
         "Lesson notes",
@@ -689,9 +689,9 @@
         "correct": 0
       },
       "video": {
-        "status": "lesson-player-ready",
+        "status": "paused-for-later",
         "source": "video-library",
-        "required": true
+        "required": false
       },
       "resources": [
         "Lesson notes",
@@ -720,9 +720,9 @@
         "correct": 0
       },
       "video": {
-        "status": "lesson-player-ready",
+        "status": "paused-for-later",
         "source": "video-library",
-        "required": true
+        "required": false
       },
       "resources": [
         "Lesson notes",
@@ -751,9 +751,9 @@
         "correct": 0
       },
       "video": {
-        "status": "lesson-player-ready",
+        "status": "paused-for-later",
         "source": "video-library",
-        "required": true
+        "required": false
       },
       "resources": [
         "Lesson notes",
@@ -782,9 +782,9 @@
         "correct": 0
       },
       "video": {
-        "status": "lesson-player-ready",
+        "status": "paused-for-later",
         "source": "video-library",
-        "required": true
+        "required": false
       },
       "resources": [
         "Lesson notes",
@@ -813,9 +813,9 @@
         "correct": 0
       },
       "video": {
-        "status": "lesson-player-ready",
+        "status": "paused-for-later",
         "source": "video-library",
-        "required": true
+        "required": false
       },
       "resources": [
         "Lesson notes",
@@ -844,9 +844,9 @@
         "correct": 0
       },
       "video": {
-        "status": "lesson-player-ready",
+        "status": "paused-for-later",
         "source": "video-library",
-        "required": true
+        "required": false
       },
       "resources": [
         "Lesson notes",
@@ -875,9 +875,9 @@
         "correct": 0
       },
       "video": {
-        "status": "lesson-player-ready",
+        "status": "paused-for-later",
         "source": "video-library",
-        "required": true
+        "required": false
       },
       "resources": [
         "Lesson notes",
@@ -906,9 +906,9 @@
         "correct": 0
       },
       "video": {
-        "status": "lesson-player-ready",
+        "status": "paused-for-later",
         "source": "video-library",
-        "required": true
+        "required": false
       },
       "resources": [
         "Lesson notes",
@@ -937,9 +937,9 @@
         "correct": 0
       },
       "video": {
-        "status": "lesson-player-ready",
+        "status": "paused-for-later",
         "source": "video-library",
-        "required": true
+        "required": false
       },
       "resources": [
         "Lesson notes",
@@ -968,9 +968,9 @@
         "correct": 0
       },
       "video": {
-        "status": "lesson-player-ready",
+        "status": "paused-for-later",
         "source": "video-library",
-        "required": true
+        "required": false
       },
       "resources": [
         "Lesson notes",
@@ -999,9 +999,9 @@
         "correct": 0
       },
       "video": {
-        "status": "lesson-player-ready",
+        "status": "paused-for-later",
         "source": "video-library",
-        "required": true
+        "required": false
       },
       "resources": [
         "Lesson notes",
@@ -1030,9 +1030,9 @@
         "correct": 0
       },
       "video": {
-        "status": "lesson-player-ready",
+        "status": "paused-for-later",
         "source": "video-library",
-        "required": true
+        "required": false
       },
       "resources": [
         "Lesson notes",
@@ -1061,9 +1061,9 @@
         "correct": 0
       },
       "video": {
-        "status": "lesson-player-ready",
+        "status": "paused-for-later",
         "source": "video-library",
-        "required": true
+        "required": false
       },
       "resources": [
         "Lesson notes",
@@ -1092,9 +1092,9 @@
         "correct": 0
       },
       "video": {
-        "status": "lesson-player-ready",
+        "status": "paused-for-later",
         "source": "video-library",
-        "required": true
+        "required": false
       },
       "resources": [
         "Lesson notes",
@@ -1123,9 +1123,9 @@
         "correct": 0
       },
       "video": {
-        "status": "lesson-player-ready",
+        "status": "paused-for-later",
         "source": "video-library",
-        "required": true
+        "required": false
       },
       "resources": [
         "Lesson notes",
@@ -1154,9 +1154,9 @@
         "correct": 0
       },
       "video": {
-        "status": "lesson-player-ready",
+        "status": "paused-for-later",
         "source": "video-library",
-        "required": true
+        "required": false
       },
       "resources": [
         "Lesson notes",
@@ -1185,9 +1185,9 @@
         "correct": 0
       },
       "video": {
-        "status": "lesson-player-ready",
+        "status": "paused-for-later",
         "source": "video-library",
-        "required": true
+        "required": false
       },
       "resources": [
         "Lesson notes",
@@ -1216,9 +1216,9 @@
         "correct": 0
       },
       "video": {
-        "status": "lesson-player-ready",
+        "status": "paused-for-later",
         "source": "video-library",
-        "required": true
+        "required": false
       },
       "resources": [
         "Lesson notes",
@@ -1247,9 +1247,9 @@
         "correct": 0
       },
       "video": {
-        "status": "lesson-player-ready",
+        "status": "paused-for-later",
         "source": "video-library",
-        "required": true
+        "required": false
       },
       "resources": [
         "Lesson notes",
@@ -1278,9 +1278,9 @@
         "correct": 0
       },
       "video": {
-        "status": "lesson-player-ready",
+        "status": "paused-for-later",
         "source": "video-library",
-        "required": true
+        "required": false
       },
       "resources": [
         "Lesson notes",
@@ -1309,9 +1309,9 @@
         "correct": 0
       },
       "video": {
-        "status": "lesson-player-ready",
+        "status": "paused-for-later",
         "source": "video-library",
-        "required": true
+        "required": false
       },
       "resources": [
         "Lesson notes",
@@ -1340,9 +1340,9 @@
         "correct": 0
       },
       "video": {
-        "status": "lesson-player-ready",
+        "status": "paused-for-later",
         "source": "video-library",
-        "required": true
+        "required": false
       },
       "resources": [
         "Lesson notes",
@@ -1371,9 +1371,9 @@
         "correct": 0
       },
       "video": {
-        "status": "lesson-player-ready",
+        "status": "paused-for-later",
         "source": "video-library",
-        "required": true
+        "required": false
       },
       "resources": [
         "Lesson notes",
@@ -1402,9 +1402,9 @@
         "correct": 0
       },
       "video": {
-        "status": "lesson-player-ready",
+        "status": "paused-for-later",
         "source": "video-library",
-        "required": true
+        "required": false
       },
       "resources": [
         "Lesson notes",
@@ -1433,9 +1433,9 @@
         "correct": 0
       },
       "video": {
-        "status": "lesson-player-ready",
+        "status": "paused-for-later",
         "source": "video-library",
-        "required": true
+        "required": false
       },
       "resources": [
         "Lesson notes",
@@ -1464,9 +1464,9 @@
         "correct": 0
       },
       "video": {
-        "status": "lesson-player-ready",
+        "status": "paused-for-later",
         "source": "video-library",
-        "required": true
+        "required": false
       },
       "resources": [
         "Lesson notes",
@@ -1495,9 +1495,9 @@
         "correct": 0
       },
       "video": {
-        "status": "lesson-player-ready",
+        "status": "paused-for-later",
         "source": "video-library",
-        "required": true
+        "required": false
       },
       "resources": [
         "Lesson notes",
@@ -1526,9 +1526,9 @@
         "correct": 0
       },
       "video": {
-        "status": "lesson-player-ready",
+        "status": "paused-for-later",
         "source": "video-library",
-        "required": true
+        "required": false
       },
       "resources": [
         "Lesson notes",
@@ -1557,9 +1557,9 @@
         "correct": 0
       },
       "video": {
-        "status": "lesson-player-ready",
+        "status": "paused-for-later",
         "source": "video-library",
-        "required": true
+        "required": false
       },
       "resources": [
         "Lesson notes",
@@ -1588,9 +1588,9 @@
         "correct": 0
       },
       "video": {
-        "status": "lesson-player-ready",
+        "status": "paused-for-later",
         "source": "video-library",
-        "required": true
+        "required": false
       },
       "resources": [
         "Lesson notes",
@@ -1619,9 +1619,9 @@
         "correct": 0
       },
       "video": {
-        "status": "lesson-player-ready",
+        "status": "paused-for-later",
         "source": "video-library",
-        "required": true
+        "required": false
       },
       "resources": [
         "Lesson notes",
@@ -1650,9 +1650,9 @@
         "correct": 0
       },
       "video": {
-        "status": "lesson-player-ready",
+        "status": "paused-for-later",
         "source": "video-library",
-        "required": true
+        "required": false
       },
       "resources": [
         "Lesson notes",
@@ -1681,9 +1681,9 @@
         "correct": 0
       },
       "video": {
-        "status": "lesson-player-ready",
+        "status": "paused-for-later",
         "source": "video-library",
-        "required": true
+        "required": false
       },
       "resources": [
         "Lesson notes",
@@ -1712,9 +1712,9 @@
         "correct": 0
       },
       "video": {
-        "status": "lesson-player-ready",
+        "status": "paused-for-later",
         "source": "video-library",
-        "required": true
+        "required": false
       },
       "resources": [
         "Lesson notes",
@@ -1743,9 +1743,9 @@
         "correct": 0
       },
       "video": {
-        "status": "lesson-player-ready",
+        "status": "paused-for-later",
         "source": "video-library",
-        "required": true
+        "required": false
       },
       "resources": [
         "Lesson notes",
@@ -1774,9 +1774,9 @@
         "correct": 0
       },
       "video": {
-        "status": "lesson-player-ready",
+        "status": "paused-for-later",
         "source": "video-library",
-        "required": true
+        "required": false
       },
       "resources": [
         "Lesson notes",
@@ -1805,9 +1805,9 @@
         "correct": 0
       },
       "video": {
-        "status": "lesson-player-ready",
+        "status": "paused-for-later",
         "source": "video-library",
-        "required": true
+        "required": false
       },
       "resources": [
         "Lesson notes",
@@ -1836,9 +1836,9 @@
         "correct": 0
       },
       "video": {
-        "status": "lesson-player-ready",
+        "status": "paused-for-later",
         "source": "video-library",
-        "required": true
+        "required": false
       },
       "resources": [
         "Lesson notes",
@@ -1867,9 +1867,9 @@
         "correct": 0
       },
       "video": {
-        "status": "lesson-player-ready",
+        "status": "paused-for-later",
         "source": "video-library",
-        "required": true
+        "required": false
       },
       "resources": [
         "Lesson notes",
@@ -1898,9 +1898,9 @@
         "correct": 0
       },
       "video": {
-        "status": "lesson-player-ready",
+        "status": "paused-for-later",
         "source": "video-library",
-        "required": true
+        "required": false
       },
       "resources": [
         "Lesson notes",
@@ -1929,9 +1929,9 @@
         "correct": 0
       },
       "video": {
-        "status": "lesson-player-ready",
+        "status": "paused-for-later",
         "source": "video-library",
-        "required": true
+        "required": false
       },
       "resources": [
         "Lesson notes",
@@ -1960,9 +1960,9 @@
         "correct": 0
       },
       "video": {
-        "status": "lesson-player-ready",
+        "status": "paused-for-later",
         "source": "video-library",
-        "required": true
+        "required": false
       },
       "resources": [
         "Lesson notes",
@@ -1991,9 +1991,9 @@
         "correct": 0
       },
       "video": {
-        "status": "lesson-player-ready",
+        "status": "paused-for-later",
         "source": "video-library",
-        "required": true
+        "required": false
       },
       "resources": [
         "Lesson notes",
@@ -2022,9 +2022,9 @@
         "correct": 0
       },
       "video": {
-        "status": "lesson-player-ready",
+        "status": "paused-for-later",
         "source": "video-library",
-        "required": true
+        "required": false
       },
       "resources": [
         "Lesson notes",
@@ -2053,9 +2053,9 @@
         "correct": 0
       },
       "video": {
-        "status": "lesson-player-ready",
+        "status": "paused-for-later",
         "source": "video-library",
-        "required": true
+        "required": false
       },
       "resources": [
         "Lesson notes",
@@ -2084,9 +2084,9 @@
         "correct": 0
       },
       "video": {
-        "status": "lesson-player-ready",
+        "status": "paused-for-later",
         "source": "video-library",
-        "required": true
+        "required": false
       },
       "resources": [
         "Lesson notes",
@@ -2115,9 +2115,9 @@
         "correct": 0
       },
       "video": {
-        "status": "lesson-player-ready",
+        "status": "paused-for-later",
         "source": "video-library",
-        "required": true
+        "required": false
       },
       "resources": [
         "Lesson notes",
@@ -2146,9 +2146,9 @@
         "correct": 0
       },
       "video": {
-        "status": "lesson-player-ready",
+        "status": "paused-for-later",
         "source": "video-library",
-        "required": true
+        "required": false
       },
       "resources": [
         "Lesson notes",
@@ -2177,9 +2177,9 @@
         "correct": 0
       },
       "video": {
-        "status": "lesson-player-ready",
+        "status": "paused-for-later",
         "source": "video-library",
-        "required": true
+        "required": false
       },
       "resources": [
         "Lesson notes",
@@ -2208,9 +2208,9 @@
         "correct": 0
       },
       "video": {
-        "status": "lesson-player-ready",
+        "status": "paused-for-later",
         "source": "video-library",
-        "required": true
+        "required": false
       },
       "resources": [
         "Lesson notes",
@@ -2239,9 +2239,9 @@
         "correct": 0
       },
       "video": {
-        "status": "lesson-player-ready",
+        "status": "paused-for-later",
         "source": "video-library",
-        "required": true
+        "required": false
       },
       "resources": [
         "Lesson notes",
@@ -2270,9 +2270,9 @@
         "correct": 0
       },
       "video": {
-        "status": "lesson-player-ready",
+        "status": "paused-for-later",
         "source": "video-library",
-        "required": true
+        "required": false
       },
       "resources": [
         "Lesson notes",
@@ -2301,9 +2301,9 @@
         "correct": 0
       },
       "video": {
-        "status": "lesson-player-ready",
+        "status": "paused-for-later",
         "source": "video-library",
-        "required": true
+        "required": false
       },
       "resources": [
         "Lesson notes",
@@ -2332,9 +2332,9 @@
         "correct": 0
       },
       "video": {
-        "status": "lesson-player-ready",
+        "status": "paused-for-later",
         "source": "video-library",
-        "required": true
+        "required": false
       },
       "resources": [
         "Lesson notes",
@@ -2363,9 +2363,9 @@
         "correct": 0
       },
       "video": {
-        "status": "lesson-player-ready",
+        "status": "paused-for-later",
         "source": "video-library",
-        "required": true
+        "required": false
       },
       "resources": [
         "Lesson notes",
@@ -2394,9 +2394,9 @@
         "correct": 0
       },
       "video": {
-        "status": "lesson-player-ready",
+        "status": "paused-for-later",
         "source": "video-library",
-        "required": true
+        "required": false
       },
       "resources": [
         "Lesson notes",
@@ -2425,9 +2425,9 @@
         "correct": 0
       },
       "video": {
-        "status": "lesson-player-ready",
+        "status": "paused-for-later",
         "source": "video-library",
-        "required": true
+        "required": false
       },
       "resources": [
         "Lesson notes",
@@ -2456,9 +2456,9 @@
         "correct": 0
       },
       "video": {
-        "status": "lesson-player-ready",
+        "status": "paused-for-later",
         "source": "video-library",
-        "required": true
+        "required": false
       },
       "resources": [
         "Lesson notes",
@@ -2487,9 +2487,9 @@
         "correct": 0
       },
       "video": {
-        "status": "lesson-player-ready",
+        "status": "paused-for-later",
         "source": "video-library",
-        "required": true
+        "required": false
       },
       "resources": [
         "Lesson notes",
@@ -2518,9 +2518,9 @@
         "correct": 0
       },
       "video": {
-        "status": "lesson-player-ready",
+        "status": "paused-for-later",
         "source": "video-library",
-        "required": true
+        "required": false
       },
       "resources": [
         "Lesson notes",
@@ -2549,9 +2549,9 @@
         "correct": 0
       },
       "video": {
-        "status": "lesson-player-ready",
+        "status": "paused-for-later",
         "source": "video-library",
-        "required": true
+        "required": false
       },
       "resources": [
         "Lesson notes",
@@ -2580,9 +2580,9 @@
         "correct": 0
       },
       "video": {
-        "status": "lesson-player-ready",
+        "status": "paused-for-later",
         "source": "video-library",
-        "required": true
+        "required": false
       },
       "resources": [
         "Lesson notes",
@@ -2611,9 +2611,9 @@
         "correct": 0
       },
       "video": {
-        "status": "lesson-player-ready",
+        "status": "paused-for-later",
         "source": "video-library",
-        "required": true
+        "required": false
       },
       "resources": [
         "Lesson notes",
@@ -2642,9 +2642,9 @@
         "correct": 0
       },
       "video": {
-        "status": "lesson-player-ready",
+        "status": "paused-for-later",
         "source": "video-library",
-        "required": true
+        "required": false
       },
       "resources": [
         "Lesson notes",
@@ -2673,9 +2673,9 @@
         "correct": 0
       },
       "video": {
-        "status": "lesson-player-ready",
+        "status": "paused-for-later",
         "source": "video-library",
-        "required": true
+        "required": false
       },
       "resources": [
         "Lesson notes",
@@ -2704,9 +2704,9 @@
         "correct": 0
       },
       "video": {
-        "status": "lesson-player-ready",
+        "status": "paused-for-later",
         "source": "video-library",
-        "required": true
+        "required": false
       },
       "resources": [
         "Lesson notes",
@@ -2735,9 +2735,9 @@
         "correct": 0
       },
       "video": {
-        "status": "lesson-player-ready",
+        "status": "paused-for-later",
         "source": "video-library",
-        "required": true
+        "required": false
       },
       "resources": [
         "Lesson notes",
@@ -2766,9 +2766,9 @@
         "correct": 0
       },
       "video": {
-        "status": "lesson-player-ready",
+        "status": "paused-for-later",
         "source": "video-library",
-        "required": true
+        "required": false
       },
       "resources": [
         "Lesson notes",
@@ -2797,9 +2797,9 @@
         "correct": 0
       },
       "video": {
-        "status": "lesson-player-ready",
+        "status": "paused-for-later",
         "source": "video-library",
-        "required": true
+        "required": false
       },
       "resources": [
         "Lesson notes",
@@ -2828,9 +2828,9 @@
         "correct": 0
       },
       "video": {
-        "status": "lesson-player-ready",
+        "status": "paused-for-later",
         "source": "video-library",
-        "required": true
+        "required": false
       },
       "resources": [
         "Lesson notes",
@@ -2859,9 +2859,9 @@
         "correct": 0
       },
       "video": {
-        "status": "lesson-player-ready",
+        "status": "paused-for-later",
         "source": "video-library",
-        "required": true
+        "required": false
       },
       "resources": [
         "Lesson notes",
@@ -2890,9 +2890,9 @@
         "correct": 0
       },
       "video": {
-        "status": "lesson-player-ready",
+        "status": "paused-for-later",
         "source": "video-library",
-        "required": true
+        "required": false
       },
       "resources": [
         "Lesson notes",
@@ -2921,9 +2921,9 @@
         "correct": 0
       },
       "video": {
-        "status": "lesson-player-ready",
+        "status": "paused-for-later",
         "source": "video-library",
-        "required": true
+        "required": false
       },
       "resources": [
         "Lesson notes",
@@ -2952,9 +2952,9 @@
         "correct": 0
       },
       "video": {
-        "status": "lesson-player-ready",
+        "status": "paused-for-later",
         "source": "video-library",
-        "required": true
+        "required": false
       },
       "resources": [
         "Lesson notes",
@@ -2983,15 +2983,635 @@
         "correct": 0
       },
       "video": {
-        "status": "lesson-player-ready",
+        "status": "paused-for-later",
         "source": "video-library",
-        "required": true
+        "required": false
       },
       "resources": [
         "Lesson notes",
         "Code example",
         "Practice task",
         "Quiz"
+      ]
+    },
+    {
+      "id": "html-11",
+      "path": "html",
+      "order": 11,
+      "title": "Document skeleton: doctype, html, head & body",
+      "objective": "Build a valid HTML document and identify where metadata and visible content belong.",
+      "explanation": "A document starts with a doctype declaration, has one root html element, keeps metadata in head and places visible page content in body.",
+      "example": "<!doctype html>\n<html lang=\"en\">\n<head><meta charset=\"UTF-8\"><title>My Page</title></head>\n<body><h1>Hello</h1></body>\n</html>",
+      "practice": "Create a valid file with a title, one heading and two paragraphs.",
+      "quiz": {
+        "question": "Which is the best next step when learning “Document skeleton: doctype, html, head & body”?",
+        "answers": [
+          "Apply the concept in a small example and test it",
+          "Memorise the heading only",
+          "Skip testing",
+          "Use the same markup for every situation"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "paused-for-later",
+        "source": "video-library",
+        "required": false
+      },
+      "resources": [
+        "Lesson notes",
+        "Worked example",
+        "Practice task",
+        "Quick check"
+      ]
+    },
+    {
+      "id": "html-12",
+      "path": "html",
+      "order": 12,
+      "title": "Headings, paragraphs & page hierarchy",
+      "objective": "Organize page text with a logical heading hierarchy.",
+      "explanation": "Headings label sections of a document. Paragraphs group sentences. Choose heading levels by document structure, not by default font size.",
+      "example": "<main>\n  <h1>HTML Forms</h1>\n  <section><h2>Input types</h2><p>Choose a type that matches the data.</p></section>\n</main>",
+      "practice": "Write an article with one h1, three h2 sections and a paragraph under each.",
+      "quiz": {
+        "question": "Which is the best next step when learning “Headings, paragraphs & page hierarchy”?",
+        "answers": [
+          "Apply the concept in a small example and test it",
+          "Memorise the heading only",
+          "Skip testing",
+          "Use the same markup for every situation"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "paused-for-later",
+        "source": "video-library",
+        "required": false
+      },
+      "resources": [
+        "Lesson notes",
+        "Worked example",
+        "Practice task",
+        "Quick check"
+      ]
+    },
+    {
+      "id": "html-13",
+      "path": "html",
+      "order": 13,
+      "title": "Text emphasis, quotations & code",
+      "objective": "Use semantic text elements to express emphasis, importance, quotations and code.",
+      "explanation": "Elements such as strong, em, blockquote, q, code and pre describe the role of text, not merely how it looks.",
+      "example": "<p><strong>Important:</strong> save your work.</p>\n<p><em>Carefully</em> check the result.</p>\n<pre><code>const ready = true;</code></pre>",
+      "practice": "Write a note with one warning, one emphasized word and one code example.",
+      "quiz": {
+        "question": "Which is the best next step when learning “Text emphasis, quotations & code”?",
+        "answers": [
+          "Apply the concept in a small example and test it",
+          "Memorise the heading only",
+          "Skip testing",
+          "Use the same markup for every situation"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "paused-for-later",
+        "source": "video-library",
+        "required": false
+      },
+      "resources": [
+        "Lesson notes",
+        "Worked example",
+        "Practice task",
+        "Quick check"
+      ]
+    },
+    {
+      "id": "html-14",
+      "path": "html",
+      "order": 14,
+      "title": "Comments, entities & special characters",
+      "objective": "Write helpful comments and display reserved characters as text.",
+      "explanation": "HTML comments explain non-obvious decisions. Character references let you show reserved characters without confusing them with markup.",
+      "example": "<!-- Helpful note -->\n<p>Use &lt;main&gt; for primary content.</p>\n<p>Research &amp; practice belong together.</p>",
+      "practice": "Add one useful comment and display the text <section> using character references.",
+      "quiz": {
+        "question": "Which is the best next step when learning “Comments, entities & special characters”?",
+        "answers": [
+          "Apply the concept in a small example and test it",
+          "Memorise the heading only",
+          "Skip testing",
+          "Use the same markup for every situation"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "paused-for-later",
+        "source": "video-library",
+        "required": false
+      },
+      "resources": [
+        "Lesson notes",
+        "Worked example",
+        "Practice task",
+        "Quick check"
+      ]
+    },
+    {
+      "id": "html-15",
+      "path": "html",
+      "order": 15,
+      "title": "Links: URLs, fragments & new tabs",
+      "objective": "Create links to other pages, external sites and sections of the current page.",
+      "explanation": "Anchors use href to identify a destination. Absolute URLs include a full address; relative URLs point within a site; fragments target an element id.",
+      "example": "<a href=\"https://developer.mozilla.org/\">MDN Web Docs</a>\n<a href=\"../projects/index.html\">Projects</a>\n<a href=\"#contact\">Contact</a>",
+      "practice": "Add an external link, a relative link and an in-page fragment link.",
+      "quiz": {
+        "question": "Which is the best next step when learning “Links: URLs, fragments & new tabs”?",
+        "answers": [
+          "Apply the concept in a small example and test it",
+          "Memorise the heading only",
+          "Skip testing",
+          "Use the same markup for every situation"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "paused-for-later",
+        "source": "video-library",
+        "required": false
+      },
+      "resources": [
+        "Lesson notes",
+        "Worked example",
+        "Practice task",
+        "Quick check"
+      ]
+    },
+    {
+      "id": "html-16",
+      "path": "html",
+      "order": 16,
+      "title": "Images: src, alt, size & figure",
+      "objective": "Embed images with useful alternatives and stable dimensions.",
+      "explanation": "img uses src for the resource and alt for a text alternative. figure and figcaption can associate media with a caption.",
+      "example": "<figure>\n  <img src=\"student.webp\" alt=\"Student practising HTML\" width=\"640\" height=\"420\">\n  <figcaption>Practise by building a small page.</figcaption>\n</figure>",
+      "practice": "Add an image with meaningful alt text, dimensions and a caption.",
+      "quiz": {
+        "question": "Which is the best next step when learning “Images: src, alt, size & figure”?",
+        "answers": [
+          "Apply the concept in a small example and test it",
+          "Memorise the heading only",
+          "Skip testing",
+          "Use the same markup for every situation"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "paused-for-later",
+        "source": "video-library",
+        "required": false
+      },
+      "resources": [
+        "Lesson notes",
+        "Worked example",
+        "Practice task",
+        "Quick check"
+      ]
+    },
+    {
+      "id": "html-17",
+      "path": "html",
+      "order": 17,
+      "title": "Audio, video & captions",
+      "objective": "Embed media with native controls and accessible alternatives.",
+      "explanation": "audio and video can provide native controls. Provide captions where needed and avoid autoplay that surprises users.",
+      "example": "<video controls width=\"640\" poster=\"preview.webp\">\n  <source src=\"lesson.mp4\" type=\"video/mp4\">\n  Your browser does not support embedded video.\n</video>",
+      "practice": "Add a video element with controls, a poster and fallback text.",
+      "quiz": {
+        "question": "Which is the best next step when learning “Audio, video & captions”?",
+        "answers": [
+          "Apply the concept in a small example and test it",
+          "Memorise the heading only",
+          "Skip testing",
+          "Use the same markup for every situation"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "paused-for-later",
+        "source": "video-library",
+        "required": false
+      },
+      "resources": [
+        "Lesson notes",
+        "Worked example",
+        "Practice task",
+        "Quick check"
+      ]
+    },
+    {
+      "id": "html-18",
+      "path": "html",
+      "order": 18,
+      "title": "Ordered, unordered & description lists",
+      "objective": "Represent steps, groups and term-definition pairs with the correct list type.",
+      "explanation": "ul groups unordered items; ol represents a sequence; dl groups terms and descriptions.",
+      "example": "<ul><li>HTML</li><li>CSS</li></ul>\n<ol><li>Create a file</li><li>Open it</li></ol>\n<dl><dt>HTML</dt><dd>Markup for document structure.</dd></dl>",
+      "practice": "Create a shopping list, a three-step instruction list and a term-definition pair.",
+      "quiz": {
+        "question": "Which is the best next step when learning “Ordered, unordered & description lists”?",
+        "answers": [
+          "Apply the concept in a small example and test it",
+          "Memorise the heading only",
+          "Skip testing",
+          "Use the same markup for every situation"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "paused-for-later",
+        "source": "video-library",
+        "required": false
+      },
+      "resources": [
+        "Lesson notes",
+        "Worked example",
+        "Practice task",
+        "Quick check"
+      ]
+    },
+    {
+      "id": "html-19",
+      "path": "html",
+      "order": 19,
+      "title": "Tables: captions, headers & scope",
+      "objective": "Build a table that represents real rows and columns of data.",
+      "explanation": "Tables are for tabular information. caption names the table; th marks header cells; scope helps identify row or column relationships.",
+      "example": "<table>\n  <caption>Course duration</caption>\n  <thead><tr><th scope=\"col\">Course</th><th scope=\"col\">Hours</th></tr></thead>\n  <tbody><tr><td>HTML</td><td>6</td></tr></tbody>\n</table>",
+      "practice": "Build a two-column table with a caption, column headers and three data rows.",
+      "quiz": {
+        "question": "Which is the best next step when learning “Tables: captions, headers & scope”?",
+        "answers": [
+          "Apply the concept in a small example and test it",
+          "Memorise the heading only",
+          "Skip testing",
+          "Use the same markup for every situation"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "paused-for-later",
+        "source": "video-library",
+        "required": false
+      },
+      "resources": [
+        "Lesson notes",
+        "Worked example",
+        "Practice task",
+        "Quick check"
+      ]
+    },
+    {
+      "id": "html-20",
+      "path": "html",
+      "order": 20,
+      "title": "Forms: labels, name & submission",
+      "objective": "Understand how forms group controls and submit named values.",
+      "explanation": "form groups controls. A label should be associated with its input; id identifies the control and name becomes the submitted field key.",
+      "example": "<form action=\"/signup\" method=\"post\">\n  <label for=\"email\">Email address</label>\n  <input id=\"email\" name=\"email\" type=\"email\" required>\n  <button type=\"submit\">Create account</button>\n</form>",
+      "practice": "Create a form with a labelled email field, a name field and a submit button.",
+      "quiz": {
+        "question": "Which is the best next step when learning “Forms: labels, name & submission”?",
+        "answers": [
+          "Apply the concept in a small example and test it",
+          "Memorise the heading only",
+          "Skip testing",
+          "Use the same markup for every situation"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "paused-for-later",
+        "source": "video-library",
+        "required": false
+      },
+      "resources": [
+        "Lesson notes",
+        "Worked example",
+        "Practice task",
+        "Quick check"
+      ]
+    },
+    {
+      "id": "html-21",
+      "path": "html",
+      "order": 21,
+      "title": "Input types: email, password, date & number",
+      "objective": "Choose input types that match the information users enter.",
+      "explanation": "Input type influences the browser control, keyboard and built-in validation. Use email, password, date, number and tel based on data meaning.",
+      "example": "<label for=\"email\">Email</label><input id=\"email\" name=\"email\" type=\"email\">\n<label for=\"birth\">Birth date</label><input id=\"birth\" name=\"birth\" type=\"date\">",
+      "practice": "Create labelled email, password, date and number inputs with sensible constraints.",
+      "quiz": {
+        "question": "Which is the best next step when learning “Input types: email, password, date & number”?",
+        "answers": [
+          "Apply the concept in a small example and test it",
+          "Memorise the heading only",
+          "Skip testing",
+          "Use the same markup for every situation"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "paused-for-later",
+        "source": "video-library",
+        "required": false
+      },
+      "resources": [
+        "Lesson notes",
+        "Worked example",
+        "Practice task",
+        "Quick check"
+      ]
+    },
+    {
+      "id": "html-22",
+      "path": "html",
+      "order": 22,
+      "title": "Select, textarea, radio & checkbox",
+      "objective": "Build controls for choices, multi-line text and preferences.",
+      "explanation": "select offers options, textarea collects multi-line text, radio controls select one option in a named group, and checkboxes represent independent choices.",
+      "example": "<label for=\"course\">Course</label>\n<select id=\"course\" name=\"course\"><option value=\"html\">HTML</option></select>\n<label for=\"message\">Message</label><textarea id=\"message\" name=\"message\"></textarea>",
+      "practice": "Create a select, textarea, two radio options and two independent checkboxes.",
+      "quiz": {
+        "question": "Which is the best next step when learning “Select, textarea, radio & checkbox”?",
+        "answers": [
+          "Apply the concept in a small example and test it",
+          "Memorise the heading only",
+          "Skip testing",
+          "Use the same markup for every situation"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "paused-for-later",
+        "source": "video-library",
+        "required": false
+      },
+      "resources": [
+        "Lesson notes",
+        "Worked example",
+        "Practice task",
+        "Quick check"
+      ]
+    },
+    {
+      "id": "html-23",
+      "path": "html",
+      "order": 23,
+      "title": "Validation: required, min, max & pattern",
+      "objective": "Use built-in browser validation while understanding security limits.",
+      "explanation": "required, minlength, maxlength, min, max and pattern define constraints. The server must validate incoming data independently.",
+      "example": "<input name=\"username\" minlength=\"3\" maxlength=\"20\" required>\n<input type=\"number\" min=\"13\" max=\"120\" required>",
+      "practice": "Test required, minimum-length and numeric range constraints in the browser.",
+      "quiz": {
+        "question": "Which is the best next step when learning “Validation: required, min, max & pattern”?",
+        "answers": [
+          "Apply the concept in a small example and test it",
+          "Memorise the heading only",
+          "Skip testing",
+          "Use the same markup for every situation"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "paused-for-later",
+        "source": "video-library",
+        "required": false
+      },
+      "resources": [
+        "Lesson notes",
+        "Worked example",
+        "Practice task",
+        "Quick check"
+      ]
+    },
+    {
+      "id": "html-24",
+      "path": "html",
+      "order": 24,
+      "title": "Div, span and generic containers",
+      "objective": "Know when generic containers are useful and when semantics matter more.",
+      "explanation": "div is a generic block container and span is a generic inline container. Use them when no more meaningful element describes the content.",
+      "example": "<section>\n  <h2>Courses</h2>\n  <div class=\"course-grid\"><article><h3>HTML</h3></article></div>\n</section>",
+      "practice": "Build a section with a heading, layout wrapper and two article cards.",
+      "quiz": {
+        "question": "Which is the best next step when learning “Div, span and generic containers”?",
+        "answers": [
+          "Apply the concept in a small example and test it",
+          "Memorise the heading only",
+          "Skip testing",
+          "Use the same markup for every situation"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "paused-for-later",
+        "source": "video-library",
+        "required": false
+      },
+      "resources": [
+        "Lesson notes",
+        "Worked example",
+        "Practice task",
+        "Quick check"
+      ]
+    },
+    {
+      "id": "html-25",
+      "path": "html",
+      "order": 25,
+      "title": "Semantic landmarks in practice",
+      "objective": "Combine semantic page landmarks into a clear page outline.",
+      "explanation": "header, nav, main and footer describe common page regions. section groups a theme; article is self-contained content; aside is complementary.",
+      "example": "<header><h1>My Portfolio</h1></header>\n<nav><a href=\"#projects\">Projects</a></nav>\n<main><section id=\"projects\"><h2>Projects</h2></section></main>\n<footer>Contact</footer>",
+      "practice": "Outline a portfolio page with header, nav, main, two sections and footer.",
+      "quiz": {
+        "question": "Which is the best next step when learning “Semantic landmarks in practice”?",
+        "answers": [
+          "Apply the concept in a small example and test it",
+          "Memorise the heading only",
+          "Skip testing",
+          "Use the same markup for every situation"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "paused-for-later",
+        "source": "video-library",
+        "required": false
+      },
+      "resources": [
+        "Lesson notes",
+        "Worked example",
+        "Practice task",
+        "Quick check"
+      ]
+    },
+    {
+      "id": "html-26",
+      "path": "html",
+      "order": 26,
+      "title": "Accessibility: labels, keyboard & alt text",
+      "objective": "Check whether a page works without relying only on a mouse.",
+      "explanation": "Native buttons, anchors, labels, headings and alt text provide semantics and keyboard behavior. Prefer native HTML before ARIA.",
+      "example": "<label for=\"name\">Name</label>\n<input id=\"name\" name=\"name\">\n<button type=\"button\">Open menu</button>",
+      "practice": "Audit a page using Tab, Shift+Tab and Enter; fix a missing label or unclear link.",
+      "quiz": {
+        "question": "Which is the best next step when learning “Accessibility: labels, keyboard & alt text”?",
+        "answers": [
+          "Apply the concept in a small example and test it",
+          "Memorise the heading only",
+          "Skip testing",
+          "Use the same markup for every situation"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "paused-for-later",
+        "source": "video-library",
+        "required": false
+      },
+      "resources": [
+        "Lesson notes",
+        "Worked example",
+        "Practice task",
+        "Quick check"
+      ]
+    },
+    {
+      "id": "html-27",
+      "path": "html",
+      "order": 27,
+      "title": "Metadata: title, description & viewport",
+      "objective": "Give browsers and search systems clear page metadata.",
+      "explanation": "The head contains character encoding, viewport configuration, document title and description. Each page should have a useful, specific title.",
+      "example": "<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <meta name=\"description\" content=\"Learn HTML with examples and practice.\">\n  <title>HTML Lessons | Coding Vibes</title>\n</head>",
+      "practice": "Write unique metadata for a profile page and a course page.",
+      "quiz": {
+        "question": "Which is the best next step when learning “Metadata: title, description & viewport”?",
+        "answers": [
+          "Apply the concept in a small example and test it",
+          "Memorise the heading only",
+          "Skip testing",
+          "Use the same markup for every situation"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "paused-for-later",
+        "source": "video-library",
+        "required": false
+      },
+      "resources": [
+        "Lesson notes",
+        "Worked example",
+        "Practice task",
+        "Quick check"
+      ]
+    },
+    {
+      "id": "html-28",
+      "path": "html",
+      "order": 28,
+      "title": "Iframes, embeds & safe external content",
+      "objective": "Embed external content while keeping the page understandable and secure.",
+      "explanation": "iframe creates a nested browsing context. Give it a descriptive title, set dimensions responsibly and restrict capabilities where possible.",
+      "example": "<iframe title=\"Course demo\" src=\"https://example.com/demo\" loading=\"lazy\" sandbox></iframe>",
+      "practice": "Add an iframe with a meaningful title and lazy loading; explain its permissions.",
+      "quiz": {
+        "question": "Which is the best next step when learning “Iframes, embeds & safe external content”?",
+        "answers": [
+          "Apply the concept in a small example and test it",
+          "Memorise the heading only",
+          "Skip testing",
+          "Use the same markup for every situation"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "paused-for-later",
+        "source": "video-library",
+        "required": false
+      },
+      "resources": [
+        "Lesson notes",
+        "Worked example",
+        "Practice task",
+        "Quick check"
+      ]
+    },
+    {
+      "id": "html-29",
+      "path": "html",
+      "order": 29,
+      "title": "Build a complete profile page",
+      "objective": "Combine semantic structure, links, images, lists and forms into a real page.",
+      "explanation": "A project turns isolated syntax into a workflow. Plan the content first, then choose elements that describe each region accurately.",
+      "example": "<main>\n  <article><h1>Alex — Frontend Developer</h1><p>I build accessible interfaces.</p></article>\n  <section><h2>Skills</h2><ul><li>HTML</li><li>CSS</li></ul></section>\n</main>",
+      "practice": "Build a profile page with bio, skills, projects, image and contact form.",
+      "quiz": {
+        "question": "Which is the best next step when learning “Build a complete profile page”?",
+        "answers": [
+          "Apply the concept in a small example and test it",
+          "Memorise the heading only",
+          "Skip testing",
+          "Use the same markup for every situation"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "paused-for-later",
+        "source": "video-library",
+        "required": false
+      },
+      "resources": [
+        "Lesson notes",
+        "Worked example",
+        "Practice task",
+        "Quick check"
+      ]
+    },
+    {
+      "id": "html-30",
+      "path": "html",
+      "order": 30,
+      "title": "HTML assessment & transition to CSS",
+      "objective": "Review the essentials, fix mistakes and move forward confidently.",
+      "explanation": "Finishing HTML means you can explain why elements exist, test the document and fix structural or accessibility issues—not just make the page look right.",
+      "example": "Read → inspect → test → fix → explain",
+      "practice": "Audit headings, links, images, lists, forms, labels, keyboard use, metadata and nesting.",
+      "quiz": {
+        "question": "Which is the best next step when learning “HTML assessment & transition to CSS”?",
+        "answers": [
+          "Apply the concept in a small example and test it",
+          "Memorise the heading only",
+          "Skip testing",
+          "Use the same markup for every situation"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "paused-for-later",
+        "source": "video-library",
+        "required": false
+      },
+      "resources": [
+        "Lesson notes",
+        "Worked example",
+        "Practice task",
+        "Quick check"
       ]
     }
   ],
