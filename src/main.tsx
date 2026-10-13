@@ -264,7 +264,7 @@ function lessonTeachingMeta(pathId:string,title:string){
  return meta;
 }
 
-const htmlDeepLessons:Record<number,any>=[
+const htmlDeepLessons:any[]=[
   {
     "title": "How the web is structured",
     "outcomes": [
