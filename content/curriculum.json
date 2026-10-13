@@ -53,17 +53,17 @@
       "path": "html",
       "order": 1,
       "title": "How the web is structured",
-      "objective": "Understand how the web is structured and apply it in a small, working HTML example.",
-      "explanation": "This lesson teaches how the web is structured as part of the ordered HTML curriculum. Learn the purpose first, inspect a worked example, change the example yourself, and verify the result. The goal is practical understanding rather than memorising isolated syntax.",
-      "example": "// HTML — How the web is structured\n// Start with a small example, then modify it and test the result.",
-      "practice": "Create a small exercise using how the web is structured. Change at least one part of the example and explain what changed.",
+      "objective": "Explain how the browser uses HTML to create the structure of a web document.",
+      "explanation": "HTML describes document structure and meaning. CSS controls presentation and JavaScript adds behavior. The browser parses markup into a document tree that it can render and expose to assistive technology.",
+      "example": "<main>\n  <h1>Welcome to Coding Vibes</h1>\n  <p>Learn one concept at a time.</p>\n</main>",
+      "practice": "Create a page with a heading, paragraph and list; identify which web layer handles structure, presentation and behavior.",
       "quiz": {
-        "question": "What should you do after learning how the web is structured?",
+        "question": "Check your understanding: How the web is structured",
         "answers": [
-          "Apply it in a small practice task",
-          "Only memorise the heading",
-          "Skip testing",
-          "Move to the next topic without practice"
+          "Choose the semantic pattern that matches the content and test it",
+          "Memorise the title without trying the example",
+          "Use div for every element",
+          "Skip validation and practice"
         ],
         "correct": 0
       },
@@ -74,59 +74,58 @@
       },
       "resources": [
         "Lesson notes",
-        "Code example",
+        "Worked example",
         "Practice task",
-        "Quiz"
+        "Quick check"
       ]
     },
     {
       "id": "html-2",
       "path": "html",
       "order": 2,
-      "title": "Elements & attributes",
-      "objective": "HTML element aur attribute ko samjho, har line ka role identify karo, browser output dekho, aur khud markup modify karo.",
-      "explanation": "HTML mein element page ke content ka structure batata hai. Misal ke taur par <a> link banata hai aur <img> image show karta hai. Attribute element ko extra information deta hai. Is lesson mein hum ek link aur image ko line by line samjhenge. Pehle browser ko batayenge ke link ka text kya hai, phir href se destination denge. Image ke liye src file ka path batata hai aur alt image ka meaningful text deta hai. Har code change ke baad Live Output mein result dekho, phir code ko khud change karke verify karo.",
-      "example": "<a href=\"https://example.com\">Visit Example</a>\n<img src=\"profile.jpg\" alt=\"Student coding at a desk\">",
-      "practice": "Live Output mein link par click karke destination check karo. Phir href ko apni website ke URL se replace karo. Image ke src ko apni image file se replace karo aur alt text ko meaningful description se badlo.",
+      "title": "Document skeleton: doctype, html, head & body",
+      "objective": "Build a valid HTML document and identify where metadata and visible content belong.",
+      "explanation": "A document begins with a doctype, has one root html element, keeps metadata in head and places visible content in body. The lang attribute describes the document language.",
+      "example": "<!doctype html>\n<html lang=\"en\">\n<head><meta charset=\"UTF-8\"><title>My Page</title></head>\n<body><h1>Hello</h1></body>\n</html>",
+      "practice": "Create a valid file with a title, one heading and two paragraphs.",
       "quiz": {
-        "question": "<a href=\"...\"> mein href ka kaam kya hai?",
+        "question": "Check your understanding: Document skeleton: doctype, html, head & body",
         "answers": [
-          "Link ka destination batana",
-          "Image show karna",
-          "Text ko bold karna",
-          "Page ka background change karna"
+          "Choose the semantic pattern that matches the content and test it",
+          "Memorise the title without trying the example",
+          "Use div for every element",
+          "Skip validation and practice"
         ],
         "correct": 0
       },
       "video": {
         "status": "paused-for-later",
-        "source": "Explain Video",
-        "required": false,
-        "url": "https://scrimba.com/explain/guide0odhjlamv?claim=8pin9kpd8pocmn7c&fullscreen=1"
+        "source": "video-library",
+        "required": false
       },
       "resources": [
         "Lesson notes",
-        "Code example",
+        "Worked example",
         "Practice task",
-        "Quiz"
+        "Quick check"
       ]
     },
     {
       "id": "html-3",
       "path": "html",
       "order": 3,
-      "title": "Links, images & media",
-      "objective": "Understand links, images & media and apply it in a small, working HTML example.",
-      "explanation": "This lesson teaches links, images & media as part of the ordered HTML curriculum. Learn the purpose first, inspect a worked example, change the example yourself, and verify the result. The goal is practical understanding rather than memorising isolated syntax.",
-      "example": "// HTML — Links, images & media\n// Start with a small example, then modify it and test the result.",
-      "practice": "Create a small exercise using links, images & media. Change at least one part of the example and explain what changed.",
+      "title": "Elements & attributes",
+      "objective": "Distinguish tags, elements and attributes and use valid nesting.",
+      "explanation": "An element represents content and meaning. Attributes add information in the opening tag. class can be shared, id should be unique, href supplies a link destination, and alt provides an image text alternative.",
+      "example": "<p class=\"intro\">Welcome.</p>\n<a href=\"/courses\">Explore courses</a>\n<img src=\"student.webp\" alt=\"Student coding at a laptop\">",
+      "practice": "Create a heading with a class, a link with href and an image with meaningful alt text.",
       "quiz": {
-        "question": "What should you do after learning links, images & media?",
+        "question": "Check your understanding: Elements & attributes",
         "answers": [
-          "Apply it in a small practice task",
-          "Only memorise the heading",
-          "Skip testing",
-          "Move to the next topic without practice"
+          "Choose the semantic pattern that matches the content and test it",
+          "Memorise the title without trying the example",
+          "Use div for every element",
+          "Skip validation and practice"
         ],
         "correct": 0
       },
@@ -137,27 +136,27 @@
       },
       "resources": [
         "Lesson notes",
-        "Code example",
+        "Worked example",
         "Practice task",
-        "Quiz"
+        "Quick check"
       ]
     },
     {
       "id": "html-4",
       "path": "html",
       "order": 4,
-      "title": "Lists, tables & forms",
-      "objective": "Understand lists, tables & forms and apply it in a small, working HTML example.",
-      "explanation": "This lesson teaches lists, tables & forms as part of the ordered HTML curriculum. Learn the purpose first, inspect a worked example, change the example yourself, and verify the result. The goal is practical understanding rather than memorising isolated syntax.",
-      "example": "// HTML — Lists, tables & forms\n// Start with a small example, then modify it and test the result.",
-      "practice": "Create a small exercise using lists, tables & forms. Change at least one part of the example and explain what changed.",
+      "title": "Headings, paragraphs & page hierarchy",
+      "objective": "Organize page text with a logical heading hierarchy.",
+      "explanation": "Headings label sections and paragraphs group sentences. Choose heading levels by document structure, not by default font size. A logical outline helps readers scan the page and navigate with assistive technology.",
+      "example": "<main>\n  <h1>HTML Forms</h1>\n  <section><h2>Input types</h2><p>Choose a type that matches the data.</p></section>\n</main>",
+      "practice": "Write an article with one h1, three h2 sections and a paragraph under each.",
       "quiz": {
-        "question": "What should you do after learning lists, tables & forms?",
+        "question": "Check your understanding: Headings, paragraphs & page hierarchy",
         "answers": [
-          "Apply it in a small practice task",
-          "Only memorise the heading",
-          "Skip testing",
-          "Move to the next topic without practice"
+          "Choose the semantic pattern that matches the content and test it",
+          "Memorise the title without trying the example",
+          "Use div for every element",
+          "Skip validation and practice"
         ],
         "correct": 0
       },
@@ -168,27 +167,27 @@
       },
       "resources": [
         "Lesson notes",
-        "Code example",
+        "Worked example",
         "Practice task",
-        "Quiz"
+        "Quick check"
       ]
     },
     {
       "id": "html-5",
       "path": "html",
       "order": 5,
-      "title": "Semantic page layout",
-      "objective": "Understand semantic page layout and apply it in a small, working HTML example.",
-      "explanation": "This lesson teaches semantic page layout as part of the ordered HTML curriculum. Learn the purpose first, inspect a worked example, change the example yourself, and verify the result. The goal is practical understanding rather than memorising isolated syntax.",
-      "example": "// HTML — Semantic page layout\n// Start with a small example, then modify it and test the result.",
-      "practice": "Create a small exercise using semantic page layout. Change at least one part of the example and explain what changed.",
+      "title": "Text emphasis, quotations & code",
+      "objective": "Use semantic text elements for importance, emphasis, quotations and code.",
+      "explanation": "strong and em communicate importance and stress emphasis. blockquote and q represent quotations. code and pre are suitable for code content rather than using bold or spacing for appearance alone.",
+      "example": "<p><strong>Important:</strong> save your work.</p>\n<p><em>Carefully</em> check the result.</p>\n<pre><code>const ready = true;</code></pre>",
+      "practice": "Write a note with one warning, one emphasized word and one code example.",
       "quiz": {
-        "question": "What should you do after learning semantic page layout?",
+        "question": "Check your understanding: Text emphasis, quotations & code",
         "answers": [
-          "Apply it in a small practice task",
-          "Only memorise the heading",
-          "Skip testing",
-          "Move to the next topic without practice"
+          "Choose the semantic pattern that matches the content and test it",
+          "Memorise the title without trying the example",
+          "Use div for every element",
+          "Skip validation and practice"
         ],
         "correct": 0
       },
@@ -199,27 +198,27 @@
       },
       "resources": [
         "Lesson notes",
-        "Code example",
+        "Worked example",
         "Practice task",
-        "Quiz"
+        "Quick check"
       ]
     },
     {
       "id": "html-6",
       "path": "html",
       "order": 6,
-      "title": "Forms & validation",
-      "objective": "Understand forms & validation and apply it in a small, working HTML example.",
-      "explanation": "This lesson teaches forms & validation as part of the ordered HTML curriculum. Learn the purpose first, inspect a worked example, change the example yourself, and verify the result. The goal is practical understanding rather than memorising isolated syntax.",
-      "example": "// HTML — Forms & validation\n// Start with a small example, then modify it and test the result.",
-      "practice": "Create a small exercise using forms & validation. Change at least one part of the example and explain what changed.",
+      "title": "Comments, entities & special characters",
+      "objective": "Write helpful comments and display reserved characters as text.",
+      "explanation": "HTML comments explain non-obvious decisions and do not render as page text. Character references display reserved characters such as less-than and ampersand without confusing them with markup.",
+      "example": "<!-- Helpful note -->\n<p>Use &lt;main&gt; for primary content.</p>\n<p>Research &amp; practice belong together.</p>",
+      "practice": "Add one useful comment and display the text <section> using character references.",
       "quiz": {
-        "question": "What should you do after learning forms & validation?",
+        "question": "Check your understanding: Comments, entities & special characters",
         "answers": [
-          "Apply it in a small practice task",
-          "Only memorise the heading",
-          "Skip testing",
-          "Move to the next topic without practice"
+          "Choose the semantic pattern that matches the content and test it",
+          "Memorise the title without trying the example",
+          "Use div for every element",
+          "Skip validation and practice"
         ],
         "correct": 0
       },
@@ -230,27 +229,27 @@
       },
       "resources": [
         "Lesson notes",
-        "Code example",
+        "Worked example",
         "Practice task",
-        "Quiz"
+        "Quick check"
       ]
     },
     {
       "id": "html-7",
       "path": "html",
       "order": 7,
-      "title": "Accessibility foundations",
-      "objective": "Understand accessibility foundations and apply it in a small, working HTML example.",
-      "explanation": "This lesson teaches accessibility foundations as part of the ordered HTML curriculum. Learn the purpose first, inspect a worked example, change the example yourself, and verify the result. The goal is practical understanding rather than memorising isolated syntax.",
-      "example": "// HTML — Accessibility foundations\n// Start with a small example, then modify it and test the result.",
-      "practice": "Create a small exercise using accessibility foundations. Change at least one part of the example and explain what changed.",
+      "title": "Links: URLs, fragments & new tabs",
+      "objective": "Create links to external pages, site pages and sections in the current document.",
+      "explanation": "The anchor element uses href to identify a destination. Absolute URLs include a full address; relative URLs point within a site; fragment links target an element id. New tabs should be intentional and secure.",
+      "example": "<a href=\"https://developer.mozilla.org/\">MDN Web Docs</a>\n<a href=\"../projects/index.html\">Projects</a>\n<a href=\"#contact\">Contact</a>",
+      "practice": "Add an external link, a relative link and an in-page fragment link.",
       "quiz": {
-        "question": "What should you do after learning accessibility foundations?",
+        "question": "Check your understanding: Links: URLs, fragments & new tabs",
         "answers": [
-          "Apply it in a small practice task",
-          "Only memorise the heading",
-          "Skip testing",
-          "Move to the next topic without practice"
+          "Choose the semantic pattern that matches the content and test it",
+          "Memorise the title without trying the example",
+          "Use div for every element",
+          "Skip validation and practice"
         ],
         "correct": 0
       },
@@ -261,27 +260,27 @@
       },
       "resources": [
         "Lesson notes",
-        "Code example",
+        "Worked example",
         "Practice task",
-        "Quiz"
+        "Quick check"
       ]
     },
     {
       "id": "html-8",
       "path": "html",
       "order": 8,
-      "title": "Metadata & SEO",
-      "objective": "Understand metadata & seo and apply it in a small, working HTML example.",
-      "explanation": "This lesson teaches metadata & seo as part of the ordered HTML curriculum. Learn the purpose first, inspect a worked example, change the example yourself, and verify the result. The goal is practical understanding rather than memorising isolated syntax.",
-      "example": "// HTML — Metadata & SEO\n// Start with a small example, then modify it and test the result.",
-      "practice": "Create a small exercise using metadata & seo. Change at least one part of the example and explain what changed.",
+      "title": "Images: src, alt, size & figure",
+      "objective": "Embed images with useful alternatives and stable dimensions.",
+      "explanation": "img uses src for the resource and alt for a text alternative. Meaningful images need useful alt text; decorative images can use alt=\"\". figure and figcaption can associate media with a caption.",
+      "example": "<figure>\n  <img src=\"student.webp\" alt=\"Student practising HTML\" width=\"640\" height=\"420\">\n  <figcaption>Practice by building a small page.</figcaption>\n</figure>",
+      "practice": "Add an image with meaningful alt text, dimensions and a caption.",
       "quiz": {
-        "question": "What should you do after learning metadata & seo?",
+        "question": "Check your understanding: Images: src, alt, size & figure",
         "answers": [
-          "Apply it in a small practice task",
-          "Only memorise the heading",
-          "Skip testing",
-          "Move to the next topic without practice"
+          "Choose the semantic pattern that matches the content and test it",
+          "Memorise the title without trying the example",
+          "Use div for every element",
+          "Skip validation and practice"
         ],
         "correct": 0
       },
@@ -292,27 +291,27 @@
       },
       "resources": [
         "Lesson notes",
-        "Code example",
+        "Worked example",
         "Practice task",
-        "Quiz"
+        "Quick check"
       ]
     },
     {
       "id": "html-9",
       "path": "html",
       "order": 9,
-      "title": "Project: profile page",
-      "objective": "Understand project: profile page and apply it in a small, working HTML example.",
-      "explanation": "This lesson teaches project: profile page as part of the ordered HTML curriculum. Learn the purpose first, inspect a worked example, change the example yourself, and verify the result. The goal is practical understanding rather than memorising isolated syntax.",
-      "example": "// HTML — Project: profile page\n// Start with a small example, then modify it and test the result.",
-      "practice": "Create a small exercise using project: profile page. Change at least one part of the example and explain what changed.",
+      "title": "Audio, video & captions",
+      "objective": "Embed media with native controls and accessible alternatives.",
+      "explanation": "audio and video can provide native controls. Provide captions where needed and avoid autoplay that surprises users. Essential lesson information should not exist only inside media.",
+      "example": "<video controls width=\"640\" poster=\"preview.webp\">\n  <source src=\"lesson.mp4\" type=\"video/mp4\">\n  Your browser does not support embedded video.\n</video>",
+      "practice": "Add a video element with controls, a poster and fallback text; note when captions are needed.",
       "quiz": {
-        "question": "What should you do after learning project: profile page?",
+        "question": "Check your understanding: Audio, video & captions",
         "answers": [
-          "Apply it in a small practice task",
-          "Only memorise the heading",
-          "Skip testing",
-          "Move to the next topic without practice"
+          "Choose the semantic pattern that matches the content and test it",
+          "Memorise the title without trying the example",
+          "Use div for every element",
+          "Skip validation and practice"
         ],
         "correct": 0
       },
@@ -323,27 +322,27 @@
       },
       "resources": [
         "Lesson notes",
-        "Code example",
+        "Worked example",
         "Practice task",
-        "Quiz"
+        "Quick check"
       ]
     },
     {
       "id": "html-10",
       "path": "html",
       "order": 10,
-      "title": "Project review & next steps",
-      "objective": "Understand project review & next steps and apply it in a small, working HTML example.",
-      "explanation": "This lesson teaches project review & next steps as part of the ordered HTML curriculum. Learn the purpose first, inspect a worked example, change the example yourself, and verify the result. The goal is practical understanding rather than memorising isolated syntax.",
-      "example": "// HTML — Project review & next steps\n// Start with a small example, then modify it and test the result.",
-      "practice": "Create a small exercise using project review & next steps. Change at least one part of the example and explain what changed.",
+      "title": "Ordered, unordered & description lists",
+      "objective": "Represent steps, groups and term-definition pairs with the right list type.",
+      "explanation": "ul groups unordered items; ol represents a sequence; dl groups terms and descriptions. List type should match the content relationship rather than visual styling.",
+      "example": "<ul><li>HTML</li><li>CSS</li></ul>\n<ol><li>Create a file</li><li>Open it</li></ol>\n<dl><dt>HTML</dt><dd>Markup for document structure.</dd></dl>",
+      "practice": "Create a shopping list, a three-step instruction list and a term-definition pair.",
       "quiz": {
-        "question": "What should you do after learning project review & next steps?",
+        "question": "Check your understanding: Ordered, unordered & description lists",
         "answers": [
-          "Apply it in a small practice task",
-          "Only memorise the heading",
-          "Skip testing",
-          "Move to the next topic without practice"
+          "Choose the semantic pattern that matches the content and test it",
+          "Memorise the title without trying the example",
+          "Use div for every element",
+          "Skip validation and practice"
         ],
         "correct": 0
       },
@@ -354,9 +353,629 @@
       },
       "resources": [
         "Lesson notes",
-        "Code example",
+        "Worked example",
         "Practice task",
-        "Quiz"
+        "Quick check"
+      ]
+    },
+    {
+      "id": "html-11",
+      "path": "html",
+      "order": 11,
+      "title": "Tables: captions, headers & scope",
+      "objective": "Build tables for real rows and columns of data.",
+      "explanation": "Tables are for tabular information, not page layout. caption names the table; th marks header cells; scope helps identify row or column relationships for assistive technology.",
+      "example": "<table>\n  <caption>Course duration</caption>\n  <thead><tr><th scope=\"col\">Course</th><th scope=\"col\">Hours</th></tr></thead>\n  <tbody><tr><td>HTML</td><td>6</td></tr></tbody>\n</table>",
+      "practice": "Build a two-column table with a caption, column headers and three data rows.",
+      "quiz": {
+        "question": "Check your understanding: Tables: captions, headers & scope",
+        "answers": [
+          "Choose the semantic pattern that matches the content and test it",
+          "Memorise the title without trying the example",
+          "Use div for every element",
+          "Skip validation and practice"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "paused-for-later",
+        "source": "video-library",
+        "required": false
+      },
+      "resources": [
+        "Lesson notes",
+        "Worked example",
+        "Practice task",
+        "Quick check"
+      ]
+    },
+    {
+      "id": "html-12",
+      "path": "html",
+      "order": 12,
+      "title": "Forms: labels, name & submission",
+      "objective": "Understand how forms group controls and submit named values.",
+      "explanation": "form groups controls. label should be associated with its input; id identifies the control and name becomes the submitted field key. action identifies the destination and method selects the request method.",
+      "example": "<form action=\"/signup\" method=\"post\">\n  <label for=\"email\">Email</label>\n  <input id=\"email\" name=\"email\" type=\"email\" required>\n  <button type=\"submit\">Create account</button>\n</form>",
+      "practice": "Create a form with a labelled email field, a name field and a submit button.",
+      "quiz": {
+        "question": "Check your understanding: Forms: labels, name & submission",
+        "answers": [
+          "Choose the semantic pattern that matches the content and test it",
+          "Memorise the title without trying the example",
+          "Use div for every element",
+          "Skip validation and practice"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "paused-for-later",
+        "source": "video-library",
+        "required": false
+      },
+      "resources": [
+        "Lesson notes",
+        "Worked example",
+        "Practice task",
+        "Quick check"
+      ]
+    },
+    {
+      "id": "html-13",
+      "path": "html",
+      "order": 13,
+      "title": "Input types: email, password, date & number",
+      "objective": "Choose input types that match the information users enter.",
+      "explanation": "Input type influences the browser control, keyboard and built-in validation. Use email for email, password for secrets, date for dates, number for numeric values and tel for phone numbers.",
+      "example": "<label for=\"email\">Email</label><input id=\"email\" name=\"email\" type=\"email\">\n<label for=\"birth\">Birth date</label><input id=\"birth\" name=\"birth\" type=\"date\">",
+      "practice": "Create labelled email, password, date and number inputs with sensible constraints.",
+      "quiz": {
+        "question": "Check your understanding: Input types: email, password, date & number",
+        "answers": [
+          "Choose the semantic pattern that matches the content and test it",
+          "Memorise the title without trying the example",
+          "Use div for every element",
+          "Skip validation and practice"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "paused-for-later",
+        "source": "video-library",
+        "required": false
+      },
+      "resources": [
+        "Lesson notes",
+        "Worked example",
+        "Practice task",
+        "Quick check"
+      ]
+    },
+    {
+      "id": "html-14",
+      "path": "html",
+      "order": 14,
+      "title": "Select, textarea, radio & checkbox",
+      "objective": "Build controls for choices, multi-line text and preferences.",
+      "explanation": "select offers options, textarea collects multi-line text, radio controls select one option in a named group, and checkboxes represent independent choices.",
+      "example": "<label for=\"course\">Course</label>\n<select id=\"course\" name=\"course\"><option value=\"html\">HTML</option></select>\n<label for=\"message\">Message</label><textarea id=\"message\" name=\"message\"></textarea>",
+      "practice": "Create a select, textarea, two radio options and two independent checkboxes.",
+      "quiz": {
+        "question": "Check your understanding: Select, textarea, radio & checkbox",
+        "answers": [
+          "Choose the semantic pattern that matches the content and test it",
+          "Memorise the title without trying the example",
+          "Use div for every element",
+          "Skip validation and practice"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "paused-for-later",
+        "source": "video-library",
+        "required": false
+      },
+      "resources": [
+        "Lesson notes",
+        "Worked example",
+        "Practice task",
+        "Quick check"
+      ]
+    },
+    {
+      "id": "html-15",
+      "path": "html",
+      "order": 15,
+      "title": "Validation: required, min, max & pattern",
+      "objective": "Use built-in browser validation while understanding security limits.",
+      "explanation": "required, minlength, maxlength, min, max and pattern define constraints. They improve feedback but can be bypassed; the server must validate incoming data independently.",
+      "example": "<input name=\"username\" minlength=\"3\" maxlength=\"20\" required>\n<input type=\"number\" min=\"13\" max=\"120\" required>",
+      "practice": "Test required, minimum-length and numeric range constraints in the browser.",
+      "quiz": {
+        "question": "Check your understanding: Validation: required, min, max & pattern",
+        "answers": [
+          "Choose the semantic pattern that matches the content and test it",
+          "Memorise the title without trying the example",
+          "Use div for every element",
+          "Skip validation and practice"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "paused-for-later",
+        "source": "video-library",
+        "required": false
+      },
+      "resources": [
+        "Lesson notes",
+        "Worked example",
+        "Practice task",
+        "Quick check"
+      ]
+    },
+    {
+      "id": "html-16",
+      "path": "html",
+      "order": 16,
+      "title": "Semantic landmarks in practice",
+      "objective": "Combine semantic page landmarks into a clear page outline.",
+      "explanation": "header, nav, main and footer describe common page regions. section groups a theme, article is self-contained content, and aside is complementary. Use them when their meaning matches the content.",
+      "example": "<header><h1>My Portfolio</h1></header>\n<nav><a href=\"#projects\">Projects</a></nav>\n<main><section id=\"projects\"><h2>Projects</h2></section></main>\n<footer>Contact</footer>",
+      "practice": "Outline a portfolio page with header, nav, main, two sections and footer.",
+      "quiz": {
+        "question": "Check your understanding: Semantic landmarks in practice",
+        "answers": [
+          "Choose the semantic pattern that matches the content and test it",
+          "Memorise the title without trying the example",
+          "Use div for every element",
+          "Skip validation and practice"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "paused-for-later",
+        "source": "video-library",
+        "required": false
+      },
+      "resources": [
+        "Lesson notes",
+        "Worked example",
+        "Practice task",
+        "Quick check"
+      ]
+    },
+    {
+      "id": "html-17",
+      "path": "html",
+      "order": 17,
+      "title": "Div, span and generic containers",
+      "objective": "Know when generic containers are useful and when semantics matter more.",
+      "explanation": "div is a generic block container and span is a generic inline container. Use them for grouping and styling when no more meaningful element describes the content.",
+      "example": "<section>\n  <h2>Courses</h2>\n  <div class=\"course-grid\"><article><h3>HTML</h3></article></div>\n</section>",
+      "practice": "Build a section with a heading, layout wrapper and two article cards.",
+      "quiz": {
+        "question": "Check your understanding: Div, span and generic containers",
+        "answers": [
+          "Choose the semantic pattern that matches the content and test it",
+          "Memorise the title without trying the example",
+          "Use div for every element",
+          "Skip validation and practice"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "paused-for-later",
+        "source": "video-library",
+        "required": false
+      },
+      "resources": [
+        "Lesson notes",
+        "Worked example",
+        "Practice task",
+        "Quick check"
+      ]
+    },
+    {
+      "id": "html-18",
+      "path": "html",
+      "order": 18,
+      "title": "Accessibility: labels, keyboard & alt text",
+      "objective": "Check whether a page works without relying only on a mouse.",
+      "explanation": "Native buttons, anchors, labels, headings and alt text provide semantics and keyboard behavior. Prefer native HTML before ARIA, and make sure focus is visible.",
+      "example": "<label for=\"name\">Name</label>\n<input id=\"name\" name=\"name\">\n<button type=\"button\">Open menu</button>",
+      "practice": "Audit a page using Tab, Shift+Tab and Enter; fix a missing label or unclear link.",
+      "quiz": {
+        "question": "Check your understanding: Accessibility: labels, keyboard & alt text",
+        "answers": [
+          "Choose the semantic pattern that matches the content and test it",
+          "Memorise the title without trying the example",
+          "Use div for every element",
+          "Skip validation and practice"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "paused-for-later",
+        "source": "video-library",
+        "required": false
+      },
+      "resources": [
+        "Lesson notes",
+        "Worked example",
+        "Practice task",
+        "Quick check"
+      ]
+    },
+    {
+      "id": "html-19",
+      "path": "html",
+      "order": 19,
+      "title": "Metadata: title, description & viewport",
+      "objective": "Give browsers and search systems clear page metadata.",
+      "explanation": "The head contains character encoding, viewport configuration, document title and description. Each page should have a useful, specific title and a natural description.",
+      "example": "<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <meta name=\"description\" content=\"Learn HTML with examples and practice.\">\n  <title>HTML Lessons | Coding Vibes</title>\n</head>",
+      "practice": "Write unique metadata for a profile page and a course page.",
+      "quiz": {
+        "question": "Check your understanding: Metadata: title, description & viewport",
+        "answers": [
+          "Choose the semantic pattern that matches the content and test it",
+          "Memorise the title without trying the example",
+          "Use div for every element",
+          "Skip validation and practice"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "paused-for-later",
+        "source": "video-library",
+        "required": false
+      },
+      "resources": [
+        "Lesson notes",
+        "Worked example",
+        "Practice task",
+        "Quick check"
+      ]
+    },
+    {
+      "id": "html-20",
+      "path": "html",
+      "order": 20,
+      "title": "Iframes, embeds & safe external content",
+      "objective": "Embed external content while keeping the page understandable and secure.",
+      "explanation": "iframe creates a nested browsing context. Give it a descriptive title, set dimensions responsibly and restrict capabilities where possible. Third-party embeds can affect privacy and performance.",
+      "example": "<iframe title=\"Course demo\" src=\"https://example.com/demo\" loading=\"lazy\" sandbox></iframe>",
+      "practice": "Add an iframe with a meaningful title and lazy loading; explain its permissions.",
+      "quiz": {
+        "question": "Check your understanding: Iframes, embeds & safe external content",
+        "answers": [
+          "Choose the semantic pattern that matches the content and test it",
+          "Memorise the title without trying the example",
+          "Use div for every element",
+          "Skip validation and practice"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "paused-for-later",
+        "source": "video-library",
+        "required": false
+      },
+      "resources": [
+        "Lesson notes",
+        "Worked example",
+        "Practice task",
+        "Quick check"
+      ]
+    },
+    {
+      "id": "html-21",
+      "path": "html",
+      "order": 21,
+      "title": "Links: paths, fragments & safe new tabs",
+      "objective": "Choose URL patterns that fit navigation and make destinations clear.",
+      "explanation": "Absolute URLs identify a full web address. Relative URLs resolve from the current document. Fragment links target an element id. For new tabs, consider rel=\"noopener noreferrer\" and communicate the behavior.",
+      "example": "<a href=\"https://developer.mozilla.org/\">MDN Web Docs</a>\n<a href=\"../projects/index.html\">Projects</a>\n<a href=\"#contact\">Jump to contact</a>",
+      "practice": "Add and test an external link, a relative path and a fragment link.",
+      "quiz": {
+        "question": "Check your understanding: Links: paths, fragments & safe new tabs",
+        "answers": [
+          "Choose the semantic pattern that matches the content and test it",
+          "Memorise the title without trying the example",
+          "Use div for every element",
+          "Skip validation and practice"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "paused-for-later",
+        "source": "video-library",
+        "required": false
+      },
+      "resources": [
+        "Lesson notes",
+        "Worked example",
+        "Practice task",
+        "Quick check"
+      ]
+    },
+    {
+      "id": "html-22",
+      "path": "html",
+      "order": 22,
+      "title": "Responsive images: picture, srcset & sizes",
+      "objective": "Serve suitable image sources and dimensions for different screens.",
+      "explanation": "srcset and sizes let the browser choose among image candidates; picture allows alternate sources or formats with img as fallback. Keep alt text meaningful and dimensions stable.",
+      "example": "<picture>\n  <source media=\"(max-width: 600px)\" srcset=\"portrait.webp\">\n  <img src=\"wide.webp\" alt=\"Student practising HTML\" width=\"900\" height=\"600\">\n</picture>",
+      "practice": "Add a picture element with a mobile source and a desktop fallback image.",
+      "quiz": {
+        "question": "Check your understanding: Responsive images: picture, srcset & sizes",
+        "answers": [
+          "Choose the semantic pattern that matches the content and test it",
+          "Memorise the title without trying the example",
+          "Use div for every element",
+          "Skip validation and practice"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "paused-for-later",
+        "source": "video-library",
+        "required": false
+      },
+      "resources": [
+        "Lesson notes",
+        "Worked example",
+        "Practice task",
+        "Quick check"
+      ]
+    },
+    {
+      "id": "html-23",
+      "path": "html",
+      "order": 23,
+      "title": "Figure, figcaption & image descriptions",
+      "objective": "Associate media with captions and write alternatives based on purpose.",
+      "explanation": "figure groups self-contained media and figcaption provides its caption. Alt text should describe the purpose or information of meaningful images, not stuff keywords.",
+      "example": "<figure>\n  <img src=\"html-preview.webp\" alt=\"HTML page showing a heading and navigation\" width=\"720\" height=\"420\">\n  <figcaption>A semantic page outline.</figcaption>\n</figure>",
+      "practice": "Add an informative image and caption; decide whether alt should be descriptive or empty.",
+      "quiz": {
+        "question": "Check your understanding: Figure, figcaption & image descriptions",
+        "answers": [
+          "Choose the semantic pattern that matches the content and test it",
+          "Memorise the title without trying the example",
+          "Use div for every element",
+          "Skip validation and practice"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "paused-for-later",
+        "source": "video-library",
+        "required": false
+      },
+      "resources": [
+        "Lesson notes",
+        "Worked example",
+        "Practice task",
+        "Quick check"
+      ]
+    },
+    {
+      "id": "html-24",
+      "path": "html",
+      "order": 24,
+      "title": "Fieldset, legend & grouped controls",
+      "objective": "Group related form inputs and provide a clear shared label.",
+      "explanation": "fieldset groups related controls; legend names that group. This is useful for radio-button groups and sets of related checkboxes.",
+      "example": "<fieldset>\n  <legend>Preferred contact</legend>\n  <label><input type=\"radio\" name=\"contact\" value=\"email\"> Email</label>\n  <label><input type=\"radio\" name=\"contact\" value=\"phone\"> Phone</label>\n</fieldset>",
+      "practice": "Create a fieldset with a legend and three radio options that share one name.",
+      "quiz": {
+        "question": "Check your understanding: Fieldset, legend & grouped controls",
+        "answers": [
+          "Choose the semantic pattern that matches the content and test it",
+          "Memorise the title without trying the example",
+          "Use div for every element",
+          "Skip validation and practice"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "paused-for-later",
+        "source": "video-library",
+        "required": false
+      },
+      "resources": [
+        "Lesson notes",
+        "Worked example",
+        "Practice task",
+        "Quick check"
+      ]
+    },
+    {
+      "id": "html-25",
+      "path": "html",
+      "order": 25,
+      "title": "Form submission: action, method & name",
+      "objective": "Explain how named form values are submitted to a destination.",
+      "explanation": "action identifies the destination that receives the form; method chooses the HTTP method. Each successful control needs a name so its value is included in submitted form data.",
+      "example": "<form action=\"/signup\" method=\"post\">\n  <label for=\"email\">Email</label>\n  <input id=\"email\" name=\"email\" type=\"email\" required>\n  <button type=\"submit\">Sign up</button>\n</form>",
+      "practice": "Build a form with name and email controls, meaningful name attributes, action and method.",
+      "quiz": {
+        "question": "Check your understanding: Form submission: action, method & name",
+        "answers": [
+          "Choose the semantic pattern that matches the content and test it",
+          "Memorise the title without trying the example",
+          "Use div for every element",
+          "Skip validation and practice"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "paused-for-later",
+        "source": "video-library",
+        "required": false
+      },
+      "resources": [
+        "Lesson notes",
+        "Worked example",
+        "Practice task",
+        "Quick check"
+      ]
+    },
+    {
+      "id": "html-26",
+      "path": "html",
+      "order": 26,
+      "title": "Browser validation vs server validation",
+      "objective": "Use browser feedback while understanding what the server must still verify.",
+      "explanation": "Native constraints catch missing or malformed values in the browser. They improve feedback but cannot be trusted as a security boundary because clients can bypass them.",
+      "example": "Browser checks → submit request → server validates again → accept or reject",
+      "practice": "Add native constraints and write down which rules the server must enforce too.",
+      "quiz": {
+        "question": "Check your understanding: Browser validation vs server validation",
+        "answers": [
+          "Choose the semantic pattern that matches the content and test it",
+          "Memorise the title without trying the example",
+          "Use div for every element",
+          "Skip validation and practice"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "paused-for-later",
+        "source": "video-library",
+        "required": false
+      },
+      "resources": [
+        "Lesson notes",
+        "Worked example",
+        "Practice task",
+        "Quick check"
+      ]
+    },
+    {
+      "id": "html-27",
+      "path": "html",
+      "order": 27,
+      "title": "HTML best practices & document validation",
+      "objective": "Inspect markup for meaningful structure, valid nesting and accessible controls.",
+      "explanation": "Good HTML uses elements for their meaning, logical heading order, associated labels, useful image alternatives and correctly nested content. Validators help find syntax and structure mistakes but do not guarantee accessibility.",
+      "example": "<header>Site title</header>\n<nav><a href=\"/courses\">Courses</a></nav>\n<main><h1>HTML practice</h1><p>Test this page.</p></main>\n<footer>Contact</footer>",
+      "practice": "Validate your profile page, fix nesting errors and audit it with keyboard navigation.",
+      "quiz": {
+        "question": "Check your understanding: HTML best practices & document validation",
+        "answers": [
+          "Choose the semantic pattern that matches the content and test it",
+          "Memorise the title without trying the example",
+          "Use div for every element",
+          "Skip validation and practice"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "paused-for-later",
+        "source": "video-library",
+        "required": false
+      },
+      "resources": [
+        "Lesson notes",
+        "Worked example",
+        "Practice task",
+        "Quick check"
+      ]
+    },
+    {
+      "id": "html-28",
+      "path": "html",
+      "order": 28,
+      "title": "Build a complete profile page",
+      "objective": "Combine semantic structure, links, images, lists and forms into a real page.",
+      "explanation": "Plan the page regions first, then choose elements that describe each region and interaction accurately. The goal is clean, meaningful HTML that CSS can style later.",
+      "example": "<main>\n  <article><h1>Alex — Frontend Developer</h1><p>I build accessible interfaces.</p></article>\n  <section><h2>Skills</h2><ul><li>HTML</li><li>CSS</li></ul></section>\n</main>",
+      "practice": "Build a profile page with bio, skills, projects, image and a labelled contact form.",
+      "quiz": {
+        "question": "Check your understanding: Build a complete profile page",
+        "answers": [
+          "Choose the semantic pattern that matches the content and test it",
+          "Memorise the title without trying the example",
+          "Use div for every element",
+          "Skip validation and practice"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "paused-for-later",
+        "source": "video-library",
+        "required": false
+      },
+      "resources": [
+        "Lesson notes",
+        "Worked example",
+        "Practice task",
+        "Quick check"
+      ]
+    },
+    {
+      "id": "html-29",
+      "path": "html",
+      "order": 29,
+      "title": "HTML assessment & knowledge check",
+      "objective": "Demonstrate the essential HTML skills before moving on.",
+      "explanation": "Review document structure, semantics, links, media, lists, tables, forms, accessibility and metadata. Explain the role of elements and test behavior instead of relying on appearance alone.",
+      "example": "Read → inspect → test → fix → explain",
+      "practice": "Audit headings, links, images, labels, keyboard access, metadata and nesting.",
+      "quiz": {
+        "question": "Check your understanding: HTML assessment & knowledge check",
+        "answers": [
+          "Choose the semantic pattern that matches the content and test it",
+          "Memorise the title without trying the example",
+          "Use div for every element",
+          "Skip validation and practice"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "paused-for-later",
+        "source": "video-library",
+        "required": false
+      },
+      "resources": [
+        "Lesson notes",
+        "Worked example",
+        "Practice task",
+        "Quick check"
+      ]
+    },
+    {
+      "id": "html-30",
+      "path": "html",
+      "order": 30,
+      "title": "Project review & next steps",
+      "objective": "Audit the HTML project and prepare to learn CSS.",
+      "explanation": "HTML is the structure and meaning layer. A finished foundation has sensible document structure, working links, accessible media and labelled forms where needed. CSS will control presentation without replacing meaning.",
+      "example": "<header>...</header>\n<nav>...</nav>\n<main><section><h2>Topic</h2></section></main>\n<footer>...</footer>",
+      "practice": "Complete a final audit, fix any structural issues and explain how CSS will build on the HTML.",
+      "quiz": {
+        "question": "Check your understanding: Project review & next steps",
+        "answers": [
+          "Choose the semantic pattern that matches the content and test it",
+          "Memorise the title without trying the example",
+          "Use div for every element",
+          "Skip validation and practice"
+        ],
+        "correct": 0
+      },
+      "video": {
+        "status": "paused-for-later",
+        "source": "video-library",
+        "required": false
+      },
+      "resources": [
+        "Lesson notes",
+        "Worked example",
+        "Practice task",
+        "Quick check"
       ]
     },
     {
@@ -2992,626 +3611,6 @@
         "Code example",
         "Practice task",
         "Quiz"
-      ]
-    },
-    {
-      "id": "html-11",
-      "path": "html",
-      "order": 11,
-      "title": "Document skeleton: doctype, html, head & body",
-      "objective": "Build a valid HTML document and identify where metadata and visible content belong.",
-      "explanation": "A document starts with a doctype declaration, has one root html element, keeps metadata in head and places visible page content in body.",
-      "example": "<!doctype html>\n<html lang=\"en\">\n<head><meta charset=\"UTF-8\"><title>My Page</title></head>\n<body><h1>Hello</h1></body>\n</html>",
-      "practice": "Create a valid file with a title, one heading and two paragraphs.",
-      "quiz": {
-        "question": "Which is the best next step when learning “Document skeleton: doctype, html, head & body”?",
-        "answers": [
-          "Apply the concept in a small example and test it",
-          "Memorise the heading only",
-          "Skip testing",
-          "Use the same markup for every situation"
-        ],
-        "correct": 0
-      },
-      "video": {
-        "status": "paused-for-later",
-        "source": "video-library",
-        "required": false
-      },
-      "resources": [
-        "Lesson notes",
-        "Worked example",
-        "Practice task",
-        "Quick check"
-      ]
-    },
-    {
-      "id": "html-12",
-      "path": "html",
-      "order": 12,
-      "title": "Headings, paragraphs & page hierarchy",
-      "objective": "Organize page text with a logical heading hierarchy.",
-      "explanation": "Headings label sections of a document. Paragraphs group sentences. Choose heading levels by document structure, not by default font size.",
-      "example": "<main>\n  <h1>HTML Forms</h1>\n  <section><h2>Input types</h2><p>Choose a type that matches the data.</p></section>\n</main>",
-      "practice": "Write an article with one h1, three h2 sections and a paragraph under each.",
-      "quiz": {
-        "question": "Which is the best next step when learning “Headings, paragraphs & page hierarchy”?",
-        "answers": [
-          "Apply the concept in a small example and test it",
-          "Memorise the heading only",
-          "Skip testing",
-          "Use the same markup for every situation"
-        ],
-        "correct": 0
-      },
-      "video": {
-        "status": "paused-for-later",
-        "source": "video-library",
-        "required": false
-      },
-      "resources": [
-        "Lesson notes",
-        "Worked example",
-        "Practice task",
-        "Quick check"
-      ]
-    },
-    {
-      "id": "html-13",
-      "path": "html",
-      "order": 13,
-      "title": "Text emphasis, quotations & code",
-      "objective": "Use semantic text elements to express emphasis, importance, quotations and code.",
-      "explanation": "Elements such as strong, em, blockquote, q, code and pre describe the role of text, not merely how it looks.",
-      "example": "<p><strong>Important:</strong> save your work.</p>\n<p><em>Carefully</em> check the result.</p>\n<pre><code>const ready = true;</code></pre>",
-      "practice": "Write a note with one warning, one emphasized word and one code example.",
-      "quiz": {
-        "question": "Which is the best next step when learning “Text emphasis, quotations & code”?",
-        "answers": [
-          "Apply the concept in a small example and test it",
-          "Memorise the heading only",
-          "Skip testing",
-          "Use the same markup for every situation"
-        ],
-        "correct": 0
-      },
-      "video": {
-        "status": "paused-for-later",
-        "source": "video-library",
-        "required": false
-      },
-      "resources": [
-        "Lesson notes",
-        "Worked example",
-        "Practice task",
-        "Quick check"
-      ]
-    },
-    {
-      "id": "html-14",
-      "path": "html",
-      "order": 14,
-      "title": "Comments, entities & special characters",
-      "objective": "Write helpful comments and display reserved characters as text.",
-      "explanation": "HTML comments explain non-obvious decisions. Character references let you show reserved characters without confusing them with markup.",
-      "example": "<!-- Helpful note -->\n<p>Use &lt;main&gt; for primary content.</p>\n<p>Research &amp; practice belong together.</p>",
-      "practice": "Add one useful comment and display the text <section> using character references.",
-      "quiz": {
-        "question": "Which is the best next step when learning “Comments, entities & special characters”?",
-        "answers": [
-          "Apply the concept in a small example and test it",
-          "Memorise the heading only",
-          "Skip testing",
-          "Use the same markup for every situation"
-        ],
-        "correct": 0
-      },
-      "video": {
-        "status": "paused-for-later",
-        "source": "video-library",
-        "required": false
-      },
-      "resources": [
-        "Lesson notes",
-        "Worked example",
-        "Practice task",
-        "Quick check"
-      ]
-    },
-    {
-      "id": "html-15",
-      "path": "html",
-      "order": 15,
-      "title": "Links: URLs, fragments & new tabs",
-      "objective": "Create links to other pages, external sites and sections of the current page.",
-      "explanation": "Anchors use href to identify a destination. Absolute URLs include a full address; relative URLs point within a site; fragments target an element id.",
-      "example": "<a href=\"https://developer.mozilla.org/\">MDN Web Docs</a>\n<a href=\"../projects/index.html\">Projects</a>\n<a href=\"#contact\">Contact</a>",
-      "practice": "Add an external link, a relative link and an in-page fragment link.",
-      "quiz": {
-        "question": "Which is the best next step when learning “Links: URLs, fragments & new tabs”?",
-        "answers": [
-          "Apply the concept in a small example and test it",
-          "Memorise the heading only",
-          "Skip testing",
-          "Use the same markup for every situation"
-        ],
-        "correct": 0
-      },
-      "video": {
-        "status": "paused-for-later",
-        "source": "video-library",
-        "required": false
-      },
-      "resources": [
-        "Lesson notes",
-        "Worked example",
-        "Practice task",
-        "Quick check"
-      ]
-    },
-    {
-      "id": "html-16",
-      "path": "html",
-      "order": 16,
-      "title": "Images: src, alt, size & figure",
-      "objective": "Embed images with useful alternatives and stable dimensions.",
-      "explanation": "img uses src for the resource and alt for a text alternative. figure and figcaption can associate media with a caption.",
-      "example": "<figure>\n  <img src=\"student.webp\" alt=\"Student practising HTML\" width=\"640\" height=\"420\">\n  <figcaption>Practise by building a small page.</figcaption>\n</figure>",
-      "practice": "Add an image with meaningful alt text, dimensions and a caption.",
-      "quiz": {
-        "question": "Which is the best next step when learning “Images: src, alt, size & figure”?",
-        "answers": [
-          "Apply the concept in a small example and test it",
-          "Memorise the heading only",
-          "Skip testing",
-          "Use the same markup for every situation"
-        ],
-        "correct": 0
-      },
-      "video": {
-        "status": "paused-for-later",
-        "source": "video-library",
-        "required": false
-      },
-      "resources": [
-        "Lesson notes",
-        "Worked example",
-        "Practice task",
-        "Quick check"
-      ]
-    },
-    {
-      "id": "html-17",
-      "path": "html",
-      "order": 17,
-      "title": "Audio, video & captions",
-      "objective": "Embed media with native controls and accessible alternatives.",
-      "explanation": "audio and video can provide native controls. Provide captions where needed and avoid autoplay that surprises users.",
-      "example": "<video controls width=\"640\" poster=\"preview.webp\">\n  <source src=\"lesson.mp4\" type=\"video/mp4\">\n  Your browser does not support embedded video.\n</video>",
-      "practice": "Add a video element with controls, a poster and fallback text.",
-      "quiz": {
-        "question": "Which is the best next step when learning “Audio, video & captions”?",
-        "answers": [
-          "Apply the concept in a small example and test it",
-          "Memorise the heading only",
-          "Skip testing",
-          "Use the same markup for every situation"
-        ],
-        "correct": 0
-      },
-      "video": {
-        "status": "paused-for-later",
-        "source": "video-library",
-        "required": false
-      },
-      "resources": [
-        "Lesson notes",
-        "Worked example",
-        "Practice task",
-        "Quick check"
-      ]
-    },
-    {
-      "id": "html-18",
-      "path": "html",
-      "order": 18,
-      "title": "Ordered, unordered & description lists",
-      "objective": "Represent steps, groups and term-definition pairs with the correct list type.",
-      "explanation": "ul groups unordered items; ol represents a sequence; dl groups terms and descriptions.",
-      "example": "<ul><li>HTML</li><li>CSS</li></ul>\n<ol><li>Create a file</li><li>Open it</li></ol>\n<dl><dt>HTML</dt><dd>Markup for document structure.</dd></dl>",
-      "practice": "Create a shopping list, a three-step instruction list and a term-definition pair.",
-      "quiz": {
-        "question": "Which is the best next step when learning “Ordered, unordered & description lists”?",
-        "answers": [
-          "Apply the concept in a small example and test it",
-          "Memorise the heading only",
-          "Skip testing",
-          "Use the same markup for every situation"
-        ],
-        "correct": 0
-      },
-      "video": {
-        "status": "paused-for-later",
-        "source": "video-library",
-        "required": false
-      },
-      "resources": [
-        "Lesson notes",
-        "Worked example",
-        "Practice task",
-        "Quick check"
-      ]
-    },
-    {
-      "id": "html-19",
-      "path": "html",
-      "order": 19,
-      "title": "Tables: captions, headers & scope",
-      "objective": "Build a table that represents real rows and columns of data.",
-      "explanation": "Tables are for tabular information. caption names the table; th marks header cells; scope helps identify row or column relationships.",
-      "example": "<table>\n  <caption>Course duration</caption>\n  <thead><tr><th scope=\"col\">Course</th><th scope=\"col\">Hours</th></tr></thead>\n  <tbody><tr><td>HTML</td><td>6</td></tr></tbody>\n</table>",
-      "practice": "Build a two-column table with a caption, column headers and three data rows.",
-      "quiz": {
-        "question": "Which is the best next step when learning “Tables: captions, headers & scope”?",
-        "answers": [
-          "Apply the concept in a small example and test it",
-          "Memorise the heading only",
-          "Skip testing",
-          "Use the same markup for every situation"
-        ],
-        "correct": 0
-      },
-      "video": {
-        "status": "paused-for-later",
-        "source": "video-library",
-        "required": false
-      },
-      "resources": [
-        "Lesson notes",
-        "Worked example",
-        "Practice task",
-        "Quick check"
-      ]
-    },
-    {
-      "id": "html-20",
-      "path": "html",
-      "order": 20,
-      "title": "Forms: labels, name & submission",
-      "objective": "Understand how forms group controls and submit named values.",
-      "explanation": "form groups controls. A label should be associated with its input; id identifies the control and name becomes the submitted field key.",
-      "example": "<form action=\"/signup\" method=\"post\">\n  <label for=\"email\">Email address</label>\n  <input id=\"email\" name=\"email\" type=\"email\" required>\n  <button type=\"submit\">Create account</button>\n</form>",
-      "practice": "Create a form with a labelled email field, a name field and a submit button.",
-      "quiz": {
-        "question": "Which is the best next step when learning “Forms: labels, name & submission”?",
-        "answers": [
-          "Apply the concept in a small example and test it",
-          "Memorise the heading only",
-          "Skip testing",
-          "Use the same markup for every situation"
-        ],
-        "correct": 0
-      },
-      "video": {
-        "status": "paused-for-later",
-        "source": "video-library",
-        "required": false
-      },
-      "resources": [
-        "Lesson notes",
-        "Worked example",
-        "Practice task",
-        "Quick check"
-      ]
-    },
-    {
-      "id": "html-21",
-      "path": "html",
-      "order": 21,
-      "title": "Input types: email, password, date & number",
-      "objective": "Choose input types that match the information users enter.",
-      "explanation": "Input type influences the browser control, keyboard and built-in validation. Use email, password, date, number and tel based on data meaning.",
-      "example": "<label for=\"email\">Email</label><input id=\"email\" name=\"email\" type=\"email\">\n<label for=\"birth\">Birth date</label><input id=\"birth\" name=\"birth\" type=\"date\">",
-      "practice": "Create labelled email, password, date and number inputs with sensible constraints.",
-      "quiz": {
-        "question": "Which is the best next step when learning “Input types: email, password, date & number”?",
-        "answers": [
-          "Apply the concept in a small example and test it",
-          "Memorise the heading only",
-          "Skip testing",
-          "Use the same markup for every situation"
-        ],
-        "correct": 0
-      },
-      "video": {
-        "status": "paused-for-later",
-        "source": "video-library",
-        "required": false
-      },
-      "resources": [
-        "Lesson notes",
-        "Worked example",
-        "Practice task",
-        "Quick check"
-      ]
-    },
-    {
-      "id": "html-22",
-      "path": "html",
-      "order": 22,
-      "title": "Select, textarea, radio & checkbox",
-      "objective": "Build controls for choices, multi-line text and preferences.",
-      "explanation": "select offers options, textarea collects multi-line text, radio controls select one option in a named group, and checkboxes represent independent choices.",
-      "example": "<label for=\"course\">Course</label>\n<select id=\"course\" name=\"course\"><option value=\"html\">HTML</option></select>\n<label for=\"message\">Message</label><textarea id=\"message\" name=\"message\"></textarea>",
-      "practice": "Create a select, textarea, two radio options and two independent checkboxes.",
-      "quiz": {
-        "question": "Which is the best next step when learning “Select, textarea, radio & checkbox”?",
-        "answers": [
-          "Apply the concept in a small example and test it",
-          "Memorise the heading only",
-          "Skip testing",
-          "Use the same markup for every situation"
-        ],
-        "correct": 0
-      },
-      "video": {
-        "status": "paused-for-later",
-        "source": "video-library",
-        "required": false
-      },
-      "resources": [
-        "Lesson notes",
-        "Worked example",
-        "Practice task",
-        "Quick check"
-      ]
-    },
-    {
-      "id": "html-23",
-      "path": "html",
-      "order": 23,
-      "title": "Validation: required, min, max & pattern",
-      "objective": "Use built-in browser validation while understanding security limits.",
-      "explanation": "required, minlength, maxlength, min, max and pattern define constraints. The server must validate incoming data independently.",
-      "example": "<input name=\"username\" minlength=\"3\" maxlength=\"20\" required>\n<input type=\"number\" min=\"13\" max=\"120\" required>",
-      "practice": "Test required, minimum-length and numeric range constraints in the browser.",
-      "quiz": {
-        "question": "Which is the best next step when learning “Validation: required, min, max & pattern”?",
-        "answers": [
-          "Apply the concept in a small example and test it",
-          "Memorise the heading only",
-          "Skip testing",
-          "Use the same markup for every situation"
-        ],
-        "correct": 0
-      },
-      "video": {
-        "status": "paused-for-later",
-        "source": "video-library",
-        "required": false
-      },
-      "resources": [
-        "Lesson notes",
-        "Worked example",
-        "Practice task",
-        "Quick check"
-      ]
-    },
-    {
-      "id": "html-24",
-      "path": "html",
-      "order": 24,
-      "title": "Div, span and generic containers",
-      "objective": "Know when generic containers are useful and when semantics matter more.",
-      "explanation": "div is a generic block container and span is a generic inline container. Use them when no more meaningful element describes the content.",
-      "example": "<section>\n  <h2>Courses</h2>\n  <div class=\"course-grid\"><article><h3>HTML</h3></article></div>\n</section>",
-      "practice": "Build a section with a heading, layout wrapper and two article cards.",
-      "quiz": {
-        "question": "Which is the best next step when learning “Div, span and generic containers”?",
-        "answers": [
-          "Apply the concept in a small example and test it",
-          "Memorise the heading only",
-          "Skip testing",
-          "Use the same markup for every situation"
-        ],
-        "correct": 0
-      },
-      "video": {
-        "status": "paused-for-later",
-        "source": "video-library",
-        "required": false
-      },
-      "resources": [
-        "Lesson notes",
-        "Worked example",
-        "Practice task",
-        "Quick check"
-      ]
-    },
-    {
-      "id": "html-25",
-      "path": "html",
-      "order": 25,
-      "title": "Semantic landmarks in practice",
-      "objective": "Combine semantic page landmarks into a clear page outline.",
-      "explanation": "header, nav, main and footer describe common page regions. section groups a theme; article is self-contained content; aside is complementary.",
-      "example": "<header><h1>My Portfolio</h1></header>\n<nav><a href=\"#projects\">Projects</a></nav>\n<main><section id=\"projects\"><h2>Projects</h2></section></main>\n<footer>Contact</footer>",
-      "practice": "Outline a portfolio page with header, nav, main, two sections and footer.",
-      "quiz": {
-        "question": "Which is the best next step when learning “Semantic landmarks in practice”?",
-        "answers": [
-          "Apply the concept in a small example and test it",
-          "Memorise the heading only",
-          "Skip testing",
-          "Use the same markup for every situation"
-        ],
-        "correct": 0
-      },
-      "video": {
-        "status": "paused-for-later",
-        "source": "video-library",
-        "required": false
-      },
-      "resources": [
-        "Lesson notes",
-        "Worked example",
-        "Practice task",
-        "Quick check"
-      ]
-    },
-    {
-      "id": "html-26",
-      "path": "html",
-      "order": 26,
-      "title": "Accessibility: labels, keyboard & alt text",
-      "objective": "Check whether a page works without relying only on a mouse.",
-      "explanation": "Native buttons, anchors, labels, headings and alt text provide semantics and keyboard behavior. Prefer native HTML before ARIA.",
-      "example": "<label for=\"name\">Name</label>\n<input id=\"name\" name=\"name\">\n<button type=\"button\">Open menu</button>",
-      "practice": "Audit a page using Tab, Shift+Tab and Enter; fix a missing label or unclear link.",
-      "quiz": {
-        "question": "Which is the best next step when learning “Accessibility: labels, keyboard & alt text”?",
-        "answers": [
-          "Apply the concept in a small example and test it",
-          "Memorise the heading only",
-          "Skip testing",
-          "Use the same markup for every situation"
-        ],
-        "correct": 0
-      },
-      "video": {
-        "status": "paused-for-later",
-        "source": "video-library",
-        "required": false
-      },
-      "resources": [
-        "Lesson notes",
-        "Worked example",
-        "Practice task",
-        "Quick check"
-      ]
-    },
-    {
-      "id": "html-27",
-      "path": "html",
-      "order": 27,
-      "title": "Metadata: title, description & viewport",
-      "objective": "Give browsers and search systems clear page metadata.",
-      "explanation": "The head contains character encoding, viewport configuration, document title and description. Each page should have a useful, specific title.",
-      "example": "<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <meta name=\"description\" content=\"Learn HTML with examples and practice.\">\n  <title>HTML Lessons | Coding Vibes</title>\n</head>",
-      "practice": "Write unique metadata for a profile page and a course page.",
-      "quiz": {
-        "question": "Which is the best next step when learning “Metadata: title, description & viewport”?",
-        "answers": [
-          "Apply the concept in a small example and test it",
-          "Memorise the heading only",
-          "Skip testing",
-          "Use the same markup for every situation"
-        ],
-        "correct": 0
-      },
-      "video": {
-        "status": "paused-for-later",
-        "source": "video-library",
-        "required": false
-      },
-      "resources": [
-        "Lesson notes",
-        "Worked example",
-        "Practice task",
-        "Quick check"
-      ]
-    },
-    {
-      "id": "html-28",
-      "path": "html",
-      "order": 28,
-      "title": "Iframes, embeds & safe external content",
-      "objective": "Embed external content while keeping the page understandable and secure.",
-      "explanation": "iframe creates a nested browsing context. Give it a descriptive title, set dimensions responsibly and restrict capabilities where possible.",
-      "example": "<iframe title=\"Course demo\" src=\"https://example.com/demo\" loading=\"lazy\" sandbox></iframe>",
-      "practice": "Add an iframe with a meaningful title and lazy loading; explain its permissions.",
-      "quiz": {
-        "question": "Which is the best next step when learning “Iframes, embeds & safe external content”?",
-        "answers": [
-          "Apply the concept in a small example and test it",
-          "Memorise the heading only",
-          "Skip testing",
-          "Use the same markup for every situation"
-        ],
-        "correct": 0
-      },
-      "video": {
-        "status": "paused-for-later",
-        "source": "video-library",
-        "required": false
-      },
-      "resources": [
-        "Lesson notes",
-        "Worked example",
-        "Practice task",
-        "Quick check"
-      ]
-    },
-    {
-      "id": "html-29",
-      "path": "html",
-      "order": 29,
-      "title": "Build a complete profile page",
-      "objective": "Combine semantic structure, links, images, lists and forms into a real page.",
-      "explanation": "A project turns isolated syntax into a workflow. Plan the content first, then choose elements that describe each region accurately.",
-      "example": "<main>\n  <article><h1>Alex — Frontend Developer</h1><p>I build accessible interfaces.</p></article>\n  <section><h2>Skills</h2><ul><li>HTML</li><li>CSS</li></ul></section>\n</main>",
-      "practice": "Build a profile page with bio, skills, projects, image and contact form.",
-      "quiz": {
-        "question": "Which is the best next step when learning “Build a complete profile page”?",
-        "answers": [
-          "Apply the concept in a small example and test it",
-          "Memorise the heading only",
-          "Skip testing",
-          "Use the same markup for every situation"
-        ],
-        "correct": 0
-      },
-      "video": {
-        "status": "paused-for-later",
-        "source": "video-library",
-        "required": false
-      },
-      "resources": [
-        "Lesson notes",
-        "Worked example",
-        "Practice task",
-        "Quick check"
-      ]
-    },
-    {
-      "id": "html-30",
-      "path": "html",
-      "order": 30,
-      "title": "HTML assessment & transition to CSS",
-      "objective": "Review the essentials, fix mistakes and move forward confidently.",
-      "explanation": "Finishing HTML means you can explain why elements exist, test the document and fix structural or accessibility issues—not just make the page look right.",
-      "example": "Read → inspect → test → fix → explain",
-      "practice": "Audit headings, links, images, lists, forms, labels, keyboard use, metadata and nesting.",
-      "quiz": {
-        "question": "Which is the best next step when learning “HTML assessment & transition to CSS”?",
-        "answers": [
-          "Apply the concept in a small example and test it",
-          "Memorise the heading only",
-          "Skip testing",
-          "Use the same markup for every situation"
-        ],
-        "correct": 0
-      },
-      "video": {
-        "status": "paused-for-later",
-        "source": "video-library",
-        "required": false
-      },
-      "resources": [
-        "Lesson notes",
-        "Worked example",
-        "Practice task",
-        "Quick check"
       ]
     }
   ],
